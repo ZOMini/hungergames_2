@@ -6,6 +6,7 @@ from services.user_service import UserService
 
 auth = Blueprint('auth', __name__)
 
+
 @auth.route('/user_create', methods=['POST', ])
 def user_create():
     """

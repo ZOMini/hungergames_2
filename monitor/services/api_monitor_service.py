@@ -53,7 +53,7 @@ class ApiMonitorService():
         file_path = cls.upload_zip_file()
         result: dict = {'successfully': []}
         with open(file_path, newline='') as csvfile:
-            spamreader = csv.reader(csvfile, delimiter=' ', quotechar='|') #  type: ignore[union-attr]
+            spamreader = csv.reader(csvfile, delimiter=' ', quotechar='|')  # type: ignore[union-attr]
             for line_decode in spamreader:
                 try:
                     if line_decode[0] in result['successfully']:

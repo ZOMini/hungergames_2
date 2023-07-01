@@ -7,7 +7,7 @@ app = Celery('tasks',
              include=['app_celery.tasks', ],
              broker_connection_retry_on_startup=True,
              broker_connection_max_retries=10)
-app.conf.update(result_expires=3600 )
+app.conf.update(result_expires=3600)
 
 
 if __name__ == '__main__':

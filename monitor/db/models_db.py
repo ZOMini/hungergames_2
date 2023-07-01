@@ -37,10 +37,10 @@ timestamp_int = Annotated[datetime.datetime, mapped_column(
     TIMESTAMP(timezone=False),
     server_default=func.current_timestamp())]
 
+
 class Base(DeclarativeBase):
     pass
 
-Base.query = db_session.query_property()
 
 class User(MappedAsDataclass, Base):
     __tablename__ = 'users'
@@ -49,7 +49,6 @@ class User(MappedAsDataclass, Base):
     name = mapped_column(String(127), unique=True, nullable=False)
     email = mapped_column(String(127), unique=True, nullable=False)
     password = mapped_column(String(127), nullable=False)
-
 
     def __init__(self, name: str, email: str, password: str):
         self.name = name
@@ -71,7 +70,7 @@ class User(MappedAsDataclass, Base):
 
 class Link(MappedAsDataclass, Base):
     __tablename__ = 'links'
-    
+
     id: Mapped[uuidpk] = mapped_column(init=False)
     protocol = mapped_column(String(63), nullable=False)
     domain = mapped_column(String(127), nullable=False)
@@ -83,7 +82,6 @@ class Link(MappedAsDataclass, Base):
     linkstatus = mapped_column(SmallInteger, default=200)
     available = mapped_column(Boolean, default=True)
     lasttime: Mapped[timestamp_int] = mapped_column(init=False)
-    
 
     def __init__(self, url: str):
         parse_object = urlparse(url)
@@ -106,11 +104,7 @@ class Link(MappedAsDataclass, Base):
 
     def check_duplicate(self):
         '''Проверяет url на наличиее его в базе.'''
-        if db_session.query(exists().where((
-            Link.protocol == self.protocol) & \
-                (Link.domain == self.domain) & \
-                    (Link.suffix == self.suffix) & \
-                        (Link.path == self.path))).scalar():
+        if db_session.query(exists().where((Link.protocol == self.protocol) & (Link.domain == self.domain) & (Link.suffix == self.suffix) & (Link.path == self.path))).scalar():
             raise ValueError('Url is duplicate.')
 
     def url_query(self) -> str:

@@ -13,7 +13,7 @@
 ## Urls(EP)
 - {GET} http://127.0.0.1/docs/v1  - документация
 - {POST} http://127.0.0.1/api/v1/auth/user_create  - создаем пользователя
-- {POST} http://127.0.0.1/api/v1/auth/login  - логинемся по логину/паролю
+- {POST} http://127.0.0.1/api/v1/auth/login  - получаем JWT по логину/паролю
 - {DELETE} http://127.0.0.1/api/v1/auth/logout
 - {POST} http://127.0.0.1/api/v1/monitor/one_link
 - {POST} http://127.0.0.1/api/v1/monitor/links

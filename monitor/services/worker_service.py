@@ -35,8 +35,8 @@ class WorkerService:
         return True
 
     async def check_links(self, links: Sequence[Link]) -> list[Link]:
-        '''Удаляет из БД и дальнейших операций "просроченные" ссылки.''' 
-        return [l for l in links if await self.check_lasttime(l)]
+        '''Удаляет из БД и дальнейших операций "просроченные" ссылки.'''
+        return [link for link in links if await self.check_lasttime(link)]
 
     async def work_with_link(self, link: Link) -> tuple:
         url = link.get_url()
@@ -66,7 +66,7 @@ class WorkerService:
 
     async def run_tasks(self) -> dict:
         list_ids = (await self.db_session.scalars(select(Link))).all()
-        clean_list = await(self.check_links(list_ids))
+        clean_list = await self.check_links(list_ids)
         await self.db_session.commit()
         if not clean_list:
             return {}
@@ -88,6 +88,7 @@ async def run_works_async():
             worker_service = WorkerService(db_session, http_session)
             result = await worker_service.run_tasks()
             return result
+
 
 def worker_run():
     init_loggers()

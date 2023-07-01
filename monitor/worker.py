@@ -1,5 +1,3 @@
-import logging
-
 import pytz  # type: ignore[import]
 from apscheduler.schedulers.background import BlockingScheduler
 

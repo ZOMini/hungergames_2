@@ -20,11 +20,14 @@ class CreateUserSchema(Schema):
     password = fields.Str(description="Password", load_default='superpass')
     password2 = fields.Str(description="Password", load_default='superpass')
 
+
 class PostUrlSchema(Schema):
     url = fields.Str(description="Url", load_default='http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf')
 
+
 class PostUrlsSchema(Schema):
     file = fields.Str(metadata={"type": "file"}, allow_none=False)
+
 
 class PostImageSchema(PostUrlsSchema):
     pass

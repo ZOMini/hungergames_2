@@ -1,7 +1,6 @@
 import logging
-from http import HTTPStatus as HTTP
 
-from flask import Response, jsonify, request
+from flask import Response, request
 
 from api.v1.auth import auth
 from api.v1.monitor import monitor
@@ -12,6 +11,7 @@ from services.jwt_service import *  # Регистрируем JWT
 app.register_blueprint(auth, url_prefix='/api/v1/auth')
 app.register_blueprint(monitor, url_prefix="/api/v1/monitor")
 init_docs()
+
 
 @app.after_request
 def logAfterRequest(response: Response):

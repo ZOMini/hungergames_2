@@ -8,6 +8,7 @@ from services.api_monitor_service import ApiMonitorService
 
 monitor = Blueprint('monitor', __name__)
 
+
 @monitor.route('/one_link', methods=['POST', ])
 @jwt_required(optional=settings.app.jwt.disabled_in_api)
 def one_link():

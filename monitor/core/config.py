@@ -17,20 +17,24 @@ class Redis(BaseModel):
     port: int
     url: str = ''
 
+
 class Logger(BaseModel):
     count: int
     file: str
     encoding: str
+
 
 class Jwt(BaseModel):
     disabled_in_api: bool
     secret_key: str
     access_token_expires: int
 
+
 class Worker(BaseModel):
     http_timeout: int
     interval: int
     time_of_unavailability: int
+
 
 class App(BaseModel):
     debug: bool
@@ -40,6 +44,7 @@ class App(BaseModel):
     logger: Logger
     jwt: Jwt
     worker: Worker
+
 
 class Settings(YamlBaseSettings):
     app: App

@@ -1,4 +1,3 @@
-from asyncio import current_task
 from contextlib import asynccontextmanager
 from typing import AsyncGenerator
 
@@ -22,5 +21,3 @@ async def get_db_contextmanager() -> AsyncGenerator[AsyncSession, None]:
         yield session
     finally:
         await session.close()
-
-

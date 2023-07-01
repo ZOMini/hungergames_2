@@ -34,7 +34,7 @@ class UserService():
         except Exception as e:
             db_session.rollback()
             return jsonify(msg="Wrong email or password or name",
-                            err=e.args), HTTP.BAD_REQUEST
+                           err=e.args), HTTP.BAD_REQUEST
 
     @classmethod
     def login(cls) -> tuple[Response, HTTP]:
