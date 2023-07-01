@@ -1,0 +1,90 @@
+version: "3.2"
+services:
+  monitor_db:
+    image: postgres:14.7-alpine
+    container_name: monitor_db
+    environment: 
+      POSTGRES_DB: monitor_db
+      POSTGRES_USER: app
+      POSTGRES_PASSWORD: 123qwe
+    volumes:
+      - monitor_db_data:/var/lib/postgresql/data/
+    restart: always
+    networks:
+      - monitor_nw
+
+  monitor_redis:
+    image: redis:alpine
+    container_name: redis
+    volumes:
+      - redis_data:/data
+    networks:
+      - monitor_nw
+
+  monitor:
+    build: 
+      context: ./monitor
+      dockerfile: Dockerfile
+    container_name: monitor
+    image: monitor_image
+    environment:
+      - POSTGRES_HOST=monitor_db
+    command: bash -c "flask db upgrade && gunicorn 'wsgi_gevent:app' --bind 0.0.0.0:8002"
+    volumes:
+      - logs:/monitor/logs
+    depends_on:
+      - monitor_db
+    networks:
+      - monitor_nw
+    restart: on-failure
+
+  monitor_celery:
+    container_name: monitor_celery
+    image: monitor_image
+    environment:
+      - POSTGRES_HOST=monitor_db
+    command: bash -c "celery -A app_celery.tasks worker -P gevent --loglevel=INFO"
+    volumes:
+      - logs:/monitor/logs
+    depends_on:
+      - monitor_db
+    networks:
+      - monitor_nw
+    restart: on-failure
+
+  monitor_worker:
+    container_name: monitor_worker
+    image: monitor_image
+    environment:
+      - POSTGRES_HOST=monitor_db
+    command: bash -c "python worker.py"
+    volumes:
+      - logs:/monitor/logs
+    depends_on:
+      - monitor_db
+    networks:
+      - monitor_nw
+    restart: on-failure
+
+  nginx:
+    container_name: nginx
+    image: nginx:1.20.1-alpine
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/configs:/etc/nginx/conf.d:ro
+    ports:
+      - "80:80"
+    depends_on:
+      - monitor
+    networks:
+      - monitor_nw
+    restart: always
+
+volumes:
+  monitor_db_data:
+  redis_data:
+  logs:
+
+networks:
+  monitor_nw:
+    driver: bridge
