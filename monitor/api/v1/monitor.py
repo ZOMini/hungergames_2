@@ -53,7 +53,7 @@ def links():
           multipart/form-data:
             schema: PostUrlsSchema
       responses:
-        201:
+        202:
           description: Post urls.
         400:
           description: BAD_REQUEST
