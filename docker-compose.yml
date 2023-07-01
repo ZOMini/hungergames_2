@@ -29,7 +29,7 @@ services:
     image: monitor_image
     environment:
       - POSTGRES_HOST=monitor_db
-    command: bash -c "flask db upgrade && gunicorn 'wsgi_gevent:app' --bind 0.0.0.0:8002"
+    command: bash -c "flask db upgrade && gunicorn -k gevent 'app:app' --bind 0.0.0.0:8002"
     volumes:
       - logs:/monitor/logs
     depends_on:
