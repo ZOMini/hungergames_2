@@ -13,10 +13,6 @@ app.register_blueprint(auth, url_prefix='/api/v1/auth')
 app.register_blueprint(monitor, url_prefix="/api/v1/monitor")
 init_docs()
 
-@app.errorhandler(Exception)
-def handle_exception(e: Exception):
-    return jsonify(e.args), HTTP.BAD_REQUEST
-
 @app.after_request
 def logAfterRequest(response: Response):
     logging.getLogger('file').info(
