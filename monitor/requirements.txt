@@ -2,8 +2,8 @@ flask==2.2.3
 sqlalchemy==2.0.17
 pydantic==1.10.9
 pydantic-settings-yaml==0.1.1
-flask_jwt_extended==4.5.2
-flask_sqlalchemy==3.0.5
+flask_jwt_extended
+flask_sqlalchemy
 alembic==1.11.1
 Flask-Migrate==4.0.4
 asyncpg==0.27.0
@@ -19,3 +19,4 @@ marshmallow==3.19.0
 apscheduler==3.10.1
 aiohttp==3.8.4
 gunicorn==20.1.0
+bootstrap-flask==2.2.0
