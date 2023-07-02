@@ -176,3 +176,17 @@
 [2023-07-02 22:29:13,110] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 508
 [2023-07-02 22:29:16,464] INFO in app: path: /web/new_link | method: POST | status: 200 OK | size: 60
 [2023-07-02 22:29:16,474] INFO in tasks: Celery post urls - []
+[2023-07-02 22:31:56,213] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 508
+[2023-07-02 22:37:12,648] INFO in app: path: /web/new_link | method: POST | status: 200 OK | size: 60
+[2023-07-02 22:37:12,656] INFO in tasks: Celery post urls - []
+[2023-07-02 22:37:40,694] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 508
+[2023-07-02 22:37:40,695] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 508
+[2023-07-02 22:37:44,490] INFO in app: path: /web/new_link | method: POST | status: 200 OK | size: 80
+[2023-07-02 22:38:15,792] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 508
+[2023-07-02 22:38:19,234] INFO in app: path: /web/new_link | method: POST | status: 200 OK | size: 1660
+[2023-07-02 22:38:19,235] INFO in app: path: /web/new_link | method: POST | status: 200 OK | size: 1660
+[2023-07-02 22:38:19,242] INFO in tasks: Celery post urls - []
+[2023-07-02 22:38:19,252] INFO in tasks: Celery post urls - []
+[2023-07-02 22:38:46,675] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 508
+[2023-07-02 22:38:50,721] INFO in app: path: /web/new_link | method: POST | status: 200 OK | size: 22
+[2023-07-02 22:38:51,937] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 508
