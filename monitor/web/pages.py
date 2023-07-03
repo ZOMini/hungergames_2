@@ -1,7 +1,9 @@
+import io
 import logging
 
 from flask import (
     Blueprint,
+    make_response,
     redirect,
     render_template,
     render_template_string,
@@ -86,9 +88,11 @@ def links(page):
 @pages.route('/links/<string:link_id>/view')
 def view_link(link_id):
     link = db_session.scalar(select(Link).filter(Link.id == link_id))
+    image = io.BytesIO(link.filedata)
+    url = link.get_url()
     if link:
-        return f'Viewing {link_id} with text "{link.id}". Return to <a href="/web/links">links</a>.'
-    return f'Could not view message {link_id} as it does not exist. Return to <a href="/web/links">links</a>.'
+        return render_template('link.html', link=link, image=image, url=url)
+    return f'Could not view link {link_id} as it does not exist. Return to <a href="/web/links">links</a>.'
 
 
 @pages.route('/links/<string:link_id>/delete', methods=['POST'])
@@ -97,5 +101,16 @@ def delete_link(link_id):
     if link:
         db_session.delete(link)
         db_session.commit()
-        return f'Message {link_id} has been deleted. Return to <a href="/web/links">links</a>.'
-    return f'Message {link_id} did not exist and could therefore not be deleted. Return to <a href="/web/links">links</a>.'
+        return f'Link {link_id} has been deleted. Return to <a href="/web/links">links</a>.'
+    return f'Link {link_id} did not exist and could therefore not be deleted. Return to <a href="/web/links">links</a>.'
+
+@pages.route('/images/<string:pid>')
+def get_image(pid):
+    link = db_session.scalar(select(Link).filter(Link.id == pid))
+    if link.filedata:
+        response = make_response(link.filedata)
+        response.headers.set('Content-Type', 'image/jpeg')
+        response.headers.set(
+            'Content-Disposition', 'attachment', filename='%s.jpg' % pid)
+        return response
+    return {}

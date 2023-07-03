@@ -6,8 +6,14 @@
     <title>{{ link.id }}</title>
 </head>
 <body>
-    <h1>{{ link.id }}</h1>
-    <a href="{{ url_for('pages.index') }}">Back to index</a>
+    <h3>{{ link.id }}</h3>
+    <h4>{{ url }}</h4>
+    <h6>link status - {{ link.linkstatus }}</h6>
+    <h6>available - {{ link.available }}</h6>
+    <h6>last time - {{ link.lasttime }}</h6>
+    {% if link.filedata %}
+    <img src= {{ url_for('pages.get_image', pid=link.id) }} width="400" height="400">
+    {% endif %}
 </body>
 </html>
 {% endblock %}
