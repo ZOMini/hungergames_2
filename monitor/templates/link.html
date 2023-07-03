@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+{% extends 'base.html' %}
+{% block content %}
 <html>
 <head>
     <title>{{ link.id }}</title>
@@ -8,3 +10,4 @@
     <a href="{{ url_for('pages.index') }}">Back to index</a>
 </body>
 </html>
+{% endblock %}

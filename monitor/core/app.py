@@ -16,6 +16,7 @@ def create_app():
     init_loggers()
     db = SQLAlchemy()
     migrate = Migrate()
+    bootstrap = Bootstrap5()
     app = Flask('HungerGames')
     app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
     app.config['ALLOWED_EXTENSIONS'] = ALLOWED_EXTENSIONS
@@ -24,11 +25,11 @@ def create_app():
     app.config['SECRET_KEY'] = settings.app.flask_secret_key
     app.config['JWT_SECRET_KEY'] = settings.app.jwt.secret_key
     app.config['JWT_ACCESS_TOKEN_EXPIRES'] = timedelta(minutes=settings.app.jwt.access_token_expires)
+    bootstrap.init_app(app)
     db.init_app(app)
     migrate.init_app(app, db)
     return app, db, migrate
 
 
 app, db, migrate = create_app()
-bootstrap = Bootstrap5(app)
 jwt = JWTManager(app)

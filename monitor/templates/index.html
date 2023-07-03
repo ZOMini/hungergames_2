@@ -1,11 +1,12 @@
 <!DOCTYPE html>
+{% extends 'base.html' %}
+{% block content %}
 <html>
 <head>
     <title>Links</title>
 </head>
 <body>
     <h1>Links</h1>
-    <a href="{{ url_for('pages.new_link') }}"><button>Add New Link</button></a>
     <ul>
         {% for link in links %}
         <li><a href="{{ url_for('pages.get_link', link_id=link['id']) }}">{{ link.get_url() }}</a></li>
@@ -13,3 +14,4 @@
     </ul>
 </body>
 </html>
+{% endblock %}

@@ -8,13 +8,14 @@ from flask import (
     request,
     url_for
 )
-from flask_jwt_extended import jwt_required
 from sqlalchemy import select
 
 from core.config import settings
 from db.connection_db import db_session
 from db.models_db import Link
 from services.api_monitor_service import ApiMonitorService
+from web import form
+from web.pagination import PageResult
 
 pages = Blueprint('pages', __name__)
 
@@ -22,13 +23,11 @@ pages = Blueprint('pages', __name__)
 @pages.route('/')
 def index():
     links = db_session.scalars(select(Link)).all()
-    db_session.close()
     return render_template('index.html', links=links)
 
-@pages.route('/<string:link_id>')
+@pages.route('/link/<string:link_id>')
 def get_link(link_id):
     link = db_session.scalar(select(Link).filter(Link.id == link_id).limit(1))
-    db_session.close()
     return render_template('link.html', link=link)
 
 @pages.route('/new_link', methods=['GET', 'POST'])
@@ -47,7 +46,7 @@ def new_link():
             db_session.rollback()
             return render_template_string(str(e.args))
         return redirect(url_for('pages.index'))
-    return render_template('add_links.html')
+    return render_template('add_links.html', urlform=form.UrlButtonForm(), fileform=form.FileButtonForm())
 
 @pages.route('/upload_image', methods=['GET', 'POST'])
 def upload_image():
@@ -63,5 +62,13 @@ def upload_image():
             logging.getLogger('console').info('Image add error - %s.', e.args)
             db_session.rollback()
             return render_template_string(str(e.args))
-        # return redirect(url_for('pages.index'))
-    return render_template('add_image.html')
+    return render_template('add_image.html', id_file_form=form.IdFileButtonForm())
+
+@pages.route('/logs', defaults={'pagenum': 1})
+@pages.route('/logs/<int:pagenum>')
+def logs(pagenum):
+    with open(settings.app.logger.file, newline='',
+              encoding=settings.app.logger.encoding) as log_file:
+        logs_list = [i.rstrip() for i in log_file.readlines()]
+        logs_list.reverse()
+    return render_template('logs.html', listing=PageResult(logs_list, pagenum))

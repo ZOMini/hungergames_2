@@ -190,3 +190,343 @@
 [2023-07-02 22:38:46,675] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 508
 [2023-07-02 22:38:50,721] INFO in app: path: /web/new_link | method: POST | status: 200 OK | size: 22
 [2023-07-02 22:38:51,937] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 508
+[2023-07-03 09:26:29,645] INFO in app: path: /web/nav | method: GET | status: 200 OK | size: 743
+[2023-07-03 09:27:09,707] INFO in app: path: /web/nav | method: GET | status: 200 OK | size: 743
+[2023-07-03 09:28:03,230] INFO in app: path: /web/nav | method: GET | status: 200 OK | size: 681
+[2023-07-03 09:35:18,118] INFO in app: path: /web/nav | method: GET | status: 200 OK | size: 1698
+[2023-07-03 09:35:27,556] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 508
+[2023-07-03 09:35:48,819] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 398
+[2023-07-03 09:36:07,544] INFO in app: path: /web/ | method: GET | status: 200 OK | size: 194
+[2023-07-03 09:36:23,889] INFO in app: path: /web/ | method: GET | status: 200 OK | size: 194
+[2023-07-03 09:36:27,147] INFO in app: path: /web/nav | method: GET | status: 200 OK | size: 1698
+[2023-07-03 09:36:33,118] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 508
+[2023-07-03 09:36:36,705] INFO in app: path: /web/new_link | method: POST | status: 302 FOUND | size: 197
+[2023-07-03 09:36:36,714] INFO in app: path: /web/ | method: GET | status: 200 OK | size: 301
+[2023-07-03 09:36:38,259] INFO in app: path: /web/8bc18bad-e8be-49b5-924f-c5df1ce76010 | method: GET | status: 200 OK | size: 204
+[2023-07-03 09:36:42,229] INFO in app: path: /web/ | method: GET | status: 200 OK | size: 301
+[2023-07-03 09:36:53,619] INFO in app: path: /web/8bc18bad-e8be-49b5-924f-c5df1ce76010 | method: GET | status: 200 OK | size: 204
+[2023-07-03 09:36:54,660] INFO in app: path: /web/ | method: GET | status: 200 OK | size: 301
+[2023-07-03 09:37:04,011] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 508
+[2023-07-03 10:15:51,757] INFO in app: path: /web/nav | method: GET | status: 200 OK | size: 1698
+[2023-07-03 10:24:23,957] INFO in app: path: /web/nav | method: GET | status: 200 OK | size: 1698
+[2023-07-03 10:24:28,227] INFO in app: path: /web/ | method: GET | status: 200 OK | size: 301
+[2023-07-03 10:34:10,995] INFO in app: path: /web/nav | method: GET | status: 200 OK | size: 1698
+[2023-07-03 10:34:38,445] INFO in app: path: /web/nav | method: GET | status: 200 OK | size: 1698
+[2023-07-03 10:34:42,461] INFO in app: path: /web/ | method: GET | status: 200 OK | size: 301
+[2023-07-03 10:37:10,829] INFO in app: path: /web/nav | method: GET | status: 200 OK | size: 1789
+[2023-07-03 10:37:13,928] INFO in app: path: /web/nav | method: GET | status: 200 OK | size: 1789
+[2023-07-03 10:37:22,353] INFO in app: path: /web/nav | method: GET | status: 200 OK | size: 1789
+[2023-07-03 10:40:35,442] INFO in app: path: /web/nav | method: GET | status: 200 OK | size: 1789
+[2023-07-03 10:40:47,291] INFO in app: path: /web/nav | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 10:41:12,325] INFO in app: path: /web/nav | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 10:41:17,409] INFO in app: path: /web/nav | method: GET | status: 200 OK | size: 4525
+[2023-07-03 10:41:17,574] INFO in app: path: /static/favicon.ico | method: GET | status: 404 NOT FOUND | size: 207
+[2023-07-03 10:41:56,898] INFO in app: path: /web/nav | method: GET | status: 200 OK | size: 4063
+[2023-07-03 10:43:07,637] INFO in app: path: /web/ | method: GET | status: 200 OK | size: 301
+[2023-07-03 10:43:56,095] INFO in app: path: /web/ | method: GET | status: 200 OK | size: 301
+[2023-07-03 10:44:01,721] INFO in app: path: /web/ | method: GET | status: 200 OK | size: 2410
+[2023-07-03 10:44:03,594] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 2809
+[2023-07-03 10:44:05,019] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 2699
+[2023-07-03 10:44:06,668] INFO in app: path: /web/ | method: GET | status: 200 OK | size: 2410
+[2023-07-03 10:45:12,666] INFO in app: path: /web/ | method: GET | status: 200 OK | size: 2416
+[2023-07-03 10:45:54,830] INFO in app: path: /web/ | method: GET | status: 200 OK | size: 2368
+[2023-07-03 10:46:13,793] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 2767
+[2023-07-03 10:46:14,734] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 2657
+[2023-07-03 10:46:15,461] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 2767
+[2023-07-03 10:46:32,107] INFO in app: path: /web/new_link | method: POST | status: 200 OK | size: 20
+[2023-07-03 10:46:32,317] INFO in tasks: Celery post urls - [https://posredniksadovod.ru, https://postelnoe-3d.ru, https://posterboom.ru, https://postoperator.ru, https://potensia-shop.ru, https://potok-relax.ru, https://potolki-design-spb.ru, https://potolki-kirov.ru, https://potolki88.ru, https://potolkikrasnodar.ru, https://potolkipenza.ru, https://potrendim.ru, https://potter-style.ru, https://poverim.ru, https://poverka-siz.ru, https://poverkasiz.ru, https://power-greg.ru, https://powerok.ru, https://pozitivplus.ru, https://pp-progress.ru, https://praktikum-treningi-kursy-seminary.ru, https://pravilo-spb.ru, https://pravobiznesa.ru, https://pravoslavmaster.ru, https://prazdnik-42.ru, http://httpbin.org/delay/3, https://github.com/miguelgrinberg/Flask-SocketIO, https://github.com/miguelgrinberg/Flask-SocketIO.git, https://github.com/ZOMini/notifications_sprint, https://github.com/ZOMini?tab=repositories]
+[2023-07-03 10:46:34,077] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 2767
+[2023-07-03 10:53:19,903] INFO in app: path: /web/ | method: GET | status: 200 OK | size: 2368
+[2023-07-03 10:53:21,140] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 2767
+[2023-07-03 10:53:21,579] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 2657
+[2023-07-03 10:53:22,557] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 2767
+[2023-07-03 10:53:33,817] INFO in app: path: /web/ | method: GET | status: 200 OK | size: 2368
+[2023-07-03 10:54:33,667] INFO in app: path: /web/ | method: GET | status: 200 OK | size: 2368
+[2023-07-03 10:54:34,739] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 2767
+[2023-07-03 10:54:37,018] INFO in app: path: /web/new_link | method: POST | status: 302 FOUND | size: 197
+[2023-07-03 10:54:37,028] INFO in app: path: /web/ | method: GET | status: 200 OK | size: 2368
+[2023-07-03 10:56:00,721] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 2767
+[2023-07-03 10:56:16,552] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 2657
+[2023-07-03 10:56:17,380] INFO in app: path: /web/ | method: GET | status: 200 OK | size: 2368
+[2023-07-03 10:57:07,231] INFO in app: path: /web/ | method: GET | status: 200 OK | size: 6050
+[2023-07-03 10:57:22,001] INFO in app: path: /web/ff2ef976-77eb-4539-8c70-6e16cc5fe77d | method: GET | status: 200 OK | size: 2341
+[2023-07-03 10:57:46,922] INFO in app: path: /web/ff2ef976-77eb-4539-8c70-6e16cc5fe77d | method: GET | status: 200 OK | size: 2341
+[2023-07-03 10:57:53,139] INFO in app: path: /web/ff2ef976-77eb-4539-8c70-6e16cc5fe77d | method: GET | status: 200 OK | size: 2531
+[2023-07-03 10:57:55,394] INFO in app: path: /web/ | method: GET | status: 200 OK | size: 5988
+[2023-07-03 16:09:30,414] INFO in app: path: /web/ | method: GET | status: 200 OK | size: 5988
+[2023-07-03 16:09:31,392] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 2767
+[2023-07-03 16:09:32,609] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 2657
+[2023-07-03 16:09:33,637] INFO in app: path: /web/ | method: GET | status: 200 OK | size: 5988
+[2023-07-03 16:12:12,058] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 2657
+[2023-07-03 16:12:13,485] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 2767
+[2023-07-03 16:12:14,334] INFO in app: path: /web/ | method: GET | status: 200 OK | size: 5988
+[2023-07-03 16:12:23,804] INFO in app: path: /web/8bc18bad-e8be-49b5-924f-c5df1ce76010 | method: GET | status: 200 OK | size: 2531
+[2023-07-03 16:12:25,327] INFO in app: path: /web/ | method: GET | status: 200 OK | size: 5988
+[2023-07-03 16:27:55,524] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 4429
+[2023-07-03 16:28:28,711] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 3563
+[2023-07-03 16:28:33,159] INFO in app: path: /web/new_link | method: POST | status: 200 OK | size: 22
+[2023-07-03 16:28:35,286] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 3563
+[2023-07-03 16:32:10,626] INFO in app: path: /web/new_link | method: POST | status: 302 FOUND | size: 197
+[2023-07-03 16:32:10,650] INFO in app: path: /web/ | method: GET | status: 200 OK | size: 6081
+[2023-07-03 16:32:16,961] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 3563
+[2023-07-03 16:39:06,716] INFO in app: path: /web/new_link | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 16:41:06,782] INFO in app: path: /web/new_link | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 16:42:13,516] INFO in app: path: /web/new_link | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 16:42:20,585] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 4366
+[2023-07-03 16:44:43,529] INFO in app: path: /web/new_link | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 16:46:24,711] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 4334
+[2023-07-03 16:46:28,279] INFO in app: path: /web/new_link | method: POST | status: 200 OK | size: 22
+[2023-07-03 16:46:29,525] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 4334
+[2023-07-03 16:46:33,531] INFO in app: path: /web/new_link | method: POST | status: 200 OK | size: 1660
+[2023-07-03 16:46:33,585] INFO in tasks: Celery post urls - []
+[2023-07-03 16:46:36,826] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 4334
+[2023-07-03 16:47:06,767] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 4334
+[2023-07-03 16:47:09,895] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 4334
+[2023-07-03 16:47:12,898] INFO in app: path: /web/new_link | method: POST | status: 200 OK | size: 22
+[2023-07-03 16:47:14,106] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 4334
+[2023-07-03 16:47:25,256] INFO in app: path: /web/new_link | method: POST | status: 200 OK | size: 1660
+[2023-07-03 16:47:25,265] INFO in tasks: Celery post urls - []
+[2023-07-03 16:47:26,949] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 4334
+[2023-07-03 16:47:42,042] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 3981
+[2023-07-03 16:48:01,720] INFO in app: path: /web/ | method: GET | status: 200 OK | size: 6081
+[2023-07-03 16:48:02,295] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 3981
+[2023-07-03 16:48:03,764] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 2643
+[2023-07-03 17:00:17,522] INFO in app: path: /web/upload_image | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 17:00:36,080] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3436
+[2023-07-03 17:01:47,897] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3436
+[2023-07-03 17:02:01,124] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 25
+[2023-07-03 17:02:06,201] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3436
+[2023-07-03 17:02:11,227] INFO in app: path: /web/ | method: GET | status: 200 OK | size: 6081
+[2023-07-03 17:02:12,107] INFO in app: path: /web/8bc18bad-e8be-49b5-924f-c5df1ce76010 | method: GET | status: 200 OK | size: 2517
+[2023-07-03 17:02:15,982] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3436
+[2023-07-03 17:02:21,476] INFO in api_monitor_service: Image for url id - 8bc18bad-e8be-49b5-924f-c5df1ce76010 added/update.
+[2023-07-03 17:02:21,477] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 59
+[2023-07-03 17:05:17,165] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3436
+[2023-07-03 17:05:18,541] INFO in app: path: /web/ | method: GET | status: 200 OK | size: 6081
+[2023-07-03 17:05:22,721] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 3981
+[2023-07-03 17:05:25,976] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3436
+[2023-07-03 17:05:27,020] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 3981
+[2023-07-03 17:05:27,858] INFO in app: path: /web/ | method: GET | status: 200 OK | size: 6081
+[2023-07-03 17:05:28,650] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 3981
+[2023-07-03 17:05:29,245] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3436
+[2023-07-03 17:05:29,845] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 3981
+[2023-07-03 17:05:30,582] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3436
+[2023-07-03 17:05:37,336] INFO in app: path: /web/ | method: GET | status: 200 OK | size: 6081
+[2023-07-03 17:05:38,791] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 3981
+[2023-07-03 17:07:11,020] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3436
+[2023-07-03 17:07:11,710] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 3981
+[2023-07-03 17:07:12,569] INFO in app: path: /web/ | method: GET | status: 200 OK | size: 6081
+[2023-07-03 17:07:14,334] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 3981
+[2023-07-03 17:07:14,738] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3436
+[2023-07-03 17:07:15,977] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 3981
+[2023-07-03 17:07:16,336] INFO in app: path: /web/ | method: GET | status: 200 OK | size: 6081
+[2023-07-03 17:25:02,645] INFO in app: path: /web/ | method: GET | status: 200 OK | size: 6195
+[2023-07-03 17:25:03,429] INFO in app: path: /web/logs | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 17:26:57,990] INFO in app: path: /web/logs | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 17:28:16,757] INFO in app: path: /web/logs | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 17:29:38,410] INFO in app: path: /web/logs | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 17:30:31,131] INFO in app: path: /web/logs | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 17:31:00,707] INFO in app: path: /web/logs | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 17:32:32,436] INFO in app: path: /web/logs | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 17:33:05,577] INFO in app: path: /web/logs | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 17:34:58,475] INFO in app: path: /web/logs | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 17:35:50,192] INFO in app: path: /web/logs | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 17:36:10,658] INFO in app: path: /web/logs | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 17:36:48,263] INFO in app: path: /web/logs | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 17:38:01,873] INFO in app: path: /web/logs | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 17:38:37,941] INFO in app: path: /web/logs | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 17:38:57,467] INFO in app: path: /web/logs | method: GET | status: 200 OK | size: 9600
+[2023-07-03 17:39:09,278] INFO in app: path: /web/logs | method: GET | status: 200 OK | size: 9636
+[2023-07-03 17:39:11,567] INFO in app: path: /web/logs | method: GET | status: 200 OK | size: 9632
+[2023-07-03 17:40:41,767] INFO in app: path: /web/logs | method: GET | status: 200 OK | size: 10158
+[2023-07-03 17:50:00,737] INFO in app: path: /web/logs | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 17:53:08,673] INFO in app: path: /web/logs | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 17:53:15,042] INFO in app: path: /web/logs | method: GET | status: 200 OK | size: 10185
+[2023-07-03 17:54:07,599] INFO in app: path: /web/logs | method: GET | status: 200 OK | size: 3105
+[2023-07-03 17:54:25,595] INFO in app: path: /web/logs | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 18:06:07,438] INFO in app: path: /web/logs | method: GET | status: 200 OK | size: 10234
+[2023-07-03 18:10:26,354] INFO in app: path: /web/logs | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 18:13:18,578] INFO in app: path: /web/logs | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 18:14:00,328] INFO in app: path: /web/logs | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 18:15:15,007] INFO in app: path: /web/logs | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 18:16:15,709] INFO in app: path: /web/logs | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 18:16:38,957] INFO in app: path: /web/logs/1 | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 18:16:49,318] INFO in app: path: /web/logs/1 | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 18:17:02,574] INFO in app: path: /web/logs/1 | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 18:17:28,167] INFO in app: path: /web/logs/ | method: GET | status: 404 NOT FOUND | size: 207
+[2023-07-03 18:17:32,465] INFO in app: path: /web/logs | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 18:18:35,074] INFO in app: path: /web/logs | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 18:19:45,802] INFO in app: path: /web/logs | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 18:21:56,888] INFO in app: path: /web/logs | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 18:24:16,935] INFO in app: path: /web/logs | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 18:26:30,198] INFO in app: path: /web/logs | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 18:29:44,232] INFO in app: path: /web/logs | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 18:30:07,972] INFO in app: path: /web/logs | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 18:34:32,000] INFO in app: path: /web/logs | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 18:34:39,196] INFO in app: path: /web/logs | method: GET | status: 404 NOT FOUND | size: 207
+[2023-07-03 18:36:15,598] INFO in app: path: /web/logs | method: GET | status: 404 NOT FOUND | size: 207
+[2023-07-03 18:36:24,616] INFO in app: path: /web/logs/ | method: GET | status: 404 NOT FOUND | size: 207
+[2023-07-03 18:36:27,785] INFO in app: path: /web/logs/1 | method: GET | status: 200 OK | size: 3133
+[2023-07-03 18:36:41,205] INFO in app: path: /web/logs/0 | method: GET | status: 200 OK | size: 1647
+[2023-07-03 18:36:45,190] INFO in app: path: /logs/1 | method: GET | status: 404 NOT FOUND | size: 207
+[2023-07-03 18:36:47,575] INFO in app: path: /web/logs/-1 | method: GET | status: 404 NOT FOUND | size: 207
+[2023-07-03 18:36:59,000] INFO in app: path: /web/logs/-1 | method: GET | status: 404 NOT FOUND | size: 207
+[2023-07-03 18:37:08,352] INFO in app: path: /web/logs | method: GET | status: 404 NOT FOUND | size: 207
+[2023-07-03 18:38:37,978] INFO in app: path: /web/logs | method: GET | status: 404 NOT FOUND | size: 207
+[2023-07-03 18:38:40,564] INFO in app: path: /web/logs/1 | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 18:39:13,092] INFO in app: path: /web/logs/1 | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 18:39:18,504] INFO in app: path: /web/logs/1 | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 18:43:05,099] INFO in app: path: /web/logs/1 | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 18:43:27,445] INFO in app: path: /web/logs/1 | method: GET | status: 200 OK | size: 3133
+[2023-07-03 18:43:34,693] INFO in app: path: /logs/2 | method: GET | status: 404 NOT FOUND | size: 207
+[2023-07-03 18:43:52,195] INFO in app: path: /web/logs/1 | method: GET | status: 200 OK | size: 3133
+[2023-07-03 18:44:18,558] INFO in app: path: /logs/2 | method: GET | status: 404 NOT FOUND | size: 207
+[2023-07-03 18:44:53,120] INFO in app: path: /logs/2 | method: GET | status: 404 NOT FOUND | size: 207
+[2023-07-03 18:44:57,146] INFO in app: path: /web/logs/1 | method: GET | status: 200 OK | size: 3137
+[2023-07-03 18:44:58,798] INFO in app: path: /web/logs/2 | method: GET | status: 200 OK | size: 3126
+[2023-07-03 18:45:00,298] INFO in app: path: /web/logs/3 | method: GET | status: 200 OK | size: 3129
+[2023-07-03 18:45:00,764] INFO in app: path: /web/logs/4 | method: GET | status: 200 OK | size: 3241
+[2023-07-03 18:45:01,221] INFO in app: path: /web/logs/5 | method: GET | status: 200 OK | size: 3129
+[2023-07-03 18:45:01,388] INFO in app: path: /web/logs/6 | method: GET | status: 200 OK | size: 3021
+[2023-07-03 18:45:01,545] INFO in app: path: /web/logs/7 | method: GET | status: 200 OK | size: 2995
+[2023-07-03 18:45:01,709] INFO in app: path: /web/logs/8 | method: GET | status: 200 OK | size: 2978
+[2023-07-03 18:45:01,868] INFO in app: path: /web/logs/9 | method: GET | status: 200 OK | size: 3755
+[2023-07-03 18:45:03,514] INFO in app: path: /web/logs/10 | method: GET | status: 200 OK | size: 2853
+[2023-07-03 18:45:04,407] INFO in app: path: /web/logs/11 | method: GET | status: 200 OK | size: 2996
+[2023-07-03 18:45:04,867] INFO in app: path: /web/logs/12 | method: GET | status: 200 OK | size: 3801
+[2023-07-03 18:45:06,592] INFO in app: path: /web/logs/13 | method: GET | status: 200 OK | size: 3057
+[2023-07-03 18:45:07,577] INFO in app: path: /web/logs/14 | method: GET | status: 200 OK | size: 3096
+[2023-07-03 18:45:08,052] INFO in app: path: /web/logs/15 | method: GET | status: 200 OK | size: 2991
+[2023-07-03 18:45:08,486] INFO in app: path: /web/logs/16 | method: GET | status: 200 OK | size: 3039
+[2023-07-03 18:45:09,049] INFO in app: path: /web/logs/17 | method: GET | status: 200 OK | size: 3186
+[2023-07-03 18:45:20,659] INFO in app: path: /web/logs/16 | method: GET | status: 200 OK | size: 3039
+[2023-07-03 18:45:20,833] INFO in app: path: /web/logs/15 | method: GET | status: 200 OK | size: 2991
+[2023-07-03 18:45:20,997] INFO in app: path: /web/logs/14 | method: GET | status: 200 OK | size: 3096
+[2023-07-03 18:45:21,162] INFO in app: path: /web/logs/13 | method: GET | status: 200 OK | size: 3057
+[2023-07-03 18:45:21,311] INFO in app: path: /web/logs/12 | method: GET | status: 200 OK | size: 3801
+[2023-07-03 18:45:22,782] INFO in app: path: /web/logs/11 | method: GET | status: 200 OK | size: 2996
+[2023-07-03 18:45:23,822] INFO in app: path: /web/logs/10 | method: GET | status: 200 OK | size: 2853
+[2023-07-03 18:45:24,007] INFO in app: path: /web/logs/9 | method: GET | status: 200 OK | size: 3755
+[2023-07-03 18:45:24,843] INFO in app: path: /web/logs/8 | method: GET | status: 200 OK | size: 2978
+[2023-07-03 18:45:25,617] INFO in app: path: /web/logs/7 | method: GET | status: 200 OK | size: 2995
+[2023-07-03 18:45:26,067] INFO in app: path: /web/logs/6 | method: GET | status: 200 OK | size: 3021
+[2023-07-03 18:45:26,493] INFO in app: path: /web/logs/5 | method: GET | status: 200 OK | size: 3129
+[2023-07-03 18:45:26,905] INFO in app: path: /web/logs/4 | method: GET | status: 200 OK | size: 3241
+[2023-07-03 18:45:27,346] INFO in app: path: /web/logs/3 | method: GET | status: 200 OK | size: 3129
+[2023-07-03 18:45:28,038] INFO in app: path: /web/logs/2 | method: GET | status: 200 OK | size: 3126
+[2023-07-03 18:45:28,312] INFO in app: path: /web/logs/1 | method: GET | status: 200 OK | size: 3137
+[2023-07-03 18:45:53,086] INFO in app: path: /web/logs | method: GET | status: 404 NOT FOUND | size: 207
+[2023-07-03 18:51:16,015] INFO in app: path: /web/logs/1 | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 18:52:19,623] INFO in app: path: /web/logs/1 | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 18:52:25,448] INFO in app: path: /web/logs/1 | method: GET | status: 200 OK | size: 3138
+[2023-07-03 18:52:27,850] INFO in app: path: /web/logs/2 | method: GET | status: 200 OK | size: 3127
+[2023-07-03 18:52:29,043] INFO in app: path: /web/logs/3 | method: GET | status: 200 OK | size: 3130
+[2023-07-03 18:52:29,408] INFO in app: path: /web/logs/4 | method: GET | status: 200 OK | size: 3242
+[2023-07-03 18:53:34,072] INFO in app: path: /web/logs/4 | method: GET | status: 200 OK | size: 3242
+[2023-07-03 18:54:25,931] INFO in app: path: /web/logs/4 | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 18:56:50,564] INFO in app: path: /web/logs/4 | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 18:57:05,927] INFO in app: path: /web/logs/4 | method: GET | status: 200 OK | size: 5693
+[2023-07-03 18:57:07,703] INFO in app: path: /web/logs | method: GET | status: 200 OK | size: 5589
+[2023-07-03 18:57:08,423] INFO in app: path: /web/logs | method: GET | status: 200 OK | size: 5589
+[2023-07-03 18:57:08,923] INFO in app: path: /web/logs | method: GET | status: 200 OK | size: 5589
+[2023-07-03 18:57:10,218] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3550
+[2023-07-03 18:57:11,145] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 4095
+[2023-07-03 18:57:11,763] INFO in app: path: /web/ | method: GET | status: 200 OK | size: 6360
+[2023-07-03 18:57:12,397] INFO in app: path: /web/logs | method: GET | status: 200 OK | size: 5589
+[2023-07-03 18:57:14,170] INFO in app: path: /web/logs/2 | method: GET | status: 200 OK | size: 5578
+[2023-07-03 18:57:16,816] INFO in app: path: /web/logs/1 | method: GET | status: 308 PERMANENT REDIRECT | size: 247
+[2023-07-03 18:57:16,830] INFO in app: path: /web/logs | method: GET | status: 200 OK | size: 5589
+[2023-07-03 18:57:17,477] INFO in app: path: /web/logs/2 | method: GET | status: 200 OK | size: 5578
+[2023-07-03 18:57:17,682] INFO in app: path: /web/logs/3 | method: GET | status: 200 OK | size: 5581
+[2023-07-03 18:57:17,911] INFO in app: path: /web/logs/4 | method: GET | status: 200 OK | size: 5693
+[2023-07-03 18:57:19,377] INFO in app: path: /web/logs/5 | method: GET | status: 200 OK | size: 5581
+[2023-07-03 18:57:20,064] INFO in app: path: /web/logs/6 | method: GET | status: 200 OK | size: 5473
+[2023-07-03 18:57:20,691] INFO in app: path: /web/logs/7 | method: GET | status: 200 OK | size: 5447
+[2023-07-03 18:57:21,381] INFO in app: path: /web/logs/8 | method: GET | status: 200 OK | size: 5430
+[2023-07-03 18:57:22,180] INFO in app: path: /web/logs/7 | method: GET | status: 200 OK | size: 5447
+[2023-07-03 18:57:22,406] INFO in app: path: /web/logs/6 | method: GET | status: 200 OK | size: 5473
+[2023-07-03 18:57:22,556] INFO in app: path: /web/logs/5 | method: GET | status: 200 OK | size: 5581
+[2023-07-03 18:57:23,508] INFO in app: path: /web/logs/4 | method: GET | status: 200 OK | size: 5693
+[2023-07-03 18:57:24,219] INFO in app: path: /web/logs/3 | method: GET | status: 200 OK | size: 5581
+[2023-07-03 18:57:25,491] INFO in app: path: /web/logs/2 | method: GET | status: 200 OK | size: 5578
+[2023-07-03 18:57:26,236] INFO in app: path: /web/logs | method: GET | status: 200 OK | size: 5589
+[2023-07-03 18:57:27,756] INFO in app: path: /web/logs/2 | method: GET | status: 200 OK | size: 5578
+[2023-07-03 18:57:28,336] INFO in app: path: /web/logs/3 | method: GET | status: 200 OK | size: 5581
+[2023-07-03 18:57:28,841] INFO in app: path: /web/logs/4 | method: GET | status: 200 OK | size: 5693
+[2023-07-03 18:57:29,897] INFO in app: path: /web/logs/5 | method: GET | status: 200 OK | size: 5581
+[2023-07-03 18:57:30,624] INFO in app: path: /web/logs/6 | method: GET | status: 200 OK | size: 5473
+[2023-07-03 18:58:58,953] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3550
+[2023-07-03 18:58:59,533] INFO in app: path: /web/logs | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 18:59:45,972] INFO in app: path: /web/logs | method: GET | status: 200 OK | size: 5442
+[2023-07-03 18:59:47,628] INFO in app: path: /web/logs | method: GET | status: 200 OK | size: 5440
+[2023-07-03 18:59:49,081] INFO in app: path: /web/logs | method: GET | status: 200 OK | size: 5438
+[2023-07-03 18:59:49,679] INFO in app: path: /web/logs | method: GET | status: 200 OK | size: 5436
+[2023-07-03 18:59:50,307] INFO in app: path: /web/logs | method: GET | status: 200 OK | size: 5434
+[2023-07-03 18:59:50,747] INFO in app: path: /web/logs | method: GET | status: 200 OK | size: 5432
+[2023-07-03 18:59:51,030] INFO in app: path: /web/logs | method: GET | status: 200 OK | size: 5430
+[2023-07-03 18:59:51,214] INFO in app: path: /web/logs | method: GET | status: 200 OK | size: 5428
+[2023-07-03 18:59:51,402] INFO in app: path: /web/logs | method: GET | status: 200 OK | size: 5426
+[2023-07-03 19:04:17,801] INFO in app: path: /web/logs/2 | method: GET | status: 200 OK | size: 5435
+[2023-07-03 19:04:19,005] INFO in app: path: /web/logs/3 | method: GET | status: 200 OK | size: 5502
+[2023-07-03 19:04:19,501] INFO in app: path: /web/logs/4 | method: GET | status: 200 OK | size: 5443
+[2023-07-03 19:04:19,747] INFO in app: path: /web/logs/5 | method: GET | status: 200 OK | size: 5528
+[2023-07-03 19:04:19,924] INFO in app: path: /web/logs/6 | method: GET | status: 200 OK | size: 5653
+[2023-07-03 19:04:20,177] INFO in app: path: /web/logs/7 | method: GET | status: 200 OK | size: 5627
+[2023-07-03 19:04:20,349] INFO in app: path: /web/logs/8 | method: GET | status: 200 OK | size: 5606
+[2023-07-03 19:04:20,542] INFO in app: path: /web/logs/9 | method: GET | status: 200 OK | size: 5521
+[2023-07-03 19:04:20,694] INFO in app: path: /web/logs/10 | method: GET | status: 200 OK | size: 5415
+[2023-07-03 19:04:20,860] INFO in app: path: /web/logs/11 | method: GET | status: 200 OK | size: 5548
+[2023-07-03 19:04:21,014] INFO in app: path: /web/logs/12 | method: GET | status: 200 OK | size: 5505
+[2023-07-03 19:04:21,194] INFO in app: path: /web/logs/13 | method: GET | status: 200 OK | size: 6266
+[2023-07-03 19:04:23,456] INFO in app: path: /web/logs/14 | method: GET | status: 200 OK | size: 5448
+[2023-07-03 19:04:24,445] INFO in app: path: /web/logs/15 | method: GET | status: 200 OK | size: 5341
+[2023-07-03 19:04:24,802] INFO in app: path: /web/logs/16 | method: GET | status: 200 OK | size: 6176
+[2023-07-03 19:04:27,850] INFO in app: path: /web/ | method: GET | status: 200 OK | size: 6360
+[2023-07-03 19:04:29,647] INFO in app: path: /web/logs | method: GET | status: 200 OK | size: 5415
+[2023-07-03 19:04:32,199] INFO in app: path: /web/ | method: GET | status: 200 OK | size: 6360
+[2023-07-03 19:04:33,000] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 4095
+[2023-07-03 19:04:34,415] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3550
+[2023-07-03 19:04:35,071] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 4095
+[2023-07-03 19:04:35,587] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3550
+[2023-07-03 19:04:48,269] INFO in api_monitor_service: Image for url id - 8bc18bad-e8be-49b5-924f-c5df1ce76010 added/update.
+[2023-07-03 19:04:48,270] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 59
+[2023-07-03 19:04:50,899] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3550
+[2023-07-03 19:04:52,744] INFO in app: path: /web/logs | method: GET | status: 200 OK | size: 5466
+[2023-07-03 19:05:02,130] INFO in app: path: /web/ | method: GET | status: 200 OK | size: 6360
+[2023-07-03 19:05:02,921] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 4095
+[2023-07-03 19:05:03,389] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3550
+[2023-07-03 19:05:03,857] INFO in app: path: /web/logs | method: GET | status: 200 OK | size: 5465
+[2023-07-03 19:05:05,448] INFO in app: path: /web/ | method: GET | status: 200 OK | size: 6360
+[2023-07-03 19:05:15,207] INFO in app: path: /web/link/8bc18bad-e8be-49b5-924f-c5df1ce76010 | method: GET | status: 200 OK | size: 2631
+[2023-07-03 19:05:17,748] INFO in app: path: /web/link/b431698c-3888-4e55-b7ca-de342a24b9aa | method: GET | status: 200 OK | size: 2631
+[2023-07-03 19:08:22,940] INFO in app: path: /web/logs | method: GET | status: 200 OK | size: 5523
+[2023-07-03 19:08:23,989] INFO in app: path: /web/upload_image | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-03 19:10:22,727] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3550
+[2023-07-03 19:10:24,344] INFO in app: path: /web/logs | method: GET | status: 200 OK | size: 5555
+[2023-07-03 19:10:24,777] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3550
+[2023-07-03 19:10:25,215] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 4095
+[2023-07-03 19:10:25,782] INFO in app: path: /web/ | method: GET | status: 200 OK | size: 6360
+[2023-07-03 19:10:26,316] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 4095
+[2023-07-03 19:10:26,642] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3550
+[2023-07-03 19:10:26,945] INFO in app: path: /web/logs | method: GET | status: 200 OK | size: 5555
+[2023-07-03 19:10:27,936] INFO in app: path: /web/ | method: GET | status: 200 OK | size: 6360
+[2023-07-03 19:10:28,907] INFO in app: path: /web/link/8bc18bad-e8be-49b5-924f-c5df1ce76010 | method: GET | status: 200 OK | size: 2631
+[2023-07-03 19:10:29,871] INFO in app: path: /web/logs | method: GET | status: 200 OK | size: 5547
+[2023-07-03 19:10:31,146] INFO in app: path: /web/logs/2 | method: GET | status: 200 OK | size: 5470
+[2023-07-03 19:10:31,583] INFO in app: path: /web/logs/3 | method: GET | status: 200 OK | size: 5432
+[2023-07-03 19:10:31,766] INFO in app: path: /web/logs/4 | method: GET | status: 200 OK | size: 5439
+[2023-07-03 19:10:31,921] INFO in app: path: /web/logs/5 | method: GET | status: 200 OK | size: 5513
+[2023-07-03 19:10:32,094] INFO in app: path: /web/logs/6 | method: GET | status: 200 OK | size: 5442
+[2023-07-03 19:10:32,250] INFO in app: path: /web/logs/7 | method: GET | status: 200 OK | size: 5440
+[2023-07-03 19:10:32,428] INFO in app: path: /web/logs/8 | method: GET | status: 200 OK | size: 5617
+[2023-07-03 19:10:32,616] INFO in app: path: /web/logs/9 | method: GET | status: 200 OK | size: 5692
+[2023-07-03 19:10:32,769] INFO in app: path: /web/logs/10 | method: GET | status: 200 OK | size: 5656
+[2023-07-03 19:10:32,916] INFO in app: path: /web/logs/11 | method: GET | status: 200 OK | size: 5446
+[2023-07-03 19:10:33,093] INFO in app: path: /web/logs/12 | method: GET | status: 200 OK | size: 5516
+[2023-07-03 19:10:33,251] INFO in app: path: /web/logs/13 | method: GET | status: 200 OK | size: 5495
+[2023-07-03 19:10:33,411] INFO in app: path: /web/logs/14 | method: GET | status: 200 OK | size: 5530
+[2023-07-03 19:10:33,562] INFO in app: path: /web/logs/15 | method: GET | status: 200 OK | size: 6247
+[2023-07-03 19:10:35,100] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 4095
+[2023-07-03 19:10:44,133] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3550
+[2023-07-03 19:10:45,184] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 4095
+[2023-07-03 19:10:45,791] INFO in app: path: /web/ | method: GET | status: 200 OK | size: 6360

@@ -1,5 +1,7 @@
 {% extends 'base.html' %}
 
+{% from 'bootstrap5/form.html' import render_form, render_field, render_form_row %}
+
 {% block content %}
   <h1>Add New Link / Add zip file with links</h1>
   {% with messages = get_flashed_messages() %}
@@ -11,14 +13,7 @@
       </ul>
     {% endif %}
   {% endwith %}
-  <form method="post">
-    <label for="url">Url</label><br>
-    <input type="text" id="url" name="url"><br>
-    <input type="submit" value="Submit">
-  </form>
-  <form method="post" enctype=multipart/form-data>
-    <label for="url">Urls from zip file</label><br>
-    <input type="file" name="file"><br>
-    <input type="submit" value="Submit">
-  </form>
+    {{ render_form(urlform) }}
+    {{ render_form(fileform) }}
+
 {% endblock %}
