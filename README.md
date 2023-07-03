@@ -26,5 +26,6 @@
 
 ## Migration
 - Базовые миграции - автоматом. Если нужны доп. миграции то:
+  - alembic немного подкручен
   - flask db migrate -m "migration 2"
   - flask db upgrade

@@ -19,6 +19,7 @@ from sqlalchemy.orm import (
     DeclarativeBase,
     Mapped,
     MappedAsDataclass,
+    QueryPropertyDescriptor,
     mapped_column
 )
 from sqlalchemy.sql import func
@@ -41,6 +42,8 @@ timestamp_int = Annotated[datetime.datetime, mapped_column(
 class Base(DeclarativeBase):
     pass
 
+
+Base.query = db_session.query_property()
 
 class User(MappedAsDataclass, Base):
     __tablename__ = 'users'

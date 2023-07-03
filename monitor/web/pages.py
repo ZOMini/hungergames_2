@@ -10,6 +10,7 @@ from flask import (
 )
 from sqlalchemy import select
 
+from core.app import db
 from core.config import settings
 from db.connection_db import db_session
 from db.models_db import Link
@@ -20,14 +21,9 @@ from web.pagination import PageResult
 pages = Blueprint('pages', __name__)
 
 
-@pages.route('/')
-def index():
-    links = db_session.scalars(select(Link)).all()
-    return render_template('index.html', links=links)
-
 @pages.route('/link/<string:link_id>')
 def get_link(link_id):
-    link = db_session.scalar(select(Link).filter(Link.id == link_id).limit(1))
+    link = db_session.scalar(select(Link).filter(Link.id == link_id))
     return render_template('link.html', link=link)
 
 @pages.route('/new_link', methods=['GET', 'POST'])
@@ -72,3 +68,34 @@ def logs(pagenum):
         logs_list = [i.rstrip() for i in log_file.readlines()]
         logs_list.reverse()
     return render_template('logs.html', listing=PageResult(logs_list, pagenum))
+
+@pages.route('/', defaults={'page': 1})
+@pages.route('/links', defaults={'page': 1})
+@pages.route('/links/<int:page>')
+def links(page):
+    pagination = db.paginate(db.select(Link), page=page, per_page=10)
+    links = pagination.items
+    titles = [('id', 'id'), ('url', 'url'), ('linkstatus', 'linkstatus'), ('lasttime', 'lasttime')]
+    data = []
+    for link in links:
+        url = link.get_url()
+        data.append({'id': link.id, 'url': url, 'linkstatus': link.linkstatus, 'lasttime': link.lasttime})
+    return render_template('links.html', titles=titles, Link=Link, data=data, links=links, pagination=pagination)
+
+
+@pages.route('/links/<string:link_id>/view')
+def view_link(link_id):
+    link = db_session.scalar(select(Link).filter(Link.id == link_id))
+    if link:
+        return f'Viewing {link_id} with text "{link.id}". Return to <a href="/web/links">links</a>.'
+    return f'Could not view message {link_id} as it does not exist. Return to <a href="/web/links">links</a>.'
+
+
+@pages.route('/links/<string:link_id>/delete', methods=['POST'])
+def delete_link(link_id):
+    link = db_session.scalar(select(Link).filter(Link.id == link_id))
+    if link:
+        db_session.delete(link)
+        db_session.commit()
+        return f'Message {link_id} has been deleted. Return to <a href="/web/links">links</a>.'
+    return f'Message {link_id} did not exist and could therefore not be deleted. Return to <a href="/web/links">links</a>.'
