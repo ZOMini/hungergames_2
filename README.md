@@ -21,6 +21,9 @@
 - {GET} http://127.0.0.1/api/v1/monitor/links
 - {GET} http://127.0.0.1/api/v1/monitor/logs
 
+## Urls(web)
+- http://127.0.0.1/web/  - далее все ссылки на панели навигации
+
 ## Migration
 - Базовые миграции - автоматом. Если нужны доп. миграции то:
   - flask db migrate -m "migration 2"
