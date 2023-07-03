@@ -43,8 +43,25 @@ def new_link():
               result = ApiMonitorService.post_links(False)
               return render_template_string(str(result))
         except Exception as e:
-            logging.getLogger('console').info('Url - %s error add.', e.args)
+            logging.getLogger('console').info('Url add error - %s', e.args)
             db_session.rollback()
             return render_template_string(str(e.args))
         return redirect(url_for('pages.index'))
     return render_template('add_links.html')
+
+@pages.route('/upload_image', methods=['GET', 'POST'])
+def upload_image():
+    if request.method == 'POST':
+        try:
+            if 'file' in request.files and 'id' in request.form:
+              id = request.form['id']
+              ApiMonitorService.post_image(id, False)
+              return render_template_string(f'Image for id {id} uploaded.')
+            else:
+              return render_template_string('Check id and file.')
+        except Exception as e:
+            logging.getLogger('console').info('Image add error - %s.', e.args)
+            db_session.rollback()
+            return render_template_string(str(e.args))
+        # return redirect(url_for('pages.index'))
+    return render_template('add_image.html')

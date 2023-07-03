@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>Add image</h1>
+  {% with messages = get_flashed_messages() %}
+    {% if messages %}
+      <ul class="flashes">
+        {% for message in messages %}
+          <li>{{ message }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  {% endwith %}
+  <form method="post" enctype=multipart/form-data>
+    <label for="id">id_url</label><br>
+    <input type="text" id="id" name="id"><br>
+    <label for="file">Image file</label><br>
+    <input type="file" name="file"><br>
+    <input type="submit" value="Submit">
+  </form>
+{% endblock %}
