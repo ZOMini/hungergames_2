@@ -900,3 +900,434 @@
 [2023-07-04 01:27:02,022] INFO in app: path: /web/logs | method: GET | status: 200 OK | size: 5944
 [2023-07-04 01:27:02,805] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 18247
 [2023-07-04 01:27:02,841] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 10:55:15,396] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 18703
+[2023-07-04 10:55:15,557] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 10:55:17,948] INFO in app: path: /web/links/2 | method: GET | status: 200 OK | size: 18797
+[2023-07-04 10:55:17,981] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 10:55:18,650] INFO in app: path: /web/links/3 | method: GET | status: 200 OK | size: 18921
+[2023-07-04 10:55:18,673] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 10:55:20,778] INFO in app: path: /web/links/2 | method: GET | status: 200 OK | size: 18797
+[2023-07-04 10:55:20,812] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 10:55:21,306] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 18703
+[2023-07-04 10:55:21,332] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 10:55:23,766] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 4100
+[2023-07-04 10:55:25,274] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3555
+[2023-07-04 10:55:25,930] INFO in app: path: /web/logs | method: GET | status: 200 OK | size: 5831
+[2023-07-04 10:55:27,763] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 18703
+[2023-07-04 10:55:27,786] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 10:55:51,701] INFO in app: path: /web/links/2 | method: GET | status: 200 OK | size: 18797
+[2023-07-04 10:55:51,748] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 10:55:52,517] INFO in app: path: /web/links/3 | method: GET | status: 200 OK | size: 18921
+[2023-07-04 10:55:52,541] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 10:56:00,501] INFO in app: path: /web/links/2 | method: GET | status: 200 OK | size: 18797
+[2023-07-04 10:56:00,526] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 10:56:01,305] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 18703
+[2023-07-04 10:56:01,342] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 10:56:08,738] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 4100
+[2023-07-04 10:56:10,359] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 18703
+[2023-07-04 10:56:10,380] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 10:56:11,608] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3555
+[2023-07-04 10:56:16,514] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 18703
+[2023-07-04 10:56:16,537] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 10:56:26,844] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 4100
+[2023-07-04 10:56:28,241] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3555
+[2023-07-04 10:56:28,738] INFO in app: path: /web/logs | method: GET | status: 200 OK | size: 5761
+[2023-07-04 10:56:35,178] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 18703
+[2023-07-04 10:56:35,206] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 10:56:36,322] INFO in app: path: /web/logs | method: GET | status: 200 OK | size: 5799
+[2023-07-04 11:37:14,973] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 18703
+[2023-07-04 11:37:15,007] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 11:37:18,211] INFO in app: path: /web/links/3886cd66-2bc2-46b7-a87a-fe8ff5824420/view | method: GET | status: 200 OK | size: 2752
+[2023-07-04 11:37:23,029] INFO in app: path: /web/links/2 | method: GET | status: 200 OK | size: 18797
+[2023-07-04 11:37:23,055] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 11:37:23,454] INFO in app: path: /web/links/3 | method: GET | status: 200 OK | size: 18921
+[2023-07-04 11:37:23,488] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 11:37:24,607] INFO in app: path: /web/links/2 | method: GET | status: 200 OK | size: 18797
+[2023-07-04 11:37:24,628] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 11:37:25,024] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 18703
+[2023-07-04 11:37:25,058] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 11:37:26,082] INFO in app: path: /web/links/2 | method: GET | status: 200 OK | size: 18797
+[2023-07-04 11:37:26,109] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 11:37:26,453] INFO in app: path: /web/links/3 | method: GET | status: 200 OK | size: 18921
+[2023-07-04 11:37:26,487] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 11:37:32,414] INFO in app: path: /web/links/2 | method: GET | status: 200 OK | size: 18797
+[2023-07-04 11:37:32,435] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 11:37:33,182] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 18703
+[2023-07-04 11:37:33,220] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 11:37:34,254] INFO in app: path: /web/links/2 | method: GET | status: 200 OK | size: 18797
+[2023-07-04 11:37:34,283] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 11:37:34,606] INFO in app: path: /web/links/3 | method: GET | status: 200 OK | size: 18921
+[2023-07-04 11:37:34,647] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 11:37:37,309] INFO in app: path: /web/links/d35f8e9a-2477-4811-9ec4-c16d2cbe6088/view | method: GET | status: 200 OK | size: 2776
+[2023-07-04 11:37:41,367] INFO in app: path: /web/links/2 | method: GET | status: 200 OK | size: 18797
+[2023-07-04 11:37:41,403] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 11:37:41,827] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 18703
+[2023-07-04 11:37:41,852] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 11:37:43,521] INFO in app: path: /web/links/2 | method: GET | status: 200 OK | size: 18797
+[2023-07-04 11:37:43,555] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 11:37:43,823] INFO in app: path: /web/links/3 | method: GET | status: 200 OK | size: 18921
+[2023-07-04 11:37:43,852] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 11:37:46,557] INFO in app: path: /web/links/2 | method: GET | status: 200 OK | size: 18797
+[2023-07-04 11:37:46,592] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 11:37:49,012] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 18703
+[2023-07-04 11:37:49,038] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 11:38:02,722] INFO in app: path: /web/links/2 | method: GET | status: 200 OK | size: 18797
+[2023-07-04 11:38:02,758] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 11:38:03,466] INFO in app: path: /web/links/3 | method: GET | status: 200 OK | size: 18921
+[2023-07-04 11:38:03,492] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 11:38:06,912] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3555
+[2023-07-04 11:38:08,086] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 18703
+[2023-07-04 11:38:08,107] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 11:38:15,561] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3555
+[2023-07-04 11:38:28,351] INFO in api_monitor_service: Image for url id - 3886cd66-2bc2-46b7-a87a-fe8ff5824420 added/update.
+[2023-07-04 11:38:28,352] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 59
+[2023-07-04 11:41:25,600] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3555
+[2023-07-04 11:41:29,251] INFO in api_monitor_service: Image for url id - 3886cd66-2bc2-46b7-a87a-fe8ff5824420 added/update.
+[2023-07-04 11:41:29,252] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 59
+[2023-07-04 11:41:44,714] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3977
+[2023-07-04 11:43:14,903] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 155
+[2023-07-04 11:43:19,787] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3555
+[2023-07-04 11:43:44,661] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3555
+[2023-07-04 11:43:46,316] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 155
+[2023-07-04 11:43:48,130] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3555
+[2023-07-04 11:47:45,176] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 155
+[2023-07-04 11:47:47,613] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3555
+[2023-07-04 11:47:56,038] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 155
+[2023-07-04 11:47:57,578] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3555
+[2023-07-04 11:48:14,001] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 4217
+[2023-07-04 11:48:18,099] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 4217
+[2023-07-04 11:48:57,522] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 4217
+[2023-07-04 11:49:08,297] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3945
+[2023-07-04 11:49:13,739] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3945
+[2023-07-04 12:18:34,109] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 18715
+[2023-07-04 12:18:34,237] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 12:18:41,096] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3555
+[2023-07-04 12:18:49,676] INFO in api_monitor_service: Image for url id - 3cb3d506-4730-434c-a221-74ed21fcf0d0 added/update.
+[2023-07-04 12:18:49,679] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 4013
+[2023-07-04 12:18:55,550] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 4217
+[2023-07-04 12:22:12,694] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 4217
+[2023-07-04 12:22:13,528] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 4217
+[2023-07-04 12:22:18,061] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3555
+[2023-07-04 12:22:19,957] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 4217
+[2023-07-04 12:25:41,646] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 4281
+[2023-07-04 12:25:44,832] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3619
+[2023-07-04 12:26:02,445] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 4025
+[2023-07-04 12:26:17,005] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 4306
+[2023-07-04 12:32:04,537] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 4100
+[2023-07-04 12:32:22,332] INFO in app: path: /web/new_link | method: POST | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-04 12:35:22,104] INFO in app: path: /web/new_link | method: POST | status: 200 OK | size: 22
+[2023-07-04 12:35:43,692] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 4100
+[2023-07-04 12:35:49,595] INFO in app: path: /web/new_link | method: POST | status: 302 FOUND | size: 207
+[2023-07-04 12:35:49,758] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 18969
+[2023-07-04 12:35:49,895] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 12:36:28,075] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 4100
+[2023-07-04 12:36:30,106] INFO in app: path: /web/new_link | method: POST | status: 200 OK | size: 4445
+[2023-07-04 12:36:33,334] INFO in app: path: /web/new_link | method: POST | status: 200 OK | size: 4485
+[2023-07-04 12:36:35,626] INFO in app: path: /web/new_link | method: POST | status: 200 OK | size: 4485
+[2023-07-04 12:36:54,050] INFO in app: path: /web/new_link | method: POST | status: 200 OK | size: 4485
+[2023-07-04 12:37:03,171] INFO in app: path: /web/new_link | method: POST | status: 200 OK | size: 4362
+[2023-07-04 12:37:06,256] INFO in app: path: /web/new_link | method: POST | status: 200 OK | size: 4362
+[2023-07-04 12:37:07,478] INFO in app: path: /web/new_link | method: POST | status: 200 OK | size: 4362
+[2023-07-04 12:37:13,249] INFO in app: path: /web/new_link | method: POST | status: 200 OK | size: 6483
+[2023-07-04 12:37:30,150] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3619
+[2023-07-04 12:37:32,557] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 4089
+[2023-07-04 12:37:33,606] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3619
+[2023-07-04 12:37:35,025] INFO in app: path: /web/logs | method: GET | status: 200 OK | size: 5549
+[2023-07-04 12:37:36,627] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 18717
+[2023-07-04 12:37:36,758] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 12:37:49,030] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 4089
+[2023-07-04 12:38:43,177] INFO in app: path: /web/new_link | method: POST | status: 200 OK | size: 4362
+[2023-07-04 12:39:10,598] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3619
+[2023-07-04 12:39:29,250] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 4321
+[2023-07-04 12:50:24,616] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3619
+[2023-07-04 12:50:37,437] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 4326
+[2023-07-04 12:52:19,852] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 4326
+[2023-07-04 12:53:55,672] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 4326
+[2023-07-04 12:54:04,869] INFO in app: path: /web/upload_image | method: POST | status: 400 BAD REQUEST | size: 125
+[2023-07-04 12:54:09,140] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3619
+[2023-07-04 12:54:26,972] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3608
+[2023-07-04 12:54:39,079] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 4030
+[2023-07-04 13:12:24,327] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 4030
+[2023-07-04 13:12:30,772] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 4030
+[2023-07-04 13:12:33,887] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3608
+[2023-07-04 13:12:40,354] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 4036
+[2023-07-04 13:14:33,561] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3899
+[2023-07-04 13:14:48,624] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 4078
+[2023-07-04 13:16:18,247] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 4046
+[2023-07-04 13:16:22,961] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3576
+[2023-07-04 13:16:37,406] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3977
+[2023-07-04 13:17:24,255] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3576
+[2023-07-04 13:17:39,112] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3977
+[2023-07-04 13:21:31,961] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3608
+[2023-07-04 13:21:46,110] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 4033
+[2023-07-04 13:23:42,869] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3608
+[2023-07-04 13:23:53,672] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 4021
+[2023-07-04 13:32:53,396] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 4018
+[2023-07-04 13:34:37,934] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3859
+[2023-07-04 13:36:05,309] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3859
+[2023-07-04 13:37:03,184] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3859
+[2023-07-04 13:37:20,233] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3899
+[2023-07-04 13:37:38,174] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 18717
+[2023-07-04 13:37:38,328] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 13:37:42,284] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 4153
+[2023-07-04 13:37:42,924] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3608
+[2023-07-04 13:37:47,632] INFO in api_monitor_service: Image for url id - 5f8fc06e-16d3-4206-b3f1-3c3ecb40385c added/update.
+[2023-07-04 13:37:47,633] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3925
+[2023-07-04 13:40:29,996] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3883
+[2023-07-04 13:40:48,169] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 4096
+[2023-07-04 13:41:11,174] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3889
+[2023-07-04 13:42:45,254] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 4096
+[2023-07-04 13:47:05,564] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 4096
+[2023-07-04 13:48:25,191] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 4096
+[2023-07-04 13:48:38,480] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3881
+[2023-07-04 13:48:47,677] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3881
+[2023-07-04 13:48:56,819] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3890
+[2023-07-04 13:49:07,313] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3614
+[2023-07-04 13:49:16,742] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 18731
+[2023-07-04 13:49:16,867] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 13:49:18,976] INFO in app: path: /web/links/2 | method: GET | status: 200 OK | size: 18771
+[2023-07-04 13:49:19,013] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 13:49:19,416] INFO in app: path: /web/links/3 | method: GET | status: 200 OK | size: 18877
+[2023-07-04 13:49:19,437] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 13:49:20,172] INFO in app: path: /web/links/4 | method: GET | status: 200 OK | size: 6543
+[2023-07-04 13:49:20,204] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 13:49:25,623] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3614
+[2023-07-04 13:49:35,428] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3890
+[2023-07-04 13:50:32,770] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3890
+[2023-07-04 13:51:50,783] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3890
+[2023-07-04 13:52:42,300] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3940
+[2023-07-04 13:54:32,351] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3890
+[2023-07-04 13:56:38,471] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3890
+[2023-07-04 14:01:39,238] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3890
+[2023-07-04 14:04:44,426] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3890
+[2023-07-04 14:05:00,054] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3885
+[2023-07-04 14:06:01,967] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3885
+[2023-07-04 14:06:23,555] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3614
+[2023-07-04 14:06:30,471] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3890
+[2023-07-04 14:13:44,809] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3905
+[2023-07-04 14:14:48,229] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 4153
+[2023-07-04 14:14:56,378] INFO in app: path: /web/new_link | method: POST | status: 200 OK | size: 4404
+[2023-07-04 14:15:20,063] INFO in app: path: /web/new_link | method: POST | status: 200 OK | size: 6547
+[2023-07-04 14:15:51,848] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 18731
+[2023-07-04 14:15:51,980] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 14:15:54,416] INFO in app: path: /web/links/2 | method: GET | status: 200 OK | size: 18771
+[2023-07-04 14:15:54,452] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 14:15:55,010] INFO in app: path: /web/links/3 | method: GET | status: 200 OK | size: 18811
+[2023-07-04 14:15:55,032] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 14:15:55,455] INFO in app: path: /web/links/4 | method: GET | status: 200 OK | size: 8130
+[2023-07-04 14:15:55,489] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 14:15:56,861] INFO in app: path: /web/links/3 | method: GET | status: 200 OK | size: 18811
+[2023-07-04 14:15:56,881] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 14:15:57,892] INFO in app: path: /web/links/2 | method: GET | status: 200 OK | size: 18771
+[2023-07-04 14:15:57,924] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 14:15:58,411] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 18731
+[2023-07-04 14:15:58,473] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 14:16:02,034] INFO in app: path: /web/logs | method: GET | status: 200 OK | size: 5772
+[2023-07-04 14:16:04,360] INFO in app: path: /web/logs/2 | method: GET | status: 200 OK | size: 5696
+[2023-07-04 14:16:04,669] INFO in app: path: /web/logs/3 | method: GET | status: 200 OK | size: 5606
+[2023-07-04 14:16:04,923] INFO in app: path: /web/logs/4 | method: GET | status: 200 OK | size: 5567
+[2023-07-04 14:16:05,482] INFO in app: path: /web/logs/3 | method: GET | status: 200 OK | size: 5638
+[2023-07-04 14:16:05,664] INFO in app: path: /web/logs/2 | method: GET | status: 200 OK | size: 5625
+[2023-07-04 14:16:05,830] INFO in app: path: /web/logs | method: GET | status: 200 OK | size: 5742
+[2023-07-04 14:16:10,243] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3614
+[2023-07-04 14:16:10,817] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 4153
+[2023-07-04 14:16:11,385] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 18731
+[2023-07-04 14:16:11,405] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 14:16:16,409] INFO in app: path: /web/links/2 | method: GET | status: 200 OK | size: 18771
+[2023-07-04 14:16:16,444] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 14:16:16,620] INFO in app: path: /web/links/3 | method: GET | status: 200 OK | size: 18811
+[2023-07-04 14:16:16,644] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 14:16:16,941] INFO in app: path: /web/links/4 | method: GET | status: 200 OK | size: 8130
+[2023-07-04 14:16:16,975] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 14:16:19,119] INFO in app: path: /web/links/3 | method: GET | status: 200 OK | size: 18811
+[2023-07-04 14:16:19,144] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 14:16:20,237] INFO in app: path: /web/links/2 | method: GET | status: 200 OK | size: 18771
+[2023-07-04 14:16:20,266] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 14:16:21,530] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 18731
+[2023-07-04 14:16:21,552] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 14:16:31,989] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 4153
+[2023-07-04 14:20:06,464] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3614
+[2023-07-04 14:20:07,139] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 18731
+[2023-07-04 14:20:07,174] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 14:20:08,875] INFO in app: path: /web/links/7217e99b-c4fa-4beb-9851-12e96875bb33/view | method: GET | status: 200 OK | size: 2754
+[2023-07-04 14:20:11,778] INFO in app: path: /web/links/2 | method: GET | status: 200 OK | size: 18771
+[2023-07-04 14:20:11,813] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 14:20:12,214] INFO in app: path: /web/links/3 | method: GET | status: 200 OK | size: 18811
+[2023-07-04 14:20:12,234] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 14:20:12,462] INFO in app: path: /web/links/4 | method: GET | status: 200 OK | size: 8130
+[2023-07-04 14:20:12,499] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 14:20:14,676] INFO in app: path: /web/links/be32ea0c-e502-4472-9d4b-fce07f357621/view | method: GET | status: 200 OK | size: 2751
+[2023-07-04 14:20:24,140] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3614
+[2023-07-04 14:20:34,543] INFO in api_monitor_service: Image for url id - be32ea0c-e502-4472-9d4b-fce07f357621 added/update.
+[2023-07-04 14:20:34,549] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3931
+[2023-07-04 14:20:37,495] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 18731
+[2023-07-04 14:20:37,530] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 14:20:39,182] INFO in app: path: /web/links/2 | method: GET | status: 200 OK | size: 18771
+[2023-07-04 14:20:39,206] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 14:20:39,739] INFO in app: path: /web/links/3 | method: GET | status: 200 OK | size: 18811
+[2023-07-04 14:20:39,773] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 14:20:40,042] INFO in app: path: /web/links/4 | method: GET | status: 200 OK | size: 8130
+[2023-07-04 14:20:40,063] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 14:20:41,845] INFO in app: path: /web/links/be32ea0c-e502-4472-9d4b-fce07f357621/view | method: GET | status: 200 OK | size: 2845
+[2023-07-04 14:20:41,921] INFO in app: path: /web/images/be32ea0c-e502-4472-9d4b-fce07f357621 | method: GET | status: 200 OK | size: 67463
+[2023-07-04 14:21:14,426] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 4153
+[2023-07-04 14:21:14,484] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 18731
+[2023-07-04 14:21:15,227] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 18731
+[2023-07-04 14:21:15,259] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 14:21:17,538] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 4153
+[2023-07-04 14:21:18,396] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3614
+[2023-07-04 14:21:19,890] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 4153
+[2023-07-04 14:21:32,910] INFO in app: path: /web/new_link | method: POST | status: 200 OK | size: 4402
+[2023-07-04 14:24:32,935] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 18731
+[2023-07-04 14:24:32,956] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 14:24:34,617] INFO in app: path: /web/links/7217e99b-c4fa-4beb-9851-12e96875bb33/view | method: GET | status: 200 OK | size: 2754
+[2023-07-04 14:24:37,793] INFO in app: path: /web/links/85b4ec44-b8bd-40ee-8d50-9e3712bdeb6a/view | method: GET | status: 200 OK | size: 2754
+[2023-07-04 14:24:41,387] INFO in app: path: /web/links/7217e99b-c4fa-4beb-9851-12e96875bb33/view | method: GET | status: 200 OK | size: 2754
+[2023-07-04 14:24:51,134] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 18731
+[2023-07-04 14:24:51,152] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 14:25:17,717] INFO in app: path: /web/links/7217e99b-c4fa-4beb-9851-12e96875bb33/delete | method: POST | status: 200 OK | size: 101
+[2023-07-04 14:31:51,716] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 18731
+[2023-07-04 14:31:51,739] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 14:31:54,595] INFO in app: path: /web/links/85b4ec44-b8bd-40ee-8d50-9e3712bdeb6a/delete | method: POST | status: 200 OK | size: 101
+[2023-07-04 14:31:58,672] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 18733
+[2023-07-04 14:31:58,699] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 14:32:25,574] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 18733
+[2023-07-04 14:32:25,706] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 14:32:29,961] INFO in app: path: /web/links/b1471549-cb8e-4310-8ed7-8400e1c2da1b/delete | method: POST | status: 302 FOUND | size: 207
+[2023-07-04 14:32:30,016] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 19367
+[2023-07-04 14:32:30,044] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 14:33:12,999] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 18779
+[2023-07-04 14:33:13,127] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 14:33:15,562] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 4153
+[2023-07-04 14:33:16,191] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 18779
+[2023-07-04 14:33:16,221] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 14:33:22,899] INFO in app: path: /web/links/b6371c07-baf1-40ee-87a3-9be8083792ec/delete | method: POST | status: 302 FOUND | size: 207
+[2023-07-04 14:33:22,963] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 19070
+[2023-07-04 14:33:23,006] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 14:34:52,724] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 18789
+[2023-07-04 14:34:52,850] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 14:34:55,418] INFO in app: path: /web/links/bb128875-a0ed-4970-b2e8-f6c35aba5913/view | method: GET | status: 200 OK | size: 2752
+[2023-07-04 14:34:59,894] INFO in app: path: /web/links/bb128875-a0ed-4970-b2e8-f6c35aba5913/view | method: GET | status: 200 OK | size: 2752
+[2023-07-04 14:35:03,109] INFO in app: path: /web/links/bb128875-a0ed-4970-b2e8-f6c35aba5913/view | method: GET | status: 200 OK | size: 2752
+[2023-07-04 14:35:05,704] INFO in app: path: /web/links/2 | method: GET | status: 200 OK | size: 18721
+[2023-07-04 14:35:05,739] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 14:35:06,177] INFO in app: path: /web/links/3 | method: GET | status: 200 OK | size: 17386
+[2023-07-04 14:35:06,207] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 14:35:07,956] INFO in app: path: /web/links/be32ea0c-e502-4472-9d4b-fce07f357621/view | method: GET | status: 200 OK | size: 2845
+[2023-07-04 14:35:08,019] INFO in app: path: /web/images/be32ea0c-e502-4472-9d4b-fce07f357621 | method: GET | status: 200 OK | size: 67463
+[2023-07-04 14:35:10,829] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 4153
+[2023-07-04 14:35:11,722] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 18789
+[2023-07-04 14:35:11,760] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 14:35:12,642] INFO in app: path: /web/logs | method: GET | status: 200 OK | size: 5947
+[2023-07-04 14:35:13,409] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 18789
+[2023-07-04 14:35:13,446] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 15:46:43,482] INFO in app: path: /web/links | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-04 15:47:16,193] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 18977
+[2023-07-04 15:47:16,338] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 15:47:18,490] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 18977
+[2023-07-04 15:47:18,517] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 15:47:19,269] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 4153
+[2023-07-04 15:47:19,814] INFO in app: path: /web/upload_image | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-04 15:47:39,762] INFO in app: path: /web/upload_image | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-04 15:48:26,152] INFO in app: path: /web/upload_image | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-04 15:48:48,625] INFO in app: path: /web/upload_image | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-04 15:48:52,973] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3603
+[2023-07-04 15:55:09,591] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 4049
+[2023-07-04 15:55:33,432] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 4153
+[2023-07-04 15:55:37,880] INFO in app: path: /web/new_link | method: POST | status: 200 OK | size: 4418
+[2023-07-04 15:56:58,786] INFO in app: path: /web/new_link | method: POST | status: 200 OK | size: 5958
+[2023-07-04 15:57:06,494] INFO in app: path: /web/new_link | method: POST | status: 200 OK | size: 4420
+[2023-07-04 15:57:37,886] INFO in app: path: /web/new_link | method: POST | status: 200 OK | size: 4388
+[2023-07-04 15:57:39,955] INFO in app: path: /web/new_link | method: POST | status: 200 OK | size: 4388
+[2023-07-04 15:57:40,608] INFO in app: path: /web/new_link | method: POST | status: 200 OK | size: 4388
+[2023-07-04 15:57:45,359] INFO in app: path: /web/new_link | method: POST | status: 200 OK | size: 4388
+[2023-07-04 16:07:23,252] INFO in app: path: /web/new_link | method: POST | status: 200 OK | size: 4420
+[2023-07-04 16:07:24,788] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3603
+[2023-07-04 16:07:38,386] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3939
+[2023-07-04 16:08:18,196] INFO in app: path: /web/upload_image | method: POST | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-04 16:08:19,464] INFO in app: path: /web/upload_image | method: GET | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-04 16:08:36,385] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3603
+[2023-07-04 16:08:37,550] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3603
+[2023-07-04 16:08:38,035] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3603
+[2023-07-04 16:08:39,222] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 4153
+[2023-07-04 16:08:43,686] INFO in app: path: /web/new_link | method: POST | status: 200 OK | size: 4414
+[2023-07-04 16:08:47,895] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3603
+[2023-07-04 16:09:03,880] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3942
+[2023-07-04 18:23:10,691] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 18977
+[2023-07-04 18:23:10,810] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 18:23:14,302] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3603
+[2023-07-04 18:23:16,678] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 4153
+[2023-07-04 18:23:17,915] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3603
+[2023-07-04 18:23:29,498] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3894
+[2023-07-04 18:25:36,693] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3603
+[2023-07-04 18:25:50,569] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 4067
+[2023-07-04 18:27:13,038] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 4067
+[2023-07-04 18:28:49,725] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3603
+[2023-07-04 18:29:19,560] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 4106
+[2023-07-04 18:31:18,263] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 4106
+[2023-07-04 18:34:30,619] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3603
+[2023-07-04 18:34:49,495] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 4103
+[2023-07-04 18:40:28,873] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 4103
+[2023-07-04 18:41:17,393] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 4103
+[2023-07-04 18:43:08,065] INFO in app: path: /web/upload_image | method: POST | status: 500 INTERNAL SERVER ERROR | size: 265
+[2023-07-04 18:44:20,753] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3876
+[2023-07-04 18:44:40,506] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3876
+[2023-07-04 18:45:03,666] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3876
+[2023-07-04 18:45:59,328] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 18977
+[2023-07-04 18:45:59,489] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 18:46:06,407] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3603
+[2023-07-04 18:46:18,301] INFO in api_monitor_service: Image for url id - 0bdb5a12-a642-41ed-8298-117befd0a556 added/update.
+[2023-07-04 18:46:18,303] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3920
+[2023-07-04 18:46:38,524] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3883
+[2023-07-04 18:48:29,495] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 4100
+[2023-07-04 18:51:10,818] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3883
+[2023-07-04 18:51:24,288] INFO in api_monitor_service: Image for url id - 0bdb5a12-a642-41ed-8298-117befd0a556 added/update.
+[2023-07-04 18:51:24,290] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3920
+[2023-07-04 18:51:36,661] INFO in api_monitor_service: Image for url id - 0bdb5a12-a642-41ed-8298-117befd0a556 added/update.
+[2023-07-04 18:51:36,662] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3920
+[2023-07-04 18:51:48,445] INFO in api_monitor_service: Image for url id - 0bdb5a12-a642-41ed-8298-117befd0a556 added/update.
+[2023-07-04 18:51:48,447] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3920
+[2023-07-04 19:07:39,908] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3932
+[2023-07-04 19:08:07,771] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3899
+[2023-07-04 19:08:14,133] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3899
+[2023-07-04 19:08:27,927] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3899
+[2023-07-04 19:10:21,739] INFO in api_monitor_service: Image for url id - False
+[2023-07-04 19:10:21,866] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3899
+[2023-07-04 19:12:01,491] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3603
+[2023-07-04 19:12:14,452] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3940
+[2023-07-04 19:13:02,729] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3940
+[2023-07-04 19:14:11,615] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3899
+[2023-07-04 19:15:32,452] INFO in api_monitor_service: Image for url id - file
+[2023-07-04 19:15:32,577] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3899
+[2023-07-04 19:16:00,888] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3899
+[2023-07-04 19:19:49,071] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3899
+[2023-07-04 19:20:59,924] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3899
+[2023-07-04 19:21:11,441] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3894
+[2023-07-04 19:21:25,702] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 18977
+[2023-07-04 19:21:25,847] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 19:21:30,058] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3603
+[2023-07-04 19:21:35,797] INFO in api_monitor_service: Image for url id - 0bdb5a12-a642-41ed-8298-117befd0a556 added/update.
+[2023-07-04 19:21:35,798] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3920
+[2023-07-04 19:21:41,991] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3899
+[2023-07-04 19:22:14,563] INFO in app: path: /web/upload_image | method: POST | status: 200 OK | size: 3885
+[2023-07-04 19:22:57,562] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 4153
+[2023-07-04 19:23:04,466] INFO in app: path: /web/new_link | method: POST | status: 200 OK | size: 4406
+[2023-07-04 19:23:07,618] INFO in app: path: /web/new_link | method: POST | status: 200 OK | size: 4420
+[2023-07-04 19:23:29,580] INFO in app: path: /web/new_link | method: POST | status: 200 OK | size: 4402
+[2023-07-04 19:25:55,590] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 4153
+[2023-07-04 19:26:08,321] INFO in app: path: /web/new_link | method: POST | status: 200 OK | size: 4402
+[2023-07-04 19:27:01,133] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 18973
+[2023-07-04 19:27:01,173] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 19:27:02,513] INFO in app: path: /web/links/2 | method: GET | status: 200 OK | size: 18729
+[2023-07-04 19:27:02,536] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 19:27:02,893] INFO in app: path: /web/links/3 | method: GET | status: 200 OK | size: 6511
+[2023-07-04 19:27:02,927] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 19:27:04,367] INFO in app: path: /web/links/2 | method: GET | status: 200 OK | size: 18729
+[2023-07-04 19:27:04,387] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 19:27:05,406] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 18973
+[2023-07-04 19:27:05,470] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+[2023-07-04 19:27:06,469] INFO in app: path: /web/logs | method: GET | status: 200 OK | size: 5713
+[2023-07-04 19:27:07,098] INFO in app: path: /web/upload_image | method: GET | status: 200 OK | size: 3603
+[2023-07-04 19:27:07,578] INFO in app: path: /web/new_link | method: GET | status: 200 OK | size: 4153
+[2023-07-04 19:27:08,071] INFO in app: path: /web/links | method: GET | status: 200 OK | size: 18973
+[2023-07-04 19:27:08,103] INFO in app: path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583

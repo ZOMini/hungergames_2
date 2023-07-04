@@ -3,6 +3,7 @@ import logging
 
 from flask import (
     Blueprint,
+    flash,
     make_response,
     redirect,
     render_template,
@@ -28,6 +29,7 @@ def get_link(link_id):
     link = db_session.scalar(select(Link).filter(Link.id == link_id))
     return render_template('link.html', link=link)
 
+
 @pages.route('/new_link', methods=['GET', 'POST'])
 def new_link():
     if request.method == 'POST':
@@ -36,31 +38,36 @@ def new_link():
               link_obj = Link(request.form['url'])
               db_session.add(link_obj)
               db_session.commit()
+              flash('Url added.')
             elif 'file' in request.files:
               result = ApiMonitorService.post_links(False)
-              return render_template_string(str(result))
+              flash(f'Urls from file added. - {str(result)}')
         except Exception as e:
             logging.getLogger('console').info('Url add error - %s', e.args)
             db_session.rollback()
-            return render_template_string(str(e.args))
-        return redirect(url_for('pages.index'))
+            flash(str(e.args))
+        # return redirect(url_for('pages.links'))
     return render_template('add_links.html', urlform=form.UrlButtonForm(), fileform=form.FileButtonForm())
+
 
 @pages.route('/upload_image', methods=['GET', 'POST'])
 def upload_image():
+    _form = form.IdFileButtonForm(request.form)
     if request.method == 'POST':
         try:
+            _form.validate()
             if 'file' in request.files and 'id' in request.form:
-              id = request.form['id']
-              ApiMonitorService.post_image(id, False)
-              return render_template_string(f'Image for id {id} uploaded.')
+                id = request.form['id']
+                ApiMonitorService.post_image(id, False)
+                flash(f'Image for id {id} uploaded.')
             else:
-              return render_template_string('Check id and file.')
+                flash(f'Check id and file. {_form.errors}')
         except Exception as e:
             logging.getLogger('console').info('Image add error - %s.', e.args)
             db_session.rollback()
-            return render_template_string(str(e.args))
+            flash(str(e.args))
     return render_template('add_image.html', id_file_form=form.IdFileButtonForm())
+
 
 @pages.route('/logs', defaults={'pagenum': 1})
 @pages.route('/logs/<int:pagenum>')
@@ -70,6 +77,7 @@ def logs(pagenum):
         logs_list = [i.rstrip() for i in log_file.readlines()]
         logs_list.reverse()
     return render_template('logs.html', listing=PageResult(logs_list, pagenum))
+
 
 @pages.route('/', defaults={'page': 1})
 @pages.route('/links', defaults={'page': 1})
@@ -92,7 +100,8 @@ def view_link(link_id):
     url = link.get_url()
     if link:
         return render_template('link.html', link=link, image=image, url=url)
-    return f'Could not view link {link_id} as it does not exist. Return to <a href="/web/links">links</a>.'
+    flash(f'Could not view link {link_id} as it does not exist.')
+    return redirect(url_for('pages.links'))
 
 
 @pages.route('/links/<string:link_id>/delete', methods=['POST'])
@@ -101,8 +110,11 @@ def delete_link(link_id):
     if link:
         db_session.delete(link)
         db_session.commit()
-        return f'Link {link_id} has been deleted. Return to <a href="/web/links">links</a>.'
-    return f'Link {link_id} did not exist and could therefore not be deleted. Return to <a href="/web/links">links</a>.'
+        flash(f'Link {link_id} has been deleted.')
+    else:
+        flash(f'Link {link_id} did not exist and could therefore not be deleted.')
+    return redirect(url_for('pages.links'))
+
 
 @pages.route('/images/<string:pid>')
 def get_image(pid):

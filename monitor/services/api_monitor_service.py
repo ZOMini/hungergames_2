@@ -105,9 +105,12 @@ class ApiMonitorService():
             except Exception as e:
                 db_session.rollback()
                 return jsonify(e.args), HTTP.BAD_REQUEST
+        # web вариант
         if 'file' not in request.files:
             raise FileNotFoundError('File not found.')
         file = request.files['file']
+        if not file.filename.endswith(('.jpeg', '.jpg', '.png')):
+            raise ValueError('Only .jpeg .jpg .png file')
         link_obj = db_session.scalar(select(Link).filter(Link.id == link_id).limit(1))
         if not link_obj:
             raise ValueError('Link by id not found')

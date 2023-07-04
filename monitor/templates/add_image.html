@@ -4,14 +4,5 @@
 
 {% block content %}
   <h1>Add image</h1>
-  {% with messages = get_flashed_messages() %}
-    {% if messages %}
-      <ul class="flashes">
-        {% for message in messages %}
-          <li>{{ message }}</li>
-        {% endfor %}
-      </ul>
-    {% endif %}
-  {% endwith %}
   {{ render_form(id_file_form) }}
 {% endblock %}

@@ -4,15 +4,6 @@
 
 {% block content %}
   <h1>Add New Link / Add zip file with links</h1>
-  {% with messages = get_flashed_messages() %}
-    {% if messages %}
-      <ul class="flashes">
-        {% for message in messages %}
-          <li>{{ message }}</li>
-        {% endfor %}
-      </ul>
-    {% endif %}
-  {% endwith %}
     {{ render_form(urlform) }}
     {{ render_form(fileform) }}
 
