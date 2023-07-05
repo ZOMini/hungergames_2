@@ -2,8 +2,6 @@
 - Задание - [Test Task](https://github.com/ZOMini/hungergames_2/blob/a57414f7e9a6d9db581f7095d8bbd175585480ff/README.md)
 
 ## Info
-- Успел только backend. На flask первый опыт.
-- Front буду делать, но уже после дедлайна, видимо для себя:).
 - Авторизация отключина, для упрощения тестирования. Включить можно в [env.yaml](https://github.com/ZOMini/hungergames_2/blob/af54f1f9d861ba34e623edd33c6b9ab78b08662b/monitor/env.yaml) {app.jwt.disabled_in_api}, все работает.
 - Тестировать проще через документацию.
 
