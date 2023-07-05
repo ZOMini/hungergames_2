@@ -2,6 +2,7 @@
 {% extends 'base.html' %}
 {% from 'bootstrap5/table.html' import render_table %}
 {% from 'bootstrap5/pagination.html' import render_pager, render_pagination %}
+{% from 'bootstrap5/form.html' import render_form, render_field, render_form_row %}
 {% block content %}
 <html>
 <head>
@@ -9,10 +10,15 @@
 </head>
 <body>
     <h1>Links</h1>
+    <form method="post">
+    {{ filter.csrf_token() }}
+    {{ render_form_row([filter.available, filter.domain_name, filter.domain_zone], col_map={'available': 'col-md-2', 'domain_name': 'col-md-2', 'domain_zone': 'col-md-2'}) }}
+    {{ render_form_row([filter.submit]) }}
+    <form method="post">
     {{ render_table(data, titles, urlize_columns=('url'), show_actions=True, model=Link,
                 view_url=('pages.view_link', [('link_id', ':id')]),
                 delete_url=('pages.delete_link', [('link_id', ':id')]), ) }}
-    {{ render_pager(pagination) }}
+    {{ render_pagination(pagination) }}
 </body>
 </html>
 {% endblock %}

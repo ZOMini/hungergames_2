@@ -19,7 +19,6 @@ from sqlalchemy.orm import (
     DeclarativeBase,
     Mapped,
     MappedAsDataclass,
-    QueryPropertyDescriptor,
     mapped_column
 )
 from sqlalchemy.sql import func
@@ -44,6 +43,7 @@ class Base(DeclarativeBase):
 
 
 Base.query = db_session.query_property()
+
 
 class User(MappedAsDataclass, Base):
     __tablename__ = 'users'

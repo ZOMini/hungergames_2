@@ -7,7 +7,6 @@ from flask import (
     make_response,
     redirect,
     render_template,
-    render_template_string,
     request,
     url_for
 )
@@ -20,14 +19,9 @@ from db.models_db import Link
 from services.api_monitor_service import ApiMonitorService
 from web import form
 from web.pagination import PageResult
+from web.query_filters import query_filers
 
 pages = Blueprint('pages', __name__)
-
-
-@pages.route('/link/<string:link_id>')
-def get_link(link_id):
-    link = db_session.scalar(select(Link).filter(Link.id == link_id))
-    return render_template('link.html', link=link)
 
 
 @pages.route('/new_link', methods=['GET', 'POST'])
@@ -35,18 +29,17 @@ def new_link():
     if request.method == 'POST':
         try:
             if 'url' in request.form:
-              link_obj = Link(request.form['url'])
-              db_session.add(link_obj)
-              db_session.commit()
-              flash('Url added.')
+                link_obj = Link(request.form['url'])
+                db_session.add(link_obj)
+                db_session.commit()
+                flash('Url added.')
             elif 'file' in request.files:
-              result = ApiMonitorService.post_links(False)
-              flash(f'Urls from file added. - {str(result)}')
+                result = ApiMonitorService.post_links(False)
+                flash(f'Urls from file added. - {str(result)}')
         except Exception as e:
             logging.getLogger('console').info('Url add error - %s', e.args)
             db_session.rollback()
             flash(str(e.args))
-        # return redirect(url_for('pages.links'))
     return render_template('add_links.html', urlform=form.UrlButtonForm(), fileform=form.FileButtonForm())
 
 
@@ -79,18 +72,20 @@ def logs(pagenum):
     return render_template('logs.html', listing=PageResult(logs_list, pagenum))
 
 
-@pages.route('/', defaults={'page': 1})
-@pages.route('/links', defaults={'page': 1})
-@pages.route('/links/<int:page>')
+@pages.route('/', defaults={'page': 1}, methods=['GET', 'POST'])
+@pages.route('/links', defaults={'page': 1}, methods=['GET', 'POST'])
+@pages.route('/links/<int:page>', methods=['GET', 'POST'])
 def links(page):
-    pagination = db.paginate(db.select(Link), page=page, per_page=10)
+    if query := query_filers():  # Если пост запрос с фильтрами.
+        return query
+    pagination = db.paginate(db.select(Link).filter_by(**request.args), page=page, per_page=10)
     links = pagination.items
-    titles = [('id', 'id'), ('url', 'url'), ('linkstatus', 'linkstatus'), ('lasttime', 'lasttime')]
+    titles = [('id', 'id'), ('url', 'url'), ('available', 'available'), ('lasttime', 'lasttime')]
     data = []
     for link in links:
         url = link.get_url()
-        data.append({'id': link.id, 'url': url, 'linkstatus': link.linkstatus, 'lasttime': link.lasttime})
-    return render_template('links.html', titles=titles, Link=Link, data=data, links=links, pagination=pagination)
+        data.append({'id': link.id, 'url': url, 'available': link.available, 'lasttime': link.lasttime})
+    return render_template('links.html', titles=titles, Link=Link, data=data, pagination=pagination, filter=form.LinksFilterForm())
 
 
 @pages.route('/links/<string:link_id>/view')

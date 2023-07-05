@@ -85,7 +85,6 @@ class ApiMonitorService():
         result['successfully'] = len(result['successfully'])
         return result
 
-
     @classmethod
     def post_image(cls, link_id, api=True):
         # Тоже используем в API и в web.

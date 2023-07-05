@@ -1,4 +1,3 @@
-import logging
 import uuid
 
 from flask_wtf import FlaskForm
@@ -27,3 +26,8 @@ class IdFileButtonForm(FlaskForm):
             raise ValueError('Invalid UUID.')
 
 
+class LinksFilterForm(FlaskForm):
+    available = fields.SelectField('Available', choices=[('all', 'All'), ('True', 'True'), ('False', 'False')])
+    domain_name = fields.StringField('Domain name')
+    domain_zone = fields.StringField('Domain zone')
+    submit = fields.SubmitField('Filter')
