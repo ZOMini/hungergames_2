@@ -8,13 +8,11 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_wtf import CSRFProtect
 
 from core.config import settings
-from core.logger import init_loggers
 
 
 def create_app():
     UPLOAD_FOLDER = 'uploads/'
     ALLOWED_EXTENSIONS = {'zip'}
-    init_loggers()
     db = SQLAlchemy()
     migrate = Migrate()
     bootstrap = Bootstrap5()

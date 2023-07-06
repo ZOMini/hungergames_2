@@ -6,6 +6,7 @@ from api.v1.auth import auth
 from api.v1.monitor import monitor
 from core.app import app
 from core.docs import init_docs
+from core.logger import console_logger
 from services.jwt_service import *  # Регистрируем JWT
 from web.pages import pages
 

@@ -10,7 +10,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 
 from core.config import settings
 from core.http_client import get_http_client
-from core.logger import init_loggers
+from core.logger import console_logger, file_logger
 from db.connection_db import get_db_contextmanager
 from db.models_db import Link
 
@@ -30,7 +30,7 @@ class WorkerService:
         if link.lasttime + delta_time < datetime.datetime.utcnow():
             await self.db_session.delete(link)
             self.result['deleted'] += 1
-            logging.getLogger('file').info('Link %s delete', link)
+            file_logger.info('Link %s delete', link)
             return False
         return True
 
@@ -48,16 +48,16 @@ class WorkerService:
                     link.linkstatus = r.status
                     link.lasttime = datetime.datetime.utcnow()
                     self.result['2**'] += 1
-                    logging.getLogger('file').info('Link %s available and update', url)
+                    file_logger.info('Link %s available and update', url)
                     status = r.status
                 else:
                     link.available = False
                     link.linkstatus = r.status
-                    logging.getLogger('file').info('Link %s unavailable, status %s', url, r.status)
+                    file_logger.info('Link %s unavailable, status %s', url, r.status)
                     self.result['!=2**'] += 1
                     status = r.status
         except Exception as e:
-            logging.getLogger('file').info('Link %s exception - %s', url, e.args)
+            file_logger.info('Link %s exception - %s', url, e.args)
             link.available = False
             link.linkstatus = HTTPStatus.INTERNAL_SERVER_ERROR
             self.result['exception'] += 1
@@ -77,8 +77,8 @@ class WorkerService:
         await self.db_session.commit()
         # Два варианта отчета воркера, полный в консоль, общий в файл,
         # т.к. в файле есть отдельные отчеты по каждому урлу.
-        logging.getLogger('file').info('Worker has completed the work: %s', self.result)
-        logging.getLogger('console').info('Worker has completed the work: %s \nRESULT: %s', result, self.result)
+        file_logger.info('Worker has completed the work: %s', self.result)
+        console_logger.info('Worker has completed the work: %s \nRESULT: %s', result, self.result)
         return result
 
 
@@ -91,5 +91,4 @@ async def run_works_async():
 
 
 def worker_run():
-    init_loggers()
     asyncio.run(run_works_async())

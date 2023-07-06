@@ -1,5 +1,4 @@
 import io
-import logging
 
 from flask import (
     Blueprint,
@@ -14,6 +13,7 @@ from sqlalchemy import select
 
 from core.app import db
 from core.config import settings
+from core.logger import console_logger, file_logger
 from db.connection_db import db_session
 from db.models_db import Link
 from services.api_monitor_service import ApiMonitorService
@@ -37,7 +37,7 @@ def new_link():
                 result = ApiMonitorService.post_links(False)
                 flash(f'Urls from file added. - {str(result)}')
         except Exception as e:
-            logging.getLogger('console').info('Url add error - %s', e.args)
+            console_logger.info('Url add error - %s', e.args)
             db_session.rollback()
             flash(str(e.args))
     return render_template('add_links.html', urlform=form.UrlButtonForm(), fileform=form.FileButtonForm())
@@ -56,7 +56,7 @@ def upload_image():
             else:
                 flash(f'Check id and file. {_form.errors}')
         except Exception as e:
-            logging.getLogger('console').info('Image add error - %s.', e.args)
+            console_logger.info('Image add error - %s.', e.args)
             db_session.rollback()
             flash(str(e.args))
     return render_template('add_image.html', id_file_form=form.IdFileButtonForm())
