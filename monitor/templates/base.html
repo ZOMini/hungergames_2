@@ -24,18 +24,36 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
         <div class="container">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
+                {% if current_user.is_authenticated %}
                 {{ render_nav_item('pages.links', 'Links') }}
                 {{ render_nav_item('pages.new_link', 'New Link') }}
                 {{ render_nav_item('pages.upload_image', 'Upload Image') }}
                 {{ render_nav_item('pages.logs', 'Logs') }}
+                {% else %}
+                {{ render_nav_item('pages.links', 'Links') }}
+                {% endif %}
             </ul>
         </div>
+            {% if current_user.is_authenticated %}
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="/web/auth/logout">Logout</a></li>
+                <span class="navbar-brand"> You are logged in as {{ current_user.name }} </span>
+            </ul>
+            {% else %}
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="/web/auth/register">Create account</a></li>
+            </ul>
+            <form class="d-flex" action="/web/auth/login" method="post">
+                <input class="form-control me-1" name="email" type="text" placeholder="email" aria-label="email">
+                <input class="form-control me-1" name="password" type="password" placeholder="password" aria-label="password">
+                <button  class="btn btn-outline-success" type="submit">Login</a></button>
+            </form>
+            <ul class="navbar-nav mr-auto">
+                <span class="navbar-brand">You are not logged</span>
+            </ul>
+            {% endif %}
         </div>
     </nav>
     

@@ -3,6 +3,7 @@ from datetime import timedelta
 from flask import Flask
 from flask_bootstrap import Bootstrap5
 from flask_jwt_extended import JWTManager
+from flask_login import LoginManager
 from flask_migrate import Migrate
 from flask_sqlalchemy import SQLAlchemy
 from flask_wtf import CSRFProtect
@@ -37,3 +38,5 @@ db.init_app(app)
 migrate.init_app(app, db)
 csrf = CSRFProtect(app)
 jwt = JWTManager(app)
+login_manager = LoginManager()
+login_manager.init_app(app)

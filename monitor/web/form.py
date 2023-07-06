@@ -31,3 +31,9 @@ class LinksFilterForm(FlaskForm):
     domain_name = fields.StringField('Domain name')
     domain_zone = fields.StringField('Domain zone')
     submit = fields.SubmitField('Filter')
+
+class SignupForm(FlaskForm):
+    name = fields.StringField('Name', validators=[validators.DataRequired()])
+    email = fields.EmailField('Email', validators=[validators.DataRequired()])
+    password = fields.PasswordField('Password', validators=[validators.DataRequired()])
+    submit = fields.SubmitField('Submit')

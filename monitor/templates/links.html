@@ -11,8 +11,7 @@
 <body>
     <h1>Links</h1>
     <form method="post">
-    {{ filter.csrf_token() }}
-    {{ render_form_row([filter.available, filter.domain_name, filter.domain_zone], col_map={'available': 'col-md-2', 'domain_name': 'col-md-2', 'domain_zone': 'col-md-2'}) }}
+    {{ render_form_row([filter.available, filter.domain_name, filter.domain_zone], col_map={'available': 'col-md-1', 'domain_name': 'col-md-2', 'domain_zone': 'col-md-2'}) }}
     {{ render_form_row([filter.submit]) }}
     <form method="post">
     {{ render_table(data, titles, urlize_columns=('url'), show_actions=True, model=Link,

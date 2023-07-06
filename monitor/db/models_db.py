@@ -5,6 +5,7 @@ from hmac import compare_digest
 from urllib.parse import parse_qs, urlparse
 
 import tldextract
+from flask_login import UserMixin
 from sqlalchemy import (
     JSON,
     TIMESTAMP,
@@ -45,7 +46,7 @@ class Base(DeclarativeBase):
 Base.query = db_session.query_property()
 
 
-class User(MappedAsDataclass, Base):
+class User(MappedAsDataclass, Base, UserMixin):
     __tablename__ = 'users'
 
     id: Mapped[uuidpk] = mapped_column(init=False)

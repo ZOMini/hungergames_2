@@ -1,0 +1,16 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  {% extends 'base.html' %}
+  {% from 'bootstrap5/form.html' import render_form, render_field, render_form_row %}
+  {% block content %}
+  <body>
+    <h1>Create an account</h1>
+      <form method="post">
+        {{ form.csrf_token() }}
+        {{ render_form(form) }}
+      <form method="post">
+  </body>
+  {% endblock %}
+</html>

@@ -8,11 +8,13 @@ from core.app import app
 from core.docs import init_docs
 from core.logger import console_logger
 from services.jwt_service import *  # Регистрируем JWT
+from web.auth import web_auth
 from web.pages import pages
 
 app.register_blueprint(auth, url_prefix='/api/v1/auth')
 app.register_blueprint(monitor, url_prefix="/api/v1/monitor")
 app.register_blueprint(pages, url_prefix="/web")
+app.register_blueprint(web_auth, url_prefix='/web/auth')
 init_docs()
 
 

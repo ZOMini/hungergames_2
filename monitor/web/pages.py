@@ -9,6 +9,7 @@ from flask import (
     request,
     url_for
 )
+from flask_login import login_required
 from sqlalchemy import select
 
 from core.app import db
@@ -25,6 +26,7 @@ pages = Blueprint('pages', __name__)
 
 
 @pages.route('/new_link', methods=['GET', 'POST'])
+@login_required
 def new_link():
     if request.method == 'POST':
         try:
@@ -44,6 +46,7 @@ def new_link():
 
 
 @pages.route('/upload_image', methods=['GET', 'POST'])
+@login_required
 def upload_image():
     _form = form.IdFileButtonForm(request.form)
     if request.method == 'POST':
@@ -64,6 +67,7 @@ def upload_image():
 
 @pages.route('/logs', defaults={'pagenum': 1})
 @pages.route('/logs/<int:pagenum>')
+@login_required
 def logs(pagenum):
     with open(settings.app.logger.file, newline='',
               encoding=settings.app.logger.encoding) as log_file:
@@ -89,6 +93,7 @@ def links(page):
 
 
 @pages.route('/links/<string:link_id>/view')
+@login_required
 def view_link(link_id):
     link = db_session.scalar(select(Link).filter(Link.id == link_id))
     image = io.BytesIO(link.filedata)
@@ -100,6 +105,7 @@ def view_link(link_id):
 
 
 @pages.route('/links/<string:link_id>/delete', methods=['POST'])
+@login_required
 def delete_link(link_id):
     link = db_session.scalar(select(Link).filter(Link.id == link_id))
     if link:
@@ -112,6 +118,7 @@ def delete_link(link_id):
 
 
 @pages.route('/images/<string:pid>')
+@login_required
 def get_image(pid):
     link = db_session.scalar(select(Link).filter(Link.id == pid))
     if link.filedata:
