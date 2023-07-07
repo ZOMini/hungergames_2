@@ -32,7 +32,6 @@ def register():
 
 
 @web_auth.route("/login", methods=["GET", "POST"])
-@csrf.exempt
 def login():
     if request.method == "POST":
         password = request.form.get("password")

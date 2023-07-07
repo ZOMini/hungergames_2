@@ -14,12 +14,13 @@ from sqlalchemy import select
 
 from core.app import db
 from core.config import settings
-from core.logger import console_logger, file_logger
+from core.logger import console_logger
 from db.connection_db import db_session
 from db.models_db import Link
 from services.api_monitor_service import ApiMonitorService
 from web import form
 from web.pagination import PageResult
+from web.pdf import post_download_pdf
 from web.query_filters import query_filers
 
 pages = Blueprint('pages', __name__)
@@ -65,15 +66,20 @@ def upload_image():
     return render_template('add_image.html', id_file_form=form.IdFileButtonForm())
 
 
-@pages.route('/logs', defaults={'pagenum': 1})
-@pages.route('/logs/<int:pagenum>')
+@pages.route('/logs', defaults={'pagenum': 1}, methods=['GET', 'POST'])
+@pages.route('/logs/<int:pagenum>', methods=['GET', 'POST'])
 @login_required
 def logs(pagenum):
+    if request.method == 'POST':
+        # Формируем ответ с pdf файлом.
+        _response = post_download_pdf()
+        return _response
     with open(settings.app.logger.file, newline='',
               encoding=settings.app.logger.encoding) as log_file:
         logs_list = [i.rstrip() for i in log_file.readlines()]
         logs_list.reverse()
-    return render_template('logs.html', listing=PageResult(logs_list, pagenum))
+    listing=PageResult(logs_list, pagenum)
+    return render_template('logs.html', listing=listing, logs=[item for item in listing])
 
 
 @pages.route('/', defaults={'page': 1}, methods=['GET', 'POST'])
