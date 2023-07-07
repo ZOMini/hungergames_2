@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+{% block content %}
+{% from 'bootstrap5/table.html' import render_table %}
+<meta http-equiv="refresh" content="5" >
+<html>
+<head>
+    <title>Events</title>
+</head>
+<body>
+    <h1>Events </h1>
+        {{ render_table(events, titles, urlize_columns=('url')) }}
+</body>
+</html>
+{% endblock %}

@@ -20,7 +20,7 @@ init_docs()
 
 @app.after_request
 def logAfterRequest(response: Response):
-    _ignore = ('/web/logs', '/bootstrap/static')
+    _ignore = ('/web/logs', '/web/events', '/bootstrap/static')
     if not any(re.match(f"{de}$", request.path) for de in _ignore):
         file_logger.info(
             "path: %s | method: %s | status: %s | size: %s",

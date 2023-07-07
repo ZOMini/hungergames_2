@@ -12,7 +12,7 @@ from core.config import settings
 from core.http_client import get_http_client
 from core.logger import console_logger, file_logger
 from db.connection_db import get_db_contextmanager
-from db.models_db import Link
+from db.models_db import Event, Link
 
 
 class WorkerService:
@@ -28,6 +28,7 @@ class WorkerService:
     async def check_lasttime(self, link: Link) -> bool:
         delta_time = datetime.timedelta(minutes=settings.app.worker.time_of_unavailability)
         if link.lasttime + delta_time < datetime.datetime.utcnow():
+            self.db_session.add(Event(url=link.get_url(), event='url deleted'))
             await self.db_session.delete(link)
             self.result['deleted'] += 1
             file_logger.info('Link %s delete', link)
@@ -43,6 +44,8 @@ class WorkerService:
         try:
             async with self.http_session.get(url) as r:
                 # При редиректах все равно прилетает 200. Но < 400 на всякий.
+                if r.status != link.linkstatus:
+                    self.db_session.add(Event(link_id=link.id, url=link.get_url(), event=f'url has changed its status - {r.status}'))
                 if r.status < 400:
                     link.available = True
                     link.linkstatus = r.status
@@ -57,6 +60,8 @@ class WorkerService:
                     self.result['!=2**'] += 1
                     status = r.status
         except Exception as e:
+            if link.linkstatus == HTTPStatus.OK:
+                self.db_session.add(Event(link_id=link.id, url=link.get_url(), event=f'url has changed its status - 500'))
             file_logger.info('Link %s exception', url)
             link.available = False
             link.linkstatus = HTTPStatus.INTERNAL_SERVER_ERROR

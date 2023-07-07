@@ -16,7 +16,7 @@ from core.app import db
 from core.config import settings
 from core.logger import console_logger
 from db.connection_db import db_session
-from db.models_db import Link
+from db.models_db import Event, Link
 from services.api_monitor_service import ApiMonitorService
 from web import form
 from web.pagination import PageResult
@@ -101,10 +101,11 @@ def links(page):
 @pages.route('/links/<string:link_id>/view')
 @login_required
 def view_link(link_id):
-    link = db_session.scalar(select(Link).filter(Link.id == link_id))
+    link = db_session.scalar(select(Link).filter(Link.id == link_id).join(Link.events))
     image = io.BytesIO(link.filedata)
     url = link.get_url()
     if link:
+        console_logger.info(link.events)
         return render_template('link.html', link=link, image=image, url=url)
     flash(f'Could not view link {link_id} as it does not exist.')
     return redirect(url_for('pages.links'))
@@ -134,3 +135,14 @@ def get_image(pid):
             'Content-Disposition', 'attachment', filename='%s.jpg' % pid)
         return response
     return {}
+
+
+@pages.route('/events')
+@login_required
+def events():
+    events = db_session.scalars(select(Event).order_by(Event.timestamp.desc()).limit(10))
+    titles = [('timestamp', 'Time'), ('url', 'Url'), ('event', 'Event')]
+    data = []
+    for event in events:
+        data.append({'timestamp': event.timestamp, 'url': event.url, 'event': event.event})
+    return render_template('events.html', events=data, titles=titles)

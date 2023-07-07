@@ -14,6 +14,14 @@
     {% if link.filedata %}
     <img src= {{ url_for('pages.get_image', pid=link.id) }} width="400" height="400">
     {% endif %}
+    {% if link.events %}
+    <h6>Events: </h6>
+    <ul>
+        {% for event in link.events %}
+          <li>{{ event.timestamp }}  {{ event.event }} </li>
+        {% endfor %}
+    </ul>
+    {% endif %}
 </body>
 </html>
 {% endblock %}

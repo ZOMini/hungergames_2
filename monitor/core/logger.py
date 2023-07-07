@@ -2,52 +2,16 @@ import logging
 import queue
 import re
 import sys
-from logging.config import dictConfig
 from logging.handlers import QueueListener, RotatingFileHandler
 
 from werkzeug import serving
 
 from core.config import settings
 
-dictconfig = {
-    "version": 1,
-    "formatters": {
-        "default": {
-            "format": "[%(asctime)s] %(levelname)s in %(module)s: %(message)s",
-        }
-    },
-    "handlers": {
-        "console": {
-            "class": "logging.StreamHandler",
-            "stream": "ext://sys.stdout",
-            "formatter": "default",
-        },
-        "size-rotate": {
-            "class": "logging.handlers.RotatingFileHandler",
-            "filename": settings.app.logger.file,
-            "maxBytes": 1024 * 1024,
-            "backupCount": 5,
-            "formatter": "default",
-        },
-    },
-    "loggers": {
-        "file": {
-            "level": "INFO",
-            "handlers": ["size-rotate"],
-            "propagate": False,
-        },
-        "console": {
-            "level": "INFO",
-            "handlers": ["console"],
-            "propagate": False,
-        },
-    },
-}
-
 
 def disable_endpoint_logs():
     """Disable logs for requests to specific endpoints."""
-    disabled_endpoints = ('/web/logs', '/bootstrap/static')
+    disabled_endpoints = ('/web/logs', '/web/events', '/bootstrap/static')
     parent_log_request = serving.WSGIRequestHandler.log_request
 
     def log_request(self, *args, **kwargs):
@@ -74,7 +38,6 @@ def init_loggers(answer=False):
     disable_endpoint_logs()
     if answer:
         return console_logger, file_logger
-    # dictConfig(dictconfig)
 
 
 console_logger, file_logger = init_loggers(True)
