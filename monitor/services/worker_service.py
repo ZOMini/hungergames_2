@@ -53,11 +53,11 @@ class WorkerService:
                 else:
                     link.available = False
                     link.linkstatus = r.status
-                    file_logger.info('Link %s unavailable, status %s', url, r.status)
+                    file_logger.info('Link %s unavailable status %s', url, r.status)
                     self.result['!=2**'] += 1
                     status = r.status
         except Exception as e:
-            file_logger.info('Link %s exception - %s', url, e.args)
+            file_logger.info('Link %s exception', url)
             link.available = False
             link.linkstatus = HTTPStatus.INTERNAL_SERVER_ERROR
             self.result['exception'] += 1
