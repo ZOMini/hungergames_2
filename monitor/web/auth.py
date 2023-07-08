@@ -19,40 +19,48 @@ def loader_user(user_id):
     return db_session.get(User, user_id)
 
 
-@web_auth.route('/register', methods=["GET", "POST"])
+@login_manager.unauthorized_handler
+def unauthorized():
+    flash('Authorization needed')
+    return redirect(url_for('pages.links'))
+
+
+@web_auth.route('/register', methods=['GET', 'POST'])
 def register():
-    if request.method == "POST":
+    if request.method == 'POST':
         try:
-            user = User(email=request.form.get("email"),
-                        name=request.form.get("name"),
-                        password=request.form.get("password"))
+            if request.form.get('password') != request.form.get('confirm'):
+                raise Exception
+            user = User(email=request.form.get('email'),
+                        name=request.form.get('name'),
+                        password=request.form.get('password'))
             db.session.add(user)
             db.session.commit()
-            return redirect(url_for("pages.links"))
+            return redirect(url_for('pages.links'))
         except Exception:
-            flash('Check name, email, password')
-            return redirect(url_for("web_auth.register"))
-    return render_template("sign_up.html", form=form.SignupForm())
+            flash('Check name, email, password, password confirm')
+            return redirect(url_for('web_auth.register'))
+    return render_template('sign_up.html', form=form.SignupForm())
 
 
-@web_auth.route("/login", methods=["GET", "POST"])
+@web_auth.route('/login', methods=['GET', 'POST'])
 def login():
-    if request.method == "POST":
-        password = request.form.get("password")
-        email = request.form.get("email")
+    if request.method == 'POST':
+        password = request.form.get('password')
+        email = request.form.get('email')
         user = db.session.scalar(select(User).filter_by(email=email))
         if not email or not password or not user:
             flash('Check your email and password.')
-            return redirect(url_for("pages.links"))
+            return redirect(url_for('pages.links'))
         if user.check_password(password=password, email=email):
             login_user(user)
-            return redirect(url_for("pages.links"))
+            return redirect(url_for('pages.links'))
         flash('Check your email and password.')
-    return redirect(url_for("pages.links"))
+    return redirect(url_for('pages.links'))
 
 
-@web_auth.route("/logout")
+@web_auth.route('/logout')
 def logout():
     logout_user()
-    return redirect(url_for("pages.links"))
+    return redirect(url_for('pages.links'))
 

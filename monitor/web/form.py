@@ -37,4 +37,5 @@ class SignupForm(FlaskForm):
     name = fields.StringField('Name', validators=[validators.DataRequired()])
     email = fields.EmailField('Email', validators=[validators.DataRequired()])
     password = fields.PasswordField('Password', validators=[validators.DataRequired()])
+    confirm = fields.PasswordField('Confirm', validators=[validators.DataRequired()])
     submit = fields.SubmitField('Submit')
