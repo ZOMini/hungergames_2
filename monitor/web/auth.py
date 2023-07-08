@@ -5,9 +5,13 @@ from sqlalchemy import select
 from core.app import csrf, db, login_manager
 from db.connection_db import db_session
 from db.models_db import User
+from services import error_handlers
 from web import form
 
 web_auth = Blueprint('web_auth', __name__)
+web_auth.register_error_handler(404, error_handlers.error_404)
+web_auth.register_error_handler(500, error_handlers.error_500)
+web_auth.register_error_handler(400, error_handlers.error_400)
 
 
 @login_manager.user_loader

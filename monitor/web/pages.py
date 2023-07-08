@@ -17,6 +17,7 @@ from core.config import settings
 from core.logger import console_logger
 from db.connection_db import db_session
 from db.models_db import Event, Link
+from services import error_handlers
 from services.api_monitor_service import ApiMonitorService
 from web import form
 from web.pagination import PageResult
@@ -24,6 +25,9 @@ from web.pdf import post_download_pdf
 from web.query_filters import query_filers
 
 pages = Blueprint('pages', __name__)
+pages.register_error_handler(404, error_handlers.error_404)
+pages.register_error_handler(500, error_handlers.error_500)
+pages.register_error_handler(400, error_handlers.error_400)
 
 
 @pages.route('/new_link', methods=['GET', 'POST'])
@@ -136,13 +140,15 @@ def get_image(pid):
         return response
     return {}
 
-
-@pages.route('/events')
+@pages.route('/events', defaults={'page': 1})
+@pages.route('/events/<int:page>')
 @login_required
-def events():
-    events = db_session.scalars(select(Event).order_by(Event.timestamp.desc()).limit(10))
+def events(page):
+    pagination = db.paginate(db.select(Event).order_by(Event.timestamp.desc()), page=page, per_page=10)
+    events = pagination.items
+    # events = db_session.scalars(select(Event).order_by(Event.timestamp.desc()).limit(10))
     titles = [('timestamp', 'Time'), ('url', 'Url'), ('event', 'Event')]
     data = []
     for event in events:
         data.append({'timestamp': event.timestamp, 'url': event.url, 'event': event.event})
-    return render_template('events.html', events=data, titles=titles)
+    return render_template('events.html', events=data, titles=titles, pagination=pagination)

@@ -27,3 +27,5 @@
   - alembic немного подкручен
   - flask db migrate -m "migration 2"
   - flask db upgrade
+
+## Misc

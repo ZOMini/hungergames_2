@@ -82,7 +82,7 @@ class WorkerService:
         await self.db_session.commit()
         # Два варианта отчета воркера, полный в консоль, общий в файл,
         # т.к. в файле есть отдельные отчеты по каждому урлу.
-        file_logger.info('Worker has completed the work: %s', self.result)
+        file_logger.info('Worker has completed the work: %s', str(self.result).replace(',', '  | '))
         console_logger.info('Worker has completed the work: %s \nRESULT: %s', result, self.result)
         return result
 

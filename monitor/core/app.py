@@ -38,5 +38,5 @@ db.init_app(app)
 migrate.init_app(app, db)
 csrf = CSRFProtect(app)
 jwt = JWTManager(app)
-login_manager = LoginManager()
-login_manager.init_app(app)
+login_manager = LoginManager(app)
+
