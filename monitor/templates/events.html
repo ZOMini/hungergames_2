@@ -3,7 +3,9 @@
 {% block content %}
 {% from 'bootstrap5/table.html' import render_table %}
 {% from 'bootstrap5/pagination.html' import render_pagination %}
+{% if url_for(request.endpoint, **request.view_args) == url_for('pages.events') %}
 <meta http-equiv="refresh" content="5" >
+{% endif %}
 <html>
 <head>
     <title>Events</title>

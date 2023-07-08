@@ -15228,3 +15228,63 @@ file 2023-07-08 19:31:06,892 INFO Link https://powerok.ru available and update
 file 2023-07-08 19:31:08,001 INFO Link https://potolki-design-spb.ru available and update
 file 2023-07-08 19:31:09,330 INFO Link http://httpbin.org/delay/3 available and update
 file 2023-07-08 19:31:09,344 INFO Worker has completed the work: {'2**': 20 | '!=2**': 0 | 'exception': 0 | 'deleted': 0}
+file 2023-07-08 20:31:55,038 INFO path: /web/new_link | method: GET | status: 200 OK | size: 4275
+file 2023-07-08 20:31:57,071 INFO path: /web/links | method: GET | status: 200 OK | size: 21330
+file 2023-07-08 20:31:57,246 INFO path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+file 2023-07-08 20:31:57,882 INFO path: /web/new_link | method: GET | status: 200 OK | size: 4275
+file 2023-07-08 20:31:58,431 INFO path: /web/upload_image | method: GET | status: 200 OK | size: 3725
+file 2023-07-08 20:32:07,076 INFO path: /web/links | method: GET | status: 200 OK | size: 21330
+file 2023-07-08 20:32:07,100 INFO path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+file 2023-07-08 20:38:08,795 INFO path: /web/logs/2 | method: GET | status: 200 OK | size: 7911
+file 2023-07-08 20:38:09,526 INFO path: /web/logs/3 | method: GET | status: 200 OK | size: 7903
+file 2023-07-08 20:38:10,687 INFO path: /web/logs/2 | method: GET | status: 200 OK | size: 7913
+file 2023-07-08 20:38:13,891 INFO path: /web/logs/2 | method: GET | status: 200 OK | size: 7913
+file 2023-07-08 20:38:24,168 INFO path: /web/logs/2 | method: GET | status: 200 OK | size: 7913
+file 2023-07-08 20:38:35,242 INFO path: /web/links | method: GET | status: 200 OK | size: 21330
+file 2023-07-08 20:38:35,369 INFO path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+file 2023-07-08 20:38:46,496 INFO path: /web/logs/2 | method: GET | status: 200 OK | size: 7877
+file 2023-07-08 20:38:49,052 INFO path: /web/links | method: GET | status: 200 OK | size: 21330
+file 2023-07-08 20:38:49,090 INFO path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+file 2023-07-08 20:40:03,437 INFO path: /web/new_link | method: GET | status: 200 OK | size: 4275
+file 2023-07-08 20:41:38,709 INFO path: /web/new_link | method: GET | status: 200 OK | size: 4275
+file 2023-07-08 20:41:45,158 INFO path: /web/new_link | method: GET | status: 200 OK | size: 4275
+file 2023-07-08 20:43:24,918 INFO path: /web/events/2 | method: GET | status: 200 OK | size: 8153
+file 2023-07-08 20:43:56,540 INFO path: /web/logs/2 | method: GET | status: 200 OK | size: 7857
+file 2023-07-08 20:44:01,685 INFO path: /web/new_link | method: GET | status: 200 OK | size: 4275
+file 2023-07-08 20:44:10,145 INFO path: /web/links | method: GET | status: 200 OK | size: 21330
+file 2023-07-08 20:44:10,282 INFO path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+file 2023-07-08 20:44:20,271 INFO path: /web/links | method: GET | status: 200 OK | size: 21330
+file 2023-07-08 20:44:20,296 INFO path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+file 2023-07-08 20:44:21,904 INFO path: /web/links | method: GET | status: 200 OK | size: 21330
+file 2023-07-08 20:44:21,927 INFO path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+file 2023-07-08 20:44:23,597 INFO path: /web/new_link | method: GET | status: 200 OK | size: 4275
+file 2023-07-08 20:44:24,688 INFO path: /web/upload_image | method: GET | status: 200 OK | size: 3725
+file 2023-07-08 20:44:26,293 INFO path: /web/links | method: GET | status: 200 OK | size: 21330
+file 2023-07-08 20:44:26,325 INFO path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+file 2023-07-08 20:44:27,603 INFO path: /web/links/36eb283b-317c-496a-93f6-520a31b84136/view | method: GET | status: 200 OK | size: 2999
+file 2023-07-08 20:44:30,167 INFO path: /web/links | method: GET | status: 200 OK | size: 21330
+file 2023-07-08 20:44:30,221 INFO path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+file 2023-07-08 20:44:32,845 INFO path: /web/links/2 | method: GET | status: 200 OK | size: 21424
+file 2023-07-08 20:44:32,870 INFO path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+file 2023-07-08 20:44:33,974 INFO path: /web/links/3 | method: GET | status: 200 OK | size: 21322
+file 2023-07-08 20:44:34,044 INFO path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+file 2023-07-08 20:44:35,129 INFO path: /web/links/2 | method: GET | status: 200 OK | size: 21424
+file 2023-07-08 20:44:35,156 INFO path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+file 2023-07-08 20:44:39,081 INFO path: /web/links/665f4c48-4bc9-401f-9064-63d03e216363/view | method: GET | status: 200 OK | size: 3088
+file 2023-07-08 20:44:44,952 INFO path: /web/upload_image | method: GET | status: 200 OK | size: 3725
+file 2023-07-08 20:44:46,651 INFO path: /web/new_link | method: GET | status: 200 OK | size: 4275
+file 2023-07-08 20:44:47,441 INFO path: /web/links | method: GET | status: 200 OK | size: 21330
+file 2023-07-08 20:44:47,474 INFO path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+file 2023-07-08 20:44:50,304 INFO path: /web/links | method: GET | status: 200 OK | size: 21330
+file 2023-07-08 20:44:50,333 INFO path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+file 2023-07-08 20:45:06,171 INFO path: /web/new_link | method: GET | status: 200 OK | size: 4275
+file 2023-07-08 20:45:06,579 INFO path: /web/upload_image | method: GET | status: 200 OK | size: 3725
+file 2023-07-08 20:45:08,770 INFO path: /web/upload_image | method: GET | status: 200 OK | size: 3725
+file 2023-07-08 20:45:10,353 INFO path: /web/links | method: GET | status: 200 OK | size: 21330
+file 2023-07-08 20:45:10,383 INFO path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+file 2023-07-08 20:45:16,065 INFO path: /web/links/36eb283b-317c-496a-93f6-520a31b84136/view | method: GET | status: 200 OK | size: 2999
+file 2023-07-08 20:46:11,424 INFO path: /web/new_link | method: GET | status: 200 OK | size: 4275
+file 2023-07-08 20:46:11,889 INFO path: /web/upload_image | method: GET | status: 200 OK | size: 3725
+file 2023-07-08 20:46:13,953 INFO path: /web/links | method: GET | status: 200 OK | size: 21330
+file 2023-07-08 20:46:13,988 INFO path: /bootstrap/static/icons/bootstrap-icons.svg | method: GET | status: 304 NOT MODIFIED | size: 972583
+file 2023-07-08 20:46:20,475 INFO path: /web/upload_image | method: GET | status: 200 OK | size: 3725

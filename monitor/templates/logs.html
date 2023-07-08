@@ -2,7 +2,9 @@
 {% extends 'base.html' %}
 {% from 'bootstrap5/form.html' import render_form, render_form_row %}
 {% block content %}
+{% if url_for(request.endpoint, **request.view_args) == url_for('pages.logs') %}
 <meta http-equiv="refresh" content="5" >
+{% endif %}
 <html>
 <head>
     <title>Logs</title>

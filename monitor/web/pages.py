@@ -109,7 +109,6 @@ def view_link(link_id):
     image = io.BytesIO(link.filedata)
     url = link.get_url()
     if link:
-        console_logger.info(link.events)
         return render_template('link.html', link=link, image=image, url=url)
     flash(f'Could not view link {link_id} as it does not exist.')
     return redirect(url_for('pages.links'))
