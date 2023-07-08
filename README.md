@@ -20,7 +20,7 @@
 - {GET} http://127.0.0.1/api/v1/monitor/logs
 
 ## Urls(web)
-- http://127.0.0.1/web/  - далее все ссылки на панели навигации
+- http://127.0.0.1/web/  - далее все ссылки на панели навигации(создаем пользователя, логинемся, открываются все ссылки)
 
 ## Migration
 - Базовые миграции - автоматом. Если нужны доп. миграции то:
@@ -29,3 +29,7 @@
   - flask db upgrade
 
 ## Misc
+- win
+  - celery -A app_celery.tasks worker -P thread --loglevel=INFO
+- linux
+  - celery -A app_celery.tasks worker -P gevent --loglevel=INFO

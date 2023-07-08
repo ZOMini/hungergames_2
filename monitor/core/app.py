@@ -1,6 +1,6 @@
 from datetime import timedelta
 
-from flask import Flask
+from flask import Flask, jsonify, render_template, request
 from flask_bootstrap import Bootstrap5
 from flask_jwt_extended import JWTManager
 from flask_login import LoginManager
@@ -26,9 +26,6 @@ def create_app():
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     app.config['JWT_SECRET_KEY'] = settings.app.jwt.secret_key
     app.config['JWT_ACCESS_TOKEN_EXPIRES'] = timedelta(minutes=settings.app.jwt.access_token_expires)
-    # bootstrap.init_app(app)
-    # db.init_app(app)
-    # migrate.init_app(app, db)
     return app, db, migrate, bootstrap
 
 
@@ -40,3 +37,22 @@ csrf = CSRFProtect(app)
 jwt = JWTManager(app)
 login_manager = LoginManager(app)
 
+
+# Error handlers
+@app.errorhandler(500)
+def error_500(e):
+    if request.path.startswith('/api/'):
+        return jsonify(message='Internal Server Error'), 500
+    return render_template('500.html'), 500
+
+@app.errorhandler(400)
+def error_400(e):
+    if request.path.startswith('/api/'):
+        return jsonify(message='Bad request'), 400
+    return render_template('400.html'), 400
+
+@app.errorhandler(404)
+def error_404(e):
+    if request.path.startswith('/api/'):
+        return jsonify(message='Not found'), 404
+    return render_template('404.html'), 404
