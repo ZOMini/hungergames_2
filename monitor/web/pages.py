@@ -1,4 +1,6 @@
 import io
+import random
+import sys
 
 from flask import (
     Blueprint,
@@ -116,6 +118,7 @@ def delete_link(link_id):
     link = db_session.scalar(select(Link).filter(Link.id == link_id))
     if link:
         db_session.delete(link)
+        db_session.add(Event(url=link.get_url(), event='url deleted'))
         db_session.commit()
         flash(f'Link {link_id} has been deleted.')
     else:
@@ -147,3 +150,12 @@ def events(page):
     for event in events:
         data.append({'timestamp': event.timestamp, 'url': event.url, 'event': event.event})
     return render_template('events.html', events=data, titles=titles, pagination=pagination)
+
+
+# @pages.context_processor
+# def inject_logs_sub():
+#     with open(settings.app.logger.file, newline='',
+#               encoding=settings.app.logger.encoding) as log_file:
+#         listing = [i.rstrip() for i in log_file.readlines()[-20:]]  # Последние 10 строк логов.
+#         listing.reverse()
+#     return {'listing': listing}

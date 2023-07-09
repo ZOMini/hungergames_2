@@ -7,6 +7,7 @@ from flask_login import LoginManager
 from flask_migrate import Migrate
 from flask_sqlalchemy import SQLAlchemy
 from flask_wtf import CSRFProtect
+from turbo_flask import Turbo
 
 from core.config import settings
 
@@ -17,6 +18,7 @@ def create_app():
     db = SQLAlchemy()
     migrate = Migrate()
     bootstrap = Bootstrap5()
+    turbo = Turbo()
     app = Flask('HungerGames')
     app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
     app.config['ALLOWED_EXTENSIONS'] = ALLOWED_EXTENSIONS
@@ -26,16 +28,20 @@ def create_app():
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     app.config['JWT_SECRET_KEY'] = settings.app.jwt.secret_key
     app.config['JWT_ACCESS_TOKEN_EXPIRES'] = timedelta(minutes=settings.app.jwt.access_token_expires)
-    return app, db, migrate, bootstrap
+    app.config['TEMPLATES_AUTO_RELOAD'] = True
+    app.config["SESSION_PERMANENT"] = False
+    app.config["SESSION_TYPE"] = "filesystem"
+    return app, db, migrate, bootstrap, turbo
 
 
-app, db, migrate, bootstrap = create_app()
+app, db, migrate, bootstrap, turbo = create_app()
 bootstrap.init_app(app)
 db.init_app(app)
 migrate.init_app(app, db)
 csrf = CSRFProtect(app)
 jwt = JWTManager(app)
 login_manager = LoginManager(app)
+turbo.init_app(app)
 
 
 # Error handlers

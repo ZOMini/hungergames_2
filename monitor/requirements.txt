@@ -23,3 +23,4 @@ bootstrap-flask==2.2.0
 flask-wtf==1.1.1
 flask-login==0.6.2
 reportlab==4.0.4
+turbo_flask==0.8.4
