@@ -11,7 +11,7 @@ from core.config import settings
 
 def disable_endpoint_logs():
     """Disable logs for requests to specific endpoints."""
-    disabled_endpoints = ('/web/logs', '/web/events', '/bootstrap/static')
+    disabled_endpoints = ('/bootstrap/static/icons/bootstrap-icons.svg')
     parent_log_request = serving.WSGIRequestHandler.log_request
 
     def log_request(self, *args, **kwargs):

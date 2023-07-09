@@ -1,8 +1,9 @@
-import logging
-
 from gevent import monkey
 
-result = monkey.patch_all()
-logging.warning('Gevent result is %s', result)
+monkey.patch_all()
 
-from app import app
+from gevent.pywsgi import WSGIServer
+
+from core.app import app
+
+WSGIServer(('127.0.0.1', 5000), app).serve_forever()

@@ -11,7 +11,7 @@ from app_celery.tasks import post_urls
 from core.config import settings
 from core.logger import file_logger
 from db.connection_db import db_session
-from db.models_db import Link
+from db.models_db import Event, Link
 
 
 class ApiMonitorService():
@@ -111,6 +111,7 @@ class ApiMonitorService():
         if not file.filename.endswith(('.jpeg', '.jpg', '.png')):
             raise ValueError('Only .jpeg .jpg .png file')
         link_obj = db_session.scalar(select(Link).filter(Link.id == link_id).limit(1))
+        db_session.add(Event(link_id=link_obj.id, url=link_obj.get_url(), event=f'added image'))
         if not link_obj:
             raise ValueError('Link by id not found')
         link_obj.filename = file.filename
