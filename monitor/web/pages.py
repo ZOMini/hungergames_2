@@ -36,6 +36,7 @@ def new_link():
             if 'url' in request.form:
                 link_obj = Link(request.form['url'])
                 db_session.add(link_obj)
+                db_session.add(Event(link_id=link_obj.id, url=link_obj.get_url(), event=f'added url'))
                 db_session.commit()
                 flash('Url added.')
             elif 'file' in request.files:

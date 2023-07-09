@@ -1,7 +1,7 @@
 import re
 import threading
 
-from flask import Response, request, session
+from flask import Response, request
 
 from api.v1.auth import auth
 from api.v1.monitor import monitor
