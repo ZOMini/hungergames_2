@@ -1,6 +1,7 @@
 from flask import Blueprint
 from flask_jwt_extended import jwt_required
 
+from core.app import csrf
 from core.config import settings
 from services.user_service import UserService
 
@@ -8,6 +9,7 @@ auth = Blueprint('auth', __name__)
 
 
 @auth.route('/user_create', methods=['POST', ])
+@csrf.exempt
 def user_create():
     """
     ---
@@ -35,7 +37,7 @@ def user_create():
 
 
 @auth.route("/login", methods=['POST', ])
-@jwt_required(optional=settings.app.jwt.disabled_in_api)
+@csrf.exempt
 def login():
     """
     ---
@@ -69,6 +71,7 @@ def login():
 
 @auth.route("/logout", methods=['DELETE', ])
 @jwt_required()
+@csrf.exempt
 def logout():
     """
     ---

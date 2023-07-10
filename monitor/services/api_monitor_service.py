@@ -1,5 +1,4 @@
 import csv
-import logging
 import os
 import zipfile
 from http import HTTPStatus as HTTP
@@ -10,8 +9,9 @@ from sqlalchemy import select
 
 from app_celery.tasks import post_urls
 from core.config import settings
+from core.logger import file_logger
 from db.connection_db import db_session
-from db.models_db import Link
+from db.models_db import Event, Link
 
 
 class ApiMonitorService():
@@ -23,7 +23,7 @@ class ApiMonitorService():
             link_obj = Link(body['url'])
             db_session.add(link_obj)
             db_session.commit()
-            logging.getLogger('file').info('Url - %s added.', link_obj)
+            file_logger.info('Url - %s added.', link_obj)
             return jsonify(link_obj.get_dict()), HTTP.CREATED
         except Exception as e:
             db_session.rollback()
@@ -67,20 +67,26 @@ class ApiMonitorService():
         return result
 
     @classmethod
-    def post_links(cls):
-        try:
-            if 'file' not in request.files:
-                return jsonify('Need file in "form-data" key "file" - value "<*.zip>"'), HTTP.BAD_REQUEST
-            result = cls.check_csv_file()
-            post_urls.delay(result['successfully'])
-            result['successfully'] = len(result['successfully'])
-            return jsonify(result), HTTP.ACCEPTED
-        except Exception as e:
-            return jsonify(e.args), HTTP.BAD_REQUEST
+    def post_links(cls, api=True):
+        # Модифицировал для web и api варианта.
+        if api:
+            try:
+                if 'file' not in request.files:
+                    return jsonify('Need file in "form-data" key "file" - value "<*.zip>"'), HTTP.BAD_REQUEST
+                result = cls.check_csv_file()
+                post_urls.delay(result['successfully'])
+                result['successfully'] = len(result['successfully'])
+                return jsonify(result), HTTP.ACCEPTED
+            except Exception as e:
+                return jsonify(e.args), HTTP.BAD_REQUEST
+        # Для web варианта.
+        result = cls.check_csv_file()
+        post_urls.delay(result['successfully'])
+        result['successfully'] = len(result['successfully'])
+        return result
 
     @classmethod
     def post_image(cls, link_id):
-        # Картинку решил хранить бинарно в SQL. Не лучший вариант, но так проще).
         try:
             if 'file' not in request.files:
                 return jsonify('Need file in "form-data" key "file" - value "<*.jpeg or png or jpg>"'), HTTP.BAD_REQUEST
@@ -91,11 +97,30 @@ class ApiMonitorService():
             link_obj.filename = file.filename
             link_obj.filedata = file.stream.read()
             db_session.commit()
-            logging.getLogger('file').info('Image for url id - %s added/update.', link_obj.id)
+            file_logger.info('Image for url id - %s added/update.', link_obj.id)
             return jsonify('File appended/updated.'), HTTP.OK
         except Exception as e:
             db_session.rollback()
             return jsonify(e.args), HTTP.BAD_REQUEST
+
+
+    @classmethod
+    def post_image_web(cls, link_id):
+        # web вариант
+        if 'file' not in request.files:
+            raise FileNotFoundError('File not found.')
+        file = request.files['file']
+        if not file.filename.endswith(('.jpeg', '.jpg', '.png')):
+            raise ValueError('Only .jpeg .jpg .png file')
+        link_obj = db_session.scalar(select(Link).filter(Link.id == link_id))
+        if not link_obj:
+            raise ValueError('Link by id not found')
+        db_session.add(Event(link_id=link_obj.id, url=link_obj.get_url(), event=f'added image'))
+        link_obj.filename = file.filename
+        link_obj.filedata = file.stream.read()
+        db_session.commit()
+        file_logger.info('Image for url id - %s added/update.', link_obj.id)
+
 
     @staticmethod
     def filter_dict() -> dict:

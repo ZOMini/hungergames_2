@@ -1,0 +1,4 @@
+<div id="events_sub" class="events_sub">
+    {% from 'bootstrap5/table.html' import render_table %}
+    {{ render_table(events, titles, urlize_columns=('url')) }}
+</div>

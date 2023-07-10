@@ -3,6 +3,7 @@ from uuid import UUID
 from flask import Blueprint
 from flask_jwt_extended import jwt_required
 
+from core.app import csrf
 from core.config import settings
 from services.api_monitor_service import ApiMonitorService
 
@@ -11,6 +12,7 @@ monitor = Blueprint('monitor', __name__)
 
 @monitor.route('/one_link', methods=['POST', ])
 @jwt_required(optional=settings.app.jwt.disabled_in_api)
+@csrf.exempt
 def one_link():
     """
     ---
@@ -43,6 +45,7 @@ def one_link():
 
 @monitor.route('/links', methods=['POST', ])
 @jwt_required(optional=settings.app.jwt.disabled_in_api)
+@csrf.exempt
 def links():
     """
     ---
@@ -75,6 +78,7 @@ def links():
 
 @monitor.route('/file_upload/<string:link_id>', methods=['POST', ])
 @jwt_required(optional=settings.app.jwt.disabled_in_api)
+@csrf.exempt
 def file_upload(link_id: UUID):
     """
     ---

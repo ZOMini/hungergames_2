@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+{% block head %}
+<meta name="turbolinks-cache-control" content="no-cache">
+<meta name="turbolinks-visit-control" content="reload">
+{{ turbo() }}
+{% endblock %}
+{% block content %}
+{% from 'bootstrap5/table.html' import render_table %}
+{% from 'bootstrap5/pagination.html' import render_pagination %}
+
+<body>
+    <h1>Events </h1>
+        {% if url_for(request.endpoint, **request.view_args) == url_for('pages.events') %}
+        {% include "events_sub.html" %}
+        {% else %}
+        {{ render_table(events, titles, urlize_columns=('url')) }}
+        {% endif %}
+        {{ render_pagination(pagination) }}
+</body>
+
+{% endblock %}

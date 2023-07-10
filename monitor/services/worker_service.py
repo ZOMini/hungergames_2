@@ -10,9 +10,9 @@ from sqlalchemy.ext.asyncio import AsyncSession
 
 from core.config import settings
 from core.http_client import get_http_client
-from core.logger import init_loggers
+from core.logger import console_logger, file_logger
 from db.connection_db import get_db_contextmanager
-from db.models_db import Link
+from db.models_db import Event, Link
 
 
 class WorkerService:
@@ -28,9 +28,10 @@ class WorkerService:
     async def check_lasttime(self, link: Link) -> bool:
         delta_time = datetime.timedelta(minutes=settings.app.worker.time_of_unavailability)
         if link.lasttime + delta_time < datetime.datetime.utcnow():
+            self.db_session.add(Event(url=link.get_url(), event='url deleted'))
             await self.db_session.delete(link)
             self.result['deleted'] += 1
-            logging.getLogger('file').info('Link %s delete', link)
+            file_logger.info('Link %s delete', link)
             return False
         return True
 
@@ -43,21 +44,25 @@ class WorkerService:
         try:
             async with self.http_session.get(url) as r:
                 # При редиректах все равно прилетает 200. Но < 400 на всякий.
+                if r.status != link.linkstatus:
+                    self.db_session.add(Event(link_id=link.id, url=link.get_url(), event=f'url has changed its status - {r.status}'))
                 if r.status < 400:
                     link.available = True
                     link.linkstatus = r.status
                     link.lasttime = datetime.datetime.utcnow()
                     self.result['2**'] += 1
-                    logging.getLogger('file').info('Link %s available and update', url)
+                    file_logger.info('Link %s available and update', url)
                     status = r.status
                 else:
                     link.available = False
                     link.linkstatus = r.status
-                    logging.getLogger('file').info('Link %s unavailable, status %s', url, r.status)
+                    file_logger.info('Link %s unavailable status %s', url, r.status)
                     self.result['!=2**'] += 1
                     status = r.status
         except Exception as e:
-            logging.getLogger('file').info('Link %s exception - %s', url, e.args)
+            if link.linkstatus == HTTPStatus.OK:
+                self.db_session.add(Event(link_id=link.id, url=link.get_url(), event=f'url has changed its status - 500'))
+            file_logger.info('Link %s exception', url)
             link.available = False
             link.linkstatus = HTTPStatus.INTERNAL_SERVER_ERROR
             self.result['exception'] += 1
@@ -77,8 +82,8 @@ class WorkerService:
         await self.db_session.commit()
         # Два варианта отчета воркера, полный в консоль, общий в файл,
         # т.к. в файле есть отдельные отчеты по каждому урлу.
-        logging.getLogger('file').info('Worker has completed the work: %s', self.result)
-        logging.getLogger('console').info('Worker has completed the work: %s \nRESULT: %s', result, self.result)
+        file_logger.info('Worker has completed the work: %s', str(self.result).replace(',', '  | '))
+        console_logger.info('Worker has completed the work: %s \nRESULT: %s', result, self.result)
         return result
 
 
@@ -91,5 +96,4 @@ async def run_works_async():
 
 
 def worker_run():
-    init_loggers()
     asyncio.run(run_works_async())

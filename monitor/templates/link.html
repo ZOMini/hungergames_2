@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+{% block content %}
+<html>
+<head>
+    <title>{{ link.id }}</title>
+</head>
+<body>
+    <ul>
+        <li><h6>uuid -  {{ link.id }}</h6></li>
+        <li><h6><a href="{{ url }}"> url -  {{ url }}</a></h6></li>
+        <li><h6>link status -  {{ link.linkstatus }}</h6></li>
+        <li><h6>available -  {{ link.available }}</h6></li>
+        <li><h6>last time -  {{ link.lasttime }}</h6></li>
+    {% if link.events %}
+        <li><h6>Events: </h6></li>
+        <ul>
+            {% for event in link.events %}
+              <li>{{ event.timestamp }}  {{ event.event }} </li>
+            {% endfor %}
+        </ul>
+    </ul>
+    {% else %}
+    </ul>
+    {% endif %}
+    {% if link.filedata %}
+    <img src= {{ url_for('pages.get_image', pid=link.id) }} width="600" height="400">
+    {% endif %}
+</body>
+</html>
+{% endblock %}

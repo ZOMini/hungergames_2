@@ -1,4 +1,3 @@
-import logging
 from http import HTTPStatus as HTTP
 
 from flask import Response, jsonify, request
@@ -6,6 +5,7 @@ from flask_jwt_extended import create_access_token, get_jwt
 from sqlalchemy.sql import select
 
 from core.config import settings
+from core.logger import file_logger
 from db.connection_db import db_session
 from db.connection_redis import jwt_redis_blocklist
 from db.models_db import User
@@ -27,7 +27,7 @@ class UserService():
                             password=password)
                 db_session.add(user)
                 db_session.commit()
-                logging.getLogger('file').info('User created - %s', user.id)
+                file_logger.info('User created - %s', user.id)
                 return jsonify('User created. Login is email.'), HTTP.CREATED
             else:
                 return jsonify('check query or password != password2 or length password < 8'), HTTP.BAD_REQUEST
@@ -45,10 +45,10 @@ class UserService():
         password = body['password']
         user = db_session.scalar(select(User).filter(User.email == email).limit(1))
         if not user or not user.check_password(password, email):
-            logging.getLogger('file').info('Login fail: email(login) - %s ', email)
+            file_logger.info('Login fail: email(login) - %s ', email)
             return jsonify("Wrong email or password"), HTTP.UNAUTHORIZED
         access_token = create_access_token(identity=user)
-        logging.getLogger('file').info('Login successful: user_id - %s ', user.id)
+        file_logger.info('Login successful: user_id - %s ', user.id)
         return jsonify(access_token=access_token), HTTP.CREATED
 
     @classmethod
@@ -57,7 +57,7 @@ class UserService():
             jti = get_jwt()['jti']
             user_id = get_jwt()['sub']
             jwt_redis_blocklist.set(jti, '', ex=settings.app.jwt.access_token_expires)
-            logging.getLogger('file').info('Logout successful: user_id - %s', user_id)
+            file_logger.info('Logout successful: user_id - %s', user_id)
             return jsonify(), HTTP.NO_CONTENT
         except Exception as e:
             return jsonify(msg='Error, see body',

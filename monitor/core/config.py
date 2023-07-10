@@ -41,6 +41,7 @@ class App(BaseModel):
     migrate: bool
     flask_secret_key: str
     salt_password: str
+    websocket_timeout: int
     logger: Logger
     jwt: Jwt
     worker: Worker
