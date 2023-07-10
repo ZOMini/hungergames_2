@@ -6,6 +6,9 @@
     <title>{{ link.id }}</title>
 </head>
 <body>
+    {% if link.filedata %}
+    <img src= {{ url_for('pages.get_image', pid=link.id) }} width="600" height="400" style="float:right">
+    {% endif %}
     <ul>
         <li><h6>uuid -  {{ link.id }}</h6></li>
         <li><h6><a href="{{ url }}"> url -  {{ url }}</a></h6></li>
@@ -22,9 +25,6 @@
     </ul>
     {% else %}
     </ul>
-    {% endif %}
-    {% if link.filedata %}
-    <img src= {{ url_for('pages.get_image', pid=link.id) }} width="600" height="400">
     {% endif %}
 </body>
 </html>

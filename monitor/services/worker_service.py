@@ -1,6 +1,5 @@
 import asyncio
 import datetime
-import logging
 from http import HTTPStatus
 from typing import Sequence
 

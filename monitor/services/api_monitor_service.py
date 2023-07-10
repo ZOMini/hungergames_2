@@ -67,23 +67,26 @@ class ApiMonitorService():
         return result
 
     @classmethod
-    def post_links(cls, api=True):
-        # Модифицировал для web и api варианта.
-        if api:
-            try:
-                if 'file' not in request.files:
-                    return jsonify('Need file in "form-data" key "file" - value "<*.zip>"'), HTTP.BAD_REQUEST
-                result = cls.check_csv_file()
-                post_urls.delay(result['successfully'])
-                result['successfully'] = len(result['successfully'])
-                return jsonify(result), HTTP.ACCEPTED
-            except Exception as e:
-                return jsonify(e.args), HTTP.BAD_REQUEST
+    def post_links(cls):
+        try:
+            if 'file' not in request.files:
+                return jsonify('Need file in "form-data" key "file" - value "<*.zip>"'), HTTP.BAD_REQUEST
+            result = cls.check_csv_file()
+            post_urls.delay(result['successfully'])
+            result['successfully'] = len(result['successfully'])
+            return jsonify(result), HTTP.ACCEPTED
+        except Exception as e:
+            return jsonify(e.args), HTTP.BAD_REQUEST
+
+    @classmethod
+    def post_links_web(cls):
         # Для web варианта.
         result = cls.check_csv_file()
         post_urls.delay(result['successfully'])
         result['successfully'] = len(result['successfully'])
         return result
+
+
 
     @classmethod
     def post_image(cls, link_id):
