@@ -1,6 +1,8 @@
 name: Monitor workflow
 
 on: [push]
+
+jobs:
   deploy:
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/master'
