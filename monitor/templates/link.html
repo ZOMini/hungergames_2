@@ -18,7 +18,7 @@
     {% if link.events %}
         <li><h6>Events: </h6></li>
         <ul>
-            {% for event in link.events %}
+            {% for event in link.events [0:10] %}
               <li>{{ event.timestamp }}  {{ event.event }} </li>
             {% endfor %}
         </ul>

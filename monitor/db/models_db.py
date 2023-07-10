@@ -88,7 +88,7 @@ class Link(MappedAsDataclass, Base):
     filedata = mapped_column(LargeBinary)
     linkstatus = mapped_column(SmallInteger, default=200)
     available = mapped_column(Boolean, default=True)
-    events: Mapped[List["Event"] | None] = relationship(back_populates='link')
+    events: Mapped[List["Event"] | None] = relationship(back_populates='link', order_by='desc(Event.timestamp)',)
     lasttime: Mapped[timestamp_int] = mapped_column(init=False)
 
     def __init__(self, url: str):
