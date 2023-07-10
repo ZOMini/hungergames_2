@@ -1,3 +1,5 @@
+[![Monitor workflow](https://github.com/ZOMini/hungergames_2/actions/workflows/main.yml/badge.svg)](https://github.com/ZOMini/hungergames_2/actions/workflows/main.yml)
+
 # Monitoring(Test task)
 - Задание - [Test Task](https://github.com/ZOMini/hungergames_2/blob/a57414f7e9a6d9db581f7095d8bbd175585480ff/README.md)
 
