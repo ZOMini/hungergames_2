@@ -7,7 +7,7 @@
 </head>
 <body>
     {% if link.filedata %}
-    <img src= {{ url_for('pages.get_image', pid=link.id) }} width="600" height="400" style="float:right">
+    <img src= {{ url_for('pages.get_image', pid=link.id) }} width="600" height="400">
     {% endif %}
     <ul>
         <li><h6>uuid -  {{ link.id }}</h6></li>
