@@ -17,4 +17,4 @@ def post_urls(urls: list):
         list_events.append(Event(url=link.get_url(), event='url added', link_id=link.id))
     db_session.add_all(list_events)
     db_session.commit()     
-    file_logger.info('Celery post urls - %s', list_objs)
+    file_logger.info('Celery post urls, count - %s', len(list_objs))

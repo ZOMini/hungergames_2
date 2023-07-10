@@ -1,6 +1,4 @@
 import io
-import random
-import sys
 
 from flask import (
     Blueprint,
@@ -40,12 +38,12 @@ def new_link():
                 db_session.commit()
                 flash('Url added.')
             elif 'file' in request.files:
-                result = ApiMonitorService.post_links(False)
-                flash(f'Urls from file added. - {str(result)}')
+                result = ApiMonitorService.post_links(False)['successfully']
+                flash(f'Urls from file added. Successfully - {result}')
         except Exception as e:
-            console_logger.info('Url add error - %s', e.args)
+            console_logger.info('Url add error - %s', ''.join(e.args))
             db_session.rollback()
-            flash(str(e.args))
+            flash(''.join(e.args))
     return render_template('add_links.html', urlform=form.UrlButtonForm(), fileform=form.FileButtonForm())
 
 
@@ -58,14 +56,14 @@ def upload_image():
             _form.validate()
             if 'file' in request.files and 'id' in request.form:
                 id = request.form['id']
-                ApiMonitorService.post_image(id, False)
+                ApiMonitorService.post_image_web(id)
                 flash(f'Image for id {id} uploaded.')
             else:
                 flash(f'Check id and file. {_form.errors}')
         except Exception as e:
-            console_logger.info('Image add error - %s.', e.args)
+            console_logger.info('Image add error - %s.', ''.join(e.args))
             db_session.rollback()
-            flash(str(e.args))
+            flash(''.join(e.args))
     return render_template('add_image.html', id_file_form=form.IdFileButtonForm())
 
 
@@ -151,12 +149,3 @@ def events(page):
     for event in events:
         data.append({'timestamp': event.timestamp, 'url': event.url, 'event': event.event})
     return render_template('events.html', events=data, titles=titles, pagination=pagination)
-
-
-# @pages.context_processor
-# def inject_logs_sub():
-#     with open(settings.app.logger.file, newline='',
-#               encoding=settings.app.logger.encoding) as log_file:
-#         listing = [i.rstrip() for i in log_file.readlines()[-20:]]  # Последние 10 строк логов.
-#         listing.reverse()
-#     return {'listing': listing}

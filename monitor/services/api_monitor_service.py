@@ -86,38 +86,41 @@ class ApiMonitorService():
         return result
 
     @classmethod
-    def post_image(cls, link_id, api=True):
-        # Тоже используем в API и в web.
-        if api:
-            try:
-                if 'file' not in request.files:
-                    return jsonify('Need file in "form-data" key "file" - value "<*.jpeg or png or jpg>"'), HTTP.BAD_REQUEST
-                file = request.files['file']
-                link_obj = db_session.scalar(select(Link).filter(Link.id == link_id).limit(1))
-                if not link_obj:
-                    return jsonify('Link by id not found'), HTTP.NOT_FOUND
-                link_obj.filename = file.filename
-                link_obj.filedata = file.stream.read()
-                db_session.commit()
-                file_logger.info('Image for url id - %s added/update.', link_obj.id)
-                return jsonify('File appended/updated.'), HTTP.OK
-            except Exception as e:
-                db_session.rollback()
-                return jsonify(e.args), HTTP.BAD_REQUEST
+    def post_image(cls, link_id):
+        try:
+            if 'file' not in request.files:
+                return jsonify('Need file in "form-data" key "file" - value "<*.jpeg or png or jpg>"'), HTTP.BAD_REQUEST
+            file = request.files['file']
+            link_obj = db_session.scalar(select(Link).filter(Link.id == link_id).limit(1))
+            if not link_obj:
+                return jsonify('Link by id not found'), HTTP.NOT_FOUND
+            link_obj.filename = file.filename
+            link_obj.filedata = file.stream.read()
+            db_session.commit()
+            file_logger.info('Image for url id - %s added/update.', link_obj.id)
+            return jsonify('File appended/updated.'), HTTP.OK
+        except Exception as e:
+            db_session.rollback()
+            return jsonify(e.args), HTTP.BAD_REQUEST
+
+
+    @classmethod
+    def post_image_web(cls, link_id):
         # web вариант
         if 'file' not in request.files:
             raise FileNotFoundError('File not found.')
         file = request.files['file']
         if not file.filename.endswith(('.jpeg', '.jpg', '.png')):
             raise ValueError('Only .jpeg .jpg .png file')
-        link_obj = db_session.scalar(select(Link).filter(Link.id == link_id).limit(1))
-        db_session.add(Event(link_id=link_obj.id, url=link_obj.get_url(), event=f'added image'))
+        link_obj = db_session.scalar(select(Link).filter(Link.id == link_id))
         if not link_obj:
             raise ValueError('Link by id not found')
+        db_session.add(Event(link_id=link_obj.id, url=link_obj.get_url(), event=f'added image'))
         link_obj.filename = file.filename
         link_obj.filedata = file.stream.read()
         db_session.commit()
         file_logger.info('Image for url id - %s added/update.', link_obj.id)
+
 
     @staticmethod
     def filter_dict() -> dict:

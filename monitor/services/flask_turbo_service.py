@@ -18,7 +18,7 @@ def update_logs():
         return {'listing': listing}
     with app.app_context():
         while True:
-            time.sleep(3)
+            time.sleep(settings.app.websocket_timeout)
             turbo.push(turbo.replace(render_template('logs_sub.html', **inject_logs_sub()), 'logs_sub'))
 
 
@@ -33,5 +33,5 @@ def update_events():
         return {'events': data, 'titles': titles}
     with app.app_context():
         while True:
-            time.sleep(3)
+            time.sleep(settings.app.websocket_timeout)
             turbo.push(turbo.replace(render_template('events_sub.html', **inject_events_sub()), 'events_sub'))
