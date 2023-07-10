@@ -38,7 +38,7 @@ def new_link():
                 db_session.commit()
                 flash('Url added.')
             elif 'file' in request.files:
-                result = ApiMonitorService.post_links(False)['successfully']
+                result = ApiMonitorService.post_links_web()['successfully']
                 flash(f'Urls from file added. Successfully - {result}')
         except Exception as e:
             console_logger.info('Url add error - %s', ''.join(e.args))
