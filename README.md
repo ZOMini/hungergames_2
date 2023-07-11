@@ -12,7 +12,7 @@
 - Тестировать проще через документацию.
 - Добавил динамическое обновление контента по websocket, обновляет дата контент events & logs(Работает для первых страниц пагинатора, что бы не скакало когда пошел по другим страничкам).
 
-## Запуск
+## Start
 - docker-compose up --build
 
 ## Urls(API)
@@ -43,8 +43,20 @@
   - sudo apt install docker-compose
 - Далее workflow все деплоит, при пуше в майн ветку.
 
+## Stack
+- flask==2.2.3
+- sqlalchemy==2.0.17
+- pydantic==1.10.9
+- alembic==1.11.1
+- psycopg2-binary==2.9.6
+- gevent==22.10.2
+- redis==4.6.0
+- celery==5.3.1
+
+
 ## Misc
 - win
   - celery -A app_celery.tasks worker -P thread --loglevel=INFO
 - linux
   - celery -A app_celery.tasks worker -P gevent --loglevel=INFO
+

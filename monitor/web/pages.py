@@ -14,7 +14,7 @@ from sqlalchemy import select
 
 from core.app import db
 from core.config import settings
-from core.logger import console_logger
+from core.logger import console_logger, file_logger
 from db.connection_db import db_session
 from db.models_db import Event, Link
 from services.api_monitor_service import ApiMonitorService
@@ -34,6 +34,7 @@ def new_link():
             if 'url' in request.form:
                 link_obj = Link(request.form['url'])
                 db_session.add(link_obj)
+                db_session.commit()
                 db_session.add(Event(link_id=link_obj.id, url=link_obj.get_url(), event=f'added url'))
                 db_session.commit()
                 flash('Url added.')
@@ -106,6 +107,7 @@ def links(page):
 @login_required
 def view_link(link_id):
     link = db_session.scalar(select(Link).filter(Link.id == link_id).join(Link.events))
+    console_logger.info(link)
     image = io.BytesIO(link.filedata)
     url = link.get_url()
     if link:
