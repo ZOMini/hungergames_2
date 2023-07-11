@@ -26,16 +26,18 @@ def register():
     if request.method == 'POST':
         try:
             if request.form.get('password') != request.form.get('confirm'):
-                raise Exception
-            user = User(email=request.form.get('email'),
-                        name=request.form.get('name'),
-                        password=request.form.get('password'))
-            db.session.add(user)
-            db.session.commit()
-            return redirect(url_for('pages.links'))
+                flash('Check password and password confirm.')
+            else: 
+                user = User(email=request.form.get('email'),
+                            name=request.form.get('name'),
+                            password=request.form.get('password'))
+                db.session.add(user)
+                db.session.commit()
+                flash(f'User - {user.name} created, please login.')
+                return redirect(url_for('pages.links'))
         except Exception:
+            db.session.rollback()
             flash('Check name, email, password, password confirm')
-            return redirect(url_for('web_auth.register'))
     return render_template('sign_up.html', form=form.SignupForm())
 
 
@@ -47,7 +49,7 @@ def login():
         user = db.session.scalar(select(User).filter_by(email=email))
         if not email or not password or not user:
             flash('Check your email and password.')
-            return redirect(url_for('pages.links'))
+            # return redirect(url_for('pages.links'))
         if user.check_password(password=password, email=email):
             login_user(user)
             return redirect(url_for('pages.links'))

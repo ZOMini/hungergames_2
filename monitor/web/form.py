@@ -28,8 +28,8 @@ class IdFileButtonForm(FlaskForm):
 
 class LinksFilterForm(FlaskForm):
     available = fields.SelectField('Available', choices=[('all', 'All'), ('True', 'True'), ('False', 'False')])
-    domain_name = fields.StringField('Domain name')
-    domain_zone = fields.StringField('Domain zone')
+    domain = fields.StringField('Domain name')
+    suffix = fields.StringField('Domain zone')
     submit = fields.SubmitField('Filter')
 
 

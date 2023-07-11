@@ -12,8 +12,8 @@
     <h1>Links</h1>
     <form method="post">
     <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
-    {{ render_form_row([filter.available, filter.domain_name, filter.domain_zone],
-        col_map={'available': 'col-md-2', 'domain_name': 'col-md-2', 'domain_zone': 'col-md-2'}) }}
+    {{ render_form_row([filter.available, filter.domain, filter.suffix],
+        col_map={'available': 'col-md-2', 'domain': 'col-md-2', 'suffix': 'col-md-2'}) }}
     {{ render_form_row([filter.submit]) }}
     </form>
     {{ render_table(data, titles, urlize_columns=('url'), show_actions=True, model=Link,

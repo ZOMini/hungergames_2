@@ -7,10 +7,10 @@ def query_filers():
         if 'available' in request.form:
             if not request.form['available'] == 'all':
                 query.update({'available': request.form['available']})
-        if 'domain_name' in request.form:
-            if not request.form['domain_name'] == '':
-                query.update({'domain': request.form['domain_name']})
-        if 'domain_zone' in request.form:
-            if not request.form['domain_zone'] == '':
-                query.update({'suffix': request.form['domain_zone']})
+        if 'domain' in request.form:
+            if not request.form['domain'] == '':
+                query.update({'domain': request.form['domain']})
+        if 'suffix' in request.form:
+            if not request.form['suffix'] == '':
+                query.update({'suffix': request.form['suffix']})
         return redirect(url_for('pages.links', **query))

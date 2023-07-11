@@ -87,8 +87,9 @@ def logs(pagenum):
 @pages.route('/links', defaults={'page': 1}, methods=['GET', 'POST'])
 @pages.route('/links/<int:page>', methods=['GET', 'POST'])
 def links(page):
+    _form = form.LinksFilterForm()
     if query := query_filers():  # Если пост запрос с фильтрами.
-        return query
+        return query  #  Response.
     pagination = db.paginate(db.select(Link).filter_by(**request.args), page=page, per_page=10)
     links = pagination.items
     titles = [('id', 'id'), ('url', 'url'), ('available', 'available'), ('lasttime', 'lasttime')]
@@ -96,7 +97,9 @@ def links(page):
     for link in links:
         url = link.get_url()
         data.append({'id': link.id, 'url': url, 'available': link.available, 'lasttime': link.lasttime})
-    return render_template('links.html', titles=titles, Link=Link, data=data, pagination=pagination, filter=form.LinksFilterForm())
+    if request.args:
+        _form = form.LinksFilterForm(**request.args)
+    return render_template('links.html', titles=titles, Link=Link, data=data, pagination=pagination, filter=_form)
 
 
 @pages.route('/links/<string:link_id>/view')

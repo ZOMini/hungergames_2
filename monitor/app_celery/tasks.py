@@ -10,6 +10,7 @@ def post_urls(urls: list):
     list_events: list[Event] = []
     for link in urls:
         list_objs.append(Link(link))
+        file_logger.info('Celery added url - %s', link)
     db_session.add_all(list_objs)
     db_session.commit()
     for link in list_objs:

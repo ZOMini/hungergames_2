@@ -87,7 +87,6 @@ class ApiMonitorService():
         return result
 
 
-
     @classmethod
     def post_image(cls, link_id):
         try:
