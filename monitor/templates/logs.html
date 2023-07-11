@@ -12,7 +12,7 @@
     <title>Logs</title>
 </head>
 <body>
-    <h1>Logs </h1>
+    <h3>Logs </h3>
     {% if url_for(request.endpoint, **request.view_args) == url_for('pages.logs') %}
     {% include "logs_sub.html" %}
     {% else %}

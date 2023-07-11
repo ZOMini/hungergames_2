@@ -10,7 +10,7 @@
 {% from 'bootstrap5/pagination.html' import render_pagination %}
 
 <body>
-    <h1>Events </h1>
+    <h3>Events </h3>
         {% if url_for(request.endpoint, **request.view_args) == url_for('pages.events') %}
         {% include "events_sub.html" %}
         {% else %}

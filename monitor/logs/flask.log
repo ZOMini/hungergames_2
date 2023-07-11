@@ -19345,3 +19345,1372 @@ file 2023-07-11 21:36:33,671 INFO Link https://pp-progress.ru available and upda
 file 2023-07-11 21:36:33,677 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
 file 2023-07-11 21:36:33,800 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
 file 2023-07-11 21:36:33,914 INFO Link https://powerok.ru available and update
+file 2023-07-11 21:36:39,700 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 21:36:39,714 INFO Worker has completed the work: {'2**': 21  |  '!=2**': 0  |  'exception': 0  |  'deleted': 0}
+file 2023-07-11 21:36:52,556 INFO path: /web/links | method: GET | status: 200 OK | size: 21730
+file 2023-07-11 21:37:06,033 INFO path: /web/new_link | method: GET | status: 200 OK | size: 4550
+file 2023-07-11 21:37:06,576 INFO path: /web/upload_image | method: GET | status: 200 OK | size: 4000
+file 2023-07-11 21:37:06,957 INFO path: /web/events | method: GET | status: 200 OK | size: 8123
+file 2023-07-11 21:37:07,550 INFO path: /web/logs | method: GET | status: 200 OK | size: 8611
+file 2023-07-11 21:37:08,036 INFO Link https://potolki88.ru available and update
+file 2023-07-11 21:37:08,065 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 21:37:08,073 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 21:37:08,088 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 21:37:08,112 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 21:37:08,116 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 21:37:08,138 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 21:37:08,164 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 21:37:08,169 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 21:37:08,182 INFO Link https://potrendim.ru available and update
+file 2023-07-11 21:37:08,221 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 21:37:08,240 INFO Link https://potter-style.ru available and update
+file 2023-07-11 21:37:08,367 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 21:37:08,439 INFO path: /web/events | method: GET | status: 200 OK | size: 8123
+file 2023-07-11 21:37:08,450 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 21:37:08,455 INFO Link https://novardis.com/ available and update
+file 2023-07-11 21:37:08,659 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 21:37:08,669 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 21:37:08,704 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 21:37:08,844 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 21:37:09,017 INFO Link https://powerok.ru available and update
+file 2023-07-11 21:37:10,831 INFO path: /web/links | method: GET | status: 200 OK | size: 21730
+file 2023-07-11 21:37:14,693 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 21:37:14,706 INFO Worker has completed the work: {'2**': 21  |  '!=2**': 0  |  'exception': 0  |  'deleted': 0}
+file 2023-07-11 21:37:43,037 INFO Link https://potolki88.ru available and update
+file 2023-07-11 21:37:43,043 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 21:37:43,049 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 21:37:43,052 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 21:37:43,070 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 21:37:43,078 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 21:37:43,081 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 21:37:43,110 INFO Link https://potrendim.ru available and update
+file 2023-07-11 21:37:43,119 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 21:37:43,162 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 21:37:43,248 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 21:37:43,270 INFO Link https://potter-style.ru available and update
+file 2023-07-11 21:37:43,440 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 21:37:43,466 INFO Link https://novardis.com/ available and update
+file 2023-07-11 21:37:43,485 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 21:37:43,587 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 21:37:43,663 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 21:37:43,697 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 21:37:43,827 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 21:37:43,989 INFO Link https://powerok.ru available and update
+file 2023-07-11 21:37:47,933 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 21:37:47,944 INFO Worker has completed the work: {'2**': 21  |  '!=2**': 0  |  'exception': 0  |  'deleted': 0}
+file 2023-07-11 21:38:18,049 INFO Link https://potolki88.ru available and update
+file 2023-07-11 21:38:18,067 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 21:38:18,078 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 21:38:18,099 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 21:38:18,108 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 21:38:18,109 INFO Link https://potrendim.ru available and update
+file 2023-07-11 21:38:18,126 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 21:38:18,130 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 21:38:18,139 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 21:38:18,172 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 21:38:18,258 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 21:38:18,259 INFO Link https://potter-style.ru available and update
+file 2023-07-11 21:38:18,262 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 21:38:18,330 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 21:38:18,455 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 21:38:18,497 INFO Link https://novardis.com/ available and update
+file 2023-07-11 21:38:18,502 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 21:38:18,665 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 21:38:18,753 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 21:38:19,055 INFO Link https://powerok.ru available and update
+file 2023-07-11 21:38:27,223 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 21:38:27,260 INFO Worker has completed the work: {'2**': 21  |  '!=2**': 0  |  'exception': 0  |  'deleted': 0}
+file 2023-07-11 21:38:53,074 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 21:38:53,102 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 21:38:53,104 INFO Link https://potolki88.ru available and update
+file 2023-07-11 21:38:53,107 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 21:38:53,112 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 21:38:53,119 INFO Link https://potrendim.ru available and update
+file 2023-07-11 21:38:53,125 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 21:38:53,130 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 21:38:53,156 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 21:38:53,238 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 21:38:53,260 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 21:38:53,273 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 21:38:53,283 INFO Link https://potter-style.ru available and update
+file 2023-07-11 21:38:53,449 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 21:38:53,458 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 21:38:53,488 INFO Link https://novardis.com/ available and update
+file 2023-07-11 21:38:53,584 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 21:38:53,649 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 21:38:53,791 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 21:38:54,043 INFO Link https://powerok.ru available and update
+file 2023-07-11 21:38:59,536 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 21:38:59,579 INFO Worker has completed the work: {'2**': 21  |  '!=2**': 0  |  'exception': 0  |  'deleted': 0}
+file 2023-07-11 21:39:28,062 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 21:39:28,069 INFO Link https://potolki88.ru available and update
+file 2023-07-11 21:39:28,090 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 21:39:28,099 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 21:39:28,109 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 21:39:28,122 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 21:39:28,128 INFO Link https://potrendim.ru available and update
+file 2023-07-11 21:39:28,150 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 21:39:28,153 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 21:39:28,209 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 21:39:28,275 INFO Link https://potter-style.ru available and update
+file 2023-07-11 21:39:28,316 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 21:39:28,413 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 21:39:28,441 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 21:39:28,450 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 21:39:28,478 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 21:39:28,532 INFO Link https://novardis.com/ available and update
+file 2023-07-11 21:39:28,641 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 21:39:28,682 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 21:39:29,070 INFO Link https://powerok.ru available and update
+file 2023-07-11 21:39:36,449 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 21:39:36,492 INFO Worker has completed the work: {'2**': 21  |  '!=2**': 0  |  'exception': 0  |  'deleted': 0}
+file 2023-07-11 21:40:03,075 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 21:40:03,087 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 21:40:03,098 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 21:40:03,114 INFO Link https://potolki88.ru available and update
+file 2023-07-11 21:40:03,117 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 21:40:03,120 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 21:40:03,121 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 21:40:03,135 INFO Link https://potrendim.ru available and update
+file 2023-07-11 21:40:03,142 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 21:40:03,216 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 21:40:03,222 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 21:40:03,277 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 21:40:03,296 INFO Link https://potter-style.ru available and update
+file 2023-07-11 21:40:03,330 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 21:40:03,432 INFO Link https://novardis.com/ available and update
+file 2023-07-11 21:40:03,459 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 21:40:03,501 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 21:40:03,517 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 21:40:03,633 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 21:40:04,068 INFO Link https://powerok.ru available and update
+file 2023-07-11 21:40:08,283 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 21:40:08,325 INFO Worker has completed the work: {'2**': 21  |  '!=2**': 0  |  'exception': 0  |  'deleted': 0}
+file 2023-07-11 21:40:38,070 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 21:40:38,072 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 21:40:38,073 INFO Link https://potolki88.ru available and update
+file 2023-07-11 21:40:38,089 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 21:40:38,105 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 21:40:38,108 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 21:40:38,120 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 21:40:38,134 INFO Link https://potrendim.ru available and update
+file 2023-07-11 21:40:38,139 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 21:40:38,182 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 21:40:38,227 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 21:40:38,264 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 21:40:38,278 INFO Link https://potter-style.ru available and update
+file 2023-07-11 21:40:38,418 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 21:40:38,440 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 21:40:38,480 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 21:40:38,570 INFO Link https://novardis.com/ available and update
+file 2023-07-11 21:40:38,689 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 21:40:38,697 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 21:40:39,098 INFO Link https://powerok.ru available and update
+file 2023-07-11 21:40:44,437 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 21:40:44,475 INFO Worker has completed the work: {'2**': 21  |  '!=2**': 0  |  'exception': 0  |  'deleted': 0}
+file 2023-07-11 21:41:13,077 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 21:41:13,080 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 21:41:13,084 INFO Link https://potolki88.ru available and update
+file 2023-07-11 21:41:13,085 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 21:41:13,103 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 21:41:13,112 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 21:41:13,137 INFO Link https://potrendim.ru available and update
+file 2023-07-11 21:41:13,142 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 21:41:13,234 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 21:41:13,271 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 21:41:13,304 INFO Link https://potter-style.ru available and update
+file 2023-07-11 21:41:13,318 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 21:41:13,359 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 21:41:13,452 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 21:41:13,536 INFO Link https://novardis.com/ available and update
+file 2023-07-11 21:41:13,646 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 21:41:13,664 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 21:41:13,711 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 21:41:13,727 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 21:41:14,058 INFO Link https://powerok.ru available and update
+file 2023-07-11 21:41:33,146 INFO Link http://httpbin.org/delay/3 exception
+file 2023-07-11 21:41:33,182 INFO Worker has completed the work: {'2**': 20  |  '!=2**': 0  |  'exception': 1  |  'deleted': 0}
+file 2023-07-11 21:41:48,057 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 21:41:48,062 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 21:41:48,066 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 21:41:48,091 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 21:41:48,110 INFO Link https://potolki88.ru available and update
+file 2023-07-11 21:41:48,111 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 21:41:48,125 INFO Link https://potrendim.ru available and update
+file 2023-07-11 21:41:48,126 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 21:41:48,198 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 21:41:48,204 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 21:41:48,275 INFO Link https://potter-style.ru available and update
+file 2023-07-11 21:41:48,318 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 21:41:48,323 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 21:41:48,334 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 21:41:48,445 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 21:41:48,454 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 21:41:48,496 INFO Link https://novardis.com/ available and update
+file 2023-07-11 21:41:48,499 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 21:41:48,723 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 21:41:49,073 INFO Link https://powerok.ru available and update
+file 2023-07-11 21:42:08,163 INFO Link http://httpbin.org/delay/3 exception
+file 2023-07-11 21:42:08,186 INFO Worker has completed the work: {'2**': 20  |  '!=2**': 0  |  'exception': 1  |  'deleted': 0}
+file 2023-07-11 21:42:23,052 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 21:42:23,053 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 21:42:23,054 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 21:42:23,061 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 21:42:23,064 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 21:42:23,077 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 21:42:23,080 INFO Link https://potrendim.ru available and update
+file 2023-07-11 21:42:23,081 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 21:42:23,111 INFO Link https://potolki88.ru available and update
+file 2023-07-11 21:42:23,150 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 21:42:23,196 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 21:42:23,236 INFO Link https://potter-style.ru available and update
+file 2023-07-11 21:42:23,354 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 21:42:23,399 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 21:42:23,431 INFO Link https://novardis.com/ available and update
+file 2023-07-11 21:42:23,536 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 21:42:23,607 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 21:42:23,659 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 21:42:23,992 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 21:42:24,046 INFO Link https://powerok.ru available and update
+file 2023-07-11 21:42:30,722 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 21:42:30,787 INFO Worker has completed the work: {'2**': 21  |  '!=2**': 0  |  'exception': 0  |  'deleted': 0}
+file 2023-07-11 21:42:58,066 INFO Link https://potolki88.ru available and update
+file 2023-07-11 21:42:58,067 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 21:42:58,069 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 21:42:58,077 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 21:42:58,088 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 21:42:58,107 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 21:42:58,112 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 21:42:58,124 INFO Link https://potrendim.ru available and update
+file 2023-07-11 21:42:58,140 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 21:42:58,219 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 21:42:58,272 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 21:42:58,277 INFO Link https://potter-style.ru available and update
+file 2023-07-11 21:42:58,458 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 21:42:58,473 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 21:42:58,478 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 21:42:58,492 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 21:42:58,543 INFO Link https://novardis.com/ available and update
+file 2023-07-11 21:42:58,588 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 21:42:58,800 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 21:42:59,071 INFO Link https://powerok.ru available and update
+file 2023-07-11 21:43:08,282 INFO Link http://httpbin.org/delay/3 unavailable status 504
+file 2023-07-11 21:43:08,298 INFO Worker has completed the work: {'2**': 20  |  '!=2**': 1  |  'exception': 0  |  'deleted': 0}
+file 2023-07-11 21:43:33,056 INFO Link https://potolki88.ru available and update
+file 2023-07-11 21:43:33,071 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 21:43:33,079 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 21:43:33,080 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 21:43:33,090 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 21:43:33,108 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 21:43:33,111 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 21:43:33,119 INFO Link https://potrendim.ru available and update
+file 2023-07-11 21:43:33,128 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 21:43:33,258 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 21:43:33,278 INFO Link https://potter-style.ru available and update
+file 2023-07-11 21:43:33,283 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 21:43:33,477 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 21:43:33,502 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 21:43:33,516 INFO Link https://novardis.com/ available and update
+file 2023-07-11 21:43:33,735 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 21:43:33,739 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 21:43:33,741 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 21:43:33,764 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 21:43:34,009 INFO Link https://powerok.ru available and update
+file 2023-07-11 21:43:53,154 INFO Link http://httpbin.org/delay/3 exception
+file 2023-07-11 21:43:53,175 INFO Worker has completed the work: {'2**': 20  |  '!=2**': 0  |  'exception': 1  |  'deleted': 0}
+file 2023-07-11 21:46:38,486 INFO Link https://potolki88.ru available and update
+file 2023-07-11 21:46:38,489 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 21:46:38,500 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 21:46:38,506 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 21:46:38,512 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 21:46:38,520 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 21:46:38,526 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 21:46:38,530 INFO Link https://potrendim.ru available and update
+file 2023-07-11 21:46:38,545 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 21:46:38,626 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 21:46:38,689 INFO Link https://potter-style.ru available and update
+file 2023-07-11 21:46:38,871 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 21:46:38,946 INFO Link https://novardis.com/ available and update
+file 2023-07-11 21:46:39,018 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 21:46:39,089 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 21:46:39,124 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 21:46:39,140 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 21:46:39,174 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 21:46:39,290 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 21:46:39,466 INFO Link https://powerok.ru available and update
+file 2023-07-11 21:46:47,043 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 21:46:47,083 INFO Worker has completed the work: {'2**': 21  |  '!=2**': 0  |  'exception': 0  |  'deleted': 0}
+file 2023-07-11 21:47:13,493 INFO Link https://potolki88.ru available and update
+file 2023-07-11 21:47:13,501 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 21:47:13,521 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 21:47:13,530 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 21:47:13,549 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 21:47:13,567 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 21:47:13,581 INFO Link https://potrendim.ru available and update
+file 2023-07-11 21:47:13,598 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 21:47:13,624 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 21:47:13,631 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 21:47:13,659 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 21:47:13,685 INFO Link https://potter-style.ru available and update
+file 2023-07-11 21:47:13,801 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 21:47:13,943 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 21:47:13,991 INFO Link https://novardis.com/ available and update
+file 2023-07-11 21:47:14,067 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 21:47:14,081 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 21:47:14,125 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 21:47:14,332 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 21:47:14,520 INFO Link https://powerok.ru available and update
+file 2023-07-11 21:47:22,479 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 21:47:22,489 INFO Worker has completed the work: {'2**': 21  |  '!=2**': 0  |  'exception': 0  |  'deleted': 0}
+file 2023-07-11 21:47:48,457 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 21:47:48,478 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 21:47:48,493 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 21:47:48,499 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 21:47:48,507 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 21:47:48,510 INFO Link https://potrendim.ru available and update
+file 2023-07-11 21:47:48,517 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 21:47:48,544 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 21:47:48,610 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 21:47:48,643 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 21:47:48,661 INFO Link https://potter-style.ru available and update
+file 2023-07-11 21:47:48,770 INFO Link https://potolki88.ru available and update
+file 2023-07-11 21:47:48,872 INFO Link https://novardis.com/ available and update
+file 2023-07-11 21:47:48,884 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 21:47:48,969 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 21:47:48,978 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 21:47:49,130 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 21:47:49,136 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 21:47:49,152 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 21:47:49,557 INFO Link https://powerok.ru available and update
+file 2023-07-11 21:47:56,389 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 21:47:56,408 INFO Worker has completed the work: {'2**': 21  |  '!=2**': 0  |  'exception': 0  |  'deleted': 0}
+file 2023-07-11 21:48:23,457 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 21:48:23,477 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 21:48:23,480 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 21:48:23,482 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 21:48:23,487 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 21:48:23,493 INFO Link https://potolki88.ru available and update
+file 2023-07-11 21:48:23,507 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 21:48:23,514 INFO Link https://potrendim.ru available and update
+file 2023-07-11 21:48:23,520 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 21:48:23,573 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 21:48:23,669 INFO Link https://potter-style.ru available and update
+file 2023-07-11 21:48:23,806 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 21:48:23,849 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 21:48:23,919 INFO Link https://novardis.com/ available and update
+file 2023-07-11 21:48:23,969 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 21:48:24,034 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 21:48:24,059 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 21:48:24,083 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 21:48:24,441 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 21:48:25,446 INFO Link https://powerok.ru available and update
+file 2023-07-11 21:48:30,956 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 21:48:30,995 INFO Worker has completed the work: {'2**': 21  |  '!=2**': 0  |  'exception': 0  |  'deleted': 0}
+file 2023-07-11 21:48:58,469 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 21:48:58,470 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 21:48:58,478 INFO Link https://potolki88.ru available and update
+file 2023-07-11 21:48:58,490 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 21:48:58,509 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 21:48:58,512 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 21:48:58,518 INFO Link https://potrendim.ru available and update
+file 2023-07-11 21:48:58,519 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 21:48:58,523 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 21:48:58,595 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 21:48:58,647 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 21:48:58,668 INFO Link https://potter-style.ru available and update
+file 2023-07-11 21:48:58,844 INFO Link https://novardis.com/ available and update
+file 2023-07-11 21:48:58,849 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 21:48:58,947 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 21:48:59,003 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 21:48:59,019 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 21:48:59,062 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 21:48:59,098 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 21:48:59,655 INFO Link https://powerok.ru available and update
+file 2023-07-11 21:49:07,182 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 21:49:07,220 INFO Worker has completed the work: {'2**': 21  |  '!=2**': 0  |  'exception': 0  |  'deleted': 0}
+file 2023-07-11 21:49:33,436 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 21:49:33,439 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 21:49:33,441 INFO Link https://potolki88.ru available and update
+file 2023-07-11 21:49:33,468 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 21:49:33,480 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 21:49:33,481 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 21:49:33,483 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 21:49:33,494 INFO Link https://potrendim.ru available and update
+file 2023-07-11 21:49:33,502 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 21:49:33,565 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 21:49:33,619 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 21:49:33,645 INFO Link https://potter-style.ru available and update
+file 2023-07-11 21:49:33,811 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 21:49:33,887 INFO Link https://novardis.com/ available and update
+file 2023-07-11 21:49:33,921 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 21:49:34,006 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 21:49:34,010 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 21:49:34,059 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 21:49:34,262 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 21:49:34,451 INFO Link https://powerok.ru available and update
+file 2023-07-11 21:49:42,229 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 21:49:42,266 INFO Worker has completed the work: {'2**': 21  |  '!=2**': 0  |  'exception': 0  |  'deleted': 0}
+file 2023-07-11 21:50:08,440 INFO Link https://potolki88.ru available and update
+file 2023-07-11 21:50:08,444 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 21:50:08,451 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 21:50:08,471 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 21:50:08,479 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 21:50:08,486 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 21:50:08,494 INFO Link https://potrendim.ru available and update
+file 2023-07-11 21:50:08,496 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 21:50:08,565 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 21:50:08,589 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 21:50:08,625 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 21:50:08,645 INFO Link https://potter-style.ru available and update
+file 2023-07-11 21:50:08,812 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 21:50:08,872 INFO Link https://novardis.com/ available and update
+file 2023-07-11 21:50:09,014 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 21:50:09,057 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 21:50:09,085 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 21:50:09,087 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 21:50:09,247 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 21:50:09,502 INFO Link https://powerok.ru available and update
+file 2023-07-11 21:50:17,351 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 21:50:17,362 INFO Worker has completed the work: {'2**': 21  |  '!=2**': 0  |  'exception': 0  |  'deleted': 0}
+file 2023-07-11 21:50:18,667 INFO path: /web/links | method: GET | status: 200 OK | size: 21572
+file 2023-07-11 21:50:19,976 INFO path: /web/links | method: GET | status: 200 OK | size: 21572
+file 2023-07-11 21:50:23,060 INFO path: /web/events | method: GET | status: 200 OK | size: 8529
+file 2023-07-11 21:50:26,017 INFO path: /web/links | method: GET | status: 200 OK | size: 21572
+file 2023-07-11 21:50:26,360 INFO path: /web/new_link | method: GET | status: 200 OK | size: 4550
+file 2023-07-11 21:50:27,121 INFO path: /web/upload_image | method: GET | status: 200 OK | size: 4000
+file 2023-07-11 21:50:32,092 INFO path: /web/upload_image | method: POST | status: 200 OK | size: 4278
+file 2023-07-11 21:50:33,940 INFO path: /web/new_link | method: GET | status: 200 OK | size: 4550
+file 2023-07-11 21:50:43,453 INFO Link https://potolki88.ru available and update
+file 2023-07-11 21:50:43,460 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 21:50:43,465 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 21:50:43,473 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 21:50:43,475 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 21:50:43,485 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 21:50:43,487 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 21:50:43,502 INFO Link https://potrendim.ru available and update
+file 2023-07-11 21:50:43,504 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 21:50:43,576 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 21:50:43,654 INFO Link https://potter-style.ru available and update
+file 2023-07-11 21:50:43,669 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 21:50:43,825 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 21:50:43,831 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 21:50:43,874 INFO Link https://novardis.com/ available and update
+file 2023-07-11 21:50:44,099 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 21:50:44,106 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 21:50:44,110 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 21:50:44,175 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 21:50:44,487 INFO Link https://powerok.ru available and update
+file 2023-07-11 21:50:48,338 INFO path: /web/upload_image | method: GET | status: 200 OK | size: 4000
+file 2023-07-11 21:50:49,655 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 21:50:49,665 INFO Worker has completed the work: {'2**': 21  |  '!=2**': 0  |  'exception': 0  |  'deleted': 0}
+file 2023-07-11 21:50:52,303 INFO path: /web/links | method: GET | status: 200 OK | size: 21730
+file 2023-07-11 21:51:01,619 INFO path: /web/new_link | method: GET | status: 200 OK | size: 4550
+file 2023-07-11 21:51:03,382 INFO path: /web/upload_image | method: GET | status: 200 OK | size: 4000
+file 2023-07-11 21:51:10,816 INFO path: /web/upload_image | method: POST | status: 200 OK | size: 4266
+file 2023-07-11 21:51:18,453 INFO Link https://potolki88.ru available and update
+file 2023-07-11 21:51:18,455 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 21:51:18,465 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 21:51:18,472 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 21:51:18,487 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 21:51:18,506 INFO Link https://potrendim.ru available and update
+file 2023-07-11 21:51:18,509 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 21:51:18,510 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 21:51:18,515 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 21:51:18,581 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 21:51:18,637 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 21:51:18,659 INFO Link https://potter-style.ru available and update
+file 2023-07-11 21:51:18,860 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 21:51:18,899 INFO Link https://novardis.com/ available and update
+file 2023-07-11 21:51:19,029 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 21:51:19,038 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 21:51:19,103 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 21:51:19,230 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 21:51:19,246 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 21:51:19,478 INFO Link https://powerok.ru available and update
+file 2023-07-11 21:51:23,185 INFO path: /web/upload_image | method: GET | status: 200 OK | size: 4000
+file 2023-07-11 21:51:24,296 INFO path: /web/events | method: GET | status: 200 OK | size: 8529
+file 2023-07-11 21:51:25,241 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 21:51:25,255 INFO Worker has completed the work: {'2**': 21  |  '!=2**': 0  |  'exception': 0  |  'deleted': 0}
+file 2023-07-11 21:51:25,321 INFO path: /web/logs | method: GET | status: 200 OK | size: 8575
+file 2023-07-11 21:51:27,034 INFO path: /web/links | method: GET | status: 200 OK | size: 21572
+file 2023-07-11 21:51:29,106 INFO path: /web/events | method: GET | status: 200 OK | size: 8529
+file 2023-07-11 21:51:30,104 INFO path: /web/upload_image | method: GET | status: 200 OK | size: 4000
+file 2023-07-11 21:51:31,305 INFO path: /web/new_link | method: GET | status: 200 OK | size: 4550
+file 2023-07-11 21:51:32,035 INFO path: /web/upload_image | method: GET | status: 200 OK | size: 4000
+file 2023-07-11 21:51:33,344 INFO path: /web/events | method: GET | status: 200 OK | size: 8529
+file 2023-07-11 21:51:34,235 INFO path: /web/upload_image | method: GET | status: 200 OK | size: 4000
+file 2023-07-11 21:51:38,969 INFO path: /web/upload_image | method: POST | status: 200 OK | size: 4278
+file 2023-07-11 21:51:42,284 INFO path: /web/links | method: GET | status: 200 OK | size: 21572
+file 2023-07-11 21:51:46,459 INFO path: /web/links/2 | method: GET | status: 200 OK | size: 21723
+file 2023-07-11 21:51:51,413 INFO path: /web/links/250f6612-e3d4-4d43-bce8-9ecb8376decd/view | method: GET | status: 200 OK | size: 3447
+file 2023-07-11 21:51:53,429 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 21:51:53,443 INFO Link https://potolki88.ru available and update
+file 2023-07-11 21:51:53,445 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 21:51:53,453 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 21:51:53,454 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 21:51:53,458 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 21:51:53,471 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 21:51:53,474 INFO Link https://potrendim.ru available and update
+file 2023-07-11 21:51:53,505 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 21:51:53,557 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 21:51:53,612 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 21:51:53,638 INFO Link https://potter-style.ru available and update
+file 2023-07-11 21:51:53,762 INFO path: /web/links | method: GET | status: 200 OK | size: 21572
+file 2023-07-11 21:51:53,817 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 21:51:53,819 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 21:51:53,904 INFO Link https://novardis.com/ available and update
+file 2023-07-11 21:51:54,009 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 21:51:54,067 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 21:51:54,088 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 21:51:54,249 INFO path: /web/new_link | method: GET | status: 200 OK | size: 4550
+file 2023-07-11 21:51:54,399 INFO Link https://powerok.ru available and update
+file 2023-07-11 21:51:54,489 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 21:51:54,684 INFO path: /web/events | method: GET | status: 200 OK | size: 8529
+file 2023-07-11 21:51:55,119 INFO path: /web/logs | method: GET | status: 200 OK | size: 8435
+file 2023-07-11 21:51:58,020 INFO path: /web/links | method: GET | status: 200 OK | size: 21572
+file 2023-07-11 21:51:58,467 INFO path: /web/new_link | method: GET | status: 200 OK | size: 4550
+file 2023-07-11 21:51:58,850 INFO path: /web/upload_image | method: GET | status: 200 OK | size: 4000
+file 2023-07-11 21:51:59,228 INFO path: /web/events | method: GET | status: 200 OK | size: 8529
+file 2023-07-11 21:51:59,484 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 21:51:59,495 INFO Worker has completed the work: {'2**': 21  |  '!=2**': 0  |  'exception': 0  |  'deleted': 0}
+file 2023-07-11 21:51:59,616 INFO path: /web/logs | method: GET | status: 200 OK | size: 8677
+file 2023-07-11 21:52:00,296 INFO path: /web/links | method: GET | status: 200 OK | size: 21730
+file 2023-07-11 21:52:09,524 INFO path: /web/new_link | method: GET | status: 200 OK | size: 4550
+file 2023-07-11 21:52:10,093 INFO path: /web/upload_image | method: GET | status: 200 OK | size: 4000
+file 2023-07-11 21:52:10,663 INFO path: /web/events | method: GET | status: 200 OK | size: 8529
+file 2023-07-11 21:52:11,007 INFO path: /web/logs | method: GET | status: 200 OK | size: 8769
+file 2023-07-11 21:52:11,733 INFO path: /web/links | method: GET | status: 200 OK | size: 21730
+file 2023-07-11 21:52:13,756 INFO path: /web/links/2 | method: GET | status: 200 OK | size: 21575
+file 2023-07-11 21:52:14,218 INFO path: /web/links/3 | method: GET | status: 200 OK | size: 7752
+file 2023-07-11 21:52:15,877 INFO path: /web/links | method: GET | status: 200 OK | size: 21730
+file 2023-07-11 21:52:17,639 INFO path: /web/new_link | method: GET | status: 200 OK | size: 4550
+file 2023-07-11 21:52:18,244 INFO path: /web/upload_image | method: GET | status: 200 OK | size: 4000
+file 2023-07-11 21:52:18,805 INFO path: /web/events | method: GET | status: 200 OK | size: 8529
+file 2023-07-11 21:52:19,329 INFO path: /web/logs | method: GET | status: 200 OK | size: 8749
+file 2023-07-11 21:52:20,517 INFO path: /web/links | method: GET | status: 200 OK | size: 21730
+file 2023-07-11 21:52:28,428 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 21:52:28,438 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 21:52:28,441 INFO Link https://potolki88.ru available and update
+file 2023-07-11 21:52:28,448 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 21:52:28,464 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 21:52:28,479 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 21:52:28,483 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 21:52:28,490 INFO Link https://potrendim.ru available and update
+file 2023-07-11 21:52:28,493 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 21:52:28,568 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 21:52:28,646 INFO Link https://potter-style.ru available and update
+file 2023-07-11 21:52:28,772 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 21:52:28,831 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 21:52:28,845 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 21:52:28,904 INFO Link https://novardis.com/ available and update
+file 2023-07-11 21:52:29,030 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 21:52:29,039 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 21:52:29,177 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 21:52:29,182 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 21:52:29,550 INFO Link https://powerok.ru available and update
+file 2023-07-11 21:52:30,673 INFO path: /web/new_link | method: GET | status: 200 OK | size: 4550
+file 2023-07-11 21:52:36,318 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 21:52:36,362 INFO Worker has completed the work: {'2**': 21  |  '!=2**': 0  |  'exception': 0  |  'deleted': 0}
+file 2023-07-11 21:53:03,421 INFO Link https://potolki88.ru available and update
+file 2023-07-11 21:53:03,429 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 21:53:03,430 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 21:53:03,442 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 21:53:03,448 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 21:53:03,464 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 21:53:03,472 INFO Link https://potrendim.ru available and update
+file 2023-07-11 21:53:03,479 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 21:53:03,533 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 21:53:03,615 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 21:53:03,631 INFO Link https://potter-style.ru available and update
+file 2023-07-11 21:53:03,802 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 21:53:03,836 INFO Link https://novardis.com/ available and update
+file 2023-07-11 21:53:03,991 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 21:53:04,019 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 21:53:04,101 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 21:53:04,206 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 21:53:04,283 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 21:53:04,330 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 21:53:04,443 INFO Link https://powerok.ru available and update
+file 2023-07-11 21:53:13,208 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 21:53:13,220 INFO Worker has completed the work: {'2**': 21  |  '!=2**': 0  |  'exception': 0  |  'deleted': 0}
+file 2023-07-11 21:53:38,451 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 21:53:38,467 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 21:53:38,476 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 21:53:38,491 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 21:53:38,498 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 21:53:38,501 INFO Link https://potrendim.ru available and update
+file 2023-07-11 21:53:38,509 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 21:53:38,558 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 21:53:38,559 INFO Link https://potolki88.ru available and update
+file 2023-07-11 21:53:38,591 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 21:53:38,661 INFO Link https://potter-style.ru available and update
+file 2023-07-11 21:53:38,672 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 21:53:38,790 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 21:53:38,820 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 21:53:38,928 INFO Link https://novardis.com/ available and update
+file 2023-07-11 21:53:39,059 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 21:53:39,061 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 21:53:39,081 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 21:53:39,117 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 21:53:39,496 INFO Link https://powerok.ru available and update
+file 2023-07-11 21:53:51,618 INFO path: /web/new_link | method: GET | status: 200 OK | size: 4550
+file 2023-07-11 21:53:52,074 INFO path: /web/links | method: GET | status: 200 OK | size: 21730
+file 2023-07-11 21:53:53,628 INFO path: /web/links/0c70199c-e4c1-4c84-8598-7f42f74d813e/view | method: GET | status: 200 OK | size: 3509
+file 2023-07-11 21:53:55,567 INFO path: /web/logs | method: GET | status: 200 OK | size: 8509
+file 2023-07-11 21:53:56,010 INFO path: /web/events | method: GET | status: 200 OK | size: 8529
+file 2023-07-11 21:53:56,528 INFO path: /web/upload_image | method: GET | status: 200 OK | size: 4000
+file 2023-07-11 21:53:57,036 INFO path: /web/new_link | method: GET | status: 200 OK | size: 4550
+file 2023-07-11 21:53:57,602 INFO path: /web/links | method: GET | status: 200 OK | size: 21730
+file 2023-07-11 21:53:58,542 INFO Link http://httpbin.org/delay/3 exception
+file 2023-07-11 21:53:58,605 INFO Worker has completed the work: {'2**': 20  |  '!=2**': 0  |  'exception': 1  |  'deleted': 0}
+file 2023-07-11 21:53:59,954 INFO path: /web/links/2 | method: GET | status: 200 OK | size: 21723
+file 2023-07-11 21:54:00,399 INFO path: /web/links/3 | method: GET | status: 200 OK | size: 7762
+file 2023-07-11 21:54:01,854 INFO path: /web/links | method: GET | status: 200 OK | size: 21573
+file 2023-07-11 21:54:04,959 INFO path: /web/links/87f31316-512b-4ff0-b6b2-bbf2e82d73e0/view | method: GET | status: 200 OK | size: 4340
+file 2023-07-11 21:54:06,579 INFO path: /web/links | method: GET | status: 200 OK | size: 21573
+file 2023-07-11 21:54:13,428 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 21:54:13,430 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 21:54:13,451 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 21:54:13,457 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 21:54:13,463 INFO Link https://potolki88.ru available and update
+file 2023-07-11 21:54:13,467 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 21:54:13,471 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 21:54:13,481 INFO Link https://potrendim.ru available and update
+file 2023-07-11 21:54:13,486 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 21:54:13,580 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 21:54:13,635 INFO Link https://potter-style.ru available and update
+file 2023-07-11 21:54:13,693 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 21:54:13,740 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 21:54:13,805 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 21:54:13,917 INFO Link https://novardis.com/ available and update
+file 2023-07-11 21:54:13,996 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 21:54:14,102 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 21:54:14,111 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 21:54:14,340 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 21:54:14,412 INFO Link https://powerok.ru available and update
+file 2023-07-11 21:54:20,981 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 21:54:21,019 INFO Worker has completed the work: {'2**': 21  |  '!=2**': 0  |  'exception': 0  |  'deleted': 0}
+file 2023-07-11 21:54:48,434 INFO Link https://potolki88.ru available and update
+file 2023-07-11 21:54:48,441 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 21:54:48,446 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 21:54:48,457 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 21:54:48,461 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 21:54:48,474 INFO Link https://potrendim.ru available and update
+file 2023-07-11 21:54:48,483 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 21:54:48,505 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 21:54:48,512 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 21:54:48,581 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 21:54:48,613 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 21:54:48,631 INFO Link https://potter-style.ru available and update
+file 2023-07-11 21:54:48,790 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 21:54:48,860 INFO Link https://novardis.com/ available and update
+file 2023-07-11 21:54:48,982 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 21:54:49,045 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 21:54:49,094 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 21:54:49,109 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 21:54:49,112 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 21:54:49,276 INFO Link https://powerok.ru available and update
+file 2023-07-11 21:54:54,887 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 21:54:54,899 INFO Worker has completed the work: {'2**': 21  |  '!=2**': 0  |  'exception': 0  |  'deleted': 0}
+file 2023-07-11 21:55:07,436 INFO path: /web/links | method: GET | status: 200 OK | size: 21572
+file 2023-07-11 21:55:08,783 INFO path: /web/new_link | method: GET | status: 200 OK | size: 4550
+file 2023-07-11 21:55:11,444 INFO path: /web/new_link | method: POST | status: 200 OK | size: 4806
+file 2023-07-11 21:55:12,800 INFO path: /web/links | method: GET | status: 200 OK | size: 21572
+file 2023-07-11 21:55:15,248 INFO path: /web/links/2 | method: GET | status: 200 OK | size: 21687
+file 2023-07-11 21:55:17,345 INFO path: /web/links/5c2c6acb-a250-471f-8fb5-496219b18eef/view | method: GET | status: 200 OK | size: 3453
+file 2023-07-11 21:55:20,377 INFO path: /web/links/2 | method: GET | status: 200 OK | size: 21687
+file 2023-07-11 21:55:23,430 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 21:55:23,457 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 21:55:23,477 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 21:55:23,486 INFO Link https://potolki88.ru available and update
+file 2023-07-11 21:55:23,491 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 21:55:23,499 INFO Link https://potrendim.ru available and update
+file 2023-07-11 21:55:23,501 INFO Link https://novarzzzdis.com/ exception
+file 2023-07-11 21:55:23,502 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 21:55:23,532 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 21:55:23,577 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 21:55:23,606 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 21:55:23,644 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 21:55:23,656 INFO Link https://potter-style.ru available and update
+file 2023-07-11 21:55:23,860 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 21:55:23,922 INFO Link https://novardis.com/ available and update
+file 2023-07-11 21:55:23,950 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 21:55:24,012 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 21:55:24,080 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 21:55:24,141 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 21:55:24,167 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 21:55:24,411 INFO Link https://powerok.ru available and update
+file 2023-07-11 21:55:31,574 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 21:55:31,598 INFO Worker has completed the work: {'2**': 21  |  '!=2**': 0  |  'exception': 1  |  'deleted': 0}
+file 2023-07-11 21:55:58,371 INFO Link https://novarzzzdis.com/ exception
+file 2023-07-11 21:55:58,442 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 21:55:58,468 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 21:55:58,482 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 21:55:58,495 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 21:55:58,497 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 21:55:58,499 INFO Link https://potrendim.ru available and update
+file 2023-07-11 21:55:58,530 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 21:55:58,540 INFO Link https://potolki88.ru available and update
+file 2023-07-11 21:55:58,575 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 21:55:58,652 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 21:55:58,654 INFO Link https://potter-style.ru available and update
+file 2023-07-11 21:55:58,677 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 21:55:58,836 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 21:55:58,913 INFO Link https://novardis.com/ available and update
+file 2023-07-11 21:55:59,010 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 21:55:59,077 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 21:55:59,102 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 21:55:59,266 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 21:55:59,299 INFO path: /web/links/3 | method: GET | status: 200 OK | size: 9276
+file 2023-07-11 21:55:59,380 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 21:55:59,509 INFO Link https://powerok.ru available and update
+file 2023-07-11 21:56:00,904 INFO path: /web/links | method: GET | status: 200 OK | size: 21730
+file 2023-07-11 21:56:03,757 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 21:56:03,767 INFO Worker has completed the work: {'2**': 21  |  '!=2**': 0  |  'exception': 1  |  'deleted': 0}
+file 2023-07-11 21:56:19,986 INFO path: /web/new_link | method: GET | status: 200 OK | size: 4550
+file 2023-07-11 21:56:30,483 INFO path: /web/new_link | method: POST | status: 200 OK | size: 4813
+file 2023-07-11 21:56:33,353 INFO Link https://novarzzzdis.com/ exception
+file 2023-07-11 21:56:33,421 INFO Link https://potolki88.ru available and update
+file 2023-07-11 21:56:33,424 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 21:56:33,448 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 21:56:33,458 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 21:56:33,459 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 21:56:33,462 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 21:56:33,468 INFO Link https://potrendim.ru available and update
+file 2023-07-11 21:56:33,480 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 21:56:33,482 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 21:56:33,570 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 21:56:33,606 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 21:56:33,632 INFO Link https://potter-style.ru available and update
+file 2023-07-11 21:56:33,795 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 21:56:33,826 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 21:56:33,954 INFO Link https://novardis.com/ available and update
+file 2023-07-11 21:56:33,979 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 21:56:34,021 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 21:56:34,221 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 21:56:34,432 INFO Link https://powerok.ru available and update
+file 2023-07-11 21:56:34,518 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 21:56:39,140 INFO path: /web/new_link | method: POST | status: 200 OK | size: 4810
+file 2023-07-11 21:56:41,054 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 21:56:41,081 INFO Worker has completed the work: {'2**': 21  |  '!=2**': 0  |  'exception': 1  |  'deleted': 0}
+file 2023-07-11 21:56:45,456 INFO path: /web/new_link | method: POST | status: 200 OK | size: 4805
+file 2023-07-11 21:56:46,967 INFO path: /web/links | method: GET | status: 200 OK | size: 21730
+file 2023-07-11 21:56:49,536 INFO path: /web/links/3 | method: GET | status: 200 OK | size: 10815
+file 2023-07-11 21:56:52,961 INFO path: /web/links/57ace052-3de3-4997-8264-fe0acf5f4f25/view | method: GET | status: 200 OK | size: 3451
+file 2023-07-11 21:56:56,076 INFO path: /web/links | method: GET | status: 200 OK | size: 21730
+file 2023-07-11 21:56:56,714 INFO path: /web/new_link | method: GET | status: 200 OK | size: 4550
+file 2023-07-11 21:56:57,828 INFO path: /web/links | method: GET | status: 200 OK | size: 21730
+file 2023-07-11 21:57:02,118 INFO path: /web/links/2 | method: GET | status: 200 OK | size: 21575
+file 2023-07-11 21:57:04,114 INFO path: /web/links/87f31316-512b-4ff0-b6b2-bbf2e82d73e0/view | method: GET | status: 200 OK | size: 4362
+file 2023-07-11 21:57:06,085 INFO path: /web/links | method: GET | status: 200 OK | size: 21730
+file 2023-07-11 21:57:08,322 INFO path: /web/new_link | method: GET | status: 200 OK | size: 4550
+file 2023-07-11 21:57:08,370 INFO Link https://novarzzzdis.com/ exception
+file 2023-07-11 21:57:08,442 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 21:57:08,444 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 21:57:08,453 INFO Link https://potolki88.ru available and update
+file 2023-07-11 21:57:08,462 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 21:57:08,481 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 21:57:08,488 INFO Link https://potrendim.ru available and update
+file 2023-07-11 21:57:08,497 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 21:57:08,501 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 21:57:08,530 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 21:57:08,573 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 21:57:08,647 INFO Link https://potter-style.ru available and update
+file 2023-07-11 21:57:08,715 INFO path: /web/upload_image | method: GET | status: 200 OK | size: 4000
+file 2023-07-11 21:57:08,730 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 21:57:08,771 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 21:57:08,801 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 21:57:08,882 INFO Link https://novardis.com/ available and update
+file 2023-07-11 21:57:08,966 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 21:57:09,048 INFO Link https://novardis.com/1/ available and update
+file 2023-07-11 21:57:09,076 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 21:57:09,080 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 21:57:09,115 INFO path: /web/logs | method: GET | status: 200 OK | size: 8347
+file 2023-07-11 21:57:09,261 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 21:57:09,483 INFO Link https://powerok.ru available and update
+file 2023-07-11 21:57:09,920 INFO path: /web/logs | method: GET | status: 200 OK | size: 8415
+file 2023-07-11 21:57:10,601 INFO path: /web/new_link | method: GET | status: 200 OK | size: 4550
+file 2023-07-11 21:57:11,063 INFO path: /web/links | method: GET | status: 200 OK | size: 21730
+file 2023-07-11 21:57:12,879 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 21:57:12,918 INFO Worker has completed the work: {'2**': 22  |  '!=2**': 0  |  'exception': 1  |  'deleted': 0}
+file 2023-07-11 21:57:43,395 INFO Link https://novarzzzdis.com/ exception
+file 2023-07-11 21:57:43,461 INFO Link https://potolki88.ru available and update
+file 2023-07-11 21:57:43,473 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 21:57:43,476 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 21:57:43,516 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 21:57:43,524 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 21:57:43,574 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 21:57:43,587 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 21:57:43,598 INFO Link https://potrendim.ru available and update
+file 2023-07-11 21:57:43,615 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 21:57:43,620 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 21:57:43,667 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 21:57:43,677 INFO Link https://potter-style.ru available and update
+file 2023-07-11 21:57:43,829 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 21:57:43,896 INFO Link https://novardis.com/ available and update
+file 2023-07-11 21:57:43,930 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 21:57:43,988 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 21:57:44,031 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 21:57:44,051 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 21:57:44,097 INFO Link https://novardis.com/1/ available and update
+file 2023-07-11 21:57:44,250 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 21:57:44,472 INFO Link https://powerok.ru available and update
+file 2023-07-11 21:57:51,786 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 21:57:51,814 INFO Worker has completed the work: {'2**': 22  |  '!=2**': 0  |  'exception': 1  |  'deleted': 0}
+file 2023-07-11 21:58:18,352 INFO Link https://novarzzzdis.com/ exception
+file 2023-07-11 21:58:18,445 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 21:58:18,449 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 21:58:18,460 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 21:58:18,464 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 21:58:18,467 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 21:58:18,468 INFO Link https://potolki88.ru available and update
+file 2023-07-11 21:58:18,479 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 21:58:18,481 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 21:58:18,481 INFO Link https://potrendim.ru available and update
+file 2023-07-11 21:58:18,572 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 21:58:18,630 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 21:58:18,632 INFO Link https://potter-style.ru available and update
+file 2023-07-11 21:58:18,763 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 21:58:18,777 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 21:58:18,818 INFO Link https://novardis.com/ available and update
+file 2023-07-11 21:58:18,918 INFO Link https://novardis.com/1/ available and update
+file 2023-07-11 21:58:19,088 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 21:58:19,091 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 21:58:19,097 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 21:58:19,100 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 21:58:19,459 INFO Link https://powerok.ru available and update
+file 2023-07-11 21:58:24,977 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 21:58:24,988 INFO Worker has completed the work: {'2**': 22  |  '!=2**': 0  |  'exception': 1  |  'deleted': 0}
+file 2023-07-11 21:58:53,349 INFO Link https://novarzzzdis.com/ exception
+file 2023-07-11 21:58:53,420 INFO Link https://potolki88.ru available and update
+file 2023-07-11 21:58:53,433 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 21:58:53,437 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 21:58:53,453 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 21:58:53,458 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 21:58:53,470 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 21:58:53,474 INFO Link https://potrendim.ru available and update
+file 2023-07-11 21:58:53,487 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 21:58:53,514 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 21:58:53,581 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 21:58:53,637 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 21:58:53,643 INFO Link https://potter-style.ru available and update
+file 2023-07-11 21:58:53,760 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 21:58:53,785 INFO Link https://novardis.com/ available and update
+file 2023-07-11 21:58:53,795 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 21:58:53,958 INFO Link https://novardis.com/1/ available and update
+file 2023-07-11 21:58:54,004 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 21:58:54,017 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 21:58:54,029 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 21:58:54,104 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 21:58:54,478 INFO Link https://powerok.ru available and update
+file 2023-07-11 21:59:00,686 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 21:59:00,706 INFO Worker has completed the work: {'2**': 22  |  '!=2**': 0  |  'exception': 1  |  'deleted': 0}
+file 2023-07-11 21:59:28,389 INFO Link https://novarzzzdis.com/ exception
+file 2023-07-11 21:59:28,471 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 21:59:28,475 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 21:59:28,484 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 21:59:28,494 INFO Link https://potolki88.ru available and update
+file 2023-07-11 21:59:28,495 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 21:59:28,496 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 21:59:28,499 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 21:59:28,514 INFO Link https://potrendim.ru available and update
+file 2023-07-11 21:59:28,517 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 21:59:28,587 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 21:59:28,647 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 21:59:28,667 INFO Link https://potter-style.ru available and update
+file 2023-07-11 21:59:28,821 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 21:59:28,879 INFO Link https://novardis.com/ available and update
+file 2023-07-11 21:59:28,941 INFO Link https://novardis.com/1/ available and update
+file 2023-07-11 21:59:29,055 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 21:59:29,069 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 21:59:29,082 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 21:59:29,085 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 21:59:29,277 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 21:59:29,395 INFO Link https://powerok.ru available and update
+file 2023-07-11 21:59:48,537 INFO Link http://httpbin.org/delay/3 exception
+file 2023-07-11 21:59:48,568 INFO Worker has completed the work: {'2**': 21  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-11 22:00:03,343 INFO Link https://novarzzzdis.com/ exception
+file 2023-07-11 22:00:03,426 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 22:00:03,427 INFO Link https://potolki88.ru available and update
+file 2023-07-11 22:00:03,430 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 22:00:03,439 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 22:00:03,440 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 22:00:03,466 INFO Link https://potrendim.ru available and update
+file 2023-07-11 22:00:03,473 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 22:00:03,573 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 22:00:03,574 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 22:00:03,600 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 22:00:03,632 INFO Link https://potter-style.ru available and update
+file 2023-07-11 22:00:03,705 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 22:00:03,786 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 22:00:03,820 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 22:00:03,825 INFO Link https://novardis.com/ available and update
+file 2023-07-11 22:00:04,072 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 22:00:04,084 INFO Link https://novardis.com/1/ available and update
+file 2023-07-11 22:00:04,089 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 22:00:04,150 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 22:00:04,176 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 22:00:04,459 INFO Link https://powerok.ru available and update
+file 2023-07-11 22:00:11,552 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 22:00:11,613 INFO Worker has completed the work: {'2**': 22  |  '!=2**': 0  |  'exception': 1  |  'deleted': 0}
+file 2023-07-11 22:00:38,369 INFO Link https://novarzzzdis.com/ delete
+file 2023-07-11 22:00:38,469 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 22:00:38,472 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 22:00:38,481 INFO Link https://potolki88.ru available and update
+file 2023-07-11 22:00:38,499 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 22:00:38,503 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 22:00:38,516 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 22:00:38,517 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 22:00:38,528 INFO Link https://potrendim.ru available and update
+file 2023-07-11 22:00:38,532 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 22:00:38,608 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 22:00:38,662 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 22:00:38,684 INFO Link https://potter-style.ru available and update
+file 2023-07-11 22:00:38,827 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 22:00:38,834 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 22:00:38,878 INFO Link https://novardis.com/ available and update
+file 2023-07-11 22:00:38,985 INFO Link https://novardis.com/1/ available and update
+file 2023-07-11 22:00:39,074 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 22:00:39,114 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 22:00:39,166 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 22:00:39,171 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 22:00:39,497 INFO Link https://powerok.ru available and update
+file 2023-07-11 22:00:43,970 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 22:00:44,010 INFO Worker has completed the work: {'2**': 22  |  '!=2**': 0  |  'exception': 0  |  'deleted': 1}
+file 2023-07-11 22:01:13,456 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 22:01:13,458 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 22:01:13,472 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 22:01:13,482 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 22:01:13,488 INFO Link https://potolki88.ru available and update
+file 2023-07-11 22:01:13,491 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 22:01:13,507 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 22:01:13,510 INFO Link https://potrendim.ru available and update
+file 2023-07-11 22:01:13,512 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 22:01:13,585 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 22:01:13,661 INFO Link https://potter-style.ru available and update
+file 2023-07-11 22:01:13,697 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 22:01:13,831 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 22:01:13,869 INFO Link https://novardis.com/ available and update
+file 2023-07-11 22:01:13,898 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 22:01:13,969 INFO Link https://novardis.com/1/ available and update
+file 2023-07-11 22:01:14,034 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 22:01:14,066 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 22:01:14,081 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 22:01:14,082 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 22:01:14,555 INFO Link https://powerok.ru available and update
+file 2023-07-11 22:01:33,543 INFO Link http://httpbin.org/delay/3 exception
+file 2023-07-11 22:01:33,567 INFO Worker has completed the work: {'2**': 21  |  '!=2**': 0  |  'exception': 1  |  'deleted': 0}
+file 2023-07-11 22:01:48,451 INFO Link https://potolki88.ru available and update
+file 2023-07-11 22:01:48,459 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 22:01:48,461 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 22:01:48,481 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 22:01:48,484 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 22:01:48,497 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 22:01:48,502 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 22:01:48,505 INFO Link https://potrendim.ru available and update
+file 2023-07-11 22:01:48,509 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 22:01:48,606 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 22:01:48,642 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 22:01:48,715 INFO Link https://potter-style.ru available and update
+file 2023-07-11 22:01:48,814 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 22:01:48,829 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 22:01:48,992 INFO Link https://novardis.com/ available and update
+file 2023-07-11 22:01:49,028 INFO Link https://novardis.com/1/ available and update
+file 2023-07-11 22:01:49,150 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 22:01:49,196 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 22:01:49,309 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 22:01:49,336 INFO Link https://powerok.ru available and update
+file 2023-07-11 22:01:49,561 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 22:01:55,470 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 22:01:55,502 INFO Worker has completed the work: {'2**': 22  |  '!=2**': 0  |  'exception': 0  |  'deleted': 0}
+file 2023-07-11 22:02:23,458 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 22:02:23,472 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 22:02:23,473 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 22:02:23,485 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 22:02:23,486 INFO Link https://potolki88.ru available and update
+file 2023-07-11 22:02:23,501 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 22:02:23,502 INFO Link https://potrendim.ru available and update
+file 2023-07-11 22:02:23,507 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 22:02:23,510 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 22:02:23,605 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 22:02:23,635 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 22:02:23,657 INFO Link https://potter-style.ru available and update
+file 2023-07-11 22:02:23,819 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 22:02:23,926 INFO Link https://novardis.com/ available and update
+file 2023-07-11 22:02:23,982 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 22:02:23,998 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 22:02:24,020 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 22:02:24,024 INFO Link https://novardis.com/1/ available and update
+file 2023-07-11 22:02:24,071 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 22:02:24,110 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 22:02:24,629 INFO Link https://powerok.ru available and update
+file 2023-07-11 22:02:33,200 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 22:02:33,209 INFO Worker has completed the work: {'2**': 22  |  '!=2**': 0  |  'exception': 0  |  'deleted': 0}
+file 2023-07-11 22:02:58,465 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 22:02:58,482 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 22:02:58,482 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 22:02:58,491 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 22:02:58,495 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 22:02:58,509 INFO Link https://potrendim.ru available and update
+file 2023-07-11 22:02:58,513 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 22:02:58,534 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 22:02:58,564 INFO Link https://potolki88.ru available and update
+file 2023-07-11 22:02:58,611 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 22:02:58,666 INFO Link https://potter-style.ru available and update
+file 2023-07-11 22:02:58,773 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 22:02:58,797 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 22:02:58,810 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 22:02:58,901 INFO Link https://novardis.com/ available and update
+file 2023-07-11 22:02:58,997 INFO Link https://novardis.com/1/ available and update
+file 2023-07-11 22:02:59,037 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 22:02:59,041 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 22:02:59,065 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 22:02:59,114 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 22:02:59,476 INFO Link https://powerok.ru available and update
+file 2023-07-11 22:03:06,370 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 22:03:06,394 INFO Worker has completed the work: {'2**': 22  |  '!=2**': 0  |  'exception': 0  |  'deleted': 0}
+file 2023-07-11 22:03:33,469 INFO Link https://potolki88.ru available and update
+file 2023-07-11 22:03:33,469 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 22:03:33,486 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 22:03:33,490 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 22:03:33,497 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 22:03:33,499 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 22:03:33,506 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 22:03:33,520 INFO Link https://potrendim.ru available and update
+file 2023-07-11 22:03:33,523 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 22:03:33,582 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 22:03:33,691 INFO Link https://potter-style.ru available and update
+file 2023-07-11 22:03:33,722 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 22:03:33,835 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 22:03:33,888 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 22:03:33,978 INFO Link https://novardis.com/ available and update
+file 2023-07-11 22:03:34,047 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 22:03:34,083 INFO Link https://novardis.com/1/ available and update
+file 2023-07-11 22:03:34,128 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 22:03:34,177 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 22:03:34,232 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 22:03:34,539 INFO Link https://powerok.ru available and update
+file 2023-07-11 22:03:43,082 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 22:03:43,093 INFO Worker has completed the work: {'2**': 22  |  '!=2**': 0  |  'exception': 0  |  'deleted': 0}
+file 2023-07-11 22:04:08,484 INFO Link https://potolki88.ru available and update
+file 2023-07-11 22:04:08,487 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 22:04:08,495 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 22:04:08,507 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 22:04:08,519 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 22:04:08,521 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 22:04:08,531 INFO Link https://potrendim.ru available and update
+file 2023-07-11 22:04:08,539 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 22:04:08,585 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 22:04:08,629 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 22:04:08,681 INFO Link https://potter-style.ru available and update
+file 2023-07-11 22:04:08,778 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 22:04:08,851 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 22:04:08,856 INFO Link https://novardis.com/ available and update
+file 2023-07-11 22:04:08,890 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 22:04:08,989 INFO Link https://novardis.com/1/ available and update
+file 2023-07-11 22:04:09,158 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 22:04:09,164 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 22:04:09,176 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 22:04:09,178 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 22:04:09,509 INFO Link https://powerok.ru available and update
+file 2023-07-11 22:04:14,461 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 22:04:14,473 INFO Worker has completed the work: {'2**': 22  |  '!=2**': 0  |  'exception': 0  |  'deleted': 0}
+file 2023-07-11 22:04:43,411 INFO Link https://potolki88.ru available and update
+file 2023-07-11 22:04:43,414 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 22:04:43,421 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 22:04:43,423 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 22:04:43,439 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 22:04:43,460 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 22:04:43,467 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 22:04:43,468 INFO Link https://potrendim.ru available and update
+file 2023-07-11 22:04:43,470 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 22:04:43,564 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 22:04:43,598 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 22:04:43,621 INFO Link https://potter-style.ru available and update
+file 2023-07-11 22:04:43,782 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 22:04:43,813 INFO Link https://novardis.com/ available and update
+file 2023-07-11 22:04:43,913 INFO Link https://novardis.com/1/ available and update
+file 2023-07-11 22:04:43,996 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 22:04:44,002 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 22:04:44,076 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 22:04:44,090 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 22:04:44,230 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 22:04:44,445 INFO Link https://powerok.ru available and update
+file 2023-07-11 22:04:52,934 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 22:04:52,955 INFO Worker has completed the work: {'2**': 22  |  '!=2**': 0  |  'exception': 0  |  'deleted': 0}
+file 2023-07-11 22:05:18,430 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 22:05:18,447 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 22:05:18,448 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 22:05:18,449 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 22:05:18,456 INFO Link https://potolki88.ru available and update
+file 2023-07-11 22:05:18,468 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 22:05:18,479 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 22:05:18,482 INFO Link https://potrendim.ru available and update
+file 2023-07-11 22:05:18,483 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 22:05:18,576 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 22:05:18,614 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 22:05:18,636 INFO Link https://potter-style.ru available and update
+file 2023-07-11 22:05:18,796 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 22:05:18,826 INFO Link https://novardis.com/ available and update
+file 2023-07-11 22:05:18,915 INFO Link https://novardis.com/1/ available and update
+file 2023-07-11 22:05:18,982 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 22:05:19,004 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 22:05:19,030 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 22:05:19,035 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 22:05:19,067 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 22:05:19,452 INFO Link https://powerok.ru available and update
+file 2023-07-11 22:05:30,095 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 22:05:30,110 INFO Worker has completed the work: {'2**': 22  |  '!=2**': 0  |  'exception': 0  |  'deleted': 0}
+file 2023-07-11 22:05:53,436 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 22:05:53,438 INFO Link https://potolki88.ru available and update
+file 2023-07-11 22:05:53,453 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 22:05:53,455 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 22:05:53,468 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 22:05:53,479 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 22:05:53,487 INFO Link https://potrendim.ru available and update
+file 2023-07-11 22:05:53,488 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 22:05:53,493 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 22:05:53,542 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 22:05:53,724 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 22:05:53,773 INFO Link https://potter-style.ru available and update
+file 2023-07-11 22:05:53,804 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 22:05:53,809 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 22:05:53,862 INFO Link https://novardis.com/ available and update
+file 2023-07-11 22:05:53,993 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 22:05:53,998 INFO Link https://novardis.com/1/ available and update
+file 2023-07-11 22:05:54,000 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 22:05:54,072 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 22:05:54,213 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 22:05:54,455 INFO Link https://powerok.ru available and update
+file 2023-07-11 22:05:57,280 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 22:05:57,291 INFO Worker has completed the work: {'2**': 22  |  '!=2**': 0  |  'exception': 0  |  'deleted': 0}
+file 2023-07-11 22:06:28,500 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 22:06:28,512 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 22:06:28,520 INFO Link https://potolki88.ru available and update
+file 2023-07-11 22:06:28,522 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 22:06:28,531 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 22:06:28,533 INFO Link https://potrendim.ru available and update
+file 2023-07-11 22:06:28,540 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 22:06:28,552 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 22:06:28,577 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 22:06:28,601 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 22:06:28,677 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 22:06:28,696 INFO Link https://potter-style.ru available and update
+file 2023-07-11 22:06:28,835 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 22:06:28,871 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 22:06:28,896 INFO Link https://novardis.com/ available and update
+file 2023-07-11 22:06:28,980 INFO Link https://novardis.com/1/ available and update
+file 2023-07-11 22:06:29,061 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 22:06:29,085 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 22:06:29,153 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 22:06:29,267 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 22:06:29,496 INFO Link https://powerok.ru available and update
+file 2023-07-11 22:06:40,559 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 22:06:40,569 INFO Worker has completed the work: {'2**': 22  |  '!=2**': 0  |  'exception': 0  |  'deleted': 0}
+file 2023-07-11 22:07:03,403 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 22:07:03,409 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 22:07:03,410 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 22:07:03,415 INFO Link https://potolki88.ru available and update
+file 2023-07-11 22:07:03,435 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 22:07:03,455 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 22:07:03,466 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 22:07:03,467 INFO Link https://potrendim.ru available and update
+file 2023-07-11 22:07:03,568 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 22:07:03,617 INFO Link https://potter-style.ru available and update
+file 2023-07-11 22:07:03,746 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 22:07:03,810 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 22:07:03,838 INFO Link https://novardis.com/ available and update
+file 2023-07-11 22:07:04,019 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 22:07:04,035 INFO Link https://novardis.com/1/ available and update
+file 2023-07-11 22:07:04,057 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 22:07:04,061 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 22:07:04,110 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 22:07:04,231 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 22:07:04,234 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 22:07:04,397 INFO Link https://powerok.ru available and update
+file 2023-07-11 22:07:11,407 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 22:07:11,419 INFO Worker has completed the work: {'2**': 22  |  '!=2**': 0  |  'exception': 0  |  'deleted': 0}
+file 2023-07-11 22:07:38,427 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 22:07:38,434 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 22:07:38,451 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 22:07:38,458 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 22:07:38,469 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 22:07:38,483 INFO Link https://potrendim.ru available and update
+file 2023-07-11 22:07:38,487 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 22:07:38,518 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 22:07:38,520 INFO Link https://potolki88.ru available and update
+file 2023-07-11 22:07:38,560 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 22:07:38,614 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 22:07:38,633 INFO Link https://potter-style.ru available and update
+file 2023-07-11 22:07:38,788 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 22:07:38,792 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 22:07:38,829 INFO Link https://novardis.com/ available and update
+file 2023-07-11 22:07:38,887 INFO Link https://novardis.com/1/ available and update
+file 2023-07-11 22:07:38,969 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 22:07:39,057 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 22:07:39,223 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 22:07:39,405 INFO Link https://powerok.ru available and update
+file 2023-07-11 22:07:39,609 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 22:07:43,330 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 22:07:43,355 INFO Worker has completed the work: {'2**': 22  |  '!=2**': 0  |  'exception': 0  |  'deleted': 0}
+file 2023-07-11 22:08:13,440 INFO Link https://potolki88.ru available and update
+file 2023-07-11 22:08:13,514 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 22:08:13,530 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 22:08:13,532 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 22:08:13,552 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 22:08:13,559 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 22:08:13,561 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 22:08:13,571 INFO Link https://potrendim.ru available and update
+file 2023-07-11 22:08:13,609 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 22:08:13,647 INFO Link https://potter-style.ru available and update
+file 2023-07-11 22:08:13,857 INFO Link https://novardis.com/ available and update
+file 2023-07-11 22:08:13,882 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 22:08:13,886 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 22:08:13,941 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 22:08:13,990 INFO Link https://novardis.com/1/ available and update
+file 2023-07-11 22:08:14,031 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 22:08:14,057 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 22:08:14,062 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 22:08:14,074 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 22:08:14,231 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 22:08:14,550 INFO Link https://powerok.ru available and update
+file 2023-07-11 22:08:19,533 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 22:08:19,548 INFO Worker has completed the work: {'2**': 22  |  '!=2**': 0  |  'exception': 0  |  'deleted': 0}
+file 2023-07-11 22:08:48,416 INFO Link https://potolki88.ru available and update
+file 2023-07-11 22:08:48,418 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 22:08:48,445 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 22:08:48,457 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 22:08:48,466 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 22:08:48,472 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 22:08:48,474 INFO Link https://potrendim.ru available and update
+file 2023-07-11 22:08:48,502 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 22:08:48,505 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 22:08:48,553 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 22:08:48,611 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 22:08:48,629 INFO Link https://potter-style.ru available and update
+file 2023-07-11 22:08:48,784 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 22:08:48,813 INFO Link https://novardis.com/ available and update
+file 2023-07-11 22:08:48,912 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 22:08:48,937 INFO Link https://novardis.com/1/ available and update
+file 2023-07-11 22:08:48,995 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 22:08:49,015 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 22:08:49,042 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 22:08:49,063 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 22:08:49,435 INFO Link https://powerok.ru available and update
+file 2023-07-11 22:08:54,568 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 22:08:54,581 INFO Worker has completed the work: {'2**': 22  |  '!=2**': 0  |  'exception': 0  |  'deleted': 0}
+file 2023-07-11 22:09:23,471 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 22:09:23,475 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 22:09:23,476 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 22:09:23,482 INFO Link https://potolki88.ru available and update
+file 2023-07-11 22:09:23,494 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 22:09:23,510 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 22:09:23,528 INFO Link https://potrendim.ru available and update
+file 2023-07-11 22:09:23,535 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 22:09:23,555 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 22:09:23,611 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 22:09:23,659 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 22:09:23,684 INFO Link https://potter-style.ru available and update
+file 2023-07-11 22:09:23,833 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 22:09:23,834 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 22:09:23,908 INFO Link https://novardis.com/ available and update
+file 2023-07-11 22:09:24,020 INFO Link https://novardis.com/1/ available and update
+file 2023-07-11 22:09:24,121 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 22:09:24,134 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 22:09:24,136 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 22:09:24,473 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 22:09:24,502 INFO Link https://powerok.ru available and update
+file 2023-07-11 22:09:32,233 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 22:09:32,243 INFO Worker has completed the work: {'2**': 22  |  '!=2**': 0  |  'exception': 0  |  'deleted': 0}
+file 2023-07-11 22:09:58,437 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 22:09:58,438 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 22:09:58,455 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 22:09:58,457 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 22:09:58,462 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 22:09:58,467 INFO Link https://potolki88.ru available and update
+file 2023-07-11 22:09:58,475 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 22:09:58,484 INFO Link https://potrendim.ru available and update
+file 2023-07-11 22:09:58,495 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 22:09:58,546 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 22:09:58,640 INFO Link https://potter-style.ru available and update
+file 2023-07-11 22:09:58,655 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 22:09:58,785 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 22:09:58,815 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 22:09:58,847 INFO Link https://novardis.com/ available and update
+file 2023-07-11 22:09:58,980 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 22:09:58,994 INFO Link https://novardis.com/1/ available and update
+file 2023-07-11 22:09:59,020 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 22:09:59,023 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 22:09:59,081 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 22:09:59,423 INFO Link https://powerok.ru available and update
+file 2023-07-11 22:10:06,537 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 22:10:06,547 INFO Worker has completed the work: {'2**': 22  |  '!=2**': 0  |  'exception': 0  |  'deleted': 0}
+file 2023-07-11 22:10:33,415 INFO Link https://potolki88.ru available and update
+file 2023-07-11 22:10:33,419 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 22:10:33,441 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 22:10:33,442 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 22:10:33,444 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 22:10:33,452 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 22:10:33,457 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 22:10:33,474 INFO Link https://potrendim.ru available and update
+file 2023-07-11 22:10:33,478 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 22:10:33,547 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 22:10:33,623 INFO Link https://potter-style.ru available and update
+file 2023-07-11 22:10:33,772 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 22:10:33,773 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 22:10:33,786 INFO Link https://novardis.com/ available and update
+file 2023-07-11 22:10:33,848 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 22:10:33,894 INFO Link https://novardis.com/1/ available and update
+file 2023-07-11 22:10:34,027 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 22:10:34,049 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 22:10:34,051 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 22:10:34,226 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 22:10:34,434 INFO Link https://powerok.ru available and update
+file 2023-07-11 22:10:43,053 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 22:10:43,080 INFO Worker has completed the work: {'2**': 22  |  '!=2**': 0  |  'exception': 0  |  'deleted': 0}
+file 2023-07-11 22:11:08,430 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 22:11:08,432 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 22:11:08,439 INFO Link https://potolki88.ru available and update
+file 2023-07-11 22:11:08,452 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 22:11:08,462 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 22:11:08,474 INFO Link https://potrendim.ru available and update
+file 2023-07-11 22:11:08,485 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 22:11:08,488 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 22:11:08,491 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 22:11:08,545 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 22:11:08,615 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 22:11:08,638 INFO Link https://potter-style.ru available and update
+file 2023-07-11 22:11:08,779 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 22:11:08,792 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 22:11:08,835 INFO Link https://novardis.com/ available and update
+file 2023-07-11 22:11:08,927 INFO Link https://novardis.com/1/ available and update
+file 2023-07-11 22:11:09,033 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 22:11:09,053 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 22:11:09,068 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 22:11:09,117 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 22:11:09,465 INFO Link https://powerok.ru available and update
+file 2023-07-11 22:11:17,392 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 22:11:17,404 INFO Worker has completed the work: {'2**': 22  |  '!=2**': 0  |  'exception': 0  |  'deleted': 0}
+file 2023-07-11 22:11:43,438 INFO Link https://prazdnik-42.ru available and update
+file 2023-07-11 22:11:43,462 INFO Link https://potensia-shop.ru available and update
+file 2023-07-11 22:11:43,467 INFO Link https://potolki-kirov.ru available and update
+file 2023-07-11 22:11:43,483 INFO Link https://potolkipenza.ru available and update
+file 2023-07-11 22:11:43,484 INFO Link https://potolkikrasnodar.ru available and update
+file 2023-07-11 22:11:43,489 INFO Link https://posredniksadovod.ru available and update
+file 2023-07-11 22:11:43,493 INFO Link https://praktikum-treningi-kursy-seminary.ru available and update
+file 2023-07-11 22:11:43,498 INFO Link https://potrendim.ru available and update
+file 2023-07-11 22:11:43,518 INFO Link https://potolki88.ru available and update
+file 2023-07-11 22:11:43,592 INFO Link https://pravobiznesa.ru available and update
+file 2023-07-11 22:11:43,627 INFO Link https://pp-progress.ru available and update
+file 2023-07-11 22:11:43,657 INFO Link https://potter-style.ru available and update
+file 2023-07-11 22:11:43,778 INFO Link https://pravoslavmaster.ru available and update
+file 2023-07-11 22:11:43,806 INFO Link https://potolki-design-spb.ru available and update
+file 2023-07-11 22:11:43,863 INFO Link https://novardis.com/ available and update
+file 2023-07-11 22:11:43,951 INFO Link https://novardis.com/1/ available and update
+file 2023-07-11 22:11:44,008 INFO Link https://github.com/ZOMini?tab=repositories available and update
+file 2023-07-11 22:11:44,065 INFO Link https://github.com/ZOMini/notifications_sprint available and update
+file 2023-07-11 22:11:44,104 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO available and update
+file 2023-07-11 22:11:44,215 INFO Link https://github.com/miguelgrinberg/Flask-SocketIO.git available and update
+file 2023-07-11 22:11:49,085 INFO Link http://httpbin.org/delay/3 available and update
+file 2023-07-11 22:11:51,133 INFO Link https://powerok.ru available and update
+file 2023-07-11 22:11:51,147 INFO Worker has completed the work: {'2**': 22  |  '!=2**': 0  |  'exception': 0  |  'deleted': 0}

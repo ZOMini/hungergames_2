@@ -5,7 +5,7 @@ from flask import Response, request
 
 from api.v1.auth import auth
 from api.v1.monitor import monitor
-from core.app import app
+from core.app import app, db
 from core.docs import init_docs
 from core.logger import console_logger, file_logger
 from services.flask_turbo_service import update_events, update_logs

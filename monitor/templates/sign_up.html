@@ -6,7 +6,7 @@
   {% from 'bootstrap5/form.html' import render_form, render_field, render_form_row %}
   {% block content %}
   <body>
-    <h1>Create an account</h1>
+    <h3>Create an account</h3>
       <form method="post">
         {{ form.csrf_token() }}
         {{ render_form(form) }}
