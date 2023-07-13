@@ -11,6 +11,7 @@
 - Авторизация включина. Выключить можно в [env.yaml](https://github.com/ZOMini/hungergames_2/blob/af54f1f9d861ba34e623edd33c6b9ab78b08662b/monitor/env.yaml) {app.jwt.disabled_in_api}, все работает.
 - Тестировать проще через документацию.
 - Добавил динамическое обновление контента по websocket, обновляет дата контент events & logs(Работает для первых страниц пагинатора, что бы не скакало когда пошел по другим страничкам).
+- Добавил функциональные тесты ручек, workflow деплоит только после тестов.
 
 ## Start
 - docker-compose up --build
@@ -45,7 +46,8 @@
 
 ## Stack
 - flask==2.2.3
-- sqlalchemy==2.0.17
+- aiohttp==3.8.4
+- sqlalchemy==3.0.5
 - pydantic==1.10.9
 - alembic==1.11.1
 - psycopg2-binary==2.9.6

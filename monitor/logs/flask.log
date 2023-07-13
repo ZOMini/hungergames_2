@@ -20714,3 +20714,711 @@ file 2023-07-11 22:11:44,215 INFO Link https://github.com/miguelgrinberg/Flask-S
 file 2023-07-11 22:11:49,085 INFO Link http://httpbin.org/delay/3 available and update
 file 2023-07-11 22:11:51,133 INFO Link https://powerok.ru available and update
 file 2023-07-11 22:11:51,147 INFO Worker has completed the work: {'2**': 22  |  '!=2**': 0  |  'exception': 0  |  'deleted': 0}
+file 2023-07-12 15:43:17,237 INFO path: /docs/v1/ | method: GET | status: 200 OK | size: 1319
+file 2023-07-12 15:43:17,481 INFO path: /docs/v1/swagger-ui.css | method: GET | status: 200 OK | size: 143980
+file 2023-07-12 15:43:17,492 INFO path: /docs/v1/index.css | method: GET | status: 200 OK | size: 202
+file 2023-07-12 15:43:17,526 INFO path: /docs/v1/swagger-ui-bundle.js | method: GET | status: 200 OK | size: 1096221
+file 2023-07-12 15:43:17,585 INFO path: /docs/v1/swagger-ui-standalone-preset.js | method: GET | status: 200 OK | size: 339540
+file 2023-07-12 15:43:17,747 INFO path: /swagger/v1 | method: GET | status: 200 OK | size: 8492
+file 2023-07-12 15:43:17,756 INFO path: /docs/v1/favicon-32x32.png | method: GET | status: 200 OK | size: 628
+file 2023-07-12 15:43:20,522 INFO User created - 917e6c04-f4a0-4fbe-8a33-1fb3e1bf81e4
+file 2023-07-12 15:43:20,523 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 15:55:53,821 INFO path: /api/v1/user_create | method: POST | status: 404 NOT FOUND | size: 24
+file 2023-07-12 15:56:32,289 INFO path: /api/v1/user_create | method: POST | status: 404 NOT FOUND | size: 24
+file 2023-07-12 15:58:04,672 INFO User created - 96f3d9f4-694b-49de-9f9f-d59732922938
+file 2023-07-12 15:58:04,673 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 16:02:41,862 INFO User created - a610005d-44c7-4bc9-9c94-aafa7bc3df85
+file 2023-07-12 16:02:41,863 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 16:02:42,115 INFO path: /api/v1/auth/user_create | method: POST | status: 400 BAD REQUEST | size: 206
+file 2023-07-12 16:04:32,041 INFO User created - f360d43d-5d1d-4201-a123-f2aaded0e848
+file 2023-07-12 16:04:32,041 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 16:05:26,503 INFO User created - 83f48c28-ba28-452a-8cbd-100a2a61974b
+file 2023-07-12 16:05:26,504 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 16:39:24,747 INFO path: /api/v1/auth/user_create | method: POST | status: 400 BAD REQUEST | size: 206
+file 2023-07-12 16:39:46,471 INFO User created - 1b6a907c-3bcc-4863-b9e6-5a21f77a987d
+file 2023-07-12 16:39:46,472 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 16:43:48,840 INFO User created - d3aa7fe1-89a8-47a5-ba89-78f2eb8b2869
+file 2023-07-12 16:43:48,841 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 16:45:06,602 INFO path: /api/v1/auth/user_create | method: POST | status: 400 BAD REQUEST | size: 206
+file 2023-07-12 16:45:19,925 INFO User created - f865723c-3ad8-4eda-aa23-2402c8ea8421
+file 2023-07-12 16:45:19,925 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 16:46:39,480 INFO User created - 42fa544b-a7d9-4b70-bd50-ac25fc1c738c
+file 2023-07-12 16:46:39,481 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 16:50:59,726 INFO User created - 7e584300-de9e-4fe6-a735-9ffe07388135
+file 2023-07-12 16:50:59,726 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 17:04:19,064 INFO User created - 56490e41-2a83-4e38-9a69-47a6f7edf4a1
+file 2023-07-12 17:04:19,064 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 17:30:54,158 INFO path: /api/v1/auth/user_create | method: POST | status: 400 BAD REQUEST | size: 206
+file 2023-07-12 17:31:54,247 INFO User created - f723ada8-1628-49a6-b724-22b65bea0988
+file 2023-07-12 17:31:54,247 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 17:33:56,001 INFO path: /api/v1/auth/user_create | method: POST | status: 400 BAD REQUEST | size: 206
+file 2023-07-12 17:34:12,521 INFO User created - 454ea912-d469-4c50-8572-d888f3fe0d55
+file 2023-07-12 17:34:12,521 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 17:36:01,490 INFO User created - 5572c290-e416-484e-950b-b84b016a3dca
+file 2023-07-12 17:36:01,490 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 17:38:44,854 INFO User created - f0d98004-41d4-4f55-bcb2-a739ab975b28
+file 2023-07-12 17:38:44,855 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 17:40:04,949 INFO path: /api/v1/auth/user_create | method: POST | status: 400 BAD REQUEST | size: 206
+file 2023-07-12 17:40:20,622 INFO User created - 0ba4a39a-f59f-436e-92ae-4a4996604527
+file 2023-07-12 17:40:20,622 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 17:47:47,016 INFO User created - a02b27b6-753e-43ca-afa8-8dceb38804eb
+file 2023-07-12 17:47:47,017 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 17:49:04,111 INFO path: /api/v1/auth/user_create | method: POST | status: 400 BAD REQUEST | size: 206
+file 2023-07-12 17:49:04,291 INFO Login successful: user_id - a02b27b6-753e-43ca-afa8-8dceb38804eb 
+file 2023-07-12 17:49:04,291 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 17:52:01,281 INFO User created - 157de153-8614-4e02-874a-f9729f62b7c4
+file 2023-07-12 17:52:01,282 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 17:52:01,505 INFO Login successful: user_id - 157de153-8614-4e02-874a-f9729f62b7c4 
+file 2023-07-12 17:52:01,506 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 18:01:39,052 INFO path: /api/v1/auth/user_create | method: POST | status: 400 BAD REQUEST | size: 206
+file 2023-07-12 18:01:39,447 INFO Login successful: user_id - 157de153-8614-4e02-874a-f9729f62b7c4 
+file 2023-07-12 18:01:39,449 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 18:01:50,426 INFO path: /api/v1/auth/user_create | method: POST | status: 400 BAD REQUEST | size: 206
+file 2023-07-12 18:01:50,823 INFO Login successful: user_id - 157de153-8614-4e02-874a-f9729f62b7c4 
+file 2023-07-12 18:01:50,824 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 18:03:38,097 INFO path: /api/v1/auth/user_create | method: POST | status: 400 BAD REQUEST | size: 206
+file 2023-07-12 18:03:38,492 INFO Login successful: user_id - 157de153-8614-4e02-874a-f9729f62b7c4 
+file 2023-07-12 18:03:38,493 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 18:04:22,408 INFO User created - cbb0d332-34b4-4f83-994a-7892198d12f4
+file 2023-07-12 18:04:22,408 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 18:04:22,638 INFO Login successful: user_id - cbb0d332-34b4-4f83-994a-7892198d12f4 
+file 2023-07-12 18:04:22,638 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 18:04:49,160 INFO path: /api/v1/auth/user_create | method: POST | status: 400 BAD REQUEST | size: 206
+file 2023-07-12 18:04:49,557 INFO Login successful: user_id - cbb0d332-34b4-4f83-994a-7892198d12f4 
+file 2023-07-12 18:04:49,559 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 18:06:12,427 INFO Login successful: user_id - cbb0d332-34b4-4f83-994a-7892198d12f4 
+file 2023-07-12 18:06:12,427 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 18:06:22,770 INFO path: /api/v1/auth/user_create | method: POST | status: 400 BAD REQUEST | size: 206
+file 2023-07-12 18:06:23,165 INFO Login successful: user_id - cbb0d332-34b4-4f83-994a-7892198d12f4 
+file 2023-07-12 18:06:23,165 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 18:06:45,425 INFO Login successful: user_id - cbb0d332-34b4-4f83-994a-7892198d12f4 
+file 2023-07-12 18:06:45,426 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 18:08:44,999 INFO Login fail: email(login) - test@ya.ru 
+file 2023-07-12 18:08:44,999 INFO path: /api/v1/auth/login | method: POST | status: 401 UNAUTHORIZED | size: 26
+file 2023-07-12 18:10:32,332 INFO User created - 71c56507-21c5-4a75-8b9c-2168d205c0be
+file 2023-07-12 18:10:32,332 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 18:10:32,552 INFO Login successful: user_id - 71c56507-21c5-4a75-8b9c-2168d205c0be 
+file 2023-07-12 18:10:32,552 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 18:10:35,904 INFO User created - 6e56b7e1-0aaa-421d-9910-1c94f7219b0c
+file 2023-07-12 18:10:35,904 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 18:10:36,132 INFO Login successful: user_id - 6e56b7e1-0aaa-421d-9910-1c94f7219b0c 
+file 2023-07-12 18:10:36,133 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 18:16:40,921 INFO User created - ca5c5daf-a9eb-4e3a-9692-16f9ed4019f5
+file 2023-07-12 18:16:40,922 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 18:16:41,154 INFO Login successful: user_id - ca5c5daf-a9eb-4e3a-9692-16f9ed4019f5 
+file 2023-07-12 18:16:41,154 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 18:27:07,304 INFO User created - e7b421e3-13c7-4c44-87b2-3652ee4d2520
+file 2023-07-12 18:27:07,304 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 18:28:10,251 INFO User created - 6bcb24db-de88-4c15-bdb5-af416c2b9e21
+file 2023-07-12 18:28:10,252 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 18:29:34,259 INFO User created - 5932ee08-0ed1-4cd8-bc9d-6780e9e4508d
+file 2023-07-12 18:29:34,260 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 18:30:04,796 INFO User created - 1c1a8f5e-6179-46d3-9c49-3d5bfb7055b3
+file 2023-07-12 18:30:04,797 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 18:44:54,796 INFO User created - 2e2a65ea-17bd-409c-8a86-e45e69a72ca6
+file 2023-07-12 18:44:54,797 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 18:44:54,816 INFO Login successful: user_id - 2e2a65ea-17bd-409c-8a86-e45e69a72ca6 
+file 2023-07-12 18:44:54,816 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 18:44:58,189 INFO User created - 203611d1-19c5-4e11-a91b-7d9211b405e9
+file 2023-07-12 18:44:58,190 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 18:44:58,206 INFO Login successful: user_id - 203611d1-19c5-4e11-a91b-7d9211b405e9 
+file 2023-07-12 18:44:58,207 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 18:45:44,262 INFO User created - 115f08c0-ad5f-4ba5-a69a-8ef1aa279fe1
+file 2023-07-12 18:45:44,263 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 18:45:44,282 INFO Login successful: user_id - 115f08c0-ad5f-4ba5-a69a-8ef1aa279fe1 
+file 2023-07-12 18:45:44,283 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 18:55:17,731 INFO Login successful: user_id - 917e6c04-f4a0-4fbe-8a33-1fb3e1bf81e4 
+file 2023-07-12 18:55:17,732 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 18:55:40,426 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 482
+file 2023-07-12 18:56:22,010 INFO Image for url id - 5fa3be4a-44f9-45f6-8caf-a8b8d64744e5 added/update.
+file 2023-07-12 18:56:22,010 INFO path: /api/v1/monitor/file_upload/5fa3be4a-44f9-45f6-8caf-a8b8d64744e5 | method: POST | status: 200 OK | size: 25
+file 2023-07-12 19:07:18,745 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-12 19:07:18,750 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-12 19:10:30,847 INFO User created - 610c1a54-c606-46e0-867a-48c21d291c62
+file 2023-07-12 19:10:30,847 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 19:10:30,868 INFO Login successful: user_id - 610c1a54-c606-46e0-867a-48c21d291c62 
+file 2023-07-12 19:10:30,868 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 19:10:30,877 INFO path: /api/v1/monitor/one_link | method: POST | status: 401 UNAUTHORIZED | size: 39
+file 2023-07-12 19:44:23,725 INFO User created - 1c4b608d-9670-4b89-bf95-c209f8fffde2
+file 2023-07-12 19:44:23,726 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 19:44:23,744 INFO Login successful: user_id - 1c4b608d-9670-4b89-bf95-c209f8fffde2 
+file 2023-07-12 19:44:23,745 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 19:44:23,753 INFO path: /api/v1/monitor/one_link | method: POST | status: 401 UNAUTHORIZED | size: 39
+file 2023-07-12 19:45:12,723 INFO User created - aab0f97d-0edd-40bf-860d-43bad1118429
+file 2023-07-12 19:45:12,724 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 19:45:12,740 INFO Login successful: user_id - aab0f97d-0edd-40bf-860d-43bad1118429 
+file 2023-07-12 19:45:12,741 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 19:45:12,752 INFO path: /api/v1/monitor/one_link | method: POST | status: 401 UNAUTHORIZED | size: 39
+file 2023-07-12 19:45:52,247 INFO User created - c8ecf53f-6f82-48c5-b231-68ec59d326f0
+file 2023-07-12 19:45:52,248 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 19:45:52,265 INFO Login successful: user_id - c8ecf53f-6f82-48c5-b231-68ec59d326f0 
+file 2023-07-12 19:45:52,265 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 19:45:52,274 INFO path: /api/v1/monitor/one_link | method: POST | status: 401 UNAUTHORIZED | size: 39
+file 2023-07-12 19:46:45,930 INFO User created - 456a9f4c-dafb-46ea-a5ab-bcee9d7eb492
+file 2023-07-12 19:46:45,930 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 19:46:45,949 INFO Login successful: user_id - 456a9f4c-dafb-46ea-a5ab-bcee9d7eb492 
+file 2023-07-12 19:46:45,950 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 19:46:45,959 INFO path: /api/v1/monitor/one_link | method: POST | status: 401 UNAUTHORIZED | size: 39
+file 2023-07-12 19:47:19,083 INFO User created - c0e1e449-2f07-452b-83cc-88b39fa2e919
+file 2023-07-12 19:47:19,083 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 19:47:19,101 INFO Login successful: user_id - c0e1e449-2f07-452b-83cc-88b39fa2e919 
+file 2023-07-12 19:47:19,102 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 19:47:37,404 INFO User created - 134e6965-21d1-44b7-95e1-a42020edbca7
+file 2023-07-12 19:47:37,404 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 19:47:37,422 INFO Login successful: user_id - 134e6965-21d1-44b7-95e1-a42020edbca7 
+file 2023-07-12 19:47:37,422 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 19:47:37,429 INFO path: /api/v1/monitor/one_link | method: POST | status: 422 UNPROCESSABLE ENTITY | size: 30
+file 2023-07-12 19:55:33,257 INFO User created - 0d053aa3-2ad0-45d6-8d0a-b72f03dbce91
+file 2023-07-12 19:55:33,258 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 19:55:33,276 INFO Login successful: user_id - 0d053aa3-2ad0-45d6-8d0a-b72f03dbce91 
+file 2023-07-12 19:55:33,277 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 19:55:33,294 INFO path: /api/v1/monitor/one_link | method: POST | status: 400 BAD REQUEST | size: 22
+file 2023-07-12 20:02:33,205 INFO path: /api/v1/auth/user_create | method: POST | status: 400 BAD REQUEST | size: 206
+file 2023-07-12 20:02:33,395 INFO Login successful: user_id - 0d053aa3-2ad0-45d6-8d0a-b72f03dbce91 
+file 2023-07-12 20:02:33,395 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 20:02:33,412 INFO path: /api/v1/monitor/one_link | method: POST | status: 400 BAD REQUEST | size: 22
+file 2023-07-12 20:02:50,977 INFO User created - b9b549e7-eb58-4cbe-951e-fc1bf303add8
+file 2023-07-12 20:02:50,978 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 20:02:50,992 INFO Login successful: user_id - b9b549e7-eb58-4cbe-951e-fc1bf303add8 
+file 2023-07-12 20:02:50,993 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 20:02:51,016 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-12 20:02:51,021 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-12 20:04:08,506 INFO User created - 70115579-e5ac-4b5d-abd6-0bbf469bec87
+file 2023-07-12 20:04:08,507 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 20:04:08,524 INFO Login successful: user_id - 70115579-e5ac-4b5d-abd6-0bbf469bec87 
+file 2023-07-12 20:04:08,525 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 20:04:08,553 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-12 20:04:08,560 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-12 20:15:02,616 INFO User created - 074257fe-4a34-4d1d-9c96-84a1013545ad
+file 2023-07-12 20:15:02,617 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 20:15:02,632 INFO Login successful: user_id - 074257fe-4a34-4d1d-9c96-84a1013545ad 
+file 2023-07-12 20:15:02,632 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 20:15:02,657 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-12 20:15:02,661 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-12 20:16:35,090 INFO User created - 4d68fe2a-9869-4461-96de-7864659ab9ce
+file 2023-07-12 20:16:35,091 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 20:16:35,105 INFO Login successful: user_id - 4d68fe2a-9869-4461-96de-7864659ab9ce 
+file 2023-07-12 20:16:35,106 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 20:16:35,125 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-12 20:16:35,128 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-12 20:18:05,244 INFO User created - 617fe4e9-967b-4a7d-bf7e-04d7dd539eec
+file 2023-07-12 20:18:05,245 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 20:18:05,284 INFO Login successful: user_id - 617fe4e9-967b-4a7d-bf7e-04d7dd539eec 
+file 2023-07-12 20:18:05,285 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 20:29:05,238 INFO User created - fd5ac385-a290-4aa6-87b8-b875beed5bc2
+file 2023-07-12 20:29:05,239 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 20:29:05,251 INFO Login successful: user_id - fd5ac385-a290-4aa6-87b8-b875beed5bc2 
+file 2023-07-12 20:29:05,252 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 20:29:57,112 INFO User created - c609a4af-fc36-4a89-8d05-6d824e2bd9db
+file 2023-07-12 20:29:57,113 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 20:29:57,123 INFO Login successful: user_id - c609a4af-fc36-4a89-8d05-6d824e2bd9db 
+file 2023-07-12 20:29:57,125 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 20:29:57,296 INFO path: /api/v1/monitor/one_link | method: POST | status: 401 UNAUTHORIZED | size: 39
+file 2023-07-12 20:31:56,813 INFO User created - 68e5699e-c074-4c55-9534-3a28c375cb3d
+file 2023-07-12 20:31:56,814 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 20:31:56,825 INFO Login successful: user_id - 68e5699e-c074-4c55-9534-3a28c375cb3d 
+file 2023-07-12 20:31:56,825 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 20:31:57,002 INFO path: /api/v1/monitor/one_link | method: POST | status: 401 UNAUTHORIZED | size: 39
+file 2023-07-12 20:33:01,911 INFO User created - bd02ca9a-695f-46f8-a1c4-15e0b112430b
+file 2023-07-12 20:33:01,912 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 20:33:01,923 INFO Login successful: user_id - bd02ca9a-695f-46f8-a1c4-15e0b112430b 
+file 2023-07-12 20:33:01,924 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 20:33:02,117 INFO path: /api/v1/monitor/one_link | method: POST | status: 401 UNAUTHORIZED | size: 39
+file 2023-07-12 20:33:29,343 INFO User created - 6cbb8c4a-6a4a-4a2e-8878-8b4bf6656181
+file 2023-07-12 20:33:29,343 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 20:33:29,354 INFO Login successful: user_id - 6cbb8c4a-6a4a-4a2e-8878-8b4bf6656181 
+file 2023-07-12 20:33:29,355 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 20:33:29,376 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-12 20:33:29,381 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-12 21:20:17,636 INFO User created - cfe2b653-0028-439f-b187-a54461b1b250
+file 2023-07-12 21:20:17,637 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 21:20:17,649 INFO Login successful: user_id - cfe2b653-0028-439f-b187-a54461b1b250 
+file 2023-07-12 21:20:17,650 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 21:20:17,660 INFO path: /api/v1/monitor/one_link | method: POST | status: 422 UNPROCESSABLE ENTITY | size: 75
+file 2023-07-12 21:20:43,443 INFO User created - 7586a430-ba51-487c-aa92-a5e9dc4425f9
+file 2023-07-12 21:20:43,444 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 21:20:43,457 INFO Login successful: user_id - 7586a430-ba51-487c-aa92-a5e9dc4425f9 
+file 2023-07-12 21:20:43,458 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 21:20:43,782 INFO path: /api/v1/monitor/one_link | method: POST | status: 401 UNAUTHORIZED | size: 39
+file 2023-07-12 21:21:07,818 INFO User created - c5192c7c-3242-4fa9-b1dc-8939c2027e03
+file 2023-07-12 21:21:07,818 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 21:21:07,829 INFO Login successful: user_id - c5192c7c-3242-4fa9-b1dc-8939c2027e03 
+file 2023-07-12 21:21:07,830 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 21:21:08,527 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-12 21:21:08,531 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-12 21:26:05,887 INFO User created - 00591841-8400-4488-93e2-723a2e1c6a51
+file 2023-07-12 21:26:05,888 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 21:26:05,900 INFO Login successful: user_id - 00591841-8400-4488-93e2-723a2e1c6a51 
+file 2023-07-12 21:26:05,901 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 21:26:06,933 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-12 21:26:06,936 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-12 21:30:03,369 INFO path: /docs/v1/ | method: GET | status: 200 OK | size: 1319
+file 2023-07-12 21:30:03,597 INFO path: /docs/v1/swagger-ui.css | method: GET | status: 200 OK | size: 143980
+file 2023-07-12 21:30:03,616 INFO path: /docs/v1/index.css | method: GET | status: 200 OK | size: 202
+file 2023-07-12 21:30:03,627 INFO path: /docs/v1/swagger-ui-bundle.js | method: GET | status: 200 OK | size: 1096221
+file 2023-07-12 21:30:03,633 INFO path: /docs/v1/swagger-ui-standalone-preset.js | method: GET | status: 200 OK | size: 339540
+file 2023-07-12 21:30:03,874 INFO path: /swagger/v1 | method: GET | status: 200 OK | size: 8492
+file 2023-07-12 21:30:03,876 INFO path: /docs/v1/favicon-32x32.png | method: GET | status: 200 OK | size: 628
+file 2023-07-12 21:30:09,692 INFO path: /api/v1/auth/user_create | method: POST | status: 400 BAD REQUEST | size: 207
+file 2023-07-12 21:30:17,215 INFO Login successful: user_id - 917e6c04-f4a0-4fbe-8a33-1fb3e1bf81e4 
+file 2023-07-12 21:30:17,215 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 21:30:37,748 INFO path: /docs/v1/ | method: GET | status: 200 OK | size: 1319
+file 2023-07-12 21:30:37,772 INFO path: /docs/v1/index.css | method: GET | status: 200 OK | size: 202
+file 2023-07-12 21:30:37,776 INFO path: /docs/v1/swagger-ui.css | method: GET | status: 200 OK | size: 143980
+file 2023-07-12 21:30:37,780 INFO path: /docs/v1/swagger-ui-bundle.js | method: GET | status: 200 OK | size: 1096221
+file 2023-07-12 21:30:37,780 INFO path: /docs/v1/swagger-ui-standalone-preset.js | method: GET | status: 200 OK | size: 339540
+file 2023-07-12 21:30:38,114 INFO path: /swagger/v1 | method: GET | status: 200 OK | size: 8695
+file 2023-07-12 21:30:38,116 INFO path: /docs/v1/favicon-32x32.png | method: GET | status: 200 OK | size: 628
+file 2023-07-12 21:30:45,172 INFO path: /docs/v1/ | method: GET | status: 200 OK | size: 1319
+file 2023-07-12 21:30:45,395 INFO path: /docs/v1/index.css | method: GET | status: 200 OK | size: 202
+file 2023-07-12 21:30:45,429 INFO path: /docs/v1/swagger-ui-standalone-preset.js | method: GET | status: 200 OK | size: 339540
+file 2023-07-12 21:30:45,444 INFO path: /docs/v1/swagger-ui.css | method: GET | status: 200 OK | size: 143980
+file 2023-07-12 21:30:45,455 INFO path: /docs/v1/swagger-ui-bundle.js | method: GET | status: 200 OK | size: 1096221
+file 2023-07-12 21:30:45,623 INFO path: /swagger/v1 | method: GET | status: 200 OK | size: 8492
+file 2023-07-12 21:30:45,624 INFO path: /docs/v1/favicon-32x32.png | method: GET | status: 200 OK | size: 628
+file 2023-07-12 21:31:46,218 INFO path: /docs/v1/ | method: GET | status: 200 OK | size: 1319
+file 2023-07-12 21:31:46,447 INFO path: /docs/v1/index.css | method: GET | status: 200 OK | size: 202
+file 2023-07-12 21:31:46,461 INFO path: /docs/v1/swagger-ui-bundle.js | method: GET | status: 200 OK | size: 1096221
+file 2023-07-12 21:31:46,481 INFO path: /docs/v1/swagger-ui-standalone-preset.js | method: GET | status: 200 OK | size: 339540
+file 2023-07-12 21:31:46,485 INFO path: /docs/v1/swagger-ui.css | method: GET | status: 200 OK | size: 143980
+file 2023-07-12 21:31:46,601 INFO path: /swagger/v1 | method: GET | status: 200 OK | size: 8554
+file 2023-07-12 21:31:46,603 INFO path: /docs/v1/favicon-32x32.png | method: GET | status: 200 OK | size: 628
+file 2023-07-12 21:31:51,649 INFO Login successful: user_id - 917e6c04-f4a0-4fbe-8a33-1fb3e1bf81e4 
+file 2023-07-12 21:31:51,649 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 21:32:10,127 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5512
+file 2023-07-12 21:32:23,436 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 450
+file 2023-07-12 22:11:51,516 INFO User created - 10e74129-82d9-4052-b5c5-c1882fb3f503
+file 2023-07-12 22:11:51,517 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 22:11:51,534 INFO Login successful: user_id - 10e74129-82d9-4052-b5c5-c1882fb3f503 
+file 2023-07-12 22:11:51,535 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 22:11:52,591 INFO path: /api/v1/monitor/one_link | method: POST | status: 400 BAD REQUEST | size: 19
+file 2023-07-12 22:13:25,571 INFO User created - 2be48864-521d-47e5-938c-bf387f30ecec
+file 2023-07-12 22:13:25,572 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 22:13:25,591 INFO Login successful: user_id - 2be48864-521d-47e5-938c-bf387f30ecec 
+file 2023-07-12 22:13:25,592 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 22:13:26,625 INFO path: /api/v1/monitor/one_link | method: POST | status: 400 BAD REQUEST | size: 19
+file 2023-07-12 22:23:46,513 INFO User created - f4ea910f-4ac3-4948-871a-b285d04fbf75
+file 2023-07-12 22:23:46,514 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 22:23:46,527 INFO Login successful: user_id - f4ea910f-4ac3-4948-871a-b285d04fbf75 
+file 2023-07-12 22:23:46,528 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 22:23:47,576 INFO path: /api/v1/monitor/one_link | method: POST | status: 400 BAD REQUEST | size: 19
+file 2023-07-12 22:24:03,206 INFO User created - bb735eee-2073-4c2b-abb7-b1d3220d6417
+file 2023-07-12 22:24:03,207 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 22:24:03,239 INFO Login successful: user_id - bb735eee-2073-4c2b-abb7-b1d3220d6417 
+file 2023-07-12 22:24:03,240 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 22:24:04,294 INFO path: /api/v1/monitor/one_link | method: POST | status: 400 BAD REQUEST | size: 19
+file 2023-07-12 22:25:56,420 INFO User created - 0ba41377-9b60-4022-a3b7-735219a58f49
+file 2023-07-12 22:25:56,421 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 22:25:56,459 INFO Login successful: user_id - 0ba41377-9b60-4022-a3b7-735219a58f49 
+file 2023-07-12 22:25:56,460 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 22:25:57,496 INFO path: /api/v1/monitor/one_link | method: POST | status: 400 BAD REQUEST | size: 19
+file 2023-07-12 22:26:32,469 INFO User created - ed029db0-8a2e-4b6b-9e17-b469a4dbc738
+file 2023-07-12 22:26:32,469 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 22:26:32,482 INFO Login successful: user_id - ed029db0-8a2e-4b6b-9e17-b469a4dbc738 
+file 2023-07-12 22:26:32,483 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 22:26:33,528 INFO path: /api/v1/monitor/one_link | method: POST | status: 400 BAD REQUEST | size: 19
+file 2023-07-12 22:27:10,637 INFO User created - dccf28b3-c196-4d43-bba7-3b020042ed36
+file 2023-07-12 22:27:10,638 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 22:27:10,650 INFO Login successful: user_id - dccf28b3-c196-4d43-bba7-3b020042ed36 
+file 2023-07-12 22:27:10,651 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 22:27:11,735 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-12 22:27:11,739 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-12 22:29:33,854 INFO User created - 9f91f37f-0acd-42d4-b8e5-a9c62444adab
+file 2023-07-12 22:29:33,855 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 22:29:33,870 INFO Login successful: user_id - 9f91f37f-0acd-42d4-b8e5-a9c62444adab 
+file 2023-07-12 22:29:33,871 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 22:29:34,919 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-12 22:29:34,928 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-12 22:29:46,830 INFO User created - c68b21ee-14dd-47e3-8aed-37c6da63f5e7
+file 2023-07-12 22:29:46,831 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 22:29:46,844 INFO Login successful: user_id - c68b21ee-14dd-47e3-8aed-37c6da63f5e7 
+file 2023-07-12 22:29:46,845 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 22:29:47,922 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-12 22:29:47,927 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-12 22:29:47,970 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 3
+file 2023-07-12 22:30:34,131 INFO User created - 23d2b681-ebfd-4368-b564-aebc91182d76
+file 2023-07-12 22:30:34,132 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 22:30:34,146 INFO Login successful: user_id - 23d2b681-ebfd-4368-b564-aebc91182d76 
+file 2023-07-12 22:30:34,147 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 22:30:35,201 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-12 22:30:35,207 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-12 22:30:35,230 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 3
+file 2023-07-12 22:31:27,318 INFO User created - 51422236-b831-45c8-9de3-dd1b0aceb9a3
+file 2023-07-12 22:31:27,318 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 22:31:27,362 INFO Login successful: user_id - 51422236-b831-45c8-9de3-dd1b0aceb9a3 
+file 2023-07-12 22:31:27,362 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 22:31:28,410 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-12 22:31:28,413 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-12 22:31:28,462 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-12 22:33:57,539 INFO User created - eedcfb80-41f9-4d3c-b072-b5b34ab9e0c1
+file 2023-07-12 22:33:57,540 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 22:33:57,552 INFO Login successful: user_id - eedcfb80-41f9-4d3c-b072-b5b34ab9e0c1 
+file 2023-07-12 22:33:57,553 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 22:33:58,590 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-12 22:33:58,593 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-12 22:33:58,607 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-12 22:36:04,891 INFO User created - 88609b84-d05e-4a08-93d8-336ff9e3d2e3
+file 2023-07-12 22:36:04,891 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 22:36:04,904 INFO Login successful: user_id - 88609b84-d05e-4a08-93d8-336ff9e3d2e3 
+file 2023-07-12 22:36:04,904 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 22:36:05,933 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-12 22:36:05,936 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-12 22:36:05,995 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-12 22:36:50,998 INFO User created - dfcaa904-b973-44bc-9259-a74dbf2beb9d
+file 2023-07-12 22:36:50,999 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 22:36:51,011 INFO Login successful: user_id - dfcaa904-b973-44bc-9259-a74dbf2beb9d 
+file 2023-07-12 22:36:51,012 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 22:36:52,051 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-12 22:36:52,056 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-12 22:36:52,067 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-12 22:37:29,223 INFO User created - 76e05512-da75-44bf-a54e-c84b8a0072b1
+file 2023-07-12 22:37:29,224 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 22:37:29,235 INFO Login successful: user_id - 76e05512-da75-44bf-a54e-c84b8a0072b1 
+file 2023-07-12 22:37:29,236 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 22:37:30,282 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-12 22:37:30,286 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-12 22:37:30,325 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-12 22:37:46,016 INFO User created - d9a9d1c7-5835-49f5-afa4-f90bcd44580b
+file 2023-07-12 22:37:46,016 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 22:37:46,028 INFO Login successful: user_id - d9a9d1c7-5835-49f5-afa4-f90bcd44580b 
+file 2023-07-12 22:37:46,029 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 22:37:47,094 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-12 22:37:47,101 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-12 22:37:47,118 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-12 22:43:37,629 INFO path: /api/v1/monitor/links | method: POST | status: 401 UNAUTHORIZED | size: 28
+file 2023-07-12 22:43:45,685 INFO Login successful: user_id - 917e6c04-f4a0-4fbe-8a33-1fb3e1bf81e4 
+file 2023-07-12 22:43:45,686 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 22:44:04,340 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 1570
+file 2023-07-12 22:58:18,368 INFO User created - 364ad5f8-c65c-463b-aecc-6192fbf1d663
+file 2023-07-12 22:58:18,368 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 22:58:18,380 INFO Login successful: user_id - 364ad5f8-c65c-463b-aecc-6192fbf1d663 
+file 2023-07-12 22:58:18,381 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 22:58:19,452 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-12 22:58:19,458 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-12 22:58:19,476 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-12 22:59:15,181 INFO User created - be63f223-160c-4ccc-bb43-6e107db14316
+file 2023-07-12 22:59:15,182 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 22:59:15,194 INFO Login successful: user_id - be63f223-160c-4ccc-bb43-6e107db14316 
+file 2023-07-12 22:59:15,195 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 22:59:16,243 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-12 22:59:16,248 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-12 22:59:16,262 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-12 22:59:47,155 INFO User created - 51a848b8-8bf1-478f-8991-5e8306047913
+file 2023-07-12 22:59:47,156 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 22:59:47,169 INFO Login successful: user_id - 51a848b8-8bf1-478f-8991-5e8306047913 
+file 2023-07-12 22:59:47,169 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 22:59:48,218 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-12 22:59:48,222 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-12 22:59:48,259 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-12 22:59:58,059 INFO User created - d86a5a50-b904-4ff7-be60-59233ec17f88
+file 2023-07-12 22:59:58,059 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 22:59:58,069 INFO Login successful: user_id - d86a5a50-b904-4ff7-be60-59233ec17f88 
+file 2023-07-12 22:59:58,070 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 22:59:59,131 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-12 22:59:59,139 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-12 22:59:59,152 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-12 22:59:59,757 INFO path: /api/v1/monitor/links | method: POST | status: 400 BAD REQUEST | size: 62
+file 2023-07-12 23:00:44,341 INFO User created - 990e2956-bdd0-4fa8-a748-e3cd044cac4f
+file 2023-07-12 23:00:44,342 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 23:00:44,352 INFO Login successful: user_id - 990e2956-bdd0-4fa8-a748-e3cd044cac4f 
+file 2023-07-12 23:00:44,352 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 23:00:45,401 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-12 23:00:45,413 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-12 23:00:45,424 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-12 23:00:46,038 INFO path: /api/v1/monitor/links | method: POST | status: 400 BAD REQUEST | size: 62
+file 2023-07-12 23:02:03,927 INFO User created - 07aa93bd-9056-4175-9b75-01e761c9542e
+file 2023-07-12 23:02:03,928 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 23:02:03,939 INFO Login successful: user_id - 07aa93bd-9056-4175-9b75-01e761c9542e 
+file 2023-07-12 23:02:03,940 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 23:02:04,983 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-12 23:02:04,989 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-12 23:02:05,001 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-12 23:02:05,650 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 71
+file 2023-07-12 23:03:08,004 INFO User created - 09b73dbd-1863-4f7a-ae4a-c17c9a8edb56
+file 2023-07-12 23:03:08,005 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 23:03:08,016 INFO Login successful: user_id - 09b73dbd-1863-4f7a-ae4a-c17c9a8edb56 
+file 2023-07-12 23:03:08,017 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 23:03:09,062 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-12 23:03:09,065 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-12 23:03:09,077 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-12 23:03:09,737 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 19
+file 2023-07-12 23:04:33,912 INFO User created - 3ae96092-1c07-4b0d-a744-878ae6972a30
+file 2023-07-12 23:04:33,912 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 23:04:33,923 INFO Login successful: user_id - 3ae96092-1c07-4b0d-a744-878ae6972a30 
+file 2023-07-12 23:04:33,923 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 23:04:34,980 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-12 23:04:34,988 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-12 23:04:35,003 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-12 23:04:35,681 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 19
+file 2023-07-12 23:24:18,985 INFO User created - eb5d043e-3f6d-4bba-a754-00c261b19b3e
+file 2023-07-12 23:24:18,986 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 23:24:18,996 INFO Login successful: user_id - eb5d043e-3f6d-4bba-a754-00c261b19b3e 
+file 2023-07-12 23:24:18,996 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 23:24:20,039 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-12 23:24:20,042 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-12 23:24:20,861 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 19
+file 2023-07-12 23:25:08,788 INFO User created - f20dc437-6ffa-484e-b499-e25ee76fed2a
+file 2023-07-12 23:25:08,788 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 23:25:08,800 INFO Login successful: user_id - f20dc437-6ffa-484e-b499-e25ee76fed2a 
+file 2023-07-12 23:25:08,801 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 23:25:09,834 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-12 23:25:09,838 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-12 23:25:09,952 INFO Image for url id - b17f22a3-14d6-410f-95a9-c05a4f6c8b93 added/update.
+file 2023-07-12 23:25:09,953 INFO path: /api/v1/monitor/file_upload/b17f22a3-14d6-410f-95a9-c05a4f6c8b93 | method: POST | status: 200 OK | size: 25
+file 2023-07-12 23:25:10,684 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 19
+file 2023-07-12 23:27:18,782 INFO User created - 1a8184d5-afcc-463b-a1f9-ca10f72425be
+file 2023-07-12 23:27:18,783 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 23:27:18,796 INFO Login successful: user_id - 1a8184d5-afcc-463b-a1f9-ca10f72425be 
+file 2023-07-12 23:27:18,796 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 23:27:19,846 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-12 23:27:19,855 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-12 23:27:19,986 INFO Image for url id - 290af7e2-91f9-4677-8e97-c741ee27b6f7 added/update.
+file 2023-07-12 23:27:19,986 INFO path: /api/v1/monitor/file_upload/290af7e2-91f9-4677-8e97-c741ee27b6f7 | method: POST | status: 200 OK | size: 25
+file 2023-07-12 23:27:20,065 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-12 23:27:20,669 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 19
+file 2023-07-12 23:32:35,724 INFO User created - 8055e858-4e43-462e-a2db-fab5b9a22f56
+file 2023-07-12 23:32:35,725 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 23:32:35,735 INFO Login successful: user_id - 8055e858-4e43-462e-a2db-fab5b9a22f56 
+file 2023-07-12 23:32:35,736 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 23:32:36,787 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-12 23:32:36,793 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-12 23:32:36,912 INFO Image for url id - 053dde7c-993c-469e-9a24-be1b0d258585 added/update.
+file 2023-07-12 23:32:36,913 INFO path: /api/v1/monitor/file_upload/053dde7c-993c-469e-9a24-be1b0d258585 | method: POST | status: 200 OK | size: 25
+file 2023-07-12 23:32:36,931 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-12 23:32:37,553 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 19
+file 2023-07-12 23:32:38,108 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5735
+file 2023-07-12 23:33:25,816 INFO User created - 7952eb6d-7dee-4b36-b833-fc5608efc6cb
+file 2023-07-12 23:33:25,817 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 23:33:25,830 INFO Login successful: user_id - 7952eb6d-7dee-4b36-b833-fc5608efc6cb 
+file 2023-07-12 23:33:25,831 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 23:33:26,869 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-12 23:33:26,872 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-12 23:33:26,979 INFO Image for url id - 7d43a488-cbd6-421e-a274-a973735be383 added/update.
+file 2023-07-12 23:33:26,979 INFO path: /api/v1/monitor/file_upload/7d43a488-cbd6-421e-a274-a973735be383 | method: POST | status: 200 OK | size: 25
+file 2023-07-12 23:33:27,019 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-12 23:33:27,607 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 19
+file 2023-07-12 23:33:28,136 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5740
+file 2023-07-12 23:46:50,261 INFO Login fail: email(login) - test@ya.ru 
+file 2023-07-12 23:46:50,262 INFO path: /api/v1/auth/login | method: POST | status: 401 UNAUTHORIZED | size: 26
+file 2023-07-12 23:46:50,785 INFO path: /api/v1/monitor/one_link | method: POST | status: 401 UNAUTHORIZED | size: 39
+file 2023-07-12 23:46:51,429 INFO path: /api/v1/monitor/links | method: POST | status: 401 UNAUTHORIZED | size: 39
+file 2023-07-12 23:46:51,947 INFO path: /api/v1/monitor/logs | method: GET | status: 401 UNAUTHORIZED | size: 39
+file 2023-07-12 23:47:16,708 INFO User created - a9489847-c44d-4b3e-a065-ba00b9dbe2cd
+file 2023-07-12 23:47:16,709 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 23:47:16,725 INFO Login successful: user_id - a9489847-c44d-4b3e-a065-ba00b9dbe2cd 
+file 2023-07-12 23:47:16,726 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 23:47:17,768 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-12 23:47:17,773 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-12 23:47:17,881 INFO Image for url id - b226b023-3a3c-42fa-af59-8610fe7fbf6e added/update.
+file 2023-07-12 23:47:17,882 INFO path: /api/v1/monitor/file_upload/b226b023-3a3c-42fa-af59-8610fe7fbf6e | method: POST | status: 200 OK | size: 25
+file 2023-07-12 23:47:17,894 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-12 23:47:18,467 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 19
+file 2023-07-12 23:47:19,050 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5737
+file 2023-07-12 23:48:26,826 INFO path: /api/v1/auth/user_create | method: POST | status: 400 BAD REQUEST | size: 206
+file 2023-07-12 23:48:27,095 INFO Login successful: user_id - a9489847-c44d-4b3e-a065-ba00b9dbe2cd 
+file 2023-07-12 23:48:27,096 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 23:48:28,156 INFO path: /api/v1/monitor/one_link | method: POST | status: 400 BAD REQUEST | size: 22
+file 2023-07-12 23:48:28,830 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 19
+file 2023-07-12 23:48:29,406 INFO path: /api/v1/monitor/logs | method: GET | status: 401 UNAUTHORIZED | size: 70
+file 2023-07-12 23:48:43,143 INFO User created - e0d84912-0f56-490a-bc0c-672c39aafb33
+file 2023-07-12 23:48:43,144 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 23:48:43,237 INFO Login successful: user_id - e0d84912-0f56-490a-bc0c-672c39aafb33 
+file 2023-07-12 23:48:43,237 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 23:48:44,309 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-12 23:48:44,314 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-12 23:48:44,416 INFO Image for url id - f849f00b-ffc4-4d2b-8d01-9a435d8eb47c added/update.
+file 2023-07-12 23:48:44,416 INFO path: /api/v1/monitor/file_upload/f849f00b-ffc4-4d2b-8d01-9a435d8eb47c | method: POST | status: 200 OK | size: 25
+file 2023-07-12 23:48:44,429 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-12 23:48:45,008 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 19
+file 2023-07-12 23:48:45,580 INFO path: /api/v1/monitor/logs | method: GET | status: 401 UNAUTHORIZED | size: 70
+file 2023-07-12 23:50:19,326 INFO User created - 339ff535-0cc3-4bf3-80ad-f446b6dfebd7
+file 2023-07-12 23:50:19,326 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 23:50:19,429 INFO Login successful: user_id - 339ff535-0cc3-4bf3-80ad-f446b6dfebd7 
+file 2023-07-12 23:50:19,430 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 23:50:20,474 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-12 23:50:20,479 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-12 23:50:20,601 INFO Image for url id - 36930cc4-d9c6-47b4-8160-8f8fd44b2257 added/update.
+file 2023-07-12 23:50:20,601 INFO path: /api/v1/monitor/file_upload/36930cc4-d9c6-47b4-8160-8f8fd44b2257 | method: POST | status: 200 OK | size: 25
+file 2023-07-12 23:50:20,613 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-12 23:50:21,194 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 19
+file 2023-07-12 23:50:21,779 INFO path: /api/v1/monitor/logs | method: GET | status: 401 UNAUTHORIZED | size: 70
+file 2023-07-12 23:53:16,268 INFO User created - e7c8f978-8601-45e9-8c53-742fb4f0e6fb
+file 2023-07-12 23:53:16,268 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 23:53:16,367 INFO Login successful: user_id - e7c8f978-8601-45e9-8c53-742fb4f0e6fb 
+file 2023-07-12 23:53:16,367 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 23:53:17,416 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-12 23:53:17,422 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-12 23:53:17,534 INFO Image for url id - 864eaae5-9d6c-4e3a-9aa1-37609a0ea08c added/update.
+file 2023-07-12 23:53:17,535 INFO path: /api/v1/monitor/file_upload/864eaae5-9d6c-4e3a-9aa1-37609a0ea08c | method: POST | status: 200 OK | size: 25
+file 2023-07-12 23:53:17,548 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-12 23:53:18,170 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 19
+file 2023-07-12 23:53:18,732 INFO path: /api/v1/monitor/logs | method: GET | status: 401 UNAUTHORIZED | size: 70
+file 2023-07-12 23:57:03,087 INFO User created - 15182e04-ebc1-4846-8a71-5704271d95da
+file 2023-07-12 23:57:03,088 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 23:57:03,103 INFO Login successful: user_id - 15182e04-ebc1-4846-8a71-5704271d95da 
+file 2023-07-12 23:57:03,104 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 23:57:04,145 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-12 23:57:04,151 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-12 23:57:04,278 INFO Image for url id - 1f285780-3213-4526-917b-ac0c31fc327d added/update.
+file 2023-07-12 23:57:04,279 INFO path: /api/v1/monitor/file_upload/1f285780-3213-4526-917b-ac0c31fc327d | method: POST | status: 200 OK | size: 25
+file 2023-07-12 23:57:04,291 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-12 23:57:04,858 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 19
+file 2023-07-12 23:57:05,441 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5744
+file 2023-07-12 23:57:22,622 INFO User created - 559fe10c-77f7-4bfa-b42b-412d048aa6e1
+file 2023-07-12 23:57:22,622 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 23:57:22,634 INFO Login successful: user_id - 559fe10c-77f7-4bfa-b42b-412d048aa6e1 
+file 2023-07-12 23:57:22,635 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 23:57:23,700 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-12 23:57:23,708 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-12 23:57:23,821 INFO Image for url id - f2ad785c-9013-4859-ab4e-4f26d521bbe0 added/update.
+file 2023-07-12 23:57:23,822 INFO path: /api/v1/monitor/file_upload/f2ad785c-9013-4859-ab4e-4f26d521bbe0 | method: POST | status: 200 OK | size: 25
+file 2023-07-12 23:57:23,833 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-12 23:57:24,383 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 19
+file 2023-07-12 23:57:24,962 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5805
+file 2023-07-12 23:57:27,788 INFO User created - 6399ac28-42d9-4e4a-ad8f-b86f497bb2c2
+file 2023-07-12 23:57:27,788 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 23:57:27,800 INFO Login successful: user_id - 6399ac28-42d9-4e4a-ad8f-b86f497bb2c2 
+file 2023-07-12 23:57:27,800 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 23:57:28,859 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-12 23:57:28,865 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-12 23:57:28,977 INFO Image for url id - 96d17b04-cd29-4304-9d3d-22fe4747ae6e added/update.
+file 2023-07-12 23:57:28,978 INFO path: /api/v1/monitor/file_upload/96d17b04-cd29-4304-9d3d-22fe4747ae6e | method: POST | status: 200 OK | size: 25
+file 2023-07-12 23:57:28,989 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-12 23:57:29,600 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 19
+file 2023-07-12 23:57:30,182 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5797
+file 2023-07-12 23:57:32,833 INFO User created - 1149c2c6-ced0-4e7d-a69d-4d57a9f581f2
+file 2023-07-12 23:57:32,834 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 23:57:32,844 INFO Login successful: user_id - 1149c2c6-ced0-4e7d-a69d-4d57a9f581f2 
+file 2023-07-12 23:57:32,845 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 23:57:33,888 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-12 23:57:33,894 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-12 23:57:34,020 INFO Image for url id - a1c06e85-a6ad-496f-871f-32896dda0890 added/update.
+file 2023-07-12 23:57:34,020 INFO path: /api/v1/monitor/file_upload/a1c06e85-a6ad-496f-871f-32896dda0890 | method: POST | status: 200 OK | size: 25
+file 2023-07-12 23:57:34,033 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-12 23:57:34,670 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 19
+file 2023-07-12 23:57:35,221 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5789
+file 2023-07-12 23:57:38,032 INFO User created - b51c27e0-d260-4757-90fe-65af333bebcb
+file 2023-07-12 23:57:38,032 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-12 23:57:38,044 INFO Login successful: user_id - b51c27e0-d260-4757-90fe-65af333bebcb 
+file 2023-07-12 23:57:38,045 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-12 23:57:39,075 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-12 23:57:39,080 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-12 23:57:39,185 INFO Image for url id - ef0afeef-98d9-4037-ac84-b2df70b75f00 added/update.
+file 2023-07-12 23:57:39,185 INFO path: /api/v1/monitor/file_upload/ef0afeef-98d9-4037-ac84-b2df70b75f00 | method: POST | status: 200 OK | size: 25
+file 2023-07-12 23:57:39,197 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-12 23:57:39,817 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 19
+file 2023-07-12 23:57:40,399 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5781
+file 2023-07-13 16:13:32,936 INFO path: /web/links | method: GET | status: 200 OK | size: 5556
+file 2023-07-13 16:13:34,563 INFO path: /web/links | method: GET | status: 200 OK | size: 5556
+file 2023-07-13 16:13:35,076 INFO path: /web/links | method: GET | status: 200 OK | size: 5556
+file 2023-07-13 16:13:35,396 INFO path: /web/links | method: GET | status: 200 OK | size: 5556
+file 2023-07-13 16:14:17,296 INFO User created - c39ae8e6-d6bd-4be8-828d-614019cfb2b3
+file 2023-07-13 16:14:17,296 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-13 16:14:17,392 INFO Login successful: user_id - c39ae8e6-d6bd-4be8-828d-614019cfb2b3 
+file 2023-07-13 16:14:17,393 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-13 16:14:17,454 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-13 16:14:17,460 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-13 16:14:17,585 INFO Image for url id - 0fc474fc-5cf7-43f2-922a-19eede93754d added/update.
+file 2023-07-13 16:14:17,586 INFO path: /api/v1/monitor/file_upload/0fc474fc-5cf7-43f2-922a-19eede93754d | method: POST | status: 200 OK | size: 25
+file 2023-07-13 16:14:17,600 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-13 16:14:17,881 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 19
+file 2023-07-13 16:14:17,906 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5650
+file 2023-07-13 16:14:18,760 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-13 16:14:18,778 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 1  |  'deleted': 0}
+file 2023-07-13 16:15:23,440 INFO User created - 2447bd83-76c9-4457-9562-5b7ddf9d89a8
+file 2023-07-13 16:15:23,441 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-13 16:15:23,632 INFO Login successful: user_id - 2447bd83-76c9-4457-9562-5b7ddf9d89a8 
+file 2023-07-13 16:15:23,633 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-13 16:15:23,677 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-13 16:15:23,681 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-13 16:15:23,805 INFO Image for url id - db4f6a6c-7ecc-4a90-a2b0-056812eda2c2 added/update.
+file 2023-07-13 16:15:23,805 INFO path: /api/v1/monitor/file_upload/db4f6a6c-7ecc-4a90-a2b0-056812eda2c2 | method: POST | status: 200 OK | size: 25
+file 2023-07-13 16:15:23,834 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-13 16:15:23,924 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 19
+file 2023-07-13 16:15:23,949 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5708
+file 2023-07-13 16:15:23,976 INFO path: /web/links | method: GET | status: 200 OK | size: 7480
+file 2023-07-13 16:15:24,806 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-13 16:15:24,826 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 1  |  'deleted': 0}
+file 2023-07-13 16:19:03,995 INFO User created - 51c2cc56-41ea-4071-810c-ddeb6315fa7b
+file 2023-07-13 16:19:03,995 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-13 16:19:04,098 INFO Login successful: user_id - 51c2cc56-41ea-4071-810c-ddeb6315fa7b 
+file 2023-07-13 16:19:04,098 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-13 16:19:04,124 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-13 16:19:04,129 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-13 16:19:04,233 INFO Image for url id - 61417fb5-c132-407c-a0cd-4bd5cecb9003 added/update.
+file 2023-07-13 16:19:04,233 INFO path: /api/v1/monitor/file_upload/61417fb5-c132-407c-a0cd-4bd5cecb9003 | method: POST | status: 200 OK | size: 25
+file 2023-07-13 16:19:04,243 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-13 16:19:04,282 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 19
+file 2023-07-13 16:19:04,305 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5773
+file 2023-07-13 16:19:04,324 INFO path: /web/links | method: GET | status: 200 OK | size: 7480
+file 2023-07-13 16:19:05,148 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-13 16:19:05,167 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 1  |  'deleted': 0}
+file 2023-07-13 16:19:33,487 INFO User created - 2d55bc26-408c-4e81-ab3c-5613a4ea5891
+file 2023-07-13 16:19:33,488 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-13 16:19:33,598 INFO Login successful: user_id - 2d55bc26-408c-4e81-ab3c-5613a4ea5891 
+file 2023-07-13 16:19:33,598 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-13 16:19:33,617 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-13 16:19:33,621 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-13 16:19:33,753 INFO Image for url id - 53d947a3-d51e-42b1-bb2c-8bd2bf2c3a2e added/update.
+file 2023-07-13 16:19:33,753 INFO path: /api/v1/monitor/file_upload/53d947a3-d51e-42b1-bb2c-8bd2bf2c3a2e | method: POST | status: 200 OK | size: 25
+file 2023-07-13 16:19:33,763 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-13 16:19:33,795 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 19
+file 2023-07-13 16:19:33,821 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5875
+file 2023-07-13 16:19:33,847 INFO path: /web/links | method: GET | status: 200 OK | size: 7480
+file 2023-07-13 16:19:34,816 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-13 16:19:34,864 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 1  |  'deleted': 0}
+file 2023-07-13 16:25:54,427 INFO User created - 2cfbec00-44b2-431a-b96a-d86eb1563d56
+file 2023-07-13 16:25:54,428 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-13 16:25:54,522 INFO Login successful: user_id - 2cfbec00-44b2-431a-b96a-d86eb1563d56 
+file 2023-07-13 16:25:54,523 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-13 16:25:54,543 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-13 16:25:54,547 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-13 16:25:54,656 INFO Image for url id - 18cf3e82-c1a3-430a-b0b9-b77ed7dd4528 added/update.
+file 2023-07-13 16:25:54,656 INFO path: /api/v1/monitor/file_upload/18cf3e82-c1a3-430a-b0b9-b77ed7dd4528 | method: POST | status: 200 OK | size: 25
+file 2023-07-13 16:25:54,686 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-13 16:25:54,759 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 19
+file 2023-07-13 16:25:54,784 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5857
+file 2023-07-13 16:25:54,806 INFO path: /web/links | method: GET | status: 200 OK | size: 7480
+file 2023-07-13 16:25:55,611 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-13 16:25:55,629 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 1  |  'deleted': 0}
+file 2023-07-13 16:44:10,856 INFO User created - 212da405-f2d9-420b-9495-2907809c3a58
+file 2023-07-13 16:44:10,857 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-13 16:44:10,948 INFO Login successful: user_id - 212da405-f2d9-420b-9495-2907809c3a58 
+file 2023-07-13 16:44:10,948 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-13 16:44:10,973 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-13 16:44:10,977 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-13 16:44:11,083 INFO Image for url id - a01ca742-9e7b-45e3-adb3-93d6a8639649 added/update.
+file 2023-07-13 16:44:11,084 INFO path: /api/v1/monitor/file_upload/a01ca742-9e7b-45e3-adb3-93d6a8639649 | method: POST | status: 200 OK | size: 25
+file 2023-07-13 16:44:11,112 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-13 16:44:11,171 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 19
+file 2023-07-13 16:44:11,198 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5857
+file 2023-07-13 16:44:11,845 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-13 16:44:11,866 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 1  |  'deleted': 0}
+file 2023-07-13 16:44:50,613 INFO User created - 444b55bf-c330-4ba4-90d1-4642469fe90c
+file 2023-07-13 16:44:50,614 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-13 16:44:50,707 INFO Login successful: user_id - 444b55bf-c330-4ba4-90d1-4642469fe90c 
+file 2023-07-13 16:44:50,707 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-13 16:44:50,726 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-13 16:44:50,730 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-13 16:44:50,838 INFO Image for url id - 39cc7214-d1a2-4966-95aa-9ba706e485a4 added/update.
+file 2023-07-13 16:44:50,838 INFO path: /api/v1/monitor/file_upload/39cc7214-d1a2-4966-95aa-9ba706e485a4 | method: POST | status: 200 OK | size: 25
+file 2023-07-13 16:44:50,868 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-13 16:44:50,929 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 19
+file 2023-07-13 16:44:50,954 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5875
+file 2023-07-13 16:44:50,977 INFO path: /web/links | method: GET | status: 200 OK | size: 7480
+file 2023-07-13 16:44:51,780 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-13 16:44:51,800 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 1  |  'deleted': 0}
+file 2023-07-13 16:45:22,659 INFO User created - 78cdbbe6-98fa-4c0f-84d6-2a5da8b3fdf8
+file 2023-07-13 16:45:22,659 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-13 16:45:22,748 INFO Login successful: user_id - 78cdbbe6-98fa-4c0f-84d6-2a5da8b3fdf8 
+file 2023-07-13 16:45:22,748 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-13 16:45:22,767 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-13 16:45:22,771 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-13 16:45:22,865 INFO Image for url id - 132d9f37-eb71-4d2a-a9e0-d0175739a9a8 added/update.
+file 2023-07-13 16:45:22,866 INFO path: /api/v1/monitor/file_upload/132d9f37-eb71-4d2a-a9e0-d0175739a9a8 | method: POST | status: 200 OK | size: 25
+file 2023-07-13 16:45:22,894 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-13 16:45:22,952 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 19
+file 2023-07-13 16:45:22,975 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5875
+file 2023-07-13 16:45:22,996 INFO path: /web/links | method: GET | status: 200 OK | size: 7480
+file 2023-07-13 16:45:23,608 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-13 16:45:23,630 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 1  |  'deleted': 0}

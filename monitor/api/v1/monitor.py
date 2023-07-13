@@ -117,6 +117,8 @@ def file_upload(link_id: UUID):
 
 
 @monitor.route('/links', methods=['GET', ])
+@jwt_required(optional=settings.app.jwt.disabled_in_api)
+@csrf.exempt
 def get_links():
     """
     ---
@@ -161,6 +163,8 @@ def get_links():
           description: BAD_REQUEST
         422:
           description: UNPROCESSABLE ENTITY
+      security:
+        - jwt_key: []
       tags:
         - Monitor
     """
@@ -169,6 +173,8 @@ def get_links():
 
 
 @monitor.route('/logs', methods=['GET', ])
+@jwt_required(optional=settings.app.jwt.disabled_in_api)
+@csrf.exempt
 def get_logs():
     """
     ---
@@ -182,6 +188,8 @@ def get_logs():
           description: BAD_REQUEST
         422:
           description: UNPROCESSABLE ENTITY
+      security:
+        - jwt_key: []
       tags:
         - Monitor
     """

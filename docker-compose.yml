@@ -9,6 +9,8 @@ services:
       POSTGRES_PASSWORD: 123qwe
     volumes:
       - monitor_db_data:/var/lib/postgresql/data/
+    ports:
+      - 5432:5432
     restart: always
     networks:
       - monitor_nw
@@ -60,6 +62,27 @@ services:
     networks:
       - monitor_nw
     restart: on-failure
+
+  monitor_tests:
+    container_name: monitor_tests
+    image: monitor_image
+    entrypoint: >
+      sh -c "pytest --disable-warnings"
+    volumes:
+      - logs:/monitor/logs
+    depends_on:
+      - monitor_db
+      - monitor
+      - monitor_celery
+      - monitor_worker
+      - monitor_redis
+    healthcheck:
+        test: ["CMD", "curl", "-f", "http://monitor:5000"]
+        interval: 2s
+        timeout: 2s
+        retries: 5
+    networks:
+      - monitor_nw
 
   nginx:
     container_name: nginx

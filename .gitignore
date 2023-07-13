@@ -138,3 +138,4 @@ state.json
 # ext
 
 .env
+.mytemp
