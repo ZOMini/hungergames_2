@@ -36,7 +36,7 @@ def db_delete_obj_by_id(db_client: AsyncSession):
 
 @pytest_asyncio.fixture(scope="session", autouse=True)
 async def clear_db(db_client: AsyncSession):
-    await asyncio.sleep(5)
+    await asyncio.sleep(3)  # Для Github Actions Workflow, иначе не успевает открыть соккеты.
     yield
     if not await db_client.scalar(select(Link).filter(Link.domain == 'posredniksadovod_test')):
         await asyncio.sleep(0.5)
