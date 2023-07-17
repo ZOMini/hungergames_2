@@ -39,7 +39,7 @@ services:
         test: ["CMD", "curl", "-f", "http://monitor_db:5432"]
         interval: 2s
         timeout: 2s
-        retries: 5
+        retries: 10
     networks:
       - monitor_nw
     restart: on-failure

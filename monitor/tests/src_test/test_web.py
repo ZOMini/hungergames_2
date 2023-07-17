@@ -27,4 +27,3 @@ async def test_auth_page(web_get_request, db_client: AsyncSession):
     body, headers, status = await web_get_request(settings.web_get_links)
     assert status[0] == HTTP.OK
     assert 'Logs' not in body[0]
-    

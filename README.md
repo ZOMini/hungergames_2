@@ -11,7 +11,7 @@
 - Авторизация включина. Выключить можно в [env.yaml](https://github.com/ZOMini/hungergames_2/blob/af54f1f9d861ba34e623edd33c6b9ab78b08662b/monitor/env.yaml) {app.jwt.disabled_in_api}, все работает.
 - Тестировать проще через документацию.
 - Добавил динамическое обновление контента по websocket, обновляет дата контент events & logs(Работает для первых страниц пагинатора, что бы не скакало когда пошел по другим страничкам).
-- Добавил функциональные тесты (ручек, воркера, немного веб), github workflow деплоит только после тестов.
+- Добавил небольшие функциональные тесты (ручек, воркера, немного веб), github workflow деплоит только после тестов.
 
 ## Start
 - docker-compose up --build
@@ -28,7 +28,7 @@
 - {GET} http://127.0.0.1/api/v1/monitor/logs
 
 ## Urls(web)
-- http://127.0.0.1/web/  - далее все ссылки на панели навигации(создаем пользователя, логинемся, открываются все ссылки)
+- http://127.0.0.1/web/  - Создаем пользователя, логинемся, открываются все ссылки на панели навигации.
 
 ## Migration
 - Базовые миграции - автоматом. Если нужны доп. миграции то:
@@ -54,11 +54,11 @@
 - gevent==22.10.2
 - redis==4.6.0
 - celery==5.3.1
-
+- pytest-asyncio==0.21.1
 
 ## Misc
 - win
-  - celery -A app_celery.tasks worker -P thread --loglevel=INFO
+  - celery -A app_celery.tasks worker -P threads --loglevel=INFO
 - linux
   - celery -A app_celery.tasks worker -P gevent --loglevel=INFO
 

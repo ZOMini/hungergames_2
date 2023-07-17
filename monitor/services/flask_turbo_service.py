@@ -8,7 +8,15 @@ from db.models_db import Event
 from web.pagination import PageResult
 
 
-def update_logs():
+def update_logs_and_events():
+    def inject_events_sub():
+        pagination = db.paginate(db.select(Event).order_by(Event.timestamp.desc()), page=1, per_page=10)
+        events = pagination.items
+        titles = [('timestamp', 'Time'), ('url', 'Url'), ('event', 'Event')]
+        data = []
+        for event in events:
+            data.append({'timestamp': event.timestamp, 'url': event.url, 'event': event.event})
+        return {'events': data, 'titles': titles}
     def inject_logs_sub():
         with open(settings.app.logger.file, newline='',
                 encoding=settings.app.logger.encoding) as log_file:
@@ -18,20 +26,13 @@ def update_logs():
         return {'listing': listing}
     with app.app_context():
         while True:
-            time.sleep(settings.app.websocket_timeout)
-            turbo.push(turbo.replace(render_template('logs_sub.html', **inject_logs_sub()), 'logs_sub'))
-
-
-def update_events():
-    def inject_events_sub():
-        pagination = db.paginate(db.select(Event).order_by(Event.timestamp.desc()), page=1, per_page=10)
-        events = pagination.items
-        titles = [('timestamp', 'Time'), ('url', 'Url'), ('event', 'Event')]
-        data = []
-        for event in events:
-            data.append({'timestamp': event.timestamp, 'url': event.url, 'event': event.event})
-        return {'events': data, 'titles': titles}
-    with app.app_context():
-        while True:
-            time.sleep(settings.app.websocket_timeout)
-            turbo.push(turbo.replace(render_template('events_sub.html', **inject_events_sub()), 'events_sub'))
+            time.sleep(settings.app.websocket_timeout/2)
+            try:
+                turbo.push(turbo.replace(render_template('logs_sub.html', **inject_logs_sub()), 'logs_sub'))
+            except BrokenPipeError:
+                pass
+            time.sleep(settings.app.websocket_timeout/2)
+            try:
+                turbo.push(turbo.replace(render_template('events_sub.html', **inject_events_sub()), 'events_sub'))
+            except BrokenPipeError:
+                pass

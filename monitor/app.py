@@ -8,15 +8,16 @@ from api.v1.monitor import monitor
 from core.app import app, db
 from core.docs import init_docs
 from core.logger import console_logger, file_logger
-from services.flask_turbo_service import update_events, update_logs
+from services.flask_turbo_service import update_logs_and_events
 from services.jwt_service import *  # Регистрируем JWT
 from web.auth import web_auth
 from web.pages import pages
 
 app.register_blueprint(auth, url_prefix='/api/v1/auth')
 app.register_blueprint(monitor, url_prefix="/api/v1/monitor")
-app.register_blueprint(pages, url_prefix="/web")
 app.register_blueprint(web_auth, url_prefix='/web/auth')
+app.register_blueprint(pages, url_prefix="/web")
+
 init_docs()
 
 
@@ -38,8 +39,7 @@ def logAfterRequest(response: Response):
 
 
 with app.app_context():
-    threading.Thread(target=update_logs, daemon=True).start()
-    threading.Thread(target=update_events, daemon=True).start()
+    threading.Thread(target=update_logs_and_events, daemon=True).start()
 
 
 if __name__ == '__main__':

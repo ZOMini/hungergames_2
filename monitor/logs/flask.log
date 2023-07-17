@@ -21422,3 +21422,1058 @@ file 2023-07-13 16:45:22,975 INFO path: /api/v1/monitor/logs | method: GET | sta
 file 2023-07-13 16:45:22,996 INFO path: /web/links | method: GET | status: 200 OK | size: 7480
 file 2023-07-13 16:45:23,608 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
 file 2023-07-13 16:45:23,630 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 1  |  'deleted': 0}
+file 2023-07-14 13:58:24,829 INFO path: /web/links | method: GET | status: 200 OK | size: 5403
+file 2023-07-14 13:58:26,508 INFO path: /web/links | method: GET | status: 200 OK | size: 5403
+file 2023-07-14 13:58:27,100 INFO path: /web/new_link | method: GET | status: 200 OK | size: 4550
+file 2023-07-14 13:58:27,637 INFO path: /web/upload_image | method: GET | status: 200 OK | size: 4000
+file 2023-07-14 13:58:28,062 INFO path: /web/events | method: GET | status: 200 OK | size: 9057
+file 2023-07-14 13:58:28,578 INFO path: /web/logs | method: GET | status: 200 OK | size: 9341
+file 2023-07-14 13:58:29,736 INFO path: /web/links | method: GET | status: 200 OK | size: 5403
+file 2023-07-14 14:12:13,681 INFO User created - 27014efd-a5c4-4268-b7a4-3a976024fcad
+file 2023-07-14 14:12:13,683 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 14:12:13,823 INFO Login successful: user_id - 27014efd-a5c4-4268-b7a4-3a976024fcad 
+file 2023-07-14 14:12:13,824 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-14 14:12:13,883 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 14:12:13,888 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-14 14:12:14,047 INFO Image for url id - 2fd7d979-379c-4e1c-bd88-0bad17e58470 added/update.
+file 2023-07-14 14:12:14,047 INFO path: /api/v1/monitor/file_upload/2fd7d979-379c-4e1c-bd88-0bad17e58470 | method: POST | status: 200 OK | size: 25
+file 2023-07-14 14:12:14,059 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-14 14:12:14,351 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 19
+file 2023-07-14 14:12:14,376 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5719
+file 2023-07-14 14:12:14,968 INFO path: /web/links | method: GET | status: 200 OK | size: 7480
+file 2023-07-14 14:12:15,710 INFO path: /web/links | method: GET | status: 200 OK | size: 7480
+file 2023-07-14 14:12:16,566 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 14:12:16,594 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 1  |  'deleted': 0}
+file 2023-07-14 14:13:45,159 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 14:13:45,183 INFO Celery post urls, count - 1
+file 2023-07-14 14:14:09,751 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 14:14:09,773 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 1  |  'deleted': 0}
+file 2023-07-14 14:14:17,865 INFO User created - 4c34714b-6c52-4b42-b453-9757e0bed561
+file 2023-07-14 14:14:17,866 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 14:14:17,975 INFO Login successful: user_id - 4c34714b-6c52-4b42-b453-9757e0bed561 
+file 2023-07-14 14:14:17,975 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-14 14:14:18,017 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 14:14:18,021 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-14 14:14:18,151 INFO Image for url id - cc069998-ee92-4942-8b51-f710f48953d9 added/update.
+file 2023-07-14 14:14:18,151 INFO path: /api/v1/monitor/file_upload/cc069998-ee92-4942-8b51-f710f48953d9 | method: POST | status: 200 OK | size: 25
+file 2023-07-14 14:14:18,179 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-14 14:14:18,254 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 76
+file 2023-07-14 14:14:18,258 INFO Celery post urls, count - 0
+file 2023-07-14 14:14:18,443 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5552
+file 2023-07-14 14:14:18,481 INFO path: /web/links | method: GET | status: 200 OK | size: 9029
+file 2023-07-14 14:14:18,510 INFO path: /web/links | method: GET | status: 200 OK | size: 9029
+file 2023-07-14 14:14:18,599 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 14:14:18,599 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 14:14:18,612 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 14:16:36,955 INFO User created - 5e3fef70-f4bc-4b56-9051-37c1102968ff
+file 2023-07-14 14:16:36,958 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 14:16:37,074 INFO Login successful: user_id - 5e3fef70-f4bc-4b56-9051-37c1102968ff 
+file 2023-07-14 14:16:37,074 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-14 14:16:37,097 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 14:16:37,100 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-14 14:16:37,196 INFO Image for url id - d85b6a4b-7927-4e7a-b9a0-89d6a4469729 added/update.
+file 2023-07-14 14:16:37,197 INFO path: /api/v1/monitor/file_upload/d85b6a4b-7927-4e7a-b9a0-89d6a4469729 | method: POST | status: 200 OK | size: 25
+file 2023-07-14 14:16:37,207 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-14 14:16:37,241 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 19
+file 2023-07-14 14:16:37,250 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 14:16:37,267 INFO Celery post urls, count - 1
+file 2023-07-14 14:16:37,271 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5477
+file 2023-07-14 14:16:37,301 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 14:16:37,351 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 14:16:37,487 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 14:16:37,488 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 14:16:37,502 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 14:17:08,631 INFO User created - 2957aeb1-71fa-402b-aa39-a956c4ec60c7
+file 2023-07-14 14:17:08,631 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 14:17:08,753 INFO Login successful: user_id - 2957aeb1-71fa-402b-aa39-a956c4ec60c7 
+file 2023-07-14 14:17:08,753 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-14 14:17:08,792 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 14:17:08,794 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-14 14:17:08,914 INFO Image for url id - a30db5fc-abba-495d-8bde-14ef8115f50d added/update.
+file 2023-07-14 14:17:08,915 INFO path: /api/v1/monitor/file_upload/a30db5fc-abba-495d-8bde-14ef8115f50d | method: POST | status: 200 OK | size: 25
+file 2023-07-14 14:17:08,926 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-14 14:17:08,958 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 19
+file 2023-07-14 14:17:08,967 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 14:17:08,981 INFO Celery post urls, count - 1
+file 2023-07-14 14:17:08,990 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5432
+file 2023-07-14 14:17:09,032 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 14:17:09,067 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 14:17:09,343 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 14:17:09,343 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 14:17:09,359 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 14:17:43,933 INFO User created - 5fe06d42-7ba5-48cc-bf85-9f5f94fd3142
+file 2023-07-14 14:17:43,934 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 14:17:44,026 INFO Login successful: user_id - 5fe06d42-7ba5-48cc-bf85-9f5f94fd3142 
+file 2023-07-14 14:17:44,027 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-14 14:17:44,046 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 14:17:44,050 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-14 14:17:44,145 INFO Image for url id - db7a307a-352b-4b50-9de6-ecdee672362b added/update.
+file 2023-07-14 14:17:44,145 INFO path: /api/v1/monitor/file_upload/db7a307a-352b-4b50-9de6-ecdee672362b | method: POST | status: 200 OK | size: 25
+file 2023-07-14 14:17:44,175 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-14 14:17:44,273 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 19
+file 2023-07-14 14:17:44,280 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 14:17:44,292 INFO Celery post urls, count - 1
+file 2023-07-14 14:17:44,299 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5456
+file 2023-07-14 14:17:44,326 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 14:17:44,355 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 14:17:44,369 INFO path: /web/auth/login | method: POST | status: 400 BAD REQUEST | size: 3060
+file 2023-07-14 14:17:44,669 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 14:17:44,671 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 14:17:44,684 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 14:18:41,440 INFO User created - eb386984-e46f-46cd-9794-4b3a72771534
+file 2023-07-14 14:18:41,440 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 14:18:41,527 INFO Login successful: user_id - eb386984-e46f-46cd-9794-4b3a72771534 
+file 2023-07-14 14:18:41,528 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-14 14:18:41,543 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 14:18:41,546 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-14 14:18:41,691 INFO Image for url id - 178c2c4d-d173-4f53-afad-a703f851f24a added/update.
+file 2023-07-14 14:18:41,691 INFO path: /api/v1/monitor/file_upload/178c2c4d-d173-4f53-afad-a703f851f24a | method: POST | status: 200 OK | size: 25
+file 2023-07-14 14:18:41,702 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-14 14:18:41,767 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 19
+file 2023-07-14 14:18:41,773 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 14:18:41,796 INFO Celery post urls, count - 1
+file 2023-07-14 14:18:41,799 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5484
+file 2023-07-14 14:18:41,830 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 14:18:41,859 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 14:18:41,867 INFO path: /web/auth/login | method: POST | status: 400 BAD REQUEST | size: 3060
+file 2023-07-14 14:18:42,119 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 14:18:42,120 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 14:18:42,135 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 14:23:09,206 INFO User created - 4b17e3da-8862-4790-83b1-1a9439619a22
+file 2023-07-14 14:23:09,207 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 14:23:09,314 INFO Login successful: user_id - 4b17e3da-8862-4790-83b1-1a9439619a22 
+file 2023-07-14 14:23:09,314 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-14 14:23:09,332 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 14:23:09,336 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-14 14:23:09,446 INFO Image for url id - c5e844b1-e7fc-4bde-b120-c2ce92b5d42f added/update.
+file 2023-07-14 14:23:09,447 INFO path: /api/v1/monitor/file_upload/c5e844b1-e7fc-4bde-b120-c2ce92b5d42f | method: POST | status: 200 OK | size: 25
+file 2023-07-14 14:23:09,458 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-14 14:23:09,490 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 19
+file 2023-07-14 14:23:09,498 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 14:23:09,513 INFO Celery post urls, count - 1
+file 2023-07-14 14:23:09,519 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5467
+file 2023-07-14 14:23:09,553 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 14:23:09,619 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 14:23:09,630 INFO path: /web/auth/login | method: POST | status: 400 BAD REQUEST | size: 3060
+file 2023-07-14 14:23:09,888 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 14:23:09,888 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 14:23:09,902 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 14:35:53,852 INFO path: /web/events | method: GET | status: 200 OK | size: 9422
+file 2023-07-14 14:36:04,983 INFO path: /web/logs | method: GET | status: 200 OK | size: 9113
+file 2023-07-14 14:38:15,237 INFO path: /web/auth/logout | method: GET | status: 302 FOUND | size: 207
+file 2023-07-14 14:38:15,254 INFO path: /web/links | method: GET | status: 200 OK | size: 5556
+file 2023-07-14 14:38:18,519 INFO path: /web/auth/login | method: POST | status: 302 FOUND | size: 207
+file 2023-07-14 14:38:18,538 INFO path: /web/links | method: GET | status: 200 OK | size: 5403
+file 2023-07-14 14:38:27,824 INFO path: /web/upload_image | method: GET | status: 200 OK | size: 4000
+file 2023-07-14 14:38:36,411 INFO path: /web/logs | method: GET | status: 200 OK | size: 8959
+file 2023-07-14 14:42:08,336 INFO path: /web/upload_image | method: GET | status: 200 OK | size: 4000
+file 2023-07-14 14:42:10,305 INFO path: /web/auth/logout | method: GET | status: 302 FOUND | size: 207
+file 2023-07-14 14:42:10,318 INFO path: /web/links | method: GET | status: 200 OK | size: 5556
+file 2023-07-14 14:42:14,708 INFO path: /web/auth/login | method: POST | status: 302 FOUND | size: 207
+file 2023-07-14 14:42:14,724 INFO path: /web/links | method: GET | status: 200 OK | size: 5403
+file 2023-07-14 15:01:42,155 INFO User created - 79459860-8009-4680-be7a-1ef6270368ae
+file 2023-07-14 15:01:42,156 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 15:01:42,274 INFO Login successful: user_id - 79459860-8009-4680-be7a-1ef6270368ae 
+file 2023-07-14 15:01:42,274 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-14 15:01:42,329 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 15:01:42,332 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-14 15:01:42,459 INFO Image for url id - 34f74660-4f63-45bd-92af-3daf9395586f added/update.
+file 2023-07-14 15:01:42,459 INFO path: /api/v1/monitor/file_upload/34f74660-4f63-45bd-92af-3daf9395586f | method: POST | status: 200 OK | size: 25
+file 2023-07-14 15:01:42,469 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-14 15:01:42,501 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 19
+file 2023-07-14 15:01:42,510 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 15:01:42,527 INFO Celery post urls, count - 1
+file 2023-07-14 15:01:42,531 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5361
+file 2023-07-14 15:01:42,564 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 15:01:42,593 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 15:01:42,601 INFO path: /web/auth/login | method: POST | status: 400 BAD REQUEST | size: 3060
+file 2023-07-14 15:01:42,877 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 15:01:43,022 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 15:01:43,065 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 15:04:34,127 INFO User created - 0c661076-2bec-48dd-a2ef-f1c95ddd77ce
+file 2023-07-14 15:04:34,128 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 15:04:34,247 INFO Login successful: user_id - 0c661076-2bec-48dd-a2ef-f1c95ddd77ce 
+file 2023-07-14 15:04:34,247 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-14 15:04:34,282 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 15:04:34,287 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-14 15:04:34,403 INFO Image for url id - 575e0dba-d094-4eaa-a040-382913da5504 added/update.
+file 2023-07-14 15:04:34,403 INFO path: /api/v1/monitor/file_upload/575e0dba-d094-4eaa-a040-382913da5504 | method: POST | status: 200 OK | size: 25
+file 2023-07-14 15:04:34,442 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-14 15:04:34,510 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 19
+file 2023-07-14 15:04:34,517 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 15:04:34,536 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5404
+file 2023-07-14 15:04:34,545 INFO Celery post urls, count - 1
+file 2023-07-14 15:04:34,566 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 15:04:34,628 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 15:04:34,930 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 15:04:34,931 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 15:04:34,960 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 15:05:24,642 INFO User created - 2b94766d-1ca4-44a0-b3e9-1f26df7a8917
+file 2023-07-14 15:05:24,643 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 15:05:24,744 INFO Login successful: user_id - 2b94766d-1ca4-44a0-b3e9-1f26df7a8917 
+file 2023-07-14 15:05:24,745 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-14 15:05:24,764 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 15:05:24,767 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-14 15:05:24,875 INFO Image for url id - 61ab384d-69a4-4042-8a3a-11294d97b457 added/update.
+file 2023-07-14 15:05:24,876 INFO path: /api/v1/monitor/file_upload/61ab384d-69a4-4042-8a3a-11294d97b457 | method: POST | status: 200 OK | size: 25
+file 2023-07-14 15:05:24,923 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-14 15:05:24,981 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 19
+file 2023-07-14 15:05:24,989 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 15:05:25,006 INFO Celery post urls, count - 1
+file 2023-07-14 15:05:25,010 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5452
+file 2023-07-14 15:05:25,046 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 15:05:25,079 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 15:05:25,088 INFO path: /web/auth/login | method: POST | status: 400 BAD REQUEST | size: 3060
+file 2023-07-14 15:05:25,336 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 15:05:25,337 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 15:05:25,351 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 15:12:17,798 INFO User created - c9c92133-3085-41ed-96d4-eab66cc75a78
+file 2023-07-14 15:12:17,799 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 15:12:17,905 INFO Login successful: user_id - c9c92133-3085-41ed-96d4-eab66cc75a78 
+file 2023-07-14 15:12:17,906 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-14 15:12:17,937 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 15:12:17,943 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-14 15:12:18,115 INFO Image for url id - 2f592008-154e-47b0-bd69-e10d96343d9a added/update.
+file 2023-07-14 15:12:18,115 INFO path: /api/v1/monitor/file_upload/2f592008-154e-47b0-bd69-e10d96343d9a | method: POST | status: 200 OK | size: 25
+file 2023-07-14 15:12:18,131 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-14 15:12:18,258 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 19
+file 2023-07-14 15:12:18,267 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 15:12:18,285 INFO Celery post urls, count - 1
+file 2023-07-14 15:12:18,291 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5484
+file 2023-07-14 15:12:18,328 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 15:12:18,366 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 15:12:18,376 INFO path: /web/links | method: POST | status: 400 BAD REQUEST | size: 3087
+file 2023-07-14 15:12:18,680 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 15:12:18,746 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 15:12:18,762 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 15:18:47,209 INFO User created - e1b96420-e47c-4bd4-b5e0-4c5b4b01491d
+file 2023-07-14 15:18:47,211 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 15:18:47,330 INFO Login successful: user_id - e1b96420-e47c-4bd4-b5e0-4c5b4b01491d 
+file 2023-07-14 15:18:47,330 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-14 15:18:47,347 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 15:18:47,350 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-14 15:18:47,456 INFO Image for url id - 1e932e07-23ca-4600-bc5b-6a7d433d6f0d added/update.
+file 2023-07-14 15:18:47,457 INFO path: /api/v1/monitor/file_upload/1e932e07-23ca-4600-bc5b-6a7d433d6f0d | method: POST | status: 200 OK | size: 25
+file 2023-07-14 15:18:47,467 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-14 15:18:47,505 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 19
+file 2023-07-14 15:18:47,512 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 15:18:47,529 INFO Celery post urls, count - 1
+file 2023-07-14 15:18:47,546 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5462
+file 2023-07-14 15:18:47,579 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 15:18:47,606 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 15:18:47,614 INFO path: /web/links | method: POST | status: 400 BAD REQUEST | size: 3087
+file 2023-07-14 15:18:47,862 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 15:18:47,863 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 15:18:47,876 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 15:21:43,248 INFO User created - 884cb69b-20cc-4991-a4a4-5cb393d0a392
+file 2023-07-14 15:21:43,249 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 15:21:43,359 INFO Login successful: user_id - 884cb69b-20cc-4991-a4a4-5cb393d0a392 
+file 2023-07-14 15:21:43,360 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-14 15:21:43,377 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 15:21:43,382 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-14 15:21:43,486 INFO Image for url id - 84da4332-5a90-450a-ad61-4ea3371d4f74 added/update.
+file 2023-07-14 15:21:43,487 INFO path: /api/v1/monitor/file_upload/84da4332-5a90-450a-ad61-4ea3371d4f74 | method: POST | status: 200 OK | size: 25
+file 2023-07-14 15:21:43,496 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-14 15:21:43,534 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 19
+file 2023-07-14 15:21:43,541 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 15:21:43,567 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5522
+file 2023-07-14 15:21:43,597 INFO Celery post urls, count - 1
+file 2023-07-14 15:21:43,617 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 15:21:43,644 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 15:21:43,652 INFO path: /web/links | method: POST | status: 400 BAD REQUEST | size: 3087
+file 2023-07-14 15:21:43,907 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 15:21:43,908 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 15:21:43,922 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 15:22:50,885 INFO path: /web/auth/logout | method: GET | status: 302 FOUND | size: 207
+file 2023-07-14 15:22:50,897 INFO path: /web/links | method: GET | status: 200 OK | size: 5556
+file 2023-07-14 15:23:38,644 INFO path: /web/links | method: GET | status: 200 OK | size: 5556
+file 2023-07-14 15:23:44,458 INFO path: /web/auth/login | method: POST | status: 302 FOUND | size: 207
+file 2023-07-14 15:23:44,475 INFO path: /web/links | method: GET | status: 200 OK | size: 5403
+file 2023-07-14 15:24:16,170 INFO User created - bda45ec0-0d9b-4f51-b0be-156f0cc99fa7
+file 2023-07-14 15:24:16,172 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 15:24:16,271 INFO Login successful: user_id - bda45ec0-0d9b-4f51-b0be-156f0cc99fa7 
+file 2023-07-14 15:24:16,272 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 331
+file 2023-07-14 15:24:16,290 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 15:24:16,301 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 210
+file 2023-07-14 15:24:16,399 INFO Image for url id - 5e5a1c8f-6f5e-48ed-9d90-817abd05882c added/update.
+file 2023-07-14 15:24:16,400 INFO path: /api/v1/monitor/file_upload/5e5a1c8f-6f5e-48ed-9d90-817abd05882c | method: POST | status: 200 OK | size: 25
+file 2023-07-14 15:24:16,409 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 167
+file 2023-07-14 15:24:16,439 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 19
+file 2023-07-14 15:24:16,448 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 15:24:16,465 INFO Celery post urls, count - 1
+file 2023-07-14 15:24:16,471 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5397
+file 2023-07-14 15:24:16,509 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 15:24:16,536 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 15:24:16,543 INFO path: /web/links | method: POST | status: 400 BAD REQUEST | size: 3087
+file 2023-07-14 15:24:16,795 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 15:24:16,796 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 15:24:16,810 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 15:56:18,637 INFO User created - de6d1a96-9e30-425d-b88c-cedbea85fb68
+file 2023-07-14 15:56:18,640 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 15:56:18,756 INFO Login successful: user_id - de6d1a96-9e30-425d-b88c-cedbea85fb68 
+file 2023-07-14 15:56:18,757 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 336
+file 2023-07-14 15:56:19,224 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 15:56:19,231 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 274
+file 2023-07-14 15:56:19,399 INFO Image for url id - e8535cd7-33c7-4636-9cab-73f3f586335c added/update.
+file 2023-07-14 15:56:19,400 INFO path: /api/v1/monitor/file_upload/e8535cd7-33c7-4636-9cab-73f3f586335c | method: POST | status: 200 OK | size: 25
+file 2023-07-14 15:56:19,450 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 192
+file 2023-07-14 15:56:19,595 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 24
+file 2023-07-14 15:56:19,601 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 15:56:19,616 INFO Celery post urls, count - 1
+file 2023-07-14 15:56:19,627 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5548
+file 2023-07-14 15:56:20,013 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 15:56:20,051 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 15:56:20,073 INFO path: /web/links | method: POST | status: 400 BAD REQUEST | size: 3087
+file 2023-07-14 15:56:20,311 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 15:56:20,472 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 15:56:20,488 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 15:58:20,254 INFO User created - 9234fd27-730e-4261-a5a7-a09d1fa80ae9
+file 2023-07-14 15:58:20,255 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 15:58:20,382 INFO Login successful: user_id - 9234fd27-730e-4261-a5a7-a09d1fa80ae9 
+file 2023-07-14 15:58:20,383 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 336
+file 2023-07-14 15:58:20,430 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 15:58:20,434 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 274
+file 2023-07-14 15:58:20,562 INFO Image for url id - 1e6f5ca6-5994-49e6-aa60-b2b52486b863 added/update.
+file 2023-07-14 15:58:20,563 INFO path: /api/v1/monitor/file_upload/1e6f5ca6-5994-49e6-aa60-b2b52486b863 | method: POST | status: 200 OK | size: 25
+file 2023-07-14 15:58:20,615 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 192
+file 2023-07-14 15:58:20,688 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 24
+file 2023-07-14 15:58:20,694 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 15:58:20,709 INFO Celery post urls, count - 1
+file 2023-07-14 15:58:20,720 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5608
+file 2023-07-14 15:58:20,766 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 15:58:20,803 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 15:58:20,818 INFO path: /web/auth/login | method: POST | status: 400 BAD REQUEST | size: 3060
+file 2023-07-14 15:58:21,068 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 15:58:21,068 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 15:58:21,082 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 15:58:36,865 INFO path: /web/auth/logout | method: GET | status: 302 FOUND | size: 207
+file 2023-07-14 15:58:36,891 INFO path: /web/links | method: GET | status: 200 OK | size: 5556
+file 2023-07-14 15:59:01,453 INFO path: /web/auth/login | method: POST | status: 302 FOUND | size: 207
+file 2023-07-14 15:59:01,482 INFO path: /web/links | method: GET | status: 200 OK | size: 5403
+file 2023-07-14 16:00:23,992 INFO path: /web/auth/login | method: GET | status: 302 FOUND | size: 207
+file 2023-07-14 16:00:24,018 INFO path: /web/links | method: GET | status: 200 OK | size: 5403
+file 2023-07-14 16:01:33,737 INFO User created - 62cd8b71-d079-40f9-8403-10c8c8c5feeb
+file 2023-07-14 16:01:33,739 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 16:01:33,868 INFO Login successful: user_id - 62cd8b71-d079-40f9-8403-10c8c8c5feeb 
+file 2023-07-14 16:01:33,869 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 336
+file 2023-07-14 16:01:33,893 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 16:01:33,898 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 274
+file 2023-07-14 16:01:34,006 INFO Image for url id - 8154378f-e5dd-43c5-ba43-1fc3ed60dab4 added/update.
+file 2023-07-14 16:01:34,007 INFO path: /api/v1/monitor/file_upload/8154378f-e5dd-43c5-ba43-1fc3ed60dab4 | method: POST | status: 200 OK | size: 25
+file 2023-07-14 16:01:34,022 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 192
+file 2023-07-14 16:01:34,084 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 24
+file 2023-07-14 16:01:34,090 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 16:01:34,105 INFO Celery post urls, count - 1
+file 2023-07-14 16:01:34,117 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5541
+file 2023-07-14 16:01:34,164 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:01:34,200 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:01:34,213 INFO path: /web/auth/login | method: POST | status: 400 BAD REQUEST | size: 3060
+file 2023-07-14 16:01:34,500 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 16:01:34,501 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 16:01:34,514 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 16:01:50,614 INFO User created - 94fed397-0fea-44ad-a668-64529cfa1312
+file 2023-07-14 16:01:50,616 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 16:01:50,735 INFO Login successful: user_id - 94fed397-0fea-44ad-a668-64529cfa1312 
+file 2023-07-14 16:01:50,736 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 336
+file 2023-07-14 16:01:50,764 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 16:01:50,768 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 274
+file 2023-07-14 16:01:50,870 INFO Image for url id - 86f39c2c-61a4-47c7-9755-4dda0fe678f1 added/update.
+file 2023-07-14 16:01:50,871 INFO path: /api/v1/monitor/file_upload/86f39c2c-61a4-47c7-9755-4dda0fe678f1 | method: POST | status: 200 OK | size: 25
+file 2023-07-14 16:01:50,887 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 192
+file 2023-07-14 16:01:50,944 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 24
+file 2023-07-14 16:01:50,950 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 16:01:50,965 INFO Celery post urls, count - 1
+file 2023-07-14 16:01:50,977 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5546
+file 2023-07-14 16:01:51,026 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:01:51,062 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:01:51,076 INFO path: /web/auth/login | method: POST | status: 400 BAD REQUEST | size: 3060
+file 2023-07-14 16:01:51,338 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 16:01:51,339 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 16:01:51,352 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 16:04:08,713 INFO User created - d3367d68-59d7-405f-bc80-7afff4f01196
+file 2023-07-14 16:04:08,715 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 16:04:08,865 INFO Login successful: user_id - d3367d68-59d7-405f-bc80-7afff4f01196 
+file 2023-07-14 16:04:08,867 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 336
+file 2023-07-14 16:04:08,913 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 16:04:08,917 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 274
+file 2023-07-14 16:04:09,025 INFO Image for url id - 0f8acf43-c25c-4c50-93bf-6af856ce7633 added/update.
+file 2023-07-14 16:04:09,026 INFO path: /api/v1/monitor/file_upload/0f8acf43-c25c-4c50-93bf-6af856ce7633 | method: POST | status: 200 OK | size: 25
+file 2023-07-14 16:04:09,040 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 192
+file 2023-07-14 16:04:09,126 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 24
+file 2023-07-14 16:04:09,134 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 16:04:09,151 INFO Celery post urls, count - 1
+file 2023-07-14 16:04:09,162 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5618
+file 2023-07-14 16:04:09,204 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:04:09,244 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:04:09,256 INFO path: /web/auth/login | method: POST | status: 400 BAD REQUEST | size: 3060
+file 2023-07-14 16:04:09,495 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 16:04:09,496 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 16:04:09,510 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 16:04:46,489 INFO User created - f12c8071-7226-4c92-9043-61571535639e
+file 2023-07-14 16:04:46,490 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 16:04:46,600 INFO Login successful: user_id - f12c8071-7226-4c92-9043-61571535639e 
+file 2023-07-14 16:04:46,601 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 336
+file 2023-07-14 16:04:46,626 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 16:04:46,636 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 274
+file 2023-07-14 16:04:46,742 INFO Image for url id - 9e82b939-3d2e-4328-853a-3bb442fd7b99 added/update.
+file 2023-07-14 16:04:46,742 INFO path: /api/v1/monitor/file_upload/9e82b939-3d2e-4328-853a-3bb442fd7b99 | method: POST | status: 200 OK | size: 25
+file 2023-07-14 16:04:46,757 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 192
+file 2023-07-14 16:04:46,813 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 24
+file 2023-07-14 16:04:46,820 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 16:04:46,836 INFO Celery post urls, count - 1
+file 2023-07-14 16:04:46,847 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5618
+file 2023-07-14 16:04:46,886 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:04:46,925 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:04:46,937 INFO path: /web/auth/login | method: POST | status: 400 BAD REQUEST | size: 3060
+file 2023-07-14 16:04:47,181 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 16:04:47,181 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 16:04:47,195 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 16:05:15,574 INFO User created - 823e7d4e-32cc-450a-99ea-66b42bcf788b
+file 2023-07-14 16:05:15,577 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 16:05:15,699 INFO Login successful: user_id - 823e7d4e-32cc-450a-99ea-66b42bcf788b 
+file 2023-07-14 16:05:15,700 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 336
+file 2023-07-14 16:05:15,727 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 16:05:15,731 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 274
+file 2023-07-14 16:05:15,836 INFO Image for url id - f8166930-1b06-47be-8cde-332f550b4d24 added/update.
+file 2023-07-14 16:05:15,837 INFO path: /api/v1/monitor/file_upload/f8166930-1b06-47be-8cde-332f550b4d24 | method: POST | status: 200 OK | size: 25
+file 2023-07-14 16:05:15,852 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 192
+file 2023-07-14 16:05:15,907 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 24
+file 2023-07-14 16:05:15,914 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 16:05:15,927 INFO Celery post urls, count - 1
+file 2023-07-14 16:05:15,940 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5618
+file 2023-07-14 16:05:15,987 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:05:16,028 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:05:16,039 INFO path: /web/auth/login | method: POST | status: 400 BAD REQUEST | size: 3060
+file 2023-07-14 16:05:16,280 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 16:05:16,281 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 16:05:16,295 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 16:05:35,943 INFO User created - 93e11023-9c22-4930-bc53-b29a264a3c93
+file 2023-07-14 16:05:35,944 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 16:05:36,045 INFO Login successful: user_id - 93e11023-9c22-4930-bc53-b29a264a3c93 
+file 2023-07-14 16:05:36,047 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 336
+file 2023-07-14 16:05:36,095 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 16:05:36,100 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 274
+file 2023-07-14 16:05:36,250 INFO Image for url id - 2b50937b-7e0c-4cfe-94c4-15c32d7f51eb added/update.
+file 2023-07-14 16:05:36,251 INFO path: /api/v1/monitor/file_upload/2b50937b-7e0c-4cfe-94c4-15c32d7f51eb | method: POST | status: 200 OK | size: 25
+file 2023-07-14 16:05:36,266 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 192
+file 2023-07-14 16:05:36,319 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 24
+file 2023-07-14 16:05:36,325 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 16:05:36,339 INFO Celery post urls, count - 1
+file 2023-07-14 16:05:36,352 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5618
+file 2023-07-14 16:05:36,438 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:05:36,497 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:05:36,507 INFO path: /web/auth/login | method: POST | status: 400 BAD REQUEST | size: 3060
+file 2023-07-14 16:05:36,760 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 16:05:36,761 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 16:05:36,778 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 16:06:07,322 INFO User created - b22a26e8-9076-4d4e-8186-05859f0f044e
+file 2023-07-14 16:06:07,322 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 16:06:07,416 INFO Login successful: user_id - b22a26e8-9076-4d4e-8186-05859f0f044e 
+file 2023-07-14 16:06:07,417 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 336
+file 2023-07-14 16:06:07,463 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 16:06:07,467 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 274
+file 2023-07-14 16:06:07,590 INFO Image for url id - 39b38e8f-45be-4dc5-9d33-4866b47ab826 added/update.
+file 2023-07-14 16:06:07,591 INFO path: /api/v1/monitor/file_upload/39b38e8f-45be-4dc5-9d33-4866b47ab826 | method: POST | status: 200 OK | size: 25
+file 2023-07-14 16:06:07,606 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 192
+file 2023-07-14 16:06:07,657 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 24
+file 2023-07-14 16:06:07,664 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 16:06:07,682 INFO Celery post urls, count - 1
+file 2023-07-14 16:06:07,693 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5618
+file 2023-07-14 16:06:07,737 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:06:07,800 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:06:07,813 INFO path: /web/auth/login | method: POST | status: 400 BAD REQUEST | size: 3060
+file 2023-07-14 16:06:08,054 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 16:06:08,054 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 16:06:08,067 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 16:06:48,397 INFO User created - 56aa58da-6d61-4b0c-a621-fc35c53e81df
+file 2023-07-14 16:06:48,399 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 16:06:48,496 INFO Login successful: user_id - 56aa58da-6d61-4b0c-a621-fc35c53e81df 
+file 2023-07-14 16:06:48,497 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 336
+file 2023-07-14 16:06:48,526 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 16:06:48,531 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 274
+file 2023-07-14 16:06:48,641 INFO Image for url id - 14c959a8-1927-4ab6-9a64-e70bc650d794 added/update.
+file 2023-07-14 16:06:48,642 INFO path: /api/v1/monitor/file_upload/14c959a8-1927-4ab6-9a64-e70bc650d794 | method: POST | status: 200 OK | size: 25
+file 2023-07-14 16:06:48,658 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 192
+file 2023-07-14 16:06:48,723 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 24
+file 2023-07-14 16:06:48,730 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 16:06:48,746 INFO Celery post urls, count - 1
+file 2023-07-14 16:06:48,760 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5618
+file 2023-07-14 16:06:48,808 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:06:48,848 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:06:48,862 INFO path: /web/auth/login | method: POST | status: 400 BAD REQUEST | size: 3060
+file 2023-07-14 16:06:49,124 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 16:06:49,125 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 16:06:49,140 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 16:09:25,000 INFO User created - 3901f2bd-77c8-4723-a13a-a658c2440a30
+file 2023-07-14 16:09:25,002 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 16:09:25,128 INFO Login successful: user_id - 3901f2bd-77c8-4723-a13a-a658c2440a30 
+file 2023-07-14 16:09:25,129 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 336
+file 2023-07-14 16:09:25,160 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 16:09:25,164 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 274
+file 2023-07-14 16:09:25,274 INFO Image for url id - 233591e0-10d2-49ef-a82b-2ef8654125c9 added/update.
+file 2023-07-14 16:09:25,275 INFO path: /api/v1/monitor/file_upload/233591e0-10d2-49ef-a82b-2ef8654125c9 | method: POST | status: 200 OK | size: 25
+file 2023-07-14 16:09:25,289 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 192
+file 2023-07-14 16:09:25,345 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 24
+file 2023-07-14 16:09:25,352 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 16:09:25,370 INFO Celery post urls, count - 1
+file 2023-07-14 16:09:25,380 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5618
+file 2023-07-14 16:09:25,424 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:09:25,463 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:09:25,475 INFO path: /web/auth/login | method: POST | status: 400 BAD REQUEST | size: 3060
+file 2023-07-14 16:09:25,721 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 16:09:25,722 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 16:09:25,735 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 16:15:31,507 INFO User created - ca2874dd-cf36-4352-b645-07a1443edbaa
+file 2023-07-14 16:15:31,508 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 16:15:31,597 INFO Login successful: user_id - ca2874dd-cf36-4352-b645-07a1443edbaa 
+file 2023-07-14 16:15:31,598 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 336
+file 2023-07-14 16:15:31,629 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 16:15:31,634 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 274
+file 2023-07-14 16:15:31,747 INFO Image for url id - 03fd81f6-c9b1-4d85-ade2-f4c74b04786f added/update.
+file 2023-07-14 16:15:31,748 INFO path: /api/v1/monitor/file_upload/03fd81f6-c9b1-4d85-ade2-f4c74b04786f | method: POST | status: 200 OK | size: 25
+file 2023-07-14 16:15:31,764 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 192
+file 2023-07-14 16:15:31,820 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 24
+file 2023-07-14 16:15:31,829 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 16:15:31,888 INFO Celery post urls, count - 1
+file 2023-07-14 16:15:31,896 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5618
+file 2023-07-14 16:15:31,938 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:15:31,971 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:15:31,984 INFO path: /web/auth/login | method: POST | status: 400 BAD REQUEST | size: 3060
+file 2023-07-14 16:15:32,251 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 16:15:32,252 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 16:15:32,266 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 16:16:29,398 INFO path: /web/auth/logout | method: GET | status: 302 FOUND | size: 207
+file 2023-07-14 16:16:29,420 INFO path: /web/links | method: GET | status: 200 OK | size: 5556
+file 2023-07-14 16:16:36,956 INFO path: /web/auth/login | method: POST | status: 302 FOUND | size: 207
+file 2023-07-14 16:16:36,992 INFO path: /web/links | method: GET | status: 200 OK | size: 5403
+file 2023-07-14 16:16:48,276 INFO User created - d12c628d-5cff-4b4b-87ab-b8746663b571
+file 2023-07-14 16:16:48,277 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 16:16:48,377 INFO Login successful: user_id - d12c628d-5cff-4b4b-87ab-b8746663b571 
+file 2023-07-14 16:16:48,378 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 336
+file 2023-07-14 16:16:48,405 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 16:16:48,410 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 274
+file 2023-07-14 16:16:48,518 INFO Image for url id - 265a4a1c-f968-45bc-a6b4-026845c4c14b added/update.
+file 2023-07-14 16:16:48,518 INFO path: /api/v1/monitor/file_upload/265a4a1c-f968-45bc-a6b4-026845c4c14b | method: POST | status: 200 OK | size: 25
+file 2023-07-14 16:16:48,561 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 192
+file 2023-07-14 16:16:48,654 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 24
+file 2023-07-14 16:16:48,659 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 16:16:48,684 INFO Celery post urls, count - 1
+file 2023-07-14 16:16:48,688 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5608
+file 2023-07-14 16:16:48,735 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:16:48,769 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:16:48,781 INFO path: /web/auth/login | method: POST | status: 400 BAD REQUEST | size: 3060
+file 2023-07-14 16:16:49,031 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 16:16:49,031 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 16:16:49,045 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 16:20:27,562 INFO User created - d171d80b-4c2e-44bb-b364-9823de1ba49b
+file 2023-07-14 16:20:27,562 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 16:20:27,653 INFO Login successful: user_id - d171d80b-4c2e-44bb-b364-9823de1ba49b 
+file 2023-07-14 16:20:27,654 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 336
+file 2023-07-14 16:20:27,682 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 16:20:27,687 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 274
+file 2023-07-14 16:20:27,869 INFO Image for url id - 89fe23f9-f198-40f8-9ec1-3aa865c55527 added/update.
+file 2023-07-14 16:20:27,870 INFO path: /api/v1/monitor/file_upload/89fe23f9-f198-40f8-9ec1-3aa865c55527 | method: POST | status: 200 OK | size: 25
+file 2023-07-14 16:20:27,889 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 192
+file 2023-07-14 16:20:27,943 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 24
+file 2023-07-14 16:20:27,950 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 16:20:27,965 INFO Celery post urls, count - 1
+file 2023-07-14 16:20:27,975 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5608
+file 2023-07-14 16:20:28,019 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:20:28,057 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:20:28,070 INFO path: /web/auth/login | method: POST | status: 400 BAD REQUEST | size: 3060
+file 2023-07-14 16:20:28,348 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 16:20:28,348 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 16:20:28,361 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 16:20:51,564 INFO User created - a201d277-270a-48a5-831f-5b22b6110566
+file 2023-07-14 16:20:51,565 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 16:20:51,685 INFO Login successful: user_id - a201d277-270a-48a5-831f-5b22b6110566 
+file 2023-07-14 16:20:51,687 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 336
+file 2023-07-14 16:20:51,718 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 16:20:51,724 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 274
+file 2023-07-14 16:20:51,835 INFO Image for url id - 609207e9-fbc1-4b1c-a3ad-f597267676dc added/update.
+file 2023-07-14 16:20:51,837 INFO path: /api/v1/monitor/file_upload/609207e9-fbc1-4b1c-a3ad-f597267676dc | method: POST | status: 200 OK | size: 25
+file 2023-07-14 16:20:51,855 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 192
+file 2023-07-14 16:20:51,913 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 24
+file 2023-07-14 16:20:51,917 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 16:20:51,936 INFO Celery post urls, count - 1
+file 2023-07-14 16:20:51,942 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5618
+file 2023-07-14 16:20:51,990 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:20:52,028 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:20:52,041 INFO path: /web/auth/login | method: POST | status: 400 BAD REQUEST | size: 3060
+file 2023-07-14 16:20:52,288 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 16:20:52,288 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 16:20:52,303 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 16:21:17,190 INFO User created - 5b706a73-1d9a-4662-b179-a64abd278ca0
+file 2023-07-14 16:21:17,191 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 16:21:17,296 INFO Login successful: user_id - 5b706a73-1d9a-4662-b179-a64abd278ca0 
+file 2023-07-14 16:21:17,297 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 336
+file 2023-07-14 16:21:17,326 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 16:21:17,330 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 274
+file 2023-07-14 16:21:17,432 INFO Image for url id - b01f6559-fc7d-44c3-b4f8-9df94f21b2a5 added/update.
+file 2023-07-14 16:21:17,433 INFO path: /api/v1/monitor/file_upload/b01f6559-fc7d-44c3-b4f8-9df94f21b2a5 | method: POST | status: 200 OK | size: 25
+file 2023-07-14 16:21:17,447 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 192
+file 2023-07-14 16:21:17,505 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 24
+file 2023-07-14 16:21:17,510 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 16:21:17,524 INFO Celery post urls, count - 1
+file 2023-07-14 16:21:17,534 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5618
+file 2023-07-14 16:21:17,584 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:21:17,621 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:21:17,634 INFO path: /web/auth/login | method: POST | status: 400 BAD REQUEST | size: 3060
+file 2023-07-14 16:21:17,881 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 16:21:17,881 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 16:21:17,897 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 16:21:58,390 INFO User created - 287884c5-3386-45eb-9af1-2b74bf1e7e29
+file 2023-07-14 16:21:58,391 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 16:21:58,511 INFO Login successful: user_id - 287884c5-3386-45eb-9af1-2b74bf1e7e29 
+file 2023-07-14 16:21:58,512 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 336
+file 2023-07-14 16:21:58,566 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 16:21:58,571 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 274
+file 2023-07-14 16:21:58,683 INFO Image for url id - f5f3f35f-7b47-452d-8f12-49e1cd9a4040 added/update.
+file 2023-07-14 16:21:58,684 INFO path: /api/v1/monitor/file_upload/f5f3f35f-7b47-452d-8f12-49e1cd9a4040 | method: POST | status: 200 OK | size: 25
+file 2023-07-14 16:21:58,700 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 192
+file 2023-07-14 16:21:58,817 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 24
+file 2023-07-14 16:21:58,824 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 16:21:58,844 INFO Celery post urls, count - 1
+file 2023-07-14 16:21:58,858 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5618
+file 2023-07-14 16:21:58,903 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:21:58,946 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:21:58,961 INFO path: /web/auth/login | method: POST | status: 400 BAD REQUEST | size: 3060
+file 2023-07-14 16:21:59,241 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 16:21:59,242 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 16:21:59,255 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 16:22:21,404 INFO User created - f9c9abde-ff17-4920-b279-a4050b0ecf4e
+file 2023-07-14 16:22:21,406 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 16:22:21,522 INFO Login successful: user_id - f9c9abde-ff17-4920-b279-a4050b0ecf4e 
+file 2023-07-14 16:22:21,524 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 336
+file 2023-07-14 16:22:21,553 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 16:22:21,558 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 274
+file 2023-07-14 16:22:21,669 INFO Image for url id - 97059d3d-bd1c-4bfb-b255-b62ed7745678 added/update.
+file 2023-07-14 16:22:21,670 INFO path: /api/v1/monitor/file_upload/97059d3d-bd1c-4bfb-b255-b62ed7745678 | method: POST | status: 200 OK | size: 25
+file 2023-07-14 16:22:21,685 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 192
+file 2023-07-14 16:22:21,741 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 24
+file 2023-07-14 16:22:21,746 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 16:22:21,762 INFO Celery post urls, count - 1
+file 2023-07-14 16:22:21,773 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5618
+file 2023-07-14 16:22:21,825 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:22:21,860 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:22:21,874 INFO path: /web/auth/login | method: POST | status: 400 BAD REQUEST | size: 3060
+file 2023-07-14 16:22:22,119 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 16:22:22,119 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 16:22:22,135 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 16:23:48,767 INFO User created - 96d7edf7-c8b9-4f51-9293-4030fcc8f41e
+file 2023-07-14 16:23:48,769 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 16:23:48,865 INFO Login successful: user_id - 96d7edf7-c8b9-4f51-9293-4030fcc8f41e 
+file 2023-07-14 16:23:48,866 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 336
+file 2023-07-14 16:23:48,889 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 16:23:48,894 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 274
+file 2023-07-14 16:23:49,003 INFO Image for url id - b43f00ed-49d9-44bf-8fad-46c25b259a43 added/update.
+file 2023-07-14 16:23:49,004 INFO path: /api/v1/monitor/file_upload/b43f00ed-49d9-44bf-8fad-46c25b259a43 | method: POST | status: 200 OK | size: 25
+file 2023-07-14 16:23:49,018 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 192
+file 2023-07-14 16:23:49,071 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 24
+file 2023-07-14 16:23:49,078 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 16:23:49,095 INFO Celery post urls, count - 1
+file 2023-07-14 16:23:49,107 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5618
+file 2023-07-14 16:23:49,149 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:23:49,186 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:23:49,197 INFO path: /web/auth/login | method: POST | status: 400 BAD REQUEST | size: 3060
+file 2023-07-14 16:23:49,441 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 16:23:49,441 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 16:23:49,454 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 16:24:07,308 INFO path: /web/new_link | method: GET | status: 200 OK | size: 4550
+file 2023-07-14 16:24:08,020 INFO path: /web/links | method: GET | status: 200 OK | size: 5403
+file 2023-07-14 16:24:10,320 INFO path: /web/upload_image | method: GET | status: 200 OK | size: 4000
+file 2023-07-14 16:24:10,868 INFO path: /web/events | method: GET | status: 200 OK | size: 9422
+file 2023-07-14 16:24:11,706 INFO path: /web/logs | method: GET | status: 200 OK | size: 9107
+file 2023-07-14 16:24:12,706 INFO path: /web/links | method: GET | status: 200 OK | size: 5403
+file 2023-07-14 16:24:14,969 INFO path: /web/logs | method: GET | status: 200 OK | size: 8971
+file 2023-07-14 16:24:17,013 INFO path: /web/links | method: GET | status: 200 OK | size: 5403
+file 2023-07-14 16:25:10,173 INFO User created - 7de3631f-85b3-437c-8a19-a393469c1153
+file 2023-07-14 16:25:10,175 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 16:25:10,297 INFO Login successful: user_id - 7de3631f-85b3-437c-8a19-a393469c1153 
+file 2023-07-14 16:25:10,298 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 336
+file 2023-07-14 16:25:10,325 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 16:25:10,330 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 274
+file 2023-07-14 16:25:10,441 INFO Image for url id - b1e3a9c7-8cc3-4d38-9282-46fb1d9c02ee added/update.
+file 2023-07-14 16:25:10,442 INFO path: /api/v1/monitor/file_upload/b1e3a9c7-8cc3-4d38-9282-46fb1d9c02ee | method: POST | status: 200 OK | size: 25
+file 2023-07-14 16:25:10,457 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 192
+file 2023-07-14 16:25:10,519 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 24
+file 2023-07-14 16:25:10,525 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 16:25:10,541 INFO Celery post urls, count - 1
+file 2023-07-14 16:25:10,553 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5470
+file 2023-07-14 16:25:10,599 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:25:10,637 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:25:10,649 INFO path: /web/auth/login | method: POST | status: 400 BAD REQUEST | size: 3060
+file 2023-07-14 16:25:10,895 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 16:25:10,896 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 16:25:10,911 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 16:25:18,728 INFO path: /web/links | method: GET | status: 200 OK | size: 5403
+file 2023-07-14 16:25:21,518 INFO path: /web/auth/logout | method: GET | status: 302 FOUND | size: 207
+file 2023-07-14 16:25:21,543 INFO path: /web/links | method: GET | status: 200 OK | size: 5556
+file 2023-07-14 16:25:28,232 INFO path: /web/auth/login | method: POST | status: 302 FOUND | size: 207
+file 2023-07-14 16:25:28,273 INFO path: /web/links | method: GET | status: 200 OK | size: 5403
+file 2023-07-14 16:25:59,503 INFO path: /web/auth/logout | method: GET | status: 302 FOUND | size: 207
+file 2023-07-14 16:25:59,536 INFO path: /web/links | method: GET | status: 200 OK | size: 5556
+file 2023-07-14 16:26:05,804 INFO path: /web/auth/login | method: POST | status: 302 FOUND | size: 207
+file 2023-07-14 16:26:05,837 INFO path: /web/links | method: GET | status: 200 OK | size: 5403
+file 2023-07-14 16:26:13,445 INFO path: /web/links | method: GET | status: 200 OK | size: 5403
+file 2023-07-14 16:26:55,922 INFO path: /web/links | method: GET | status: 200 OK | size: 5403
+file 2023-07-14 16:26:57,155 INFO path: /web/links | method: GET | status: 200 OK | size: 5403
+file 2023-07-14 16:27:07,599 INFO path: /web/links | method: GET | status: 200 OK | size: 5403
+file 2023-07-14 16:27:09,487 INFO path: /web/new_link | method: GET | status: 200 OK | size: 4550
+file 2023-07-14 16:27:10,346 INFO path: /web/links | method: GET | status: 200 OK | size: 5403
+file 2023-07-14 16:27:22,148 INFO path: /web/new_link | method: GET | status: 200 OK | size: 4550
+file 2023-07-14 16:27:22,843 INFO path: /web/upload_image | method: GET | status: 200 OK | size: 4000
+file 2023-07-14 16:27:23,927 INFO path: /web/links | method: GET | status: 200 OK | size: 5403
+file 2023-07-14 16:27:54,874 INFO User created - b56931ac-db69-4a01-a4bf-acf5693a3c6d
+file 2023-07-14 16:27:54,876 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 16:27:54,976 INFO Login successful: user_id - b56931ac-db69-4a01-a4bf-acf5693a3c6d 
+file 2023-07-14 16:27:54,977 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 336
+file 2023-07-14 16:27:55,004 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 16:27:55,008 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 274
+file 2023-07-14 16:27:55,158 INFO Image for url id - b472acf1-ce4f-485f-8d20-2dc59856002f added/update.
+file 2023-07-14 16:27:55,159 INFO path: /api/v1/monitor/file_upload/b472acf1-ce4f-485f-8d20-2dc59856002f | method: POST | status: 200 OK | size: 25
+file 2023-07-14 16:27:55,175 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 192
+file 2023-07-14 16:27:55,235 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 24
+file 2023-07-14 16:27:55,243 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 16:27:55,258 INFO Celery post urls, count - 1
+file 2023-07-14 16:27:55,269 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5426
+file 2023-07-14 16:27:55,315 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:27:55,396 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:27:55,411 INFO path: /web/auth/login | method: POST | status: 400 BAD REQUEST | size: 3060
+file 2023-07-14 16:27:55,660 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 16:27:55,660 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 16:27:55,673 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 16:33:01,160 INFO path: /web/links | method: GET | status: 200 OK | size: 5403
+file 2023-07-14 16:33:33,875 INFO User created - 4b01dbb9-ecc3-4690-8432-e92f38c3ce7a
+file 2023-07-14 16:33:33,877 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 16:33:33,973 INFO Login successful: user_id - 4b01dbb9-ecc3-4690-8432-e92f38c3ce7a 
+file 2023-07-14 16:33:33,974 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 336
+file 2023-07-14 16:33:34,002 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 16:33:34,010 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 274
+file 2023-07-14 16:33:34,120 INFO Image for url id - ee2372a3-8bb5-4bf6-9908-76d1087424b9 added/update.
+file 2023-07-14 16:33:34,121 INFO path: /api/v1/monitor/file_upload/ee2372a3-8bb5-4bf6-9908-76d1087424b9 | method: POST | status: 200 OK | size: 25
+file 2023-07-14 16:33:34,136 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 192
+file 2023-07-14 16:33:34,190 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 24
+file 2023-07-14 16:33:34,197 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 16:33:34,214 INFO Celery post urls, count - 1
+file 2023-07-14 16:33:34,224 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5426
+file 2023-07-14 16:33:34,672 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 16:33:34,673 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 16:33:34,687 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 16:33:39,399 INFO path: /web/links | method: GET | status: 200 OK | size: 9030
+file 2023-07-14 16:33:40,657 INFO path: /web/links | method: GET | status: 200 OK | size: 9030
+file 2023-07-14 16:33:40,670 INFO path: /web/auth/login | method: POST | status: 400 BAD REQUEST | size: 3060
+file 2023-07-14 16:33:40,921 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 16:33:40,922 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 16:33:40,923 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 16:34:12,152 INFO User created - 1ee36da4-50d0-46e9-bd14-2c55e9443612
+file 2023-07-14 16:34:12,155 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 16:34:12,276 INFO Login successful: user_id - 1ee36da4-50d0-46e9-bd14-2c55e9443612 
+file 2023-07-14 16:34:12,278 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 336
+file 2023-07-14 16:34:12,305 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 16:34:12,310 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 274
+file 2023-07-14 16:34:12,428 INFO Image for url id - e0b5b914-4f23-4930-bd70-0fb37827dd53 added/update.
+file 2023-07-14 16:34:12,429 INFO path: /api/v1/monitor/file_upload/e0b5b914-4f23-4930-bd70-0fb37827dd53 | method: POST | status: 200 OK | size: 25
+file 2023-07-14 16:34:12,446 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 192
+file 2023-07-14 16:34:12,502 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 24
+file 2023-07-14 16:34:12,507 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 16:34:12,524 INFO Celery post urls, count - 1
+file 2023-07-14 16:34:12,538 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5663
+file 2023-07-14 16:34:14,702 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:34:15,358 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:34:15,373 INFO path: /web/auth/login | method: POST | status: 400 BAD REQUEST | size: 3060
+file 2023-07-14 16:34:15,635 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 16:34:15,636 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 16:34:15,654 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 16:34:37,445 INFO User created - 084cf5ae-c1da-4675-a63d-d1582006d63e
+file 2023-07-14 16:34:37,448 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 16:34:37,572 INFO Login successful: user_id - 084cf5ae-c1da-4675-a63d-d1582006d63e 
+file 2023-07-14 16:34:37,573 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 336
+file 2023-07-14 16:34:37,600 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 16:34:37,605 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 274
+file 2023-07-14 16:34:37,708 INFO Image for url id - 842ccfb1-18a3-410b-a58a-4d89bac79ae6 added/update.
+file 2023-07-14 16:34:37,709 INFO path: /api/v1/monitor/file_upload/842ccfb1-18a3-410b-a58a-4d89bac79ae6 | method: POST | status: 200 OK | size: 25
+file 2023-07-14 16:34:37,722 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 192
+file 2023-07-14 16:34:37,775 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 24
+file 2023-07-14 16:34:37,780 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 16:34:37,794 INFO Celery post urls, count - 1
+file 2023-07-14 16:34:37,804 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5676
+file 2023-07-14 16:34:44,704 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 16:34:44,705 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 16:34:44,716 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 16:34:47,709 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:34:55,658 INFO path: /web/links | method: GET | status: 200 OK | size: 9030
+file 2023-07-14 16:34:55,673 INFO path: /web/auth/login | method: POST | status: 400 BAD REQUEST | size: 3060
+file 2023-07-14 16:34:55,912 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 16:34:55,912 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 16:34:55,914 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 16:35:09,586 INFO User created - 12e4919f-bfbc-4a8d-8abc-ac458167c1d0
+file 2023-07-14 16:35:09,589 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 16:35:09,721 INFO Login successful: user_id - 12e4919f-bfbc-4a8d-8abc-ac458167c1d0 
+file 2023-07-14 16:35:09,722 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 336
+file 2023-07-14 16:35:09,745 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 16:35:09,749 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 274
+file 2023-07-14 16:35:09,854 INFO Image for url id - cd0a4f89-48e4-4504-a114-e58e45c3d3c7 added/update.
+file 2023-07-14 16:35:09,855 INFO path: /api/v1/monitor/file_upload/cd0a4f89-48e4-4504-a114-e58e45c3d3c7 | method: POST | status: 200 OK | size: 25
+file 2023-07-14 16:35:09,869 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 192
+file 2023-07-14 16:35:09,923 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 24
+file 2023-07-14 16:35:09,928 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 16:35:09,944 INFO Celery post urls, count - 1
+file 2023-07-14 16:35:09,967 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5676
+file 2023-07-14 16:35:17,863 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:35:19,711 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 16:35:19,711 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 16:35:19,726 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 16:35:37,513 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:35:45,291 INFO path: /web/auth/login | method: POST | status: 400 BAD REQUEST | size: 3060
+file 2023-07-14 16:35:45,545 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 16:35:45,545 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 16:35:45,547 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 16:36:20,245 INFO path: /web/auth/login | method: GET | status: 302 FOUND | size: 207
+file 2023-07-14 16:36:23,215 INFO path: /web/links | method: GET | status: 200 OK | size: 5403
+file 2023-07-14 16:40:36,703 INFO User created - c79bb5c2-e351-41a2-a8e7-6658fbf9a8d0
+file 2023-07-14 16:40:36,704 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 16:40:36,806 INFO Login successful: user_id - c79bb5c2-e351-41a2-a8e7-6658fbf9a8d0 
+file 2023-07-14 16:40:36,807 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 336
+file 2023-07-14 16:40:36,836 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 16:40:36,841 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 274
+file 2023-07-14 16:40:36,951 INFO Image for url id - c83bf302-d8aa-42f0-a4a8-4a07b864beb9 added/update.
+file 2023-07-14 16:40:36,952 INFO path: /api/v1/monitor/file_upload/c83bf302-d8aa-42f0-a4a8-4a07b864beb9 | method: POST | status: 200 OK | size: 25
+file 2023-07-14 16:40:36,966 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 192
+file 2023-07-14 16:40:37,018 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 24
+file 2023-07-14 16:40:37,025 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 16:40:37,043 INFO Celery post urls, count - 1
+file 2023-07-14 16:40:37,053 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5610
+file 2023-07-14 16:40:40,039 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:40:40,748 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:40:41,032 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 16:40:41,032 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 16:40:41,048 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 16:42:39,065 INFO User created - c9125506-75d4-4922-be34-466e613deff6
+file 2023-07-14 16:42:39,067 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 16:42:39,174 INFO Login successful: user_id - c9125506-75d4-4922-be34-466e613deff6 
+file 2023-07-14 16:42:39,176 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 336
+file 2023-07-14 16:42:39,206 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 16:42:39,209 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 274
+file 2023-07-14 16:42:39,314 INFO Image for url id - 3e683974-2896-4569-bc74-59fb1ee56780 added/update.
+file 2023-07-14 16:42:39,315 INFO path: /api/v1/monitor/file_upload/3e683974-2896-4569-bc74-59fb1ee56780 | method: POST | status: 200 OK | size: 25
+file 2023-07-14 16:42:39,330 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 192
+file 2023-07-14 16:42:39,382 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 24
+file 2023-07-14 16:42:39,387 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 16:42:39,404 INFO Celery post urls, count - 1
+file 2023-07-14 16:42:39,414 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5655
+file 2023-07-14 16:42:43,702 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:42:44,374 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:42:44,389 INFO path: /web/auth/login | method: POST | status: 400 BAD REQUEST | size: 3060
+file 2023-07-14 16:42:44,630 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 16:42:44,630 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 16:42:44,644 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 16:46:54,048 INFO User created - 061ad1c3-1132-4cb0-b534-fdc304caf050
+file 2023-07-14 16:46:54,049 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 16:46:54,163 INFO Login successful: user_id - 061ad1c3-1132-4cb0-b534-fdc304caf050 
+file 2023-07-14 16:46:54,164 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 336
+file 2023-07-14 16:46:54,194 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 16:46:54,199 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 274
+file 2023-07-14 16:46:54,313 INFO Image for url id - 3e4b8062-eaf9-480f-aed6-b048933fad00 added/update.
+file 2023-07-14 16:46:54,314 INFO path: /api/v1/monitor/file_upload/3e4b8062-eaf9-480f-aed6-b048933fad00 | method: POST | status: 200 OK | size: 25
+file 2023-07-14 16:46:54,328 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 192
+file 2023-07-14 16:46:54,383 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 24
+file 2023-07-14 16:46:54,389 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 16:46:54,403 INFO Celery post urls, count - 1
+file 2023-07-14 16:46:54,416 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5603
+file 2023-07-14 16:46:59,686 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 16:46:59,687 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 16:46:59,699 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 16:47:00,253 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:47:01,578 INFO path: /web/links | method: GET | status: 200 OK | size: 9030
+file 2023-07-14 16:47:01,592 INFO path: /web/auth/login | method: POST | status: 400 BAD REQUEST | size: 3060
+file 2023-07-14 16:47:01,906 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 16:47:01,907 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 16:47:01,908 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 16:47:48,533 INFO User created - c34fb57b-88c2-499b-96f8-9aa1b0830cdf
+file 2023-07-14 16:47:48,534 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 16:47:48,627 INFO Login successful: user_id - c34fb57b-88c2-499b-96f8-9aa1b0830cdf 
+file 2023-07-14 16:47:48,628 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 336
+file 2023-07-14 16:47:48,658 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 16:47:48,662 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 274
+file 2023-07-14 16:47:48,774 INFO Image for url id - d3a24f48-335b-40a7-be1a-60595a4b73d0 added/update.
+file 2023-07-14 16:47:48,775 INFO path: /api/v1/monitor/file_upload/d3a24f48-335b-40a7-be1a-60595a4b73d0 | method: POST | status: 200 OK | size: 25
+file 2023-07-14 16:47:48,789 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 192
+file 2023-07-14 16:47:48,841 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 24
+file 2023-07-14 16:47:48,848 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 16:47:48,864 INFO Celery post urls, count - 1
+file 2023-07-14 16:47:48,875 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5676
+file 2023-07-14 16:47:55,675 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:47:55,719 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:47:55,734 INFO path: /web/auth/login | method: POST | status: 400 BAD REQUEST | size: 3060
+file 2023-07-14 16:47:55,989 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 16:47:55,990 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 16:47:56,006 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 16:48:16,514 INFO User created - 32f35160-28e3-478c-acfc-9053b00f76d0
+file 2023-07-14 16:48:16,515 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 16:48:16,611 INFO Login successful: user_id - 32f35160-28e3-478c-acfc-9053b00f76d0 
+file 2023-07-14 16:48:16,612 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 336
+file 2023-07-14 16:48:16,639 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 16:48:16,647 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 274
+file 2023-07-14 16:48:16,754 INFO Image for url id - 162dcf6a-bb04-4484-9c53-597c92526c1d added/update.
+file 2023-07-14 16:48:16,755 INFO path: /api/v1/monitor/file_upload/162dcf6a-bb04-4484-9c53-597c92526c1d | method: POST | status: 200 OK | size: 25
+file 2023-07-14 16:48:16,772 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 192
+file 2023-07-14 16:48:16,824 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 24
+file 2023-07-14 16:48:16,831 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 16:48:16,846 INFO Celery post urls, count - 1
+file 2023-07-14 16:48:16,859 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5676
+file 2023-07-14 16:48:16,899 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:48:16,936 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:48:16,959 INFO path: /web/auth/login1 | method: POST | status: 404 NOT FOUND | size: 3113
+file 2023-07-14 16:48:17,204 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 16:48:17,204 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 16:48:17,220 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 16:54:03,790 INFO User created - de524164-8a56-4d7f-8597-3a978fef8d11
+file 2023-07-14 16:54:03,793 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 16:54:03,914 INFO Login successful: user_id - de524164-8a56-4d7f-8597-3a978fef8d11 
+file 2023-07-14 16:54:03,916 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 336
+file 2023-07-14 16:54:03,944 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 16:54:03,948 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 274
+file 2023-07-14 16:54:04,061 INFO Image for url id - d3715bc9-dca9-4443-808b-5f540a8bacff added/update.
+file 2023-07-14 16:54:04,062 INFO path: /api/v1/monitor/file_upload/d3715bc9-dca9-4443-808b-5f540a8bacff | method: POST | status: 200 OK | size: 25
+file 2023-07-14 16:54:04,079 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 192
+file 2023-07-14 16:54:04,130 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 24
+file 2023-07-14 16:54:04,137 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 16:54:04,153 INFO Celery post urls, count - 1
+file 2023-07-14 16:54:04,179 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5617
+file 2023-07-14 16:54:04,218 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:54:04,299 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 16:54:04,310 INFO path: /web/auth/login | method: POST | status: 400 BAD REQUEST | size: 3060
+file 2023-07-14 16:54:04,569 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 16:54:04,570 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 16:54:04,583 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 17:05:20,416 INFO User created - b8b2aed2-64b8-49db-b2b4-775c11ee34fc
+file 2023-07-14 17:05:20,418 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 17:05:20,548 INFO Login successful: user_id - b8b2aed2-64b8-49db-b2b4-775c11ee34fc 
+file 2023-07-14 17:05:20,550 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 336
+file 2023-07-14 17:05:20,606 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 17:05:20,611 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 274
+file 2023-07-14 17:05:20,751 INFO Image for url id - 7245c7d0-73a5-4a0d-a107-cdd49797faa3 added/update.
+file 2023-07-14 17:05:20,751 INFO path: /api/v1/monitor/file_upload/7245c7d0-73a5-4a0d-a107-cdd49797faa3 | method: POST | status: 200 OK | size: 25
+file 2023-07-14 17:05:20,769 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 192
+file 2023-07-14 17:05:20,844 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 24
+file 2023-07-14 17:05:20,851 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 17:05:20,865 INFO Celery post urls, count - 1
+file 2023-07-14 17:05:20,874 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5617
+file 2023-07-14 17:05:20,918 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 17:05:20,971 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 17:05:20,983 INFO path: /web/auth/login | method: POST | status: 400 BAD REQUEST | size: 3060
+file 2023-07-14 17:05:21,235 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 17:05:21,236 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 17:05:21,249 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 17:09:37,587 INFO User created - 627c4557-1ab0-43d8-9ff7-d654241af21a
+file 2023-07-14 17:09:37,588 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 17:09:37,676 INFO Login successful: user_id - 627c4557-1ab0-43d8-9ff7-d654241af21a 
+file 2023-07-14 17:09:37,677 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 336
+file 2023-07-14 17:09:37,727 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 17:09:37,732 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 274
+file 2023-07-14 17:09:37,848 INFO Image for url id - 3421edc2-354d-4baa-8624-58c8a4dbbba1 added/update.
+file 2023-07-14 17:09:37,849 INFO path: /api/v1/monitor/file_upload/3421edc2-354d-4baa-8624-58c8a4dbbba1 | method: POST | status: 200 OK | size: 25
+file 2023-07-14 17:09:37,864 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 192
+file 2023-07-14 17:09:37,952 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 24
+file 2023-07-14 17:09:37,959 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 17:09:37,975 INFO Celery post urls, count - 1
+file 2023-07-14 17:09:37,984 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5618
+file 2023-07-14 17:09:38,043 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 17:09:38,080 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 17:09:44,694 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 17:09:44,695 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 17:09:44,716 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 17:10:19,684 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 17:10:19,685 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 17:10:19,686 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 17:10:54,686 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 17:10:54,686 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 17:10:54,687 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 17:11:29,682 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 17:11:29,683 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 17:11:29,684 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 17:12:04,665 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 17:12:04,665 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 17:12:04,666 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 17:12:39,756 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 17:12:39,757 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 17:12:39,759 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 17:13:14,687 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 17:13:14,688 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 17:13:14,689 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 17:13:49,722 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 17:13:49,723 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 17:13:49,724 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 17:14:24,694 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 17:14:24,695 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 17:14:24,696 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 17:14:38,436 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 17:14:38,437 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 17:14:38,438 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 17:14:53,324 INFO path: /web/auth/login | method: POST | status: 400 BAD REQUEST | size: 3060
+file 2023-07-14 17:20:14,202 INFO User created - c7740021-6c6f-4855-9494-7a1e014119d1
+file 2023-07-14 17:20:14,204 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 17:20:14,316 INFO Login successful: user_id - c7740021-6c6f-4855-9494-7a1e014119d1 
+file 2023-07-14 17:20:14,317 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 336
+file 2023-07-14 17:20:14,352 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 17:20:14,358 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 274
+file 2023-07-14 17:20:14,470 INFO Image for url id - 63c318a6-6486-463f-ad71-ac8944356098 added/update.
+file 2023-07-14 17:20:14,471 INFO path: /api/v1/monitor/file_upload/63c318a6-6486-463f-ad71-ac8944356098 | method: POST | status: 200 OK | size: 25
+file 2023-07-14 17:20:14,484 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 192
+file 2023-07-14 17:20:14,535 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 24
+file 2023-07-14 17:20:14,541 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 17:20:14,556 INFO Celery post urls, count - 1
+file 2023-07-14 17:20:14,567 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5863
+file 2023-07-14 17:20:14,609 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 17:20:14,648 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 17:20:14,695 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 17:20:14,695 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 17:20:14,710 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 17:20:49,710 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 17:20:49,711 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 17:20:49,712 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 17:21:24,704 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 17:21:24,705 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 17:21:24,706 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 17:21:59,686 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 17:21:59,687 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 17:21:59,688 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 17:22:34,682 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 17:22:34,683 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 17:22:34,684 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 17:23:09,695 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 17:23:09,696 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 17:23:09,697 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 17:23:44,666 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 17:23:44,666 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 17:23:44,667 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 17:24:19,717 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 17:24:19,717 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 17:24:19,718 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 17:24:54,679 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 17:24:54,679 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 17:24:54,680 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 17:25:15,507 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 17:25:15,653 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 17:25:15,655 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
+file 2023-07-14 17:25:43,777 INFO User created - 729fad52-7c4b-421c-a74d-e66f98d8961d
+file 2023-07-14 17:25:43,778 INFO path: /api/v1/auth/user_create | method: POST | status: 201 CREATED | size: 32
+file 2023-07-14 17:25:43,880 INFO Login successful: user_id - 729fad52-7c4b-421c-a74d-e66f98d8961d 
+file 2023-07-14 17:25:43,881 INFO path: /api/v1/auth/login | method: POST | status: 201 CREATED | size: 336
+file 2023-07-14 17:25:43,914 INFO Url - http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf added.
+file 2023-07-14 17:25:43,920 INFO path: /api/v1/monitor/one_link | method: POST | status: 201 CREATED | size: 274
+file 2023-07-14 17:25:44,039 INFO Image for url id - 5fa6e880-1b85-4fcc-9d90-9cedb19e4948 added/update.
+file 2023-07-14 17:25:44,040 INFO path: /api/v1/monitor/file_upload/5fa6e880-1b85-4fcc-9d90-9cedb19e4948 | method: POST | status: 200 OK | size: 25
+file 2023-07-14 17:25:44,055 INFO path: /api/v1/monitor/links | method: GET | status: 200 OK | size: 192
+file 2023-07-14 17:25:44,113 INFO path: /api/v1/monitor/links | method: POST | status: 202 ACCEPTED | size: 24
+file 2023-07-14 17:25:44,120 INFO Celery added url - https://posredniksadovod_test.ru
+file 2023-07-14 17:25:44,139 INFO Celery post urls, count - 1
+file 2023-07-14 17:25:44,150 INFO path: /api/v1/monitor/logs | method: GET | status: 200 OK | size: 5901
+file 2023-07-14 17:25:44,196 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 17:25:44,265 INFO path: /web/links | method: GET | status: 200 OK | size: 9028
+file 2023-07-14 17:25:54,594 INFO path: /web/links | method: POST | status: 400 BAD REQUEST | size: 3087
+file 2023-07-14 17:25:54,598 INFO path: /web/links | method: POST | status: 400 BAD REQUEST | size: 3087
+file 2023-07-14 17:25:54,898 INFO Link http://abc.hostname.com/somethings/anything/qqq12345678/?sodfdme_key=som2e_value&2wqeqwe=fsdgd2sf exception
+file 2023-07-14 17:25:54,898 INFO Link https://posredniksadovod_test.ru exception
+file 2023-07-14 17:25:54,921 INFO Worker has completed the work: {'2**': 0  |  '!=2**': 0  |  'exception': 2  |  'deleted': 0}
