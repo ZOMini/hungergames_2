@@ -1,11 +1,10 @@
 import logging
-import queue
 import re
 import sys
-from logging.handlers import QueueListener, RotatingFileHandler
 
 from werkzeug import serving
 
+from core.async_logging_handler import AsyncRotatingFileHandler
 from core.config import settings
 
 
@@ -21,20 +20,17 @@ def disable_endpoint_logs():
 
 
 def init_loggers(answer=False):
-    log_queue = queue.Queue()
     file_logger = logging.getLogger('file')
     console_logger = logging.getLogger('console')
     file_logger.setLevel(logging.INFO)
     console_logger.setLevel(logging.INFO)
-    handler_file = RotatingFileHandler(settings.app.logger.file, maxBytes=1024 * 1024, backupCount=3)
+    handler_file = AsyncRotatingFileHandler(settings.app.logger.file, maxBytes=1024 * 10)
     handler_console = logging.StreamHandler(sys.stdout)
     formatter = logging.Formatter("%(name)s %(asctime)s %(levelname)s %(message)s")
     handler_file.setFormatter(formatter)
     handler_console.setFormatter(formatter)
     file_logger.addHandler(handler_file)
     console_logger.addHandler(handler_console)
-    queue_listener = QueueListener(log_queue, handler_file)
-    queue_listener.start()
     disable_endpoint_logs()
     if answer:
         return console_logger, file_logger
