@@ -26,7 +26,7 @@ def init_loggers(answer=False):
     console_logger = logging.getLogger('console')
     file_logger.setLevel(logging.INFO)
     console_logger.setLevel(logging.INFO)
-    handler_file = RotatingFileHandler(settings.app.logger.file, maxBytes=1024 * 1024)
+    handler_file = RotatingFileHandler(settings.app.logger.file, maxBytes=1024 * 1024, backupCount=3)
     handler_console = logging.StreamHandler(sys.stdout)
     formatter = logging.Formatter("%(name)s %(asctime)s %(levelname)s %(message)s")
     handler_file.setFormatter(formatter)
