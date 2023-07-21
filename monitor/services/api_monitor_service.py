@@ -9,7 +9,7 @@ from sqlalchemy import select
 
 from app_celery.tasks import post_urls
 from core.config import settings
-from core.logger import file_logger
+from core.logger import console_logger, file_logger
 from db.connection_db import db_session
 from db.models_db import Event, Link
 
@@ -130,13 +130,14 @@ class ApiMonitorService():
         filter_dict: dict[str, Any] = {}
         _id = request.args.get('id', type=str, default=None)
         suffix = request.args.get('domain_zone', type=str, default=None)
-        available = request.args.get('available', type=bool, default=None)
+        available = request.args.get('available', type=str, default=None)
         if _id:
             filter_dict.update({'id': _id})
         if suffix:
             filter_dict.update({'suffix': suffix})
-        if available is not None:
-            filter_dict.update({'available': available})
+        if available:
+            if available.lower() in ('true', 'false'):
+                filter_dict.update({'available': available})
         return filter_dict
 
     @staticmethod

@@ -30,6 +30,8 @@ def update_logs_and_events():
                 turbo.push(turbo.replace(render_template('logs_sub.html', **inject_logs_sub()), 'logs_sub'))
             except BrokenPipeError:
                 pass
+            except FileNotFoundError:
+                pass
             time.sleep(settings.app.websocket_timeout/2)
             try:
                 turbo.push(turbo.replace(render_template('events_sub.html', **inject_events_sub()), 'events_sub'))

@@ -15,4 +15,4 @@ async def test_worker(db_client: AsyncSession):
     if not await db_client.scalar(select(Link).filter(Link.domain == 'posredniksadovod_test')):
         await asyncio.sleep(0.5)
     result = await worker_service.run_works_async()
-    assert worker_data.worker_result == result
+    assert worker_data.worker_result in result

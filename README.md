@@ -62,5 +62,7 @@
 - linux
   - celery -A app_celery.tasks worker -P gevent --loglevel=INFO
 - logs volume
-  - docker run -it --rm -v hungergames_2_logs:/logs busybox sh
-  - sudo docker run -it --rm -v zomini_logs:/logs busybox sh
+  - локально:
+    - docker run -it --rm -v hungergames_2_logs:/logs busybox sh
+  - удаленно:
+    - sudo docker run -it --rm -v zomini_logs:/logs busybox sh

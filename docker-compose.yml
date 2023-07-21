@@ -9,6 +9,7 @@ services:
       POSTGRES_PASSWORD: 123qwe
     volumes:
       - monitor_db_data:/var/lib/postgresql/data/
+    #  В проде порты закрыть!!! В дев удобнее так.
     ports:
       - 5432:5432
     restart: always
@@ -35,11 +36,6 @@ services:
       - logs:/monitor/logs
     depends_on:
       - monitor_db
-    # healthcheck:
-    #     test: ["CMD", "curl", "-f", "http://monitor_db:5432"]
-    #     interval: 2s
-    #     timeout: 2s
-    #     retries: 10
     networks:
       - monitor_nw
     restart: on-failure
