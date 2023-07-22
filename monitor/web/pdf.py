@@ -11,7 +11,7 @@ def post_download_pdf():
     buffer = io.BytesIO()
     report = canvas.Canvas(buffer, pagesize=landscape(letter), initialFontSize=8)
     for n, line in enumerate(request.form['logs'].strip('[]}').split(', ')):
-        report.drawString(10 , 550 - (n * 14), line)
+        report.drawString(10, 550 - (n * 14), line)
     report.saveState()
     report.save()
     pdf = buffer.getvalue()

@@ -9,6 +9,7 @@ from web.pagination import PageResult
 
 
 def update_logs_and_events():
+
     def inject_events_sub():
         pagination = db.paginate(db.select(Event).order_by(Event.timestamp.desc()), page=1, per_page=10)
         events = pagination.items
@@ -17,13 +18,15 @@ def update_logs_and_events():
         for event in events:
             data.append({'timestamp': event.timestamp, 'url': event.url, 'event': event.event})
         return {'events': data, 'titles': titles}
+
     def inject_logs_sub():
         with open(settings.app.logger.file, newline='',
-                encoding=settings.app.logger.encoding) as log_file:
+                  encoding=settings.app.logger.encoding) as log_file:
             listing = [i.rstrip() for i in log_file.readlines()[-20:]]  # Последние 20 строк логов.
             listing.reverse()
-        listing=PageResult(listing, 1)
+        listing = PageResult(listing, 1)
         return {'listing': listing}
+
     with app.app_context():
         while True:
             try:
@@ -32,9 +35,9 @@ def update_logs_and_events():
                 pass
             except FileNotFoundError:
                 pass
-            time.sleep(settings.app.websocket_timeout/2)
+            time.sleep(settings.app.websocket_timeout / 2)
             try:
                 turbo.push(turbo.replace(render_template('events_sub.html', **inject_events_sub()), 'events_sub'))
             except BrokenPipeError:
                 pass
-            time.sleep(settings.app.websocket_timeout/2)
+            time.sleep(settings.app.websocket_timeout / 2)

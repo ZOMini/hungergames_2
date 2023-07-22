@@ -9,9 +9,9 @@ from sqlalchemy import select
 
 from app_celery.tasks import post_urls
 from core.config import settings
-from core.logger import console_logger, file_logger
+from core.logger import file_logger
 from db.connection_db import db_session
-from db.models_db import Event, Link
+from db.models_db import Link
 
 
 class ApiMonitorService():
@@ -79,15 +79,6 @@ class ApiMonitorService():
             return jsonify(e.args), HTTP.BAD_REQUEST
 
     @classmethod
-    def post_links_web(cls):
-        # Для web варианта.
-        result = cls.check_csv_file()
-        post_urls.delay(result['successfully'])
-        result['successfully'] = len(result['successfully'])
-        return result
-
-
-    @classmethod
     def post_image(cls, link_id):
         try:
             if 'file' not in request.files:
@@ -104,41 +95,6 @@ class ApiMonitorService():
         except Exception as e:
             db_session.rollback()
             return jsonify(e.args), HTTP.BAD_REQUEST
-
-
-    @classmethod
-    def post_image_web(cls, link_id):
-        # web вариант
-        if 'file' not in request.files:
-            raise FileNotFoundError('File not found.')
-        file = request.files['file']
-        if not file.filename.endswith(('.jpeg', '.jpg', '.png')):
-            raise ValueError('Only .jpeg .jpg .png file')
-        link_obj = db_session.scalar(select(Link).filter(Link.id == link_id))
-        if not link_obj:
-            raise ValueError('Link by id not found')
-        db_session.add(Event(link_id=link_obj.id, url=link_obj.get_url(), event=f'added image'))
-        link_obj.filename = file.filename
-        link_obj.filedata = file.stream.read()
-        db_session.commit()
-        file_logger.info('Image for url id - %s added/update.', link_obj.id)
-
-
-    @staticmethod
-    def filter_dict() -> dict:
-        """Парсит и формирует словарь для фильтра в SQL."""
-        filter_dict: dict[str, Any] = {}
-        _id = request.args.get('id', type=str, default=None)
-        suffix = request.args.get('domain_zone', type=str, default=None)
-        available = request.args.get('available', type=str, default=None)
-        if _id:
-            filter_dict.update({'id': _id})
-        if suffix:
-            filter_dict.update({'suffix': suffix})
-        if available:
-            if available.lower() in ('true', 'false'):
-                filter_dict.update({'available': available})
-        return filter_dict
 
     @staticmethod
     def convert_list(list_links: list[Link]) -> list:
@@ -163,3 +119,19 @@ class ApiMonitorService():
         with open(settings.app.logger.file, newline='',
                   encoding=settings.app.logger.encoding) as log_file:
             return jsonify([i.rstrip() for i in list(log_file)[-settings.app.logger.count:]]), HTTP.OK
+
+    @staticmethod
+    def filter_dict() -> dict:
+        """Парсит и формирует словарь для фильтра в SQL."""
+        filter_dict: dict[str, Any] = {}
+        _id = request.args.get('id', type=str, default=None)
+        suffix = request.args.get('domain_zone', type=str, default=None)
+        available = request.args.get('available', type=str, default=None)
+        if _id:
+            filter_dict.update({'id': _id})
+        if suffix:
+            filter_dict.update({'suffix': suffix})
+        if available:
+            if available.lower() in ('true', 'false'):
+                filter_dict.update({'available': available})
+        return filter_dict

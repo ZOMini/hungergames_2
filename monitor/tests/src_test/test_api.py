@@ -15,7 +15,7 @@ async def test_auth_user_create(make_post_request, body_data, expected_answer, d
     """API.Auth.Создаем и проверяем создание пользователя."""
     body, headers, status = await make_post_request(
         settings.auth_create_url, params={}, json=body_data['body'])
-    user = await db_get_user_by_name(body_data['body']['name'])
+    await db_get_user_by_name(body_data['body']['name'])
     assert status[0] == expected_answer['status']
     assert body[0] == expected_answer['json']
 
@@ -80,4 +80,3 @@ async def test_monitor_get_logs(make_get_request, jwt_get_or_post):
         settings.monitor_get_logs, params={}, jwt=jwt)
     assert status[0] == HTTP.OK
     assert isinstance(body[0], list)
-

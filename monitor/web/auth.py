@@ -27,7 +27,7 @@ def register():
         try:
             if request.form.get('password') != request.form.get('confirm'):
                 flash('Check password and password confirm.')
-            else: 
+            else:
                 user = User(email=request.form.get('email'),
                             name=request.form.get('name'),
                             password=request.form.get('password'))
@@ -61,4 +61,3 @@ def login():
 def logout():
     logout_user()
     return redirect(url_for('pages.links'))
-

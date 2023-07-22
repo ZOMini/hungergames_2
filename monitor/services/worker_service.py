@@ -58,9 +58,9 @@ class WorkerService:
                     file_logger.info('Link %s unavailable status %s', url, r.status)
                     self.result['!=2**'] += 1
                     status = r.status
-        except Exception as e:
+        except Exception:
             if link.linkstatus == HTTPStatus.OK:
-                self.db_session.add(Event(link_id=link.id, url=link.get_url(), event=f'url has changed its status - 500'))
+                self.db_session.add(Event(link_id=link.id, url=link.get_url(), event='url has changed its status - 500'))
             file_logger.info('Link %s exception', url)
             link.available = False
             link.linkstatus = HTTPStatus.INTERNAL_SERVER_ERROR

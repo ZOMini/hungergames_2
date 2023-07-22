@@ -9,7 +9,7 @@ services:
       POSTGRES_PASSWORD: 123qwe
     volumes:
       - monitor_db_data:/var/lib/postgresql/data/
-    #  В проде порты закрыть!!! В дев удобнее так.
+    # В проде порты закрыть!!! В дев удобнее так.
     ports:
       - 5432:5432
     restart: always

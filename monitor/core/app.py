@@ -11,10 +11,11 @@ from turbo_flask import Turbo
 
 from core.config import settings
 
+UPLOAD_FOLDER = 'uploads/'
+ALLOWED_EXTENSIONS = {'zip'}
+
 
 def create_app():
-    UPLOAD_FOLDER = 'uploads/'
-    ALLOWED_EXTENSIONS = {'zip'}
     db = SQLAlchemy()
     migrate = Migrate()
     bootstrap = Bootstrap5()
@@ -29,8 +30,8 @@ def create_app():
     app.config['JWT_SECRET_KEY'] = settings.app.jwt.secret_key
     app.config['JWT_ACCESS_TOKEN_EXPIRES'] = timedelta(minutes=settings.app.jwt.access_token_expires)
     app.config['TEMPLATES_AUTO_RELOAD'] = True
-    app.config["SESSION_PERMANENT"] = False
-    app.config["SESSION_TYPE"] = "filesystem"
+    app.config['SESSION_PERMANENT'] = False
+    app.config['SESSION_TYPE'] = 'filesystem'
     return app, db, migrate, bootstrap, turbo
 
 
@@ -51,11 +52,13 @@ def error_500(e):
         return jsonify(message='Internal Server Error'), 500
     return render_template('500.html'), 500
 
+
 @app.errorhandler(400)
 def error_400(e):
     if request.path.startswith('/api/'):
         return jsonify(message='Bad request'), 400
     return render_template('400.html'), 400
+
 
 @app.errorhandler(404)
 def error_404(e):

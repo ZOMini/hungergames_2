@@ -23,11 +23,11 @@ class AsyncHandlerMixin(object):
                 # Из очереди отправляем в ниже стоящий класс по mro().
                 # Формируется из ниже скомбинированных хендлер+миксин.
                 super(AsyncHandlerMixin, self).emit(record)
-            except:
+            except Exception as e:
                 # По идее тут должен быть pass, но тогда запись пропадет,
                 # а так при блоке добавляем запись опять в очередь.
                 # Правда так и не смог добится, что бы хоть раз сработал file_exception :).
-                logging.error(f'AsyncHandlerMixin LOOP EXCEPTION - {record}')
+                logging.error(f'AsyncHandlerMixin LOOP EXCEPTION - \n {record} \n {e}')
                 self.__queue.put(record)
 
 

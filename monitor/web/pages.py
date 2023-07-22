@@ -14,10 +14,10 @@ from sqlalchemy import select
 
 from core.app import db
 from core.config import settings
-from core.logger import console_logger, file_logger
+from core.logger import console_logger
 from db.connection_db import db_session
 from db.models_db import Event, Link
-from services.api_monitor_service import ApiMonitorService
+from services.web_monitor_service import WebMonitorService
 from web import form
 from web.pagination import PageResult
 from web.pdf import post_download_pdf
@@ -35,11 +35,11 @@ def new_link():
                 link_obj = Link(request.form['url'])
                 db_session.add(link_obj)
                 db_session.flush()
-                db_session.add(Event(link_id=link_obj.id, url=link_obj.get_url(), event=f'added url'))
+                db_session.add(Event(link_id=link_obj.id, url=link_obj.get_url(), event='added url'))
                 db_session.commit()
                 flash('Url added.')
             elif 'file' in request.files:
-                result = ApiMonitorService.post_links_web()['successfully']
+                result = WebMonitorService.post_links_web()['successfully']
                 flash(f'Urls from file added. Successfully - {result}')
         except Exception as e:
             console_logger.info('Url add error - %s', ''.join(e.args))
@@ -57,7 +57,7 @@ def upload_image():
             _form.validate()
             if 'file' in request.files and 'id' in request.form:
                 id = request.form['id']
-                ApiMonitorService.post_image_web(id)
+                WebMonitorService.post_image_web(id)
                 flash(f'Image for id {id} uploaded.')
             else:
                 flash(f'Check id and file. {_form.errors}')
@@ -80,7 +80,7 @@ def logs(pagenum):
               encoding=settings.app.logger.encoding) as log_file:
         logs_list = [i.rstrip() for i in log_file.readlines()]
         logs_list.reverse()
-    listing=PageResult(logs_list, pagenum)
+    listing = PageResult(logs_list, pagenum)
     return render_template('logs.html', listing=listing, logs=[item for item in listing])
 
 
@@ -90,7 +90,7 @@ def logs(pagenum):
 def links(page):
     _form = form.LinksFilterForm()
     if query := query_filers():  # Если пост запрос с фильтрами.
-        return query  #  Response.
+        return query  # Response.
     pagination = db.paginate(db.select(Link).filter_by(**request.args), page=page, per_page=10)
     links = pagination.items
     titles = [('id', 'id'), ('url', 'url'), ('available', 'available'), ('lasttime', 'lasttime')]
@@ -140,6 +140,7 @@ def get_image(pid):
             'Content-Disposition', 'attachment', filename='%s.jpg' % pid)
         return response
     return {}
+
 
 @pages.route('/events', defaults={'page': 1})
 @pages.route('/events/<int:page>')

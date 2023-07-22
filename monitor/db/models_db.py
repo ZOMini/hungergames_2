@@ -2,7 +2,7 @@ import datetime
 import hashlib
 import uuid
 from hmac import compare_digest
-from typing import List, Optional
+from typing import List
 from urllib.parse import parse_qs, urlparse
 
 import tldextract
@@ -145,13 +145,13 @@ class Event(MappedAsDataclass, Base):
     timestamp: Mapped[timestamp_int] = mapped_column(init=False)
     link_id: Mapped[uuid.UUID | None] = mapped_column(ForeignKey("links.id", ondelete='SET NULL'), default=None)
     link: Mapped[Link | None] = relationship(back_populates="events", default=None)
-    url = mapped_column(String(511), nullable=False) 
+    url = mapped_column(String(511), nullable=False)
     event = mapped_column(String(511), nullable=False)
 
     def __repr__(self) -> str:
         return str(self.id)
 
-    def __init__(self, url: str, event: str, link_id = None):
+    def __init__(self, url: str, event: str, link_id=None):
         self.link_id = link_id
         self.url = url
-        self.event =  event
+        self.event = event
