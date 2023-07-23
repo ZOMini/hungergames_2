@@ -2,7 +2,7 @@
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://158.160.103.212/web)
 
 # Monitoring(Test task)
-- Задание - [Test Task](https://github.com/ZOMini/hungergames_2/blob/a57414f7e9a6d9db581f7095d8bbd175585480ff/README.md)
+- Задание - [Test Task](https://github.com/ZOMini/hungergames_2/blob/0893b711c03917c17a0504f97773bb364d95ed64/test_task.txt)
 - Временно работает(1 - 2 недели):
   - http://158.160.103.212/web
   - http://158.160.103.212/docs/v1
