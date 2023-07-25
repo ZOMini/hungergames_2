@@ -5,6 +5,7 @@ import pytest_asyncio
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
+from core.app import db
 from db.models_db import Link, User
 from tests.testdata.api_data import user_create_data
 
@@ -40,13 +41,18 @@ async def clear_db(db_client: AsyncSession):
     yield
     if not await db_client.scalar(select(Link).filter(Link.domain == 'posredniksadovod_test')):
         await asyncio.sleep(0.5)
+
     async def delete_obj(obj):
         if obj:
             await db_client.delete(obj)
+
     db_obj = await db_client.scalar(select(User).filter(User.name == user_create_data['name']))
     await delete_obj(db_obj)
     db_obj = await db_client.scalar(select(Link).filter(Link.domain == 'abc.hostname'))
     await delete_obj(db_obj)
     db_obj = await db_client.scalar(select(Link).filter(Link.domain == 'posredniksadovod_test'))
     await delete_obj(db_obj)
+    db_obj = await db_client.scalar(select(User).filter(User.name == 'testuser2'))
+    await delete_obj(db_obj)
     await db_client.commit()
+    db.session.close_all()

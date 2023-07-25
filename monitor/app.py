@@ -5,9 +5,10 @@ from flask import Response, request
 
 from api.v1.auth import auth
 from api.v1.monitor import monitor
-from core.app import app
+from core.app import app, db
 from core.docs import init_docs
 from core.logger import console_logger, file_logger
+from db.connection_db import engine
 from services.flask_turbo_service import update_logs_and_events
 from services.jwt_service import *  # Регистрируем JWT
 from web.auth import web_auth
@@ -40,6 +41,10 @@ def logAfterRequest(response: Response):
 
 with app.app_context():
     threading.Thread(target=update_logs_and_events, daemon=True).start()
+
+
+def test_app():
+    return app
 
 
 if __name__ == '__main__':

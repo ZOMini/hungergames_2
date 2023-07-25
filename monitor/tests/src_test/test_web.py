@@ -1,35 +1,53 @@
-import asyncio
-from http import HTTPStatus as HTTP
+from http import HTTPStatus as Http
 
 import pytest
-from sqlalchemy import select
-from sqlalchemy.ext.asyncio import AsyncSession
+from flask.testing import FlaskClient
 
-from db.models_db import Link
-from tests.settings import settings
-
-
-@pytest.mark.asyncio
-async def test_links_page(web_get_request, db_client: AsyncSession):
-    if not await db_client.scalar(select(Link).filter(Link.domain == 'posredniksadovod_test')):
-        await asyncio.sleep(0.5)
-    body, headers, status = await web_get_request(settings.web_get_links)
-    assert status[0] == HTTP.OK
-    assert '<title>Links</title>' in body[0]
-    assert 'Create account' in body[0]
-    assert 'Available' in body[0]
-    assert 'Domain name' in body[0]
-    assert 'Domain zone' in body[0]
+from core.logger import console_logger
+from tests.testdata import web_data
 
 
-@pytest.mark.asyncio
-async def test_register_page(web_get_request, db_client: AsyncSession):
-    if not await db_client.scalar(select(Link).filter(Link.domain == 'posredniksadovod_test')):
-        await asyncio.sleep(0.5)
-    body, headers, status = await web_get_request(settings.web_get_register)
-    assert status[0] == HTTP.OK
-    assert 'Create an account' in body[0]
-    assert 'Name' in body[0]
-    assert 'Email' in body[0]
-    assert 'Password' in body[0]
-    assert 'Confirm' in body[0]
+def test_register(test_client: FlaskClient):
+    response = test_client.post(web_data.register_uri, data={'name': 'testuser2', 'email': 'test2@ya.ru', 'password': 'testpass', 'confirm': 'testpass'})
+    assert Http.FOUND == response.status_code
+    assert b'<title>Redirecting...</title>' in response.data
+
+
+def test_login(test_client: FlaskClient):
+    response = test_client.post(web_data.links_uri, data={'email': 'test2@ya.ru', 'password': 'testpass', 'action': 'submit'})
+    assert Http.FOUND == response.status_code
+    assert b'<title>Redirecting...</title>' in response.data
+
+
+@pytest.mark.parametrize(
+    'uri, status',
+    [({'uri': web_data.links_uri, }, {'status': Http.OK, 'data': b'<title>Links</title>'}),
+     ({'uri': web_data.events_uri, }, {'status': Http.FOUND, 'data': b'<a href="/web/links">/web/links</a>'}),
+     ({'uri': web_data.logs_uri, }, {'status': Http.FOUND, 'data': b'<a href="/web/links">/web/links</a>'}),
+     ({'uri': web_data.new_links_uri, }, {'status': Http.FOUND, 'data': b'<a href="/web/links">/web/links</a>'}),
+     ({'uri': web_data.upload_image_uri, }, {'status': Http.FOUND, 'data': b'<a href="/web/links">/web/links</a>'}),
+     ]
+)
+def test_pages_wo_auth(test_client: FlaskClient, uri, status):
+    '''Тестируем недоступность страниц, если неавторизован.'''
+    response = test_client.get(uri['uri'])
+    # console_logger.error(response.data)
+    assert status['status'] == response.status_code
+    assert status['data'] in response.data
+
+
+@pytest.mark.parametrize(
+    'uri, status',
+    [({'uri': web_data.links_uri, }, {'status': Http.OK, 'data': b'<title>Links</title>'}),
+     ({'uri': web_data.events_uri, }, {'status': Http.OK, 'data': b'<meta name="turbolinks-visit-control"'}),
+     ({'uri': web_data.logs_uri, }, {'status': Http.OK, 'data': b'PDF Download</a></button>'}),
+     ({'uri': web_data.new_links_uri, }, {'status': Http.OK, 'data': b'<input class="form-control" id="file" name="file" required type="file">'}),
+     ({'uri': web_data.upload_image_uri, }, {'status': Http.OK, 'data': b'<input class="form-control" id="file" name="file" required type="file">'}),
+     ]
+)
+def test_pages_with_auth(test_client: FlaskClient, test_with_authenticated_user, uri, status):
+    '''Тестируем доступность страниц, если авторизован.'''
+    response = test_client.get(uri['uri'])
+    # console_logger.error(response.data)
+    assert status['status'] == response.status_code
+    assert status['data'] in response.data

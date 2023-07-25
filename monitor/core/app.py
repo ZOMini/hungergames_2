@@ -32,17 +32,17 @@ def create_app():
     app.config['TEMPLATES_AUTO_RELOAD'] = True
     app.config['SESSION_PERMANENT'] = False
     app.config['SESSION_TYPE'] = 'filesystem'
-    return app, db, migrate, bootstrap, turbo
+    bootstrap.init_app(app)
+    db.init_app(app)
+    migrate.init_app(app, db)
+    csrf = CSRFProtect(app)
+    jwt = JWTManager(app)
+    login_manager = LoginManager(app)
+    turbo.init_app(app)
+    return app, db, migrate, bootstrap, turbo, csrf, jwt, login_manager
 
 
-app, db, migrate, bootstrap, turbo = create_app()
-bootstrap.init_app(app)
-db.init_app(app)
-migrate.init_app(app, db)
-csrf = CSRFProtect(app)
-jwt = JWTManager(app)
-login_manager = LoginManager(app)
-turbo.init_app(app)
+app, db, migrate, bootstrap, turbo, csrf, jwt, login_manager = create_app()
 
 
 # Error handlers

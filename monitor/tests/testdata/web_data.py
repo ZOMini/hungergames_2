@@ -1,0 +1,6 @@
+links_uri = '/web/links'
+register_uri = '/web/auth/register'
+logs_uri = '/web/logs'
+events_uri = '/web/events'
+new_links_uri = '/web/new_link'
+upload_image_uri = '/web/upload_image'

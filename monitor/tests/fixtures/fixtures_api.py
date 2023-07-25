@@ -21,7 +21,7 @@ def make_get_request(ahttp_client: aiohttp.ClientSession):
 
 @pytest_asyncio.fixture
 def make_post_request(ahttp_client: aiohttp.ClientSession):
-    async def inner(url: str, params: dict, json: dict, jwt = ''):
+    async def inner(url: str, params: dict, json: dict, jwt=''):
         if jwt:
             ahttp_client.headers['Authorization'] = f"Bearer {jwt}"
         async with ahttp_client.post(url, params=params, json=json) as response:
@@ -34,9 +34,9 @@ def make_post_request(ahttp_client: aiohttp.ClientSession):
 
 @pytest_asyncio.fixture
 def jwt_get_or_post():
-    async def inner(post_body = '',  get: bool = True):
+    async def inner(post_body='', get: bool = True):
         if not get:
-            global user_jwt 
+            global user_jwt
             user_jwt = post_body
         if not user_jwt:
             await asyncio.sleep(0.4)
@@ -46,7 +46,7 @@ def jwt_get_or_post():
 
 @pytest_asyncio.fixture
 def make_post_request_with_file(ahttp_client: aiohttp.ClientSession):
-    async def inner(url: str, params: dict= {}, jwt = '', file= ''):
+    async def inner(url: str, params: dict = {}, jwt='', file=''):
         if jwt:
             ahttp_client.headers['Authorization'] = f'Bearer {jwt}'
         files = {'file': open('./tests/testdata/urls.zip', 'rb')}

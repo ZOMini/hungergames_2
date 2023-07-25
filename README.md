@@ -42,10 +42,11 @@
 - На сервере:
   - sudo apt install docker
   - sudo apt install docker-compose
-- Далее workflow все деплоит, при пуше в майн ветку.
+- Далее workflow все деплоит, при пуше в мэйн ветку.
 
 ## Stack
 - flask==2.2.3
+- turbo_flask==0.8.4
 - aiohttp==3.8.4
 - sqlalchemy==3.0.5
 - pydantic==1.10.9

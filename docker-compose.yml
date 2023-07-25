@@ -67,8 +67,9 @@ services:
   monitor_tests:
     container_name: monitor_tests
     image: monitor_image
-    entrypoint: >
-      sh -c "pytest --disable-warnings"
+    # Дебаг вариант с доп. выводом.
+    # command: bash -c "pytest -o log_cli=true -v --log-level=DEBUG --disable-warnings"
+    command: bash -c "pytest --disable-warnings"
     volumes:
       - logs:/monitor/logs
     depends_on:

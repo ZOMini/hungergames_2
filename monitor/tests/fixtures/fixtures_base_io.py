@@ -20,8 +20,9 @@ def event_loop():
 async def db_client():
     engine = create_async_engine(settings.pg_async_url, query_cache_size=0)
     async_session = async_sessionmaker(engine, expire_on_commit=False, autoflush=True)
-    async with async_session() as session:
-        yield session
+    session = async_session()
+    yield session
+    session.close()
 
 
 @pytest_asyncio.fixture(scope="session")
