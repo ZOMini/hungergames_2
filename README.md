@@ -56,7 +56,7 @@
 - redis==4.6.0
 - celery==5.3.1
 - pytest-asyncio==0.21.1
-
+ 
 ## Misc
 - win
   - celery -A app_celery.tasks worker -P threads --loglevel=INFO
