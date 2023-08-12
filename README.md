@@ -1,11 +1,11 @@
 [![Monitor workflow](https://github.com/ZOMini/hungergames_2/actions/workflows/main.yml/badge.svg)](https://github.com/ZOMini/hungergames_2/actions/workflows/main.yml)
-[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://158.160.103.212/web)
+[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://158.160.75.138/web)
 
 # Monitoring(Test task)
 - Задание - [Test Task](https://github.com/ZOMini/hungergames_2/blob/0893b711c03917c17a0504f97773bb364d95ed64/test_task.txt)
 - Временно работает(1 - 2 недели):
-  - http://158.160.103.212/web
-  - http://158.160.103.212/docs/v1
+  - http://158.160.75.138/web
+  - http://158.160.75.138/docs/v1
 
 ## Info
 - Авторизация включина. Выключить можно в [env.yaml](https://github.com/ZOMini/hungergames_2/blob/af54f1f9d861ba34e623edd33c6b9ab78b08662b/monitor/env.yaml) {app.jwt.disabled_in_api}, все работает.
